@@ -136,10 +136,10 @@ The N\textsubscript{QUIN}$\cdots$Se and N\textsubscript{DABCO}$\cdots$Se distanc
   \caption{Hydrogen bond basicities of bases studied.}
   \begin{tabular}{lllll}
     \toprule
-                            & pyridine & DABCO & quinuclidine & DMAP \\\midrule
-      pK\textsubscript{HB}  & 1.86\autocite{Berthelot1998} & 2.63\autocite{Graton2002} & 2.71\autocite{Graton2002} & 2.80\autocite{Berthelot1998}\\
-      \cmpd{ebs.bn}$\cdot$base r(N$\cdots$Se) / \AA & --- & 2.6166(15) & 2.5874(17) & 2.4276(14)\footnote{Bond distance given is the shorter of the two coordination environments.}\\
-      \cmpd{ebs.bn}$\cdot$base $\Delta$H\textsubscript{f} / kcal/mol & -6.35 & -7.82 & --- & -7.91\\\bottomrule
+                            & pyridine                      & DABCO                     & quinuclidine              & DMAP \\\midrule
+      pK\textsubscript{HB}  & 1.86\autocite{Berthelot1998}  & 2.63\autocite{Graton2002} & 2.71\autocite{Graton2002} & 2.80\autocite{Berthelot1998}\\
+      \cmpd{ebs.bn}$\cdot$base r(N$\cdots$Se) / \AA & ---   & 2.6166(15)                & 2.5874(17)                & 2.4276(14)\footnote{Bond distance given is the shorter of the two coordination environments.}\\
+      \cmpd{ebs.bn}$\cdot$base $\Delta$H\textsubscript{f} / kcal/mol & -6.35    & -7.82 & ---                       & -7.91\\\bottomrule
   \end{tabular}
   \label{tab:pkhb}
 \end{table}
@@ -279,7 +279,8 @@ From dichloromethane/pentane (80\%) m.p. 248.8--249.4\degree C.
 \section{Introduction}
 In the previous chapter, we established that Ch-bonding is not only present in ebselen derivatives, but dominates packing in crystals of the pure compound (through \ce{Se\cdots O} interactions) and in co-crystals with a variety of Lewis bases.
 In this chapter, we extend our investigation to a wider range of derivatives with systematically varied electronic properties.
-Through 
+
+LINEAR FREE ENERGY RELATIONSHIPS
 
 \section{Results and discussion}
 Our previous work had shown that electron-rich pyridines (specifically DMAP) formed the strongest Ch-bonds out of all the bases trialled. 
@@ -299,7 +300,7 @@ Compounds \cmpd{py.pyrrol,py.pip,py.morph} were therefore synthesised by treatin
 \end{scheme}
 
 The benzisoselenazolone derivatives \cmpd{ebs.ph,ebs.4no2,ebs.4cn,ebs.4cf3,ebs.4br,ebs.4co2et,ebs.4me,ebs.4ome,ebs.4oet} were prepared by the reaction of substituted anilines with a selenenyl chloride intermediate, ultimately derived from anthranilic acid (\ref{sch:ebs-synthesis}).
-The one-pot selenocyclisation reaction used in the previous chapter often did not tolerate the various functional groups on the aryl ring.
+The one-pot selenocyclisation reaction used in the previous chapter often did not tolerate the various functional groups on the aryl ring, affording reduction, cross-coupling, or protodehalogenation byproducts (\ref{sec:seleocyclisation-byproducts}). 
 
 \begin{scheme}
 \centering
@@ -320,47 +321,58 @@ The one-pot selenocyclisation reaction used in the previous chapter often did no
 \end{scheme}
 
 Co-crystals of the benzisoselenazolones and pyridines were grown by vapour diffusion from an equimolar solution in dichloromethane/pentane. 
-The structural parameters are given in \ref{tab:bondlengths2}.
+Relevant structural parameters are given in \ref{tab:bondlengths2}.
+In addition to the structural parameters, we characterised the various Ch-bonds using Bader's QTAIM framework.
+Depending on the quality of the data we were able to obtain for each crystal, we used:
+\begin{itemize}
+    \item experimental electron density from a multipole refinement with atomic coordinates determined from high angle refinement ($d < 0.8$\AA), 
+    \item experimental electron density from a multipole refinement with atomic coordinates determined by refinement using aspherical scattering factors derived from the DFT electron density,
+    \item density derived from the DFT calculation.
+\end{itemize}
+
+The second "hybrid" strategy has the advantage of being able to capture electron density effects not fully described by DFT, while not requiring a large amount of weak high-angle (or neutron) data for the reliable determination of atomic coordinates.
+The low-angle data, however, does need to be free from faults, so this strategy may still not be appropriate for all data sets.
 
 \begin{table}
   \centering
-  \caption{Selected structural parameters of Ch-bonded complexes}
+  \caption{Selected structural and electron density parameters of Ch-bonded complexes.}
   \small
-  \tablefit{\begin{tabular}{lllllll}
+  \tablefit{\begin{tabular}{lllllllll}
     \toprule
-    Complex & r(N$\cdots$Se) & r(Se--N\textsubscript{1}) & r(Se--C\textsubscript{1}) & r(N\textsubscript{1}--C(O)) & $\angle$(N$\cdots$Se--N\textsubscript{1}) & $\angle$(C\textsubscript{para}$\cdots$N$\cdots$Se) \\
-      & \AA\ & \AA\ & \AA\ & \AA\ & $^\circ$ & $^\circ$ \\ \midrule
-    \cmpd{ebs.ph}                       & \\
+    Complex & r(N$\cdots$Se) & r(Se--N\textsubscript{1}) & r(Se--C\textsubscript{1}) & r(N\textsubscript{1}--C(O)) & $\angle$(N$\cdots$Se--N\textsubscript{1}) & $\angle$(C\textsubscript{para}$\cdots$N$\cdots$Se) & $\rho_{\mathrm{BCP}}$(\ce{Se\cdots N}) & $\nabla^{2}(\rho_{\mathrm{BCP})}$(\ce{Se\cdots N}) \\
+      & \AA\ & \AA\ & \AA\ & \AA\ & $^\circ$ & $^\circ$ & e/\AA$^3$ & e/\AA$^5$ \\ \midrule
+    \cmpd{ebs.ph}                       & --- & 1.896(3) & 1.892(4) & 1.359(5) & --- & --- & --- & --- \\
     \cmpd{ebs.4no2}                     & --- \\
-    \cmpd{ebs.4cn}                      & \\
-    \cmpd{ebs.4cf3}\footnote{\label{fn:enva}Environment \textit{a}} & --- & 1.880(9) & 1.889(9) & 1.38(1) & --- & --- \\
-    \cmpd{ebs.4cf3}\footnote{\label{fn:envb}Environment \textit{b}} & --- & 1.898(8) & 1.901(9) & 1.37(1) & --- & --- \\
-    \cmpd{ebs.4br}                      & --- & 1.898(2) & 1.889(2) & 1.371(3) & --- & --- \\
-    \cmpd{ebs.4co2et}                   & --- & 1.902(2) & 1.879(2) & 1.371(3) & --- & --- \\
-    \cmpd{ebs.4me}                      & --- & 1.904(3) & 1.890(3) & 1.365(4) & --- & --- \\
-    \cmpd{ebs.4ome}                     & --- & 1.8741(9) & 1.887(1) & 1.356(1) & --- & --- \\
-    \cmpd{ebs.4oet}                     & --- & 1.901(3) & 1.885(4) & 1.357(4) & --- & --- \\\\
+    \cmpd{ebs.4cn}                      & --- & 1.894(2) & 1.877(2) & 1.372(2) & --- & --- & --- & --- \\
+    \cmpd{ebs.4cf3}\footnote{\label{fn:enva}Environment \textit{a}} & --- & 1.880(9) & 1.889(9) & 1.38(1) & --- & --- & --- & --- \\
+    \cmpd{ebs.4cf3}\footnote{\label{fn:envb}Environment \textit{b}} & --- & 1.898(8) & 1.901(9) & 1.37(1) & --- & --- & --- & --- \\
+    \cmpd{ebs.4br}                      & --- & 1.898(2) & 1.889(2) & 1.371(3) & --- & --- & --- & --- \\
+    \cmpd{ebs.4co2et}                   & --- & 1.902(2) & 1.879(2) & 1.371(3) & --- & --- & --- & --- \\
+    \cmpd{ebs.4me}                      & --- & 1.904(3) & 1.890(3) & 1.365(4) & --- & --- & --- & --- \\
+    \cmpd{ebs.4ome}                     & --- & 1.8741(9) & 1.887(1) & 1.356(1) & --- & --- & --- & --- \\
+    \cmpd{ebs.4oet}                     & --- & 1.901(3) & 1.885(4) & 1.357(4) & --- & --- & --- & --- \\\\
     
-    \cmpd{ebs.ph}$\cdot$DMAP     & 2.371(1) & 1.968(1) & 1.896(1) & 1.358(2) & 174.18(4) & 173.51(6) \\
-    \cmpd{ebs.4no2}$\cdot$DMAP   & 2.240(3) & 1.967(2) & 1.883(2) & 1.340(2) & 174.27(9) & 176.8(1)  \\
-    \cmpd{ebs.4cn}$\cdot$DMAP    & 2.301(1) & 1.997(1) & 1.899(2) & 1.368(2) & 174.79(5) & 167.57(6) \\
-    \cmpd{ebs.4cn}$\cdot$DMAP\footnote{\label{fn:solvate}DCM solvate}\textsuperscript{,\ref{fn:enva}}  & 2.254(2) & 2.019(2) & 1.902(1) & 1.366(2) & 174.46(6) & 176.33(7) \\
-    \cmpd{ebs.4cn}$\cdot$DMAP\textsuperscript{\ref{fn:solvate},\ref{fn:envb}}  & 2.308(2) & 1.993(1) & 1.901(1) & 1.372(2) & 174.93(5) & 167.85(7) \\
-    \cmpd{ebs.4cf3}$\cdot$DMAP   & 2.3347(9) & 1.9855(9) & 1.899(1) & 1.372(1) & 175.24(4) & 162.65(5) \\
-    \cmpd{ebs.4br}$\cdot$DMAP    & 2.3215(7) & 1.9840(7) & 1.9021(8) & 1.362(1) & 173.85(3) & 173.56(4) \\
+    \cmpd{ebs.ph}$\cdot$DMAP     & 2.371(1) & 1.968(1) & 1.896(1) & 1.358(2) & 174.18(4) & 173.51(6) & 0.3511 & 2.6960 \footnote{\label{fn:fullmultipole}Fully experimental density used} \\
+    \cmpd{ebs.4no2}$\cdot$DMAP   & 2.240(3) & 1.967(2) & 1.883(2) & 1.340(2) & 174.27(9) & 176.8(1) & 0.4755 & 3.2960 \footnote{\label{fn:dftdens}DFT density used} \\
+    \cmpd{ebs.4cn}$\cdot$DMAP    & 2.301(1) & 1.997(1) & 1.899(2) & 1.368(2) & 174.79(5) & 167.57(6) & 0.4130 & 2.5210 \textsuperscript{\ref{fn:fullmultipole}} \\
+    \cmpd{ebs.4cn}$\cdot$DMAP\footnote{\label{fn:solvate}DCM solvate}\textsuperscript{,\ref{fn:enva}}  & 2.254(2) & 2.019(2) & 1.902(1) & 1.366(2) & 174.46(6) & 176.33(7) & 0.4780 & 2.4816 \textsuperscript{\ref{fn:dftdens}} \\
+    \cmpd{ebs.4cn}$\cdot$DMAP\textsuperscript{\ref{fn:solvate},\ref{fn:envb}}  & 2.308(2) & 1.993(1) & 1.901(1) & 1.372(2) & 174.93(5) & 167.85(7) & 0.4284 & 2.4558 \textsuperscript{\ref{fn:dftdens}} \\
+    \cmpd{ebs.4cf3}$\cdot$DMAP   & 2.3347(9) & 1.9855(9) & 1.899(1) & 1.372(1) & 175.24(4) & 162.65(5) & 0.4048 & 2.4112 \textsuperscript{\ref{fn:dftdens}}\\
+    \cmpd{ebs.4br}$\cdot$DMAP    & 2.3215(7) & 1.9840(7) & 1.9021(8) & 1.362(1) & 173.85(3) & 173.56(4) & 0.4058 & 3.1160 \\
     \cmpd{ebs.4co2et}$\cdot$DMAP\textsuperscript{\ref{fn:solvate}} & 2.322(1) & 1.982(1) & 1.902(1) & 1.367(2) & 174.96(4) & 172.86(6) \\
     \cmpd{ebs.4me}$\cdot$DMAP    & 2.4301(4) & 1.9341(4) & 1.8918(4) & 1.3650(6) & 175.33(1) & 158.64(2) \\
     \cmpd{ebs.4ome}$\cdot$DMAP\footnote{\label{fn:p1}Polymorph 1}\textsuperscript{,\ref{fn:enva}}  & 2.270(1) & 1.9689(9) & 1.899(1) & 1.350(1) & 174.17(3) & 159.44(4) \\
     \cmpd{ebs.4ome}$\cdot$DMAP\textsuperscript{\ref{fn:p1},\ref{fn:envb}}  & 2.4496(9) & 1.9267(9) & 1.895(1) & 1.357(1) & 174.57(3) & 160.53(4) \\
     \cmpd{ebs.4ome}$\cdot$DMAP\footnote{\label{fn:p2}Polymorph 2}\textsuperscript{,\ref{fn:enva}}  & 2.334(1) & 1.965(1) & 1.894(1) & 1.363(1) & 175.95(5) & 155.71(6) \\
     \cmpd{ebs.4ome}$\cdot$DMAP\textsuperscript{\ref{fn:p2},\ref{fn:envb}}  & 2.407(1) & 1.941(1) & 1.894(1) & 1.358(2) & 176.12(5) & 156.60(6) \\
-    \cmpd{ebs.4oet}$\cdot$DMAP   & \\\\
+    \cmpd{ebs.4oet}$\cdot$DMAP\textsuperscript{\ref{fn:enva}}   & 2.517(2) & 1.921(1) & 1.895(2) & 1.356(3) & 172.30(6) & 158.37(8) \\
+    \cmpd{ebs.4oet}$\cdot$DMAP\textsuperscript{\ref{fn:envb}}   & 2.327(5) & 1.931(2) & 1.894(2) & 1.353(3) & 171.4(1) & 151.2(3) \\\\
     
-    \cmpd{ebs.ph}$\cdot$\cmpd{py.pyrrol}     & \\
+    \cmpd{ebs.ph}$\cdot$\cmpd{py.pyrrol}     & 2.350(1) & 1.9830(9) & 1.8985(7) & 1.3616(8) & 174.20(3) & 176.46(4) & 0.2419 & 5.4650 \\
     \cmpd{ebs.4no2}$\cdot$\cmpd{py.pyrrol}   & --- \\ 
     \cmpd{ebs.4cn}$\cdot$\cmpd{py.pyrrol}    & 2.289(1) & 2.000(1) & 1.902(1) & 1.363(2) & 174.77(5) & 175.06(7) \\
     \cmpd{ebs.4cf3}$\cdot$\cmpd{py.pyrrol}   & --- \\
-    \cmpd{ebs.4br}$\cdot$\cmpd{py.pyrrol}    & 2.319(2) & 1.981(2) & 1.895(1) & 1.362(2) & 174.57(6) & 174.60(8) \\
+    \cmpd{ebs.4br}$\cdot$\cmpd{py.pyrrol}    & 2.319(2) & 1.981(2) & 1.895(1) & 1.362(2) & 174.57(6) & 174.60(8) & 0.3617 & 3.7020 \\
     \cmpd{ebs.4co2et}$\cdot$\cmpd{py.pyrrol} & 2.337(3) & 1.982(3) & 1.906(4) & 1.374(5) & 173.5(1) & 170.1(2) \\
     \cmpd{ebs.4me}$\cdot$\cmpd{py.pyrrol}    & 2.272(1) & 1.986(1) & 1.905(1) & 1.351(2) & 172.66(5) & 173.51(6) \\
     \cmpd{ebs.4ome}$\cdot$\cmpd{py.pyrrol}   & --- \\
@@ -377,11 +389,11 @@ The structural parameters are given in \ref{tab:bondlengths2}.
     \cmpd{ebs.4ome}$\cdot$\cmpd{py.pip}   & --- \\
     \cmpd{ebs.4oet}$\cdot$\cmpd{py.pip}   & 2.3361(8) & 1.9576(8) & 1.9043(9) & 1.353(1) & 173.90(3) & 171.42(4) \\\\
     
-    \cmpd{ebs.ph}$\cdot$\cmpd{py.morph}     & \\
+    \cmpd{ebs.ph}$\cdot$\cmpd{py.morph}     & 2.414(2) & 1.960(2) & 1.902(2) & 1.366(2) & 175.46(6) & 166.23(8) \\
     \cmpd{ebs.4no2}$\cdot$\cmpd{py.morph}   & --- \\
     \cmpd{ebs.4cn}$\cdot$\cmpd{py.morph}\textsuperscript{\ref{fn:solvate}}    & 2.301(1) & 1.993(1) & 1.907(1) & 1.368(2) & 173.08(5) & 164.75(6) \\
     \cmpd{ebs.4cf3}$\cdot$\cmpd{py.morph}   & --- \\
-    \cmpd{ebs.4br}$\cdot$\cmpd{py.morph}    & 2.381(2) & 1.975(2) & 1.905(2) & 1.367(2) & 173.84(6) & 174.97(8) \\
+    \cmpd{ebs.4br}$\cdot$\cmpd{py.morph}    & 2.381(2) & 1.975(2) & 1.905(2) & 1.367(2) & 173.84(6) & 174.97(8) & 0.3536 & 3.4890 \\
     \cmpd{ebs.4co2et}$\cdot$\cmpd{py.morph} & 2.337(3) & 1.982(3) & 1.906(4) & 1.374(5) & 173.5(1) & 170.1(2) \\
     \cmpd{ebs.4me}$\cdot$\cmpd{py.morph}    & 2.412(5) & 1.977(5) & 1.908(5) & 1.360(7) & 174.4(2) & 178.9(2) \\
     \cmpd{ebs.4ome}$\cdot$\cmpd{py.morph}   & --- \\
@@ -400,7 +412,75 @@ Although originally used to explain reaction \emph{kinetics} with an associated 
 Closely linked to the substituent constant $\sigma$ are the values of $\sigma^{+}$ and $\sigma^{-}$, which can be used when mesomeric effects have a strong influence on the property being studied.
 Hammett substituent parameters are particularly convenient as they have been determined for a wide variety of substituents.
 
-PLOTS OF VARIOUS BOND LENGTHS WITH HAMMETT PARAMETERS
+\begin{figure}
+    \centering
+    \includegraphics[width=0.9\linewidth]{Figures/hammett-endo-free.eps}
+    \caption{Hammett plot of endocyclic \ce{Se-N} bond length of uncomplexed ebselen derivatives.}
+    \label{fig:hammett-endo-free}
+\end{figure}
+
+As can be seen in \ref{fig:hammett-endo-free}, there is practically no correlation between the electronic properties of the aryl ring and the endocyclic \ce{Se-N} bond length in crystals of the unbound ebselen derivatives.
+This is not unexpected, as in all cases the crystals consist of one dimensional chains of ebselen molecules Ch-bonded to the carbonyl oxygen of the next (\ref{fig:ebs-packing}).
+As the magnitude of the $\sigma$-hole (Ch-bond donor ability) is \emph{increased} by an electron withdrawing substituent, the Ch-bond acceptor ability of the carbonyl is \emph{decreased}.
+These opposing effects appear to be approximately equal in magnitude, so cancel each other out and give a very flat Hammett plot.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\linewidth]{Figures/ebs.me-packing.png}
+    \caption{One dimensional chains formed by Ch-bonding between the selenium and carbonyl oxygen in \refcmpd{ebs.4me}. All other ebselen derivatives display a similar packing motif.}
+    \label{fig:ebs-packing}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.48\linewidth]{Figures/hammett-endo-dmap.eps}
+    \includegraphics[width=0.48\linewidth]{Figures/hammett-dmap.eps}
+    \caption{Hammett plots of endocyclic \ce{Se-N} bond length and \ce{Se\cdots N} Ch-bond length of ebselen derivatives complexed with DMAP. The lines are described by the equations $\mathrm{r}(\ce{Se-N}) = (1.957(5) + 0.054(12) \times \sigma_{\mathrm{X}})$~\AA~ and $\mathrm{r}(\ce{Se\cdots N}) = (2.385(17) - 0.15(4) \times \sigma_{\mathrm{X}})$~\AA.}
+    \label{fig:hammett-dmap}
+\end{figure}
+
+Fortunately, inspecting the same bond length in co-crystals of ebselen derivatives and a Lewis base gives us a much clearer dependence, as can be seen in \ref{fig:hammett-dmap}. 
+This is because the Ch-bond acceptor ability is now independent of the electronic properties of the Ch-bond donor, so the \ce{Se-N} bond length is determined solely by the latter.
+Linear regression analysis affords the relationship $\mathrm{r}(\ce{Se-N}) = (1.957(5) + 0.054(12) \times \sigma_{\mathrm{X}})$~\AA~with a correlation coefficient of 0.6297. 
+
+An inverse correlation can be seen in the \ce{Se\cdots N} Ch-bond length in \ref{fig:hammett-dmap}. 
+The gradient of the line is now negative and somewhat steeper, at $-0.15(4)$~\AA.
+However the correlation coefficient is decreased to 0.5056.
+The reason for this is apparent in the left hand side of the plot.
+While the more strongly Ch-bonded systems (with electron withdrawing substituents) are generally very well described by the regression model, the electron rich derivatives \cmpd{ebs.4ome,ebs.4oet} vary significantly in their bond lengths.\footnote{This is also visible, though less apparent, in the plot of endocyclic bond lengths (\ref{fig:hammett-endo-dmap}).}
+Indeed, omitting these data points improves the correlation coefficient to 0.8148 while the gradient and intercept are almost unchanged at -0.156(28)~\AA~and 2.386(15)~\AA~respectively, suggesting that the model is appropriate, and that there is some other effect occurring in electron rich systems.
+
+DFT calculations show that the vibrational mode associated with Ch-bond stretching is found at very low energy.
+The force constant is 5--10~$\mu$dyne$\cdot$\AA$^{-1}$, which means that the energetic penalty associated with a 0.18~\AA~ deformation (the difference between the shortest and longest Ch-bond length) is only 0.02--0.03~kcal$\cdot$mol$^{-1}$.
+Crystal packing forces (the sum of weak interactions such as C-H/$\pi$, $\pi /\pi$ and C-H/O interactions) are commonly accepted to be in the range of 1--2~kcal$\cdot$mol$^{-1}$, so it is perhaps not surprising that the Ch-bond is deformed by the crystal environment.\autocite{Dunitz1988}
+
+That said, there are no obvious differences between the two Ch-bond environments in any of the crystals that display this effect.
+We considered the possibility that this was a crystallographic artefact, either a manifestation of missed symmetry, disorder, or a doubled cell.
+However, we quickly dismissed this, as the data was of extremely high quality, and no alerts were raised in the ADDSYM routine of PLATON.
+We additionally performed a solid state IR experiment, which showed doubling of the carbonyl peak, confirming that there were indeed two distinct environments (\ref{fig:ss-ir-ebs-4ome}).
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\linewidth]{Figures/ss-ir-ebs-4ome.eps}
+    \caption{Solid state IR spectrum of \refcmpd{ebs.4ome}$\cdot$DMAP. The spectrum of the pure \refcmpd{ebs.4ome} (which contains only one molecule in the assymetric unit) is shown in gray. Splitting of the carbonyl peak is visible in the insert.}
+    \label{fig:ss-ir-ebs-4ome}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.48\linewidth]{Figures/hammett-endo-pyrrol.eps}
+    \includegraphics[width=0.48\linewidth]{Figures/hammett-pyrrol.eps}
+    \caption{Hammett plots of endocyclic \ce{Se-N} bond length and \ce{Se\cdots N} Ch-bond length of ebselen derivatives complexed with \refcmpd{py.pyrrol}. The lines are described by the equations $\mathrm{r}(\ce{Se-N}) = (1.9788(32) - 0.024(9) \times \sigma_{\mathrm{X}})$~\AA~($R^2=0.5722$) and $\mathrm{r}(\ce{Se-N}) = (2.331(14) - 0.04(4) \times \sigma_{\mathrm{X}})$~\AA~($R^2=0.1588$)}
+    \label{fig:hammett-pyrrol}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.48\linewidth]{Figures/hammett-endo-morph.eps}
+    \includegraphics[width=0.48\linewidth]{Figures/hammett-morph.eps}
+    \caption{Hammett plots of endocyclic \ce{Se-N} bond length and \ce{Se\cdots N} Ch-bond length of ebselen derivatives complexed with \refcmpd{py.morph}. The line is described by the equation $\mathrm{r}(\ce{Se-N}) = (1.9673(34) - 0.035(10) \times \sigma_{\mathrm{X}})$~\AA~($R^2=0.7260$) and $\mathrm{r}(\ce{Se-N}) = (2.397(77) - 0.13(2) \times \sigma_{\mathrm{X}})$~\AA~($R^2=0.8708$).}
+    \label{fig:hammett-morph}
+\end{figure}
 
 \subsection{Solution-phase studies}
 While the above crystallographic analysis gives a useful qualitative understanding of the strength of the Ch-bond, we sought an experimental method that could accurately determine bond energies, so that we could easily compare our Ch-bonded complexes with those dominated by other interactions.
@@ -462,7 +542,7 @@ The resulting K\textsubscript{d} values can be converted to free energies:
 
 A saturated solution of the organoselenium derivative in chloroform was used, due to the high solubility (to reduce acquisition time) and non-coordinating nature (to minimise Ch-bonding to the solvent).
 This was spiked with a small amount of deuterochloroform for the lock signal.
-Spectra were acquired on a 500~MHz instrument, using a 60\degree~ pulse and 1~s relaxation delay, until an unambiguous \ce{^{77}Se} resonance was observed.
+Spectra were acquired on a 500~MHz instrument, using a 60\degree~pulse and 1~s relaxation delay, until an unambiguous \ce{^{77}Se} resonance was observed.
 The resulting chemical shifts were then tabulated and plotted against the concentration of the Lewis base.
 These are shown in \ref{fig:nmr-titrations}.
 
@@ -495,6 +575,16 @@ Non-linear regression analysis was performed with the \texttt{nls} function in t
     \label{tab:nmr-titrations}
 \end{table}
 
+Although there is insufficient data to derive clear trends from a Hammett relationship, we can nevertheless visualise the data in a plot, which shows that the Ch-bond gets appreciably stronger with more electron withdrawing substituents (\ref{fig:hammett-dmap-nmr}).
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.75\linewidth]{Figures/hammett-dmap-nmr.eps}
+    \caption{Hammett plot of binding energies between ebselen derivatives and DMAP, determined by \ce{^{77}Se}-NMR titration. The line is described by the equation $\Delta\mathrm{G} = (0.88(21) + 1.86(57) \times \sigma_{\mathrm{X}})$~kcal$\cdot$mol$^{-1}$ ($\mathrm{R}^2 = 0.8437$).}
+    \label{fig:hammett-dmap-nmr}
+\end{figure}
+
+
 \subsubsection{UV-Vis titration experiment}
 Although extremely useful, the NMR titration technique had a number of drawbacks.
 Firstly, relatively large amounts ($\sim$100~mg) of the Ch-bond donor were required.
@@ -502,7 +592,7 @@ For simple systems such as these, this was not an issue, however we hoped to app
 Secondly, the experiment is quite time consuming, with tens of minutes required per spectrum.
 
 UV-Vis spectroscopy presented a possible solution to both of these issues, with spectra collected in seconds even with extremely dilute solutions.
-Interactions which have a charge-transfer component (such as Ch-bonding) can give rise to strong absorbances attributable to the n $\rightarrow \pi^{\star}$ transition.\autocite{Blackstock1987}
+Interactions which have a charge-transfer component (such as Ch-bonding) can give rise to strong absorbances attributable to the n $\rightarrow \sigma^{\star}$ transition.\autocite{Blackstock1987}
 However, we were unable to observe any evidence of such absorbances in our systems.
 This may be due to the fact that these Ch-bonds are primarily electrostatic in origin, or because the aromatic systems are already strongly absorbing, thus obscuring the charge-transfer band.
 
@@ -514,7 +604,7 @@ We initally injected an equimolar mixture of DMAP and ebselen \cmpd{ebs.ph} in m
 However, this could be assigned to either the desired Ch-bonded complex, protonated at the carbonyl oxygen, or to a H-bonded complex.
 CID of this ion exclusively gave an ion of m/z 123.09 a.m.u., corresponding to protonated DMAP (\ref{fig:pos-esi-ms}).
 We interpreted this as evidence that we had formed the H-bonded complex, as migration of the proton on the timescale of a collision is unlikely, and the proton is most likely to remain with the more basic species in the H-bond.
-Furthermore, a \ce{N+ -H\cdots O} H bonds are very strong (in excess of 15~kcal/mol)\autocite{Emsley1980}, which is likely to outcompete Ch-bonding, with estimated bond enthalpies of <~10~kcal/mol in the gas phase.
+Furthermore, a \ce{N+ -H\cdots O} hydrogen bonds are very strong (in excess of 15~kcal/mol)\autocite{Emsley1980}, which is likely to out compete Ch-bonding, with estimated bond enthalpies of <~10~kcal/mol in the gas phase.
 
 \begin{figure}
     \centering
@@ -555,7 +645,7 @@ However, we present here a proof of concept experiment, which shows the decrease
 
 \subsection{Synthetic procedures}
 
-\subsubsection{Preparation of bis(2-carboxyphenyl)diselenide \refcmpd{diselenide}}
+\subsubsection[Preparation of \refcmpd{diselenide}]{Preparation of bis(2-carboxyphenyl)diselenide \refcmpd{diselenide}}
 \label{sec:diselenide_prep}
 %TF-7-3
 %KNOWN
@@ -574,7 +664,7 @@ The methanol solution was subjected to hot filtration, and the orange filtrate c
 This was cooled to -20\degree C, and the resulting crystals filtered off and dried.
 Recrystallisation from methanol gave \cmpd{diselenide} as a pale brown powder (1.8718~g, 37\%).
 
-\footnotesize\paragraph{}
+{\footnotesize
 
 \ce{^{1}H} NMR (400~MHz, \ce{\emph{d}6}-DMSO) $\delta$ ppm
 7.29--7.38 (m, 1 H),
@@ -584,48 +674,62 @@ Recrystallisation from methanol gave \cmpd{diselenide} as a pale brown powder (1
 13.70 (br. s., 1 H).
 
 MS (ESI +ve) m/z 424.8806 (\ce{MNa+}) \ce{C14H11O4Se2+} requires 424.8802 ($\Delta$=0.941~ppm).
+}
 
-\normalsize
-
-\subsubsection{Preparation of 2-(chlorocarbonyl)phenylselenyl chloride \refcmpd{dichloride}}
+\subsubsection[Preparation of \refcmpd{dichloride}]{Preparation of 2-(chlorocarbonyl)phenylselenyl chloride \refcmpd{dichloride}}
 Diselenide \refcmpd{diselenide} (1.4758~g, 3.6881~mmol) was dissolved in thionyl chloride (10~ml) with 2 drops DMF, and heated to reflux for 90~minutes.
 The excess thionyl chloride was distilled off under reduced pressure, and the solid residue extracted into dry hexane (30~mL).
 Evaporation of the solvent afforded \cmpd{dichloride} as yellow crystals (1.870~g, 100\%), which were used without further purification or characterisation.
 
-\subsubsection{General procedure for the preparation of benzisoselenazolinone derivatives \refcmpd{ebs.ph,ebs.4no2,ebs.4cn,ebs.4cf3,ebs.4br,ebs.4co2et,ebs.4ome,ebs.4oet}}
+\subsubsection[General procedure for the preparation of benzisoselenazolinone derivatives]{General procedure for the preparation of benzisoselenazolinone derivatives \refcmpd{ebs.ph,ebs.4no2,ebs.4cn,ebs.4cf3,ebs.4br,ebs.4co2et,ebs.4ome,ebs.4oet}}
 The appropriate amine (2.5~mmol) was dissolved in anhydrous acetonitrile (5~mL) and cooled to 0\degree C.
 To this was added triethylamine (1~mL, distilled from \ce{CaH2}), followed by \cmpd{dichloride} (2.5~mmol) in a further 5~mL anhydrous acetonitrile.
 The mixture was stirred at room temperature for 2~h, then the solvent was removed under vacuum.
-The solid residue was triturated with water (5~mL) and 1~\textsc{M} hydrochloric acid to afford a friable solid, which was purified by recrystallisation from ethyl acetate at -20~\degree~C to afford the pure benzisoselenazolinone derivative.
+The solid residue was triturated with water (5~mL) and 1~\textsc{M} hydrochloric acid to afford a friable solid, which was purified by recrystallisation from ethyl acetate at -20\degree~C to afford the pure benzisoselenazolinone derivative.
 
 \paragraph{Ebselen \refcmpd{ebs.ph}}
-Colourless crystals, m.p. 182.1--182.3\degree C ($\alpha$ polymorph), 173.4-174.6\degree C ($\beta$ and $\gamma$ polymorph), , xx\%.
+Colourless crystals, m.p. 182.1--182.3\degree C ($\alpha$ polymorph), 173.4-174.6\degree C ($\beta$ and $\gamma$ polymorph), xx\%.
 
 \paragraph{4-Nitro ebselen \refcmpd{ebs.4no2}}
-Pale yellow crystals, xx\%.
+Pale yellow crystals, 7\%.
 
 \paragraph{4-Cyano ebselen \refcmpd{ebs.4cn}}
-Colourless crystals, xx\%.
+%TF-7-1C
+Colourless crystals, m.p. 191\degree C (dec.), 61\%.
+
+\cmpd{ebs.4cn}$\cdot$DMAP m.p. 157.6--160.2\degree C (DCM solvate, P$2_1/c$).
+
+\cmpd{ebs.4cn}$\cdot$DMAP m.p. 176.0--178.8\degree C (non-solvate, P$bca$).
 
 \paragraph{4-Trifluoromethyl ebselen \refcmpd{ebs.4cf3}}
-Colourless crystals, xx\%.
+Colourless crystals, m.p. 184.6--186.4\degree C, 14\%.
+
+\cmpd{ebs.4cf3}$\cdot$DMAP m.p. 178.3--179.6\degree C.
 
 \paragraph{4-Bromo ebselen \refcmpd{ebs.4br}}
-Colourless crystals, xx\%.
+Colourless crystals, m.p. 189.7--190.7\degree C,, 18\%.
+
+\cmpd{ebs.4br}$\cdot$DMAP m.p. 162.3--164.4\degree C.
 
 \paragraph{4-Carboxyethyl ebselen \refcmpd{ebs.4co2et}}
-Colourless crystals, xx\%.
+Colourless crystals, m.p. 173.1--174.5\degree C 13\%.
+
+\cmpd{ebs.4co2et}$\cdot$DMAP m.p. 136.0-138.7\degree C.
 
 \paragraph{4-Methyl ebselen \refcmpd{ebs.4me}}
-Light brown crystals, xx\%.
+Light brown crystals, 58\%.
 
 \paragraph{4-Methoxy ebselen \refcmpd{ebs.4ome}}
-Light brown crystals, xx\%.
+Light brown crystals, 67\%.
 
 \paragraph{4-Ethoxy ebselen \refcmpd{ebs.4oet}}
-Light brown crystals, xx\%.
+Light brown crystals, 67\%.
 
 \normalsize
 
 \subsection{Crystallisation methods}
 Crystals of sufficient quality for x-ray diffraction analysis were grown by vapour diffusion of pentane into a dichloromethane solution ($\sim$50~mg/mL) of either the pure Ch-bond donor, or a 1:1 mixture of the donor and the appropriate Lewis base, with the following exceptions:
+\begin{itemize}
+    \item the non-solvate of \cmpd{ebs.4cn}$\cdot$DMAP was grown by slow evaporation from THF,
+    \item second polymorphs of \cmpd{ebs.4oet}$\cdot$DMAP and \cmpd{ebs.4ome}$\cdot$DMAP were grown from diffusion of pentane into diethyl ether.
+\end{itemize}
