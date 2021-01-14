@@ -1,0 +1,149 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\contentsline {chapter}{List of Figures}{v}{dummy.2}
+\contentsline {chapter}{List of Tables}{vii}{dummy.4}
+\contentsline {chapter}{Abbreviations}{ix}{dummy.6}
+\contentsline {chapter}{Constants}{xi}{dummy.9}
+\contentsline {chapter}{Symbols}{xiii}{dummy.12}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.15}
+\contentsline {section}{\numberline {1.1}Chalcogen Bonding}{2}{section.17}
+\contentsline {subsection}{\numberline {1.1.1}Mechanisms}{2}{subsection.18}
+\contentsline {section}{\numberline {1.2}Applications of Ch-Bonding}{4}{section.19}
+\contentsline {subsection}{\numberline {1.2.1}Materials}{4}{subsection.20}
+\contentsline {subsection}{\numberline {1.2.2}Catalysis and bond activation}{5}{subsection.21}
+\contentsline {subsection}{\numberline {1.2.3}Biological systems}{6}{subsection.22}
+\contentsline {subsubsection}{\numberline {1.2.3.1}Proteins}{6}{subsubsection.23}
+\contentsline {subsubsection}{\numberline {1.2.3.2}Nucleic acids}{7}{subsubsection.24}
+\contentsline {chapter}{\numberline {2}Experimental methods}{9}{chapter.25}
+\contentsline {section}{\numberline {2.1}General synthesis}{9}{section.26}
+\contentsline {section}{\numberline {2.2}Nuclear magnetic resonance}{9}{section.27}
+\contentsline {section}{\numberline {2.3}Mass spectrometry}{9}{section.28}
+\contentsline {section}{\numberline {2.4}UV-vis spectroscopy}{9}{section.29}
+\contentsline {section}{\numberline {2.5}X-ray diffraction}{9}{section.30}
+\contentsline {subsection}{\numberline {2.5.1}Charge density refinement}{9}{subsection.31}
+\contentsline {chapter}{\numberline {3}Simulating chalcogen bonding using molecular mechanics: A pseudoatom approach to model ebselen.}{11}{chapter.32}
+\contentsline {section}{\numberline {3.1}Introduction}{11}{section.33}
+\contentsline {section}{\numberline {3.2}Results and Discussion}{13}{section.35}
+\contentsline {subsection}{\numberline {3.2.1}Classical bonding parameters}{14}{subsection.36}
+\contentsline {subsection}{\numberline {3.2.2}Energy decomposition analysis}{15}{subsection.41}
+\contentsline {subsection}{\numberline {3.2.3}Incorporation of pseudoatom}{16}{subsection.44}
+\contentsline {subsection}{\numberline {3.2.4}Electrostatic potential map}{17}{subsection.47}
+\contentsline {subsection}{\numberline {3.2.5}Validation against DFT geometries}{18}{subsection.49}
+\contentsline {subsection}{\numberline {3.2.6}Validation against experimental melting point}{18}{subsection.52}
+\contentsline {subsection}{\numberline {3.2.7}Validation against SOD1 binding}{20}{subsection.54}
+\contentsline {section}{\numberline {3.3}Conclusion}{21}{section.56}
+\contentsline {part}{I\hspace {1em}The strength and nature of chalcogen bonding}{23}{part.57}
+\contentsline {chapter}{\numberline {4}Insights from co-crystal structures}{25}{chapter.58}
+\contentsline {section}{\numberline {4.1}Abstract}{25}{section.60}
+\contentsline {section}{\numberline {4.2}Introduction}{26}{section.61}
+\contentsline {section}{\numberline {4.3}Results and Discussion}{27}{section.63}
+\contentsline {subsection}{\numberline {4.3.1}Synthesis of benzisoselenazolone derivatives \refcmpd {ebs.ph,ebs.bn}}{27}{subsection.64}
+\contentsline {section}{\numberline {4.4}Co-crystal structures of benzisoselenazolinones and Lewis bases}{27}{section.66}
+\contentsline {subsection}{\numberline {4.4.1}Effects of the benzisoselenazolone on Ch-bond strength}{28}{subsection.67}
+\contentsline {subsection}{\numberline {4.4.2}Endocyclic bond lengthening associated with stronger complexes}{28}{subsection.68}
+\contentsline {subsection}{\numberline {4.4.3}H-bond enhanced Ch-bonding}{29}{subsection.70}
+\contentsline {subsection}{\numberline {4.4.4}Effects of the Lewis base on Ch-bond strength}{30}{subsection.72}
+\contentsline {subsection}{\numberline {4.4.5}DFT interaction energies, NBO and NEDA analysis}{30}{subsection.77}
+\contentsline {section}{\numberline {4.5}Conclusion}{32}{section.80}
+\contentsline {section}{\numberline {4.6}Supplementary materials}{32}{section.81}
+\contentsline {subsection}{\numberline {4.6.1}Synthetic procedures}{32}{subsection.82}
+\contentsline {subsubsection}{\numberline {4.6.1.1}Preparation of \refcmpd {ebs.ph}.}{32}{subsubsection.83}
+\contentsline {subsubsection}{\numberline {4.6.1.2}Preparation of \refcmpd {ebs.bn}.}{33}{subsubsection.84}
+\contentsline {subsubsection}{\numberline {4.6.1.3}Preparation of \refcmpd {tetracycle}.}{33}{subsubsection.85}
+\contentsline {subsection}{\numberline {4.6.2}Crystallographic data}{33}{subsection.86}
+\contentsline {subsubsection}{\numberline {4.6.2.1}Crystal data for \refcmpd {ebs.ph}$\cdot $DMAP}{34}{subsubsection.87}
+\contentsline {subsubsection}{\numberline {4.6.2.2}Crystal data for \refcmpd {ebs.bn}}{34}{subsubsection.88}
+\contentsline {subsubsection}{\numberline {4.6.2.3}Crystal data for \refcmpd {ebs.bn}$\cdot $DMAP$\cdot $\ce {H2O}}{34}{subsubsection.89}
+\contentsline {subsubsection}{\numberline {4.6.2.4}Crystal data for \refcmpd {ebs.bn}$\cdot $DMAP}{34}{subsubsection.90}
+\contentsline {subsubsection}{\numberline {4.6.2.5}Crystal data for \refcmpd {ebs.bn}$\cdot $quinuclidine}{35}{subsubsection.91}
+\contentsline {subsubsection}{\numberline {4.6.2.6}Crystal data for \refcmpd {ebs.bn}$\cdot $DABCO}{35}{subsubsection.92}
+\contentsline {subsubsection}{\numberline {4.6.2.7}Crystal data for \refcmpd {tetracycle}}{35}{subsubsection.93}
+\contentsline {subsubsection}{\numberline {4.6.2.8}Crystal data for \refcmpd {tetracycle}$\cdot $pyridine}{35}{subsubsection.94}
+\contentsline {subsubsection}{\numberline {4.6.2.9}Crystal data for \refcmpd {tetracycle}$\cdot $DMAP}{36}{subsubsection.95}
+\contentsline {chapter}{\numberline {5}Hammett relationships and the strength of the Ch-bond}{37}{chapter.96}
+\contentsline {section}{\numberline {5.1}Introduction}{37}{section.97}
+\contentsline {section}{\numberline {5.2}Results and discussion}{37}{section.98}
+\contentsline {subsection}{\numberline {5.2.1}Hammett plots of bond lengths.}{38}{subsection.109}
+\contentsline {subsection}{\numberline {5.2.2}Solution-phase studies}{43}{subsection.118}
+\contentsline {subsubsection}{\numberline {5.2.2.1}NMR titration experiments}{43}{subsubsection.119}
+\contentsline {subsubsection}{\numberline {5.2.2.2}UV-Vis titration experiment}{47}{subsubsection.129}
+\contentsline {subsection}{\numberline {5.2.3}Ch-bonding in the gas phase}{49}{subsection.130}
+\contentsline {section}{\numberline {5.3}Supplementary materials}{51}{section.134}
+\contentsline {subsection}{\numberline {5.3.1}Synthetic procedures}{51}{subsection.135}
+\contentsline {subsubsection}{\numberline {5.3.1.1}Preparation of \refcmpd {diselenide}}{51}{subsubsection.136}
+\contentsline {subsubsection}{\numberline {5.3.1.2}Preparation of \refcmpd {dichloride}}{51}{subsubsection.137}
+\contentsline {subsubsection}{\numberline {5.3.1.3}General procedure for the preparation of benzisoselenazolinone derivatives}{52}{subsubsection.138}
+\contentsline {paragraph}{Ebselen \refcmpd {ebs.ph}}{52}{section*.139}
+\contentsline {paragraph}{4-Nitro ebselen \refcmpd {ebs.4no2}}{52}{section*.140}
+\contentsline {paragraph}{4-Cyano ebselen \refcmpd {ebs.4cn}}{52}{section*.141}
+\contentsline {paragraph}{4-Trifluoromethyl ebselen \refcmpd {ebs.4cf3}}{52}{section*.142}
+\contentsline {paragraph}{4-Bromo ebselen \refcmpd {ebs.4br}}{52}{section*.143}
+\contentsline {paragraph}{4-Carboxyethyl ebselen \refcmpd {ebs.4co2et}}{52}{section*.144}
+\contentsline {paragraph}{4-Methyl ebselen \refcmpd {ebs.4me}}{52}{section*.145}
+\contentsline {paragraph}{4-Methoxy ebselen \refcmpd {ebs.4ome}}{52}{section*.146}
+\contentsline {paragraph}{4-Ethoxy ebselen \refcmpd {ebs.4oet}}{52}{section*.147}
+\contentsline {subsection}{\numberline {5.3.2}Crystallisation methods}{53}{subsection.148}
+\contentsline {part}{II\hspace {1em}Chalcogen bonding at oxygen}{55}{part.149}
+\contentsline {chapter}{\numberline {6}Experimental evidence of Chalcogen bonding at oxygen.}{57}{chapter.150}
+\contentsline {section}{\numberline {6.1}Abstract}{57}{section.152}
+\contentsline {section}{\numberline {6.2}Introduction}{57}{section.153}
+\contentsline {section}{\numberline {6.3}Results and Discussion}{58}{section.155}
+\contentsline {subsection}{\numberline {6.3.1}Structural effects attributable to the Ch-bond}{58}{subsection.156}
+\contentsline {subsection}{\numberline {6.3.2}NBO calculations}{59}{subsection.159}
+\contentsline {subsection}{\numberline {6.3.3}QTAIM analysis of electron density}{60}{subsection.161}
+\contentsline {subsection}{\numberline {6.3.4}CSD search for similar structures}{60}{subsection.162}
+\contentsline {subsection}{\numberline {6.3.5}Analysis of analogues and determination of experimental electron density}{61}{subsection.165}
+\contentsline {section}{\numberline {6.4}Supplementary material}{64}{section.171}
+\contentsline {subsection}{\numberline {6.4.1}Synthesis}{64}{subsection.172}
+\contentsline {subsubsection}{\numberline {6.4.1.1}Preparation of \emph {O}-(2,4-dinitrophenyl) oximes \refcmpd {cyclohexanone-oxime-dnp,acetone-oxime-dnp}}{64}{subsubsection.173}
+\contentsline {subsection}{\numberline {6.4.2}Crystallographic data}{65}{subsection.174}
+\contentsline {chapter}{\numberline {7}Further investigations into Ch-bonding at oxygen.}{67}{chapter.175}
+\contentsline {section}{\numberline {7.1}Introduction}{67}{section.176}
+\contentsline {section}{\numberline {7.2}Results and discussion}{67}{section.177}
+\contentsline {subsection}{\numberline {7.2.1}CSD search}{67}{subsection.178}
+\contentsline {subsection}{\numberline {7.2.2}Structural studies of analogues}{68}{subsection.180}
+\contentsline {part}{III\hspace {1em}Applications of Ch-bonding}{71}{part.187}
+\contentsline {chapter}{\numberline {8}Thermal rearrangement of a Ch-bonded solvate}{73}{chapter.188}
+\contentsline {section}{\numberline {8.1}Abstract}{73}{section.190}
+\contentsline {section}{\numberline {8.2}Introduction}{74}{section.191}
+\contentsline {section}{\numberline {8.3}Results and discussion}{75}{section.193}
+\contentsline {subsection}{\numberline {8.3.1}Synthesis}{75}{subsection.194}
+\contentsline {subsection}{\numberline {8.3.2}Structural characterisation}{75}{subsection.196}
+\contentsline {subsection}{\numberline {8.3.3}Variable temperature studies}{78}{subsection.205}
+\contentsline {section}{\numberline {8.4}Conclusion}{81}{section.209}
+\contentsline {section}{\numberline {8.5}Experimental}{82}{section.210}
+\contentsline {subsection}{\numberline {8.5.1}Synthesis}{82}{subsection.211}
+\contentsline {subsubsection}{\numberline {8.5.1.1}Preparation of \refcmpd {ebs-nitroaniline}}{82}{subsubsection.212}
+\contentsline {subsubsection}{\numberline {8.5.1.2}Preparation of \refcmpd {ebs-nitroamide-2py}}{83}{subsubsection.213}
+\contentsline {subsection}{\numberline {8.5.2}Crystallography}{83}{subsection.214}
+\contentsline {subsubsection}{\numberline {8.5.2.1}Crystal data for \refcmpd {ebs-nitroamide-2py}(ex.DMF)}{83}{subsubsection.215}
+\contentsline {subsubsection}{\numberline {8.5.2.2}Crystal data for \refcmpd {ebs-nitroamide-2py}$\cdot $pyridine}{84}{subsubsection.216}
+\contentsline {section}{\numberline {8.6}Acknowledgements}{84}{section.217}
+\contentsline {chapter}{\numberline {9}Engineering supramolecular networks using Ch-bonding}{85}{chapter.218}
+\contentsline {chapter}{\numberline {10}Development of a Ch-bonding DNA binder}{89}{chapter.224}
+\contentsline {section}{\numberline {10.1}Introduction}{89}{section.225}
+\contentsline {subsection}{\numberline {10.1.1}Mechanism of radioprotection}{89}{subsection.226}
+\contentsline {section}{\numberline {10.2}\emph {In silico} modelling}{91}{section.229}
+\contentsline {section}{\numberline {10.3}Synthesis of analogues}{91}{section.230}
+\contentsline {section}{\numberline {10.4}DNA binding studies}{91}{section.231}
+\contentsline {section}{\numberline {10.5}Conclusions}{91}{section.232}
+\contentsline {section}{\numberline {10.6}Experimental procedures}{91}{section.233}
+\contentsline {subsection}{\numberline {10.6.1}Synthetic methods}{91}{subsection.234}
+\contentsline {subsubsection}{\numberline {10.6.1.1}Preparation of N-(2-amino-5-nitrophenyl)benzamide \refcmpd {rhs-nitro-amide}}{91}{subsubsection.235}
+\contentsline {subsubsection}{\numberline {10.6.1.2}Preparation of 6-nitro-2-phenyl-1\emph {H}-benzo[\emph {d}]imidazole \refcmpd {rhs-nitro}}{91}{subsubsection.236}
+\contentsline {subsubsection}{\numberline {10.6.1.3}Preparation of 2-phenyl-1\emph {H}-benzo[\emph {d}]imidazol-6-amine \refcmpd {rhs-amine}}{92}{subsubsection.238}
+\contentsline {subsubsection}{\numberline {10.6.1.4}Preparation of 2-(2-phenyl-1\emph {H}-benzo[\emph {d}]imidazol-6-yl)benzo[\emph {d}][1,2]selenazol-3(2\emph {H})-one \refcmpd {ebs-rhs}}{93}{subsubsection.240}
+\contentsline {subsubsection}{\numberline {10.6.1.5}Preparation of 2-chloro-4-nitro-\emph {N}-phenylbenzamide \refcmpd {2cl-4no2-amide}}{93}{subsubsection.244}
+\contentsline {paragraph}{}{94}{section*.245}
+\contentsline {subsubsection}{\numberline {10.6.1.6}Preparation of 6-nitro-2-phenylbenzo[\emph {d}][1,2]selenazol-3(2\emph {H})-one \refcmpd {ebs-3no2}}{94}{subsubsection.246}
+\contentsline {subsubsection}{\numberline {10.6.1.7}Preparation of benzisoselenazolinone \refcmpd {ebs-h}}{94}{subsubsection.248}
+\contentsline {paragraph}{}{94}{section*.249}
+\contentsline {subsubsection}{\numberline {10.6.1.8}Preparation of 2-(4-amino-3-nitrophenyl)benzo[\emph {d}][1,2]selenazol-3(2\emph {H})-one \refcmpd {ebs-3no2-4nh2}}{95}{subsubsection.250}
+\contentsline {paragraph}{}{95}{section*.251}
+\contentsline {subsubsection}{\numberline {10.6.1.9}Preparation of \emph {N}-(2-nitro-4-(3-oxobenzo[\emph {d}][1,2]selenazol-2(3\emph {H})-yl)phenyl)picolinamide \refcmpd {ebs-3no2-4nh-2py}}{96}{subsubsection.252}
+\contentsline {paragraph}{}{96}{section*.253}
+\contentsline {subsubsection}{\numberline {10.6.1.10}Preparation of 2-iodobenzoic anhydride \refcmpd {2-iodobenzoicanhydride}}{96}{subsubsection.254}
+\contentsline {subsubsection}{\numberline {10.6.1.11}Preparation of \emph {N}-(3,4-dinitrophenyl)-2-iodobenzamide \refcmpd {iodoamide-3no2-4no2}\autocite {Shivani2007}}{96}{subsubsection.255}
+\contentsline {paragraph}{}{96}{section*.256}
+\contentsline {subsubsection}{\numberline {10.6.1.12}Preparation of 6-bromo-2-phenyl-1\textbf {H}-benzo[\emph {d}]imidazole}{97}{subsubsection.257}
+\vspace {2em}
+\vspace {2em}

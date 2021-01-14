@@ -1,0 +1,70 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Long chains of molecular bromine and 1,4-dioxane, observed by Hassel and Hvoslef.\relax }}{2}{figure.caption.16}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Catalytic cycle of ebselen \emph {in vivo}.\relax }}{12}{figure.caption.34}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Structures of complexes used for SAPT(DFT) analysis.\relax }}{16}{figure.caption.42}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces SAPT(DFT) analysis of complexes with four Lewis bases. All energies are given in kcal/mol.\relax }}{16}{figure.caption.43}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces ESP mapped on the 0.005\nobreakspace {}a.u. electron density isosurface. The $\sigma $-hole is visible as the dark blue region on the DFT and atom-centered charge (with pseudoatom) surfaces.\relax }}{18}{figure.caption.48}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Distribution of geometric parameters for complexes over a 2\nobreakspace {}ns trajectory. DFT equilibrium values are shown as red circles. REDO\relax }}{19}{figure.caption.50}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Melting of a simulated ebselen crystal. The final state of the crystal is shown after 2\nobreakspace {}ns at the specified temperature.\relax }}{20}{figure.caption.53}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Average binding geometry of ebselen in the SOD1 groove.\relax }}{21}{figure.caption.55}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Synthesis of Ch-bond donors \refcmpd {ebs.ph}, \refcmpd {ebs.bn} and \refcmpd {tetracycle}.\relax }}{27}{figure.caption.62}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Structure of \refcmpd {ebs.bn}$\cdot $DMAP, showing the two distinct geometries.\relax }}{29}{figure.caption.69}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Structure of \refcmpd {ebs.bn}$\cdot $DMAP$\cdot $\ce {H2O}.\relax }}{29}{figure.caption.71}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Pyridine and DMAP adducts of Se-tetracycle \refcmpd {tetracycle}.\relax }}{30}{figure.caption.73}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Adducts of benzisoselenazolinone \refcmpd {ebs.bn} with quinuclidine and DABCO.\relax }}{31}{figure.caption.76}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Interaction energies for various complexes.}}{31}{figure.caption.78}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Orbital overlap for \refcmpd {ebs.ph}$\cdot $DMAP.}}{32}{figure.caption.79}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Hammett plot of endocyclic \ce {Se-N} bond length of uncomplexed ebselen derivatives.\relax }}{41}{figure.caption.110}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces One dimensional chains formed by Ch-bonding between the selenium and carbonyl oxygen in \refcmpd {ebs.4me}. All other ebselen derivatives display a similar packing motif.\relax }}{41}{figure.caption.111}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Hammett plots of endocyclic \ce {Se-N} bond length and \ce {Se\cdots N} Ch-bond length of ebselen derivatives complexed with DMAP. The lines are described by the equations $\mathrm {r}(\ce {Se-N}) = (1.957(5) + 0.054(12) \times \sigma _{\mathrm {X}})$\nobreakspace {}\r A\nobreakspace {} and $\mathrm {r}(\ce {Se\cdots N}) = (2.385(17) - 0.15(4) \times \sigma _{\mathrm {X}})$\nobreakspace {}\r A.\relax }}{42}{figure.caption.113}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Solid state IR spectrum of \refcmpd {ebs.4oet}$\cdot $DMAP. The spectrum of the pure \refcmpd {ebs.4oet} (which contains only one molecule in the asymmetric unit) is shown in gray. Splitting of the carbonyl peak is visible in the insert.\relax }}{44}{figure.caption.115}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Hammett plots of endocyclic \ce {Se-N} bond length and \ce {Se\cdots N} Ch-bond length of ebselen derivatives complexed with \refcmpd {py.pyrrol}. The lines are described by the equations $\mathrm {r}(\ce {Se-N}) = (1.9788(32) - 0.024(9) \times \sigma _{\mathrm {X}})$\nobreakspace {}\r A\nobreakspace {}($R^2=0.5722$) and $\mathrm {r}(\ce {Se-N}) = (2.331(14) - 0.04(4) \times \sigma _{\mathrm {X}})$\nobreakspace {}\r A\nobreakspace {}($R^2=0.1588$)\relax }}{45}{figure.caption.116}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Hammett plots of endocyclic \ce {Se-N} bond length and \ce {Se\cdots N} Ch-bond length of ebselen derivatives complexed with \refcmpd {py.morph}. The line is described by the equation $\mathrm {r}(\ce {Se-N}) = (1.9673(34) - 0.035(10) \times \sigma _{\mathrm {X}})$\nobreakspace {}\r A\nobreakspace {}($R^2=0.7260$) and $\mathrm {r}(\ce {Se-N}) = (2.397(77) - 0.13(2) \times \sigma _{\mathrm {X}})$\nobreakspace {}\r A\nobreakspace {}($R^2=0.8708$).\relax }}{45}{figure.caption.117}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces NMR titration binding isotherms}}{48}{figure.caption.126}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Hammett plot of binding energies between ebselen derivatives and DMAP, determined by \ce {^{77}Se}-NMR titration. The line is described by the equation $\Delta \mathrm {G} = (0.88(21) + 1.86(57) \times \sigma _{\mathrm {X}})$\nobreakspace {}kcal$\cdot $mol$^{-1}$ ($\mathrm {R}^2 = 0.8437$).\relax }}{49}{figure.caption.128}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Positive mode ESI of \refcmpd {ebs.ph}$\cdot $DMAP$\cdot $\ce {H+}}}{50}{figure.caption.131}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Negative mode ESI of \refcmpd {ebs.ph}$\cdot $isonicotinate}}{50}{figure.caption.132}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Oxime \refcmpd {dimethylcyclohexanone-oxime-dnp} displays a close O$\cdots $O contact, which has characteristics consistent with a Ch-bond.\relax }}{58}{figure.caption.154}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Structures of CSD matches for the \emph {o}-nitro-O-aryl oxime motif.\relax }}{61}{figure.caption.163}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Oxime \refcmpd {cyclohexanone-oxime-dnp} adopts a similar conformation to \refcmpd {dimethylcyclohexanone-oxime-dnp}, while the nitro group of \refcmpd {acetone-oxime-dnp} is twisted, leading to poor alignment with the oxime.\relax }}{62}{figure.caption.167}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Deformation and Laplacian maps of the experimental electron density for \refcmpd {cyclohexanone-oxime-dnp}. Negative values depicted by red contours, and positive by blue. Above is shown the bond path and bcp in orange.\relax }}{63}{figure.caption.168}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces NCI maps for \refcmpd {cyclohexanone-oxime-dnp} and \refcmpd {acetone-oxime-dnp}. Positive values (non-bonding) are shown in red, and negative values (attractive) are shown in blue.\relax }}{63}{figure.caption.169}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Electrostatic potential mapped onto a plane through the oxime bond. The $\sigma $-hole is visible as a green (positive ESP) elongation of the nuclear potential towards the nitro group to the right. Note that the oxime nitrogen also displays a $\sigma $-hole to the left.\relax }}{64}{figure.caption.170}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Structures of \textbf {XERPOA} and \textbf {FIVJEZ} with Ch-bonds indicated by black dotted lines.\relax }}{68}{figure.caption.179}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{68}{figure.caption.181}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{68}{figure.caption.181}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Dehydration of electron poor hemiaminals}}{68}{figure.caption.181}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces \refcmpd {cyclohexanone-oxime-2np}}}{69}{figure.caption.184}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces \refcmpd {cyclohexanone-oxime-2n-5nme2p}}}{69}{figure.caption.185}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces \refcmpd {cyclohexanone-oxime-2n-5mp}}}{69}{figure.caption.186}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Chalcogen bonding model, and similarity to H-bonding.\relax }}{74}{figure.caption.192}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Thermal ellipsoid plot of \refcmpd {ebs-nitroamide-2py}(ex.DMF). Ellipsoids are at the 50\% probability level.\relax }}{76}{figure.caption.197}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Offset $\pi $-stacking of \refcmpd {ebs-nitroamide-2py}(ex.DMF) extending down the \emph {b}-axis. The centroid-centroid distance is 3.786(4)\nobreakspace {}\r A.\relax }}{76}{figure.caption.198}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces \ce {O\cdots Se} chalcogen bonding interactions in \refcmpd {ebs-nitroamide-2py}(ex.DMF).\relax }}{77}{figure.caption.199}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces 2-D layers of \refcmpd {ebs-nitroamide-2py}(ex.DMF) $\pi $-stacking extends along the \emph {b}-axis while the \ce {Se\cdots O} chalcogen bond interactions extend down the \emph {a}-axis.\relax }}{77}{figure.caption.200}
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Extension of the 2-D layers of \refcmpd {ebs-nitroamide-2py}(ex.DMF) into 3-D by van der Waals interactions.\relax }}{78}{figure.caption.201}
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Thermal ellipsoid plot of \refcmpd {ebs-nitroamide-2py}$\cdot $pyridine. Ellipsoids are at the 50\% probability level.\relax }}{79}{figure.caption.202}
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Sheets of compound \refcmpd {ebs-nitroamide-2py} viewed from orthogonal and parallel directions. Pyridine solvate has been excluded.\relax }}{79}{figure.caption.203}
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Two orthogonal views of parallel sheets of compound \refcmpd {ebs-nitroamide-2py}, pierced by channels of pyridine molecules running parallel to the \emph {a}-axis.\relax }}{79}{figure.caption.204}
+\contentsline {figure}{\numberline {8.10}{\ignorespaces TGA analysis of \refcmpd {ebs-nitroamide-2py}$\cdot $pyridine\relax }}{80}{figure.caption.206}
+\contentsline {figure}{\numberline {8.11}{\ignorespaces Variable temperature powder XRD patterns from \refcmpd {ebs-nitroamide-2py}$\cdot $pyridine}}{81}{figure.caption.207}
+\contentsline {figure}{\numberline {8.12}{\ignorespaces Interlayer benzisoselenazolinones \refcmpd {ebs-nitroamide-2py} believed to form a \ce {O\cdots Se} chalcogen bond upon desolvation of \refcmpd {ebs-nitroamide-2py}$\cdot $pyridine.\relax }}{82}{figure.caption.208}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Reactions of 3-pyridyl ebselen \refcmpd {ebs.3py}.\relax }}{86}{figure.caption.219}
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Ch-bonds formed by 3-pyridyl ebselen \refcmpd {ebs.3py} in the crystal packing. The stronger of the two is defined by the \ce {N-Se\cdots N_{pyr}} angle, and the weaker is defined by the \ce {C-Se\cdots O} angle.\relax }}{86}{figure.caption.220}
+\contentsline {figure}{\numberline {9.3}{\ignorespaces One-dimensional network formed by the strong \ce {N-Se\dots N} Ch-bonds. This is extended into 3 dimensions by the weaker \ce {C-Se\dots O} Ch-bonds, and $\pi $-stacking.\relax }}{87}{figure.caption.221}
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Structure of the methylated derivative \refcmpd {ebs.me3py}.\relax }}{87}{figure.caption.222}
+\contentsline {figure}{\numberline {9.5}{\ignorespaces Structure of the ring opened hydrochloride derivative \refcmpd {selenylchloride-3py}.\relax }}{87}{figure.caption.223}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {10.1}{\ignorespaces X-ray crystal structure of \refcmpd {rhs-nitro} as the tetrafluoroborate salt.\relax }}{92}{figure.caption.237}
+\contentsline {figure}{\numberline {10.2}{\ignorespaces X-ray crystal structure of \refcmpd {rhs-amine} as the hexachlorostannate salt.\relax }}{92}{figure.caption.239}
+\contentsline {figure}{\numberline {10.3}{\ignorespaces X-ray crystal structure of \refcmpd {ebs-rhs}. The water is disordered over 3 sites, with each proton having an occupancy of 2/3.\relax }}{93}{figure.caption.243}
+\contentsline {figure}{\numberline {10.4}{\ignorespaces X-ray crystal structure of \refcmpd {ebs-3no2}.\relax }}{95}{figure.caption.247}
