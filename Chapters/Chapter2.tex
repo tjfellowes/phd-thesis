@@ -1,4 +1,6 @@
 \part{The strength and nature of chalcogen bonding}
+ 
+\begin{refsection}
 
 \chapter[Insights from co-crystal structures]{New insights into chalcogen bonding provided by co-crystal structures of benzisoselenazolinone derivatives and nitrogen bases.}
 
@@ -39,7 +41,13 @@ We therefore sought to characterize Ch-bonding interactions between a number of 
 
 \begin{figure}
   \centering
-  \includegraphics[scale=0.8]{fig/catalytic-synthesis.eps}
+  \replacecmpd[sub-only]{amide.ph}
+  \replacecmpd[sub-only]{amide.bn}
+  \replacecmpd[sub-only]{amide.h}
+  \replacecmpd{tetracycle}
+  \replacecmpd{ebs.{ph,bn}}
+  \replacecmpd{amide.{ph,bn,h}}
+  \includegraphics[scale=0.8]{Figures/catalytic-synthesis.eps}
   \caption{Synthesis of Ch-bond donors \refcmpd{ebs.ph}, \refcmpd{ebs.bn} and \refcmpd{tetracycle}.}
   \label{fig:synthesis}
 \end{figure}
@@ -93,7 +101,7 @@ This can be seen in \ref{fig:benzyl-dmap-xray-2}.
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.8\linewidth]{fig/benzyl-dmap-xray-2.pdf}
+  \includegraphics[width=0.8\linewidth]{Figures/benzyl-dmap-xray-2.pdf}
   \caption{Structure of \refcmpd{ebs.bn}$\cdot$DMAP, showing the two distinct geometries.}
   \label{fig:benzyl-dmap-xray-2}
 \end{figure}
@@ -106,7 +114,7 @@ The structure is shown in \ref{fig:benzyl-dmap-hydrate}.
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.8\linewidth]{fig/benzyl-dmap-hydrate.pdf}
+  \includegraphics[width=0.8\linewidth]{Figures/benzyl-dmap-hydrate.pdf}
   \caption{Structure of \refcmpd{ebs.bn}$\cdot$DMAP$\cdot$\ce{H2O}.}
   \label{fig:benzyl-dmap-hydrate}
 \end{figure}
@@ -122,7 +130,7 @@ The DMAP adduct of \cmpd{tetracycle} is characterized by a significantly shorter
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.8\linewidth]{fig/dimer-dmap-py-xray.pdf}
+  \includegraphics[width=0.8\linewidth]{Figures/dimer-dmap-py-xray.pdf}
   \caption{Pyridine and DMAP adducts of Se-tetracycle \refcmpd{tetracycle}.}
   \label{fig:dimer-adducts}
 \end{figure}
@@ -146,7 +154,7 @@ The N\textsubscript{QUIN}$\cdots$Se and N\textsubscript{DABCO}$\cdots$Se distanc
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.8\linewidth]{fig/benzyl-quin-dabco-xray.pdf}
+  \includegraphics[width=0.8\linewidth]{Figures/benzyl-quin-dabco-xray.pdf}
   \caption{Adducts of benzisoselenazolinone \refcmpd{ebs.bn} with quinuclidine and DABCO.}
   \label{fig:benzyl-adducts}
 \end{figure}
@@ -157,7 +165,7 @@ All geometries were therefore optimized at $\omega$B97X-D/def2TZVP, and minima v
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.8\linewidth]{fig/dft-energies.pdf}
+  \includegraphics[width=0.8\linewidth]{Figures/dft-energies.pdf}
   \caption[Interaction energies for various complexes.]{Interaction enthalpies calculated at $\omega$B97X-D/def2TZVP. Optimised geometries for the DMAP complexes are shown to the left.}
 \end{figure}
 
@@ -168,7 +176,7 @@ Second order perturbation theory revealed that the energy associated with n(N\te
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.6\linewidth]{fig/phenyl-dmap-overlap.pdf}
+  \includegraphics[width=0.6\linewidth]{Figures/phenyl-dmap-overlap.pdf}
   \caption[Orbital overlap for \refcmpd{ebs.ph}$\cdot$DMAP.]{Overlap of nitrogen lone pair with $\sigma^{\star}$(Se - N) in \refcmpd{ebs.ph}$\cdot$DMAP complex.}
   \label{fig:phenyl-dmap-overlap}
 \end{figure}
@@ -273,6 +281,11 @@ $D_{c}= 1.595$~mg~M$^{-3}$, $\mu$(Mo-K$\alpha$) = 2.159~mm$^{-1}$, F(000) = 428,
 CCDC 1867212. 
 From dichloromethane/pentane (80\%) m.p. 248.8--249.4\degree C.
 
+\printbibliography[heading=subbibliography]
+\end{refsection}
+
+
+\begin{refsection}
 
 \chapter{Hammett relationships and the strength of the Ch-bond}
 
@@ -289,21 +302,25 @@ The planar geometry and aromatic character of DMAP may also facilitate crystalli
 For these reasons, we restricted the bases used in this study to other electron-rich pyridines.
 Although DMAP is already a very strong base, the basisicity can be increased by incorporating the aniline nitrogen in another ring.
 This reduces the energetic penalty associated with the delocalisation of the lone pair into the pyridine ring, by forcing a more planar geometry upon the nitrogen.\autocite{???}
-Compounds \cmpd{py.pyrrol,py.pip,py.morph} were therefore synthesised by treating 4-chloropyridine hydrochloride with 2 equivalents of the appropriate base (\ref{sch:base-synthesis}).
+Compounds \cmpd{py.pyrrol,py.morph} were therefore synthesised by treating 4-chloropyridine hydrochloride with 2 equivalents of the appropriate base (\ref{sch:base-synthesis}).
 
 \begin{scheme}
 \centering
-\replacecmpd{py.pyrrol,py.pip,py.morph}
+\replacecmpd[sub-only]{py.pyrrol}
+\replacecmpd[sub-only]{py.morph}
+\replacecmpd{py.{pyrrol,morph}}
 \includegraphics[scale=0.8]{Figures/base-synthesis.eps}
-\caption{Synthesis of Lewis bases \refcmpd{py.pyrrol,py.pip,py.morph}.}
+\caption{Synthesis of Lewis bases \refcmpd{py.pyrrol,py.morph}.}
 \label{sch:base-synthesis}
 \end{scheme}
 
-The benzisoselenazolone derivatives \cmpd{ebs.ph,ebs.4no2,ebs.4cn,ebs.4cf3,ebs.4br,ebs.4co2et,ebs.4me,ebs.4ome,ebs.4oet} were prepared by the reaction of substituted anilines with a selenenyl chloride intermediate, ultimately derived from anthranilic acid (\ref{sch:ebs-synthesis}).
-The one-pot selenocyclisation reaction used in the previous chapter often did not tolerate the various functional groups on the aryl ring, affording reduction, cross-coupling, or protodehalogenation byproducts (\ref{sec:seleocyclisation-byproducts}). 
+The benzisoselenazolone derivatives \cmpd{ebs.{ph,4no2,4cn,4cf3,4br,4co2et,4me,4ome,4oet}} were prepared by the reaction of substituted anilines with a selenenyl chloride intermediate \cmpd{diselenide}, ultimately derived from anthranilic acid (\ref{sch:ebs-synthesis}).
+The one-pot selenocyclisation reaction used in the previous work often did not tolerate the various functional groups on the aryl ring, affording reduction, cross-coupling, or protodehalogenation byproducts (\ref{sec:seleocyclisation-byproducts}). 
 
 \begin{scheme}
 \centering
+\replacecmpd{diselenide}
+\replacecmpd{ebs.{ph,4no2,4cn,4cf3,4br,4co2et,4me,4ome,4oet}}
 \includegraphics[scale=0.8]{Figures/ebs-synthesis.eps}
 
 \vspace{0.6cm}
@@ -315,7 +332,7 @@ The one-pot selenocyclisation reaction used in the previous chapter often did no
     \cmpd{ebs.4no2} & \ce{-NO2} & \cmpd{ebs.4br} & \ce{-Br} & \cmpd{ebs.4ome} & \ce{-OMe}\\
     \cmpd{ebs.4cn} & \ce{-CN} & \cmpd{ebs.4co2et} & \ce{-CO2Et} & \cmpd{ebs.4oet} & \ce{-OEt} \\
 \end{tabular}}
-\caption{Synthesis of benzisoselenazolone derivatives \refcmpd{ebs.ph,ebs.4no2,ebs.4cn,ebs.4cf3,ebs.4br,ebs.4co2et,ebs.4me,ebs.4ome,ebs.4oet}.}
+\caption{Synthesis of benzisoselenazolone derivatives \refcmpd{ebs.{ph,4no2,4cn,4cf3,4br,4co2et,4me,4ome,4oet}}.}
 
 \label{sch:ebs-synthesis}
 \end{scheme}
@@ -379,17 +396,8 @@ The low-angle data, however, does need to be free from faults, so this strategy 
     \cmpd{ebs.4oet}$\cdot$\cmpd{py.pyrrol}\textsuperscript{\ref{fn:enva}}   & 2.356(3) & 1.972(3) & 1.898(3) & 1.355(4) & 174.5(1) & 170.2(1) \\
     \cmpd{ebs.4oet}$\cdot$\cmpd{py.pyrrol}\textsuperscript{\ref{fn:envb}}   & 2.371(3) & 1.964(3) & 1.898(3) & 1.360(4) & 174.9(1) & 170.9(1) \\\\
     
-    \cmpd{ebs.ph}$\cdot$\cmpd{py.pip}     & --- \\
-    \cmpd{ebs.4no2}$\cdot$\cmpd{py.pip}   & --- \\
-    \cmpd{ebs.4cn}$\cdot$\cmpd{py.pip}    & --- \\
-    \cmpd{ebs.4cf3}$\cdot$\cmpd{py.pip}   & --- \\
-    \cmpd{ebs.4br}$\cdot$\cmpd{py.pip}    & --- \\
-    \cmpd{ebs.4co2et}$\cdot$\cmpd{py.pip} & --- \\
-    \cmpd{ebs.4me}$\cdot$\cmpd{py.pip}    & --- \\
-    \cmpd{ebs.4ome}$\cdot$\cmpd{py.pip}   & --- \\
-    \cmpd{ebs.4oet}$\cdot$\cmpd{py.pip}   & 2.3361(8) & 1.9576(8) & 1.9043(9) & 1.353(1) & 173.90(3) & 171.42(4) \\\\
-    
-    \cmpd{ebs.ph}$\cdot$\cmpd{py.morph}     & 2.414(2) & 1.960(2) & 1.902(2) & 1.366(2) & 175.46(6) & 166.23(8) \\
+    \cmpd{ebs.ph}$\cdot$\cmpd{py.morph}\textsuperscript{\ref{fn:p1}}      & 2.414(2) & 1.960(2) & 1.902(2) & 1.366(2) & 175.46(6) & 166.23(8) \\
+    \cmpd{ebs.ph}$\cdot$\cmpd{py.morph}\textsuperscript{\ref{fn:p2}}      & 2.420(2) & 1.967(2) & 1.903(2) & 1.363(2) & 176.7(1) & 174.23(8) \\
     \cmpd{ebs.4no2}$\cdot$\cmpd{py.morph}   & --- \\
     \cmpd{ebs.4cn}$\cdot$\cmpd{py.morph}\textsuperscript{\ref{fn:solvate}}    & 2.301(1) & 1.993(1) & 1.907(1) & 1.368(2) & 173.08(5) & 164.75(6) \\
     \cmpd{ebs.4cf3}$\cdot$\cmpd{py.morph}   & --- \\
@@ -447,28 +455,45 @@ An inverse correlation can be seen in the \ce{Se\cdots N} Ch-bond length in \ref
 The gradient of the line is now negative and somewhat steeper, at $-0.15(4)$~\AA.
 However the correlation coefficient is decreased to 0.5056.
 The reason for this is apparent in the left hand side of the plot.
-While the more strongly Ch-bonded systems (with electron withdrawing substituents) are generally very well described by the regression model, the electron rich derivatives \cmpd{ebs.4ome,ebs.4oet} vary significantly in their bond lengths.\footnote{This is also visible, though less apparent, in the plot of endocyclic bond lengths (\ref{fig:hammett-endo-dmap}).}
-Indeed, omitting these data points improves the correlation coefficient to 0.8148 while the gradient and intercept are almost unchanged at -0.156(28)~\AA~and 2.386(15)~\AA~respectively, suggesting that the model is appropriate, and that there is some other effect occurring in electron rich systems.
+While the more strongly Ch-bonded systems (with electron withdrawing substituents) are generally very well described by the regression model, the electron rich derivatives \cmpd{ebs.4ome,ebs.4oet} vary significantly in their bond lengths.\footnote{This is also visible, though less apparent, in the plot of endocyclic bond lengths (\ref{fig:hammett-dmap}).}
+Indeed, omitting these data points improves the correlation coefficient to 0.8148 while the gradient and intercept are almost unchanged at $-0.156(28)$~\AA~and $2.386(15)$~\AA~respectively, suggesting that the model is appropriate, and that there is some other effect occurring in electron rich systems.
 
 DFT calculations show that the vibrational mode associated with Ch-bond stretching is found at very low energy.
 The force constant is 5--10~$\mu$dyne$\cdot$\AA$^{-1}$, which means that the energetic penalty associated with a 0.18~\AA~ deformation (the difference between the shortest and longest Ch-bond length) is only 0.02--0.03~kcal$\cdot$mol$^{-1}$.
 Crystal packing forces (the sum of weak interactions such as C-H/$\pi$, $\pi /\pi$ and C-H/O interactions) are commonly accepted to be in the range of 1--2~kcal$\cdot$mol$^{-1}$, so it is perhaps not surprising that the Ch-bond is deformed by the crystal environment.\autocite{Dunitz1988}
 
 That said, there are no obvious differences between the two Ch-bond environments in any of the crystals that display this effect.
-We considered the possibility that this was a crystallographic artefact, either a manifestation of missed symmetry, disorder, or a doubled cell.
-However, we quickly dismissed this, as the data was of extremely high quality, and no alerts were raised in the ADDSYM routine of PLATON.
-We additionally performed a solid state IR experiment, which showed doubling of the carbonyl peak, confirming that there were indeed two distinct environments (\ref{fig:ebs-4oet-dmap-ir}).
-In the pure compound (where there is only one Ch-bond environment) the carbonyl peak is found at approximately 1630~cm$^{-1}$ and is sharp and well defined.
-In the co-crystal, two effects are observed.
-Firstly, the signal moves to a lower energy as the \ce{C=O} bond loses some double bond character due to the delocalisation of the pyridine lone pair into the selenium heterocycle (\ref{fig:sigma-hole-delocalisation}).
-Secondly, the signal splits into two peaks at around 1560~cm$^{-1}$ and 1575~cm$^{-1}$, corresponding to the strongly and weakly Ch-bonded environments in the crystal.
+We performed a solid state IR experiment to probe the crystalline environment surrounding the carbonyl, which is dependent on the Ch-bond environment due to conjugation through the amidic nitrogen (\ref{fig:ebs-4oet-dmap-ir}).
 
 \begin{figure}
     \centering
     \includegraphics[width=\linewidth]{Figures/ebs-4oet-dmap-ir.eps}
-    \caption{Solid state IR spectrum of \refcmpd{ebs.4oet}$\cdot$DMAP. The spectrum of the pure \refcmpd{ebs.4oet} (which contains only one molecule in the asymmetric unit) is shown in gray. Splitting of the carbonyl peak is visible in the insert.}
+    \caption{Solid state IR spectrum of \refcmpd{ebs.4oet}$\cdot$DMAP. The spectrum of the pure \refcmpd{ebs.4oet} is shown in gray.}
     \label{fig:ebs-4oet-dmap-ir}
 \end{figure}
+
+In the pure compound the carbonyl peak is found at approximately 1590~cm$^{-1}$ and is relatively sharp and well defined.
+In the co-crystal, we observe the carbonyl peak at higher wavenumber (1610~cm$^{-1}$), due to the increased double bond character, as the $\pi$ system and oxygen lone pair are no longer involved in the Ch-bond.
+This effect ostensibly outweighs the \emph{decreased} double bond character caused by the shorted Ch-bond formed between the pyridyl nitrogen and selenium (\ref{fig:ch-bond-deloc}).
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.8]{Figures/ch-bond-deloc.eps}
+    \caption{Contributing resonance form of a Ch-bonded complex with strong Lewis bases. The double bond character of the carbonyl is decreased.}
+    \label{fig:ch-bond-deloc}
+\end{figure}
+
+If there are truly two Ch-bonded environments, we would expect to see splitting or at least broadening of the carbonyl signal in the IR spectrum of the co-crystal.
+This is not the case, meaning that either the difference is too small to be seen in the spectrum, or the two environments are actually the same, and the measured differences are a crystallographic artefact, either a manifestation of missed symmetry, disorder, or a doubled cell.
+
+However, we do not believe this is likely, for two reasons.
+Firstly, the data was of extremely high quality, and no alerts were raised in the ADDSYM routine of PLATON.
+Secondly, a refinement was conducted with a tight SADI restraint on the Ch-bonds ($\sigma=0.0001$), which forced them to adopt the same length of approximately 1.949~\AA.
+This increased the R-factor by 1.2\%, and significant residual density was visible where the pyridyl nitrogen had been displaced.
+Furthermore, removal of the restraint recovered the original model, ruling out the possibility of a false minimum.
+
+Solid state \ce{^{77}Se}-NMR of the co-crystal...
+
 
 \begin{figure}
     \centering
@@ -634,7 +659,7 @@ This could theoretically be correlated with the gas phase bond energy.
 Indeed, this is the basis of the technique of Threshold CID (TCID) developed by Armentrout.\autocite{Armentrout2003,Rodgers2000,Narancic2007}
 Although the experiment is simple, the data analysis is not.
 This is due to the often poorly characterised energy distribution of the reactant ions, and vibrational energy redistribution in the products.
-These barriers are not insurmountable for simple systems (the technique has been sucessfully applied to metal complexes, and small non-covalent complexes), but in our moderately complex molecules with many vibrational modes, errors are likely to dominate any values extracted from the experiment.
+These barriers are not insurmountable for simple systems (the technique has been successfully applied to metal complexes, and small non-covalent complexes), but in our moderately complex molecules with many vibrational modes, errors are likely to dominate any values extracted from the experiment.
 However, we present here a proof of concept experiment, which shows the decrease in reactant ion intensity and increase in product ion as CID energy is increased (\ref{fig:ebs-tcid}).
 
 \begin{figure}
@@ -737,3 +762,6 @@ Crystals of sufficient quality for x-ray diffraction analysis were grown by vapo
     \item the non-solvate of \cmpd{ebs.4cn}$\cdot$DMAP was grown by slow evaporation from THF,
     \item second polymorphs of \cmpd{ebs.4oet}$\cdot$DMAP and \cmpd{ebs.4ome}$\cdot$DMAP were grown from diffusion of pentane into diethyl ether.
 \end{itemize}
+
+\printbibliography[heading=subbibliography]
+\end{refsection}

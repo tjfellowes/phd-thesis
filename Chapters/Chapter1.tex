@@ -1,3 +1,6 @@
+
+\begin{refsection}
+
 \chapter{Introduction}
 
 The importance of non-bonding interactions in our world simply cannot be overstated.
@@ -168,6 +171,8 @@ The authors estimated that the X-bonding interaction (mediated through a bromo-s
 A 2017 review identified a further 21 X-bonded nucleic acid structures.\autocite{Kolar2017}
 This, however, appears to be the extent of research on $\sigma$-hole interactions with nucleic acids, which is surprising given the attractiveness of nucleic acids as drug targets, and the rich Lewis basic sites exposed through the major and minor grooves.
 
+\printbibliography[heading=subbibliography]
+\end{refsection}
 
 
 
@@ -189,6 +194,7 @@ This, however, appears to be the extent of research on $\sigma$-hole interaction
 
 
 
+\begin{refsection}
 
 \chapter{Simulating chalcogen bonding using molecular mechanics: A pseudoatom approach to model ebselen.}
 
@@ -199,11 +205,11 @@ First synthesized in 1924, its unusual properties went more or less uninvestigat
 Interest in ebselen boomed in the early 1980s, and since then it has been the subject of several studies into its synthesis, biological properties, and metabolism.\autocite{Weber1976,Renson1981,Muller1984,Wendel1984,Parnham1984,Engman1989,Schewe1995,Bhabak2010,Iwasaki2017}
 Its biological activity can be broadly attributed to its ability to neutralize reactive oxygen species (ROS), reducing the level of oxidative stress to which cells are subjected.\autocite{Mugesh2000}
 To this end, ebselen has been investigated for its neuroprotective, mood-stabilizing, anti-inflammatory, and anti-cancer properties.\autocite{Parnham1987,Kil2007,Singh2013,Azad2014,Parnham2000,Chantadul2020}
-Very recently it was identified as a compound of interest for the treatment of COVID-19, showing promising inhibition of the viral M\textsuperscript{pro} protease enzyme.\autocite{Jin2020}
+Recently it was identified as a compound of interest for the treatment of COVID-19, showing promising inhibition of the viral M\textsuperscript{pro} protease enzyme.\autocite{Jin2020}
 
 The \emph{in vivo} antioxidant ability of ebselen is believed to be mediated through a catalytic cycle analogous to that of glutathione peroxidase (a selenoenzyme).\autocite{Antony2011}
-The selenium-containing heterocycle is reductively opened to afford the free selenol \textbf{1a}, which is the active catalyst.
-This is rapidly oxidised by ROS to a selenenic acid \textbf{2}, which is then reduced back to \textbf{1a} by glutathione (GSH) via a selenenyl sulfide \textbf{3}.
+The selenium-containing heterocycle is reductively opened to afford the free selenol \cmpd{ebs-seh}, which is the active catalyst.
+This is rapidly oxidised by ROS to a selenenic acid \cmpd{ebs-seoh}, which is then reduced back to \cmpd{ebs-seh} by glutathione (GSH) via a selenenyl sulfide \cmpd{ebs-sesr}.
 Its activity against a number of other targets appears to also be mediated through formation of a covalent complex via nucleophilic attack at the selenium.
 There is also evidence that ebselen interacts with targets non-covalently.\autocite{Jin2020}
 These interactions may include association with aromatic or hydrophobic residues, or H-bonding through the carbonyl.
@@ -211,7 +217,11 @@ Ebselen can also form non-covalent complexes with Lewis bases through an electro
 
 \begin{figure}
 \centering
-\includegraphics[scale=0.6]{Figures/ebs-cat-cycle.eps}
+\replacecmpd{ebs}
+\replacecmpd{ebs-seh}
+\replacecmpd{ebs-seoh}
+\replacecmpd{ebs-sesr}
+\includegraphics[scale=0.8]{Figures/ebs-cat-cycle.eps}
 \caption{Catalytic cycle of ebselen \emph{in vivo}.}
 \label{fig:catcycle}
 \end{figure}
@@ -396,31 +406,31 @@ A preliminary verification of our model was conducted by comparing the geometrie
 The Lewis bases chosen for the SAPT(DFT) analysis were constructed in AMBER.
 GAFF was used for all atoms, and an extra point was added to simulate the lone pair per the method of Dixon and Kollman.\autocite{Dixon1997}
 Geometries were assessed by minimizing the ebselen-Lewis base structure over 1000 steps, then conducting a 2~ns MD trajectory in a vacuum.
-Trajectories were performed at 300~K for the strongly bonded systems (\textbf{1}$\cdot$py and \textbf{1}$\cdot$DMAc), however the weaker complexes (\textbf{1}$\cdot$TMA and \textbf{1}$\cdot$DMS) tended to dissociate under these conditions.
+Trajectories were performed at 300~K for the strongly bonded systems (\cmpd{ebs}$\cdot$py and \cmpd{ebs}$\cdot$DMAc), however the weaker complexes (\cmpd{ebs}$\cdot$TMA and \cmpd{ebs}$\cdot$DMS) tended to dissociate under these conditions.
 Their trajectories were therefore conducted at 200~K and 100~K respectively.
 Binding energies were calculated by slowly cooling the system to 0~K, then conducting a short simulation to determine the potential energy of the system.
 Relevant parameters are given in figure \ref{fig:1.py-geom} and table \ref{tab:ebs-geom}, alongside DFT values for comparison.
 
-\begin{figure*}
+\begin{figure}
     \centering
     \includegraphics[width=\linewidth]{Figures/geom-distribution.png}
     \caption{Distribution of geometric parameters for complexes over a 2~ns trajectory. DFT equilibrium values are shown as red circles. REDO}
     \label{fig:1.py-geom}
-\end{figure*}
+\end{figure}
 
-\begin{table*}
+\begin{table}
     \centering
-    \begin{tabular*}{0.96\linewidth}{@{\extracolsep{\fill}}lllll}\hline
-        Complex & r(\ce{Se\cdots B}) & $\angle$(\ce{N-Se\cdots B}) & $\angle$(lone pair) & Energy \\ & & & & (kcal/mol)\\\hline
-        \textbf{1}$\cdot$py & 2.98~\AA~(2.775~\AA) & 169.8\degree~(176.2\degree) & 158.2\degree~(165.7\degree) & -8.376 (-7.093) \\
-        \textbf{1}$\cdot$DMAc & 2.964~\AA~(2.786~\AA) & 166.3\degree~(172.4\degree) & 129.7\degree~(117.9\degree) & -10.351 (-7.551) \\
-        \textbf{1}$\cdot$TMA & 3.091~\AA~(2.857~\AA) & 167.6\degree~(177.4\degree) & 100.71\degree~(113.6\degree) & -6.666 (-6.627) \\
-        \textbf{1}$\cdot$DMS & 3.322~\AA~(3.265~\AA) & 165.0\degree~(177.4\degree) & 89.1\degree~(89.8\degree) & -4.541 (-5.646) \\
-        \hline
-    \end{tabular*}
-    \caption{Median geometric parameters for complexes with \textbf{1}. DFT equilibrium values are given in brackets for comparison. DFT energies are derived from SAPT(DFT) (table S5). REDO}
+    \begin{tabular}{lllll}\toprule
+        Complex & r(\ce{Se\cdots B}) & $\angle$(\ce{N-Se\cdots B}) & $\angle$(lone pair) & Energy \\ & & & & (kcal/mol)\\\midrule
+        \cmpd{ebs}$\cdot$py & 2.98~\AA~(2.775~\AA) & 169.8\degree~(176.2\degree) & 158.2\degree~(165.7\degree) & -8.376 (-7.093) \\
+        \cmpd{ebs}$\cdot$DMAc & 2.964~\AA~(2.786~\AA) & 166.3\degree~(172.4\degree) & 129.7\degree~(117.9\degree) & -10.351 (-7.551) \\
+        \cmpd{ebs}$\cdot$TMA & 3.091~\AA~(2.857~\AA) & 167.6\degree~(177.4\degree) & 100.71\degree~(113.6\degree) & -6.666 (-6.627) \\
+        \cmpd{ebs}$\cdot$DMS & 3.322~\AA~(3.265~\AA) & 165.0\degree~(177.4\degree) & 89.1\degree~(89.8\degree) & -4.541 (-5.646) \\
+        \bottomrule
+    \end{tabular}
+    \caption{Median geometric parameters for complexes with \cmpd{ebs}. DFT equilibrium values are given in brackets for comparison. DFT energies are derived from SAPT(DFT) (table S5). REDO}
     \label{tab:ebs-geom}
-\end{table*}
+\end{table}
 
 \subsection{Validation against experimental melting point}
 We also sought to validate our model against the experimentally determined melting point.
@@ -437,7 +447,7 @@ The nucleated geometry was used as a starting point for a series of trajectories
 \end{figure}
 
 These results show that Ch-bonds can be adequately described by the inclusion of a positively charged pseudoatom.
-Interestingly, the weaker complexes (\textbf{1}$\cdot$TMA and \textbf{1}$\cdot$DMS) are better described both in terms of geometry and energy.
+Interestingly, the weaker complexes (\cmpd{ebs}$\cdot$TMA and \cmpd{ebs}$\cdot$DMS) are better described both in terms of geometry and energy.
 This may be due to the somewhat decreased charge-transfer component of these interactions, which is poorly described.
 For the stronger complexes, both the interaction energy and distance are overestimated, representing a compromise between the two criteria.
 
@@ -456,16 +466,19 @@ A simulation of 2~ns at 300~K was then performed to assess the average binding g
 A similar experiment was performed \emph{without} the $\sigma$-hole, which failed to bind in a reproducible geometry, with the ebselen molecule wandering through the groove.
 This is presumably driven by hydrophobic interactions, and the entropic cost of desolvation.
 
-\begin{figure*}
+\begin{figure}
     \centering
     \includegraphics[width=0.45\linewidth]{Figures/sod1-ebs-a.png}
     \includegraphics[width=0.45\linewidth]{Figures/sod1-ebs-b.png}
     \caption{Average binding geometry of ebselen in the SOD1 groove.}
     \label{fig:sod1-ebs}
-\end{figure*}
+\end{figure}
 
 \section{Conclusion}
 In conclusion, we have developed a set of parameters which can greatly improve modelling of ebselen and its derivatives.
 Our model gives realistic geometries and energies of gas phase complexes, and reproduces the interaction between ebselen and a protein.
 Although this work is restricted to ebselen itself, the parameters will be generally applicable to derivatives of ebselen (with appropriate charge fitting).
 We hope that these results will be useful for the discovery of new targets.
+
+\printbibliography[heading=subbibliography]
+\end{refsection}
