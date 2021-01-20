@@ -293,15 +293,16 @@ From dichloromethane/pentane (80\%) m.p. 248.8--249.4\degree C.
 In the previous chapter, we established that Ch-bonding is not only present in ebselen derivatives, but dominates packing in crystals of the pure compound (through \ce{Se\cdots O} interactions) and in co-crystals with a variety of Lewis bases.
 In this chapter, we extend our investigation to a wider range of derivatives with systematically varied electronic properties.
 
-LINEAR FREE ENERGY RELATIONSHIPS
+Linear free energy relationships are...
 
 \section{Results and discussion}
 Our previous work had shown that electron-rich pyridines (specifically DMAP) formed the strongest Ch-bonds out of all the bases trialled. 
 This is roughly consistent with the hydrogen bond basicity (pK\textsubscript{HB}) of the bases (\ref{tab:pkhb}).
+Methyl cation affinities?\autocite{Wei2005}
 The planar geometry and aromatic character of DMAP may also facilitate crystallisation, as opposed to the relatively bulky and flexible aliphatic bases which may not pack as efficiently.
 For these reasons, we restricted the bases used in this study to other electron-rich pyridines.
 Although DMAP is already a very strong base, the basisicity can be increased by incorporating the aniline nitrogen in another ring.
-This reduces the energetic penalty associated with the delocalisation of the lone pair into the pyridine ring, by forcing a more planar geometry upon the nitrogen.\autocite{???}
+This reduces the energetic penalty associated with the delocalisation of the lone pair into the pyridine ring, by forcing a more planar geometry upon the nitrogen.\autocite{Berthelot1998,Heinrich2003}
 Compounds \cmpd{py.pyrrol,py.morph} were therefore synthesised by treating 4-chloropyridine hydrochloride with 2 equivalents of the appropriate base (\ref{sch:base-synthesis}).
 
 \begin{scheme}
@@ -341,13 +342,14 @@ Co-crystals of the benzisoselenazolones and pyridines were grown by vapour diffu
 Relevant structural parameters are given in \ref{tab:bondlengths2}.
 In addition to the structural parameters, we characterised the various Ch-bonds using Bader's QTAIM framework.
 Depending on the quality of the data we were able to obtain for each crystal, we used:
+
 \begin{itemize}
     \item experimental electron density from a multipole refinement with atomic coordinates determined from high angle refinement ($d < 0.8$\AA), 
     \item experimental electron density from a multipole refinement with atomic coordinates determined by refinement using aspherical scattering factors derived from the DFT electron density,
     \item density derived from the DFT calculation.
 \end{itemize}
 
-The second "hybrid" strategy has the advantage of being able to capture electron density effects not fully described by DFT, while not requiring a large amount of weak high-angle (or neutron) data for the reliable determination of atomic coordinates.
+The second ``hybrid'' strategy has the advantage of being able to capture electron density effects not fully described by DFT, while not requiring a large amount of weak high-angle (or neutron) data for the reliable determination of atomic coordinates.
 The low-angle data, however, does need to be free from faults, so this strategy may still not be appropriate for all data sets.
 
 \begin{table}
@@ -417,6 +419,7 @@ Evident in this data is a trend of increasing Ch-bond length with increasing ele
 There are a number of methods to quantify this property of the substituent, and we will explore a couple of the most common.
 The Hammett substituent parameter $\sigma$ for a given substituent is determined from the ionization equilibrium of the parent carboxylic acid.
 Although originally used to explain reaction \emph{kinetics} with an associated reaction constant $\rho$, the substituent constant provides a convenient measure of electron donating character for ground state phenomena as well.\autocite{???}
+Within the context of Ch-bonding, this can be rationalised by considering the approach of the Lewis base to form the Ch-bond as an incipient nucleophilic substitution at the selenium, and invoking the Hammond postulate to relate the transition state geometry to the ground state.
 Closely linked to the substituent constant $\sigma$ are the values of $\sigma^{+}$ and $\sigma^{-}$, which can be used when mesomeric effects have a strong influence on the property being studied.
 Hammett substituent parameters are particularly convenient as they have been determined for a wide variety of substituents.
 
@@ -427,17 +430,21 @@ Hammett substituent parameters are particularly convenient as they have been det
     \label{fig:hammett-endo-free}
 \end{figure}
 
+The structural effects most relevant to Ch-bonding will manifest themselves in the vicinity of the selenium atom.
+Of particular interest is the endocyclic \ce{Se-N} bond length, which serves as a measure of $\sigma^\star$(\ce{Se-N}) orbital occupancy, thus the degree of hyperconjugation and strength of the Ch-bond.
 As can be seen in \ref{fig:hammett-endo-free}, there is practically no correlation between the electronic properties of the aryl ring and the endocyclic \ce{Se-N} bond length in crystals of the unbound ebselen derivatives.
 This is not unexpected, as in all cases the crystals consist of one dimensional chains of ebselen molecules Ch-bonded to the carbonyl oxygen of the next (\ref{fig:ebs-packing}).
 As the magnitude of the $\sigma$-hole (Ch-bond donor ability) is \emph{increased} by an electron withdrawing substituent, the Ch-bond acceptor ability of the carbonyl is \emph{decreased}.
-These opposing effects appear to be approximately equal in magnitude, so cancel each other out and give a very flat Hammett plot.
+These opposing effects appear to be approximately equal in magnitude, so cancel each other out and give a very flat and featureless Hammett plot.
 
 \begin{figure}
-    \centering
-    \includegraphics[width=0.6\linewidth]{Figures/ebs.me-packing.pdf}
-    \caption{One dimensional chains formed by Ch-bonding between the selenium and carbonyl oxygen in \refcmpd{ebs.4me}. All other ebselen derivatives display a similar packing motif.}
-    \label{fig:ebs-packing}
+  \centering
+  \includegraphics[width=0.6\linewidth]{Figures/ebs.me-packing.pdf}
+  \caption{One dimensional chains formed by Ch-bonding between the selenium and carbonyl oxygen in \refcmpd{ebs.4me}. All other ebselen derivatives display a similar packing motif.}
+  \label{fig:ebs-packing}
 \end{figure}
+
+
 
 \begin{figure}
     \centering
@@ -463,9 +470,9 @@ These opposing effects appear to be approximately equal in magnitude, so cancel 
   \label{fig:hammett-morph}
 \end{figure}
 
-Fortunately, inspecting the same bond length in co-crystals of ebselen derivatives and a Lewis base gives us a much clearer dependence, as can be seen in \ref{fig:hammett-dmap}. 
+Fortunately, inspecting the same bond length in co-crystals of ebselen derivatives and a Lewis base gives us a much clearer dependence, as can be seen in \ref{fig:hammett-dmap}, \ref{fig:hammett-pyrrol}, and \ref{fig:hammett-morph}. 
 This is because the Ch-bond acceptor ability is now independent of the electronic properties of the Ch-bond donor, so the \ce{Se-N} bond length is determined solely by the latter.
-Linear regression analysis affords the relationship $\mathrm{r}(\ce{Se-N}) = (1.957(5) + 0.054(12) \times \sigma_{\mathrm{X}})$~\AA~with a correlation coefficient of 0.6297. 
+Linear regression analysis affords the relationship $\mathrm{r}(\ce{Se-N}) = (1.957(5) + 0.054(12) \times \sigma_{\mathrm{X}})$~\AA~with a correlation coefficient of 0.6297 for co-crystals with DMAP. 
 
 An inverse correlation can be seen in the \ce{Se\cdots N} Ch-bond length in \ref{fig:hammett-dmap}. 
 The gradient of the line is now negative and somewhat steeper, at $-0.15(4)$~\AA.
@@ -509,13 +516,21 @@ This increased the R-factor by 1.2\%, and significant residual density was visib
 Furthermore, removal of the restraint recovered the original model, ruling out the possibility of a false minimum.
 
 Solid state NMR of the co-crystal was also used to investigate the crystalline environment.
-A sample of \cmpd{ebs.4ome}$\cdot$DMAP was first characterised by single crystal x-ray diffraction, which confirmed the polymorph and structural parameters.
+A sample of \cmpd{ebs.4ome}$\cdot$DMAP was first characterised by single crystal x-ray diffraction, which confirmed the polymorph and structural parameters (\ref{fig:ebs-4ome-dmap-xray}).
+
+\begin{figure}
+  \centering
+  \includegraphics{Figures/ebs-4ome-dmap-xray.pdf}
+  \caption{Single crystal x-ray structure of \refcmpd{ebs.4ome}$\cdot$DMAP, displaying the two systems in the asymmetric unit.}
+  \label{fig:ebs-4ome-dmap-xray}
+\end{figure}
+
 The bulk material was then crushed and homogenised, and characterised by powder x-ray diffraction.
 The measured powder pattern was in excellent agreement with the pattern calculated from the single crystal data (\ref{fig:ebs-4ome-dmap-pdx}).
 
 \begin{figure}
     \centering
-    \includegraphics[width=\linewidth]{Figures/4ome-ebs.dmap.eps}
+    \includegraphics[width=\linewidth]{Figures/ebs-4ome-dmap-pdx.eps}
     \caption{Calculated vs measured powder diffraction pattern for \refcmpd{ebs.4ome}$\cdot$DMAP.}
     \label{fig:ebs-4ome-dmap-pdx}
 \end{figure}
@@ -545,13 +560,13 @@ The \ce{^1H} and \ce{^1H}--\ce{^{13}C} HSQC spectra (\ref{fig:ebs-4ome-dmap-sol}
     \label{fig:ebs-4ome-dmap-sol}
 \end{figure}
 
-The aromatic region of the solid state \ce{^{13}C} spectrum is shown in \ref{fig:cpmas-sol-13c}, overlaid with the corresponding solution spectrum.
+The aromatic region of the solid state \ce{^{13}C} spectrum is shown in \ref{fig:cpmas-sol-13c}, overlaid with the corresponding solution spectrum\footnote{The \ce{^{13}C} spectrum was referenced to adamantane.}.
 Good agreement is observed for all signals, with some interesting phenomena visible in the solid state spectrum.
 Firstly, the signal at 138.62~ppm corresponding to C8 is split into a 1:1:1 triplet, possibly due to coupling to the spin 1 \ce{^{14}N} nucleus adjacent.
 However this is not observed for the C7 signal, nor any signals in the pyridyl ring.
 Secondly, shoulders can be seen on the C15/C19 and C16/C18 signals.
 This indicates that the crystalline environment surrouding each DMAP is different, which provides further evidence that there are indeed two systems in the asymmetric unit.
-The relatively poor resolution of the solid state \ce{^{13}C} NMR spectrum limits further analysis.
+The relatively poor resolution of the solid state \ce{^{13}C} NMR spectrum limits further analysis, particularly of the C1 signal which is obscured by several other signals.
 
 \begin{figure}
     \centering
@@ -562,7 +577,7 @@ The relatively poor resolution of the solid state \ce{^{13}C} NMR spectrum limit
     \label{fig:cpmas-sol-13c}
 \end{figure}
 
-To conclusively demonstrate that there are two systems in the asymmetric unit we conducted a solid state \ce{^{77}Se} NMR experiment, which is shown in \ref{fig:cpmas-sol-77se}.
+To conclusively demonstrate that there are two systems in the asymmetric unit we conducted a solid state \ce{^{77}Se} NMR experiment, which is shown in \ref{fig:cpmas-sol-77se}.\footnote{The \ce{^{77}Se} spectrum was referenced to diphenyl diselenide.}
 In solution, the \ce{^{77}Se} resonance is found aroud 900~ppm relative to dimethylselenide ($\delta=$0~ppm), however in the solid phase it is significantly more shielded at around 600~ppm.
 We attribute this shielding to the pyridyl nitrogen lone pair, which has a far greater effect in the solid state than in solution, as the Ch-bonds are not transiently formed and broken i.e. 100\% of the selenium atoms in the solid sample are coordinated to the nitrogen, while in solution a significant proportion are not coordinated.
 Furthermore, we observe two separate resonances for the selenium at 604.87~ppm and 572.70~ppm, which definitively demonstrates that there are two Ch-bonded environments in the crystal, where the shielding of the selenium is substantially different.
@@ -573,8 +588,6 @@ Furthermore, we observe two separate resonances for the selenium at 604.87~ppm a
     \caption{Solid state \ce{^{77}Se}-NMR spectrum of \refcmpd{ebs.4ome}$\cdot$DMAP. The primary resonances are visible at 604.87 and 572.70~ppm. The remaining peaks are spinning sidebands, and are separated from the parent signals by multiples of 10~kHz (the magic angle spinning frequency).}
     \label{fig:cpmas-sol-77se}
 \end{figure}
-
-
 
 \subsection{Solution-phase studies}
 While the above crystallographic analysis gives a useful qualitative understanding of the strength of the Ch-bond, we sought an experimental method that could accurately determine bond energies, so that we could easily compare our Ch-bonded complexes with those dominated by other interactions.
@@ -653,7 +666,7 @@ These are shown in \ref{fig:nmr-titrations}.
     \label{fig:nmr-titrations}
 \end{figure}
 
-Non-linear regression analysis was performed with the \texttt{nls} function in the R software package, and the calculated values are given in \ref{tab:nmr-titrations}.\autocite{R}
+Non-linear regression analysis was performed with the \texttt{nls} function in the R software package using the relationship derived above, and the calculated values are given in \ref{tab:nmr-titrations}.\autocite{R}
 
 \begin{table}
     \centering
@@ -784,12 +797,17 @@ The solid residue was triturated with water (5~mL) and 1~\textsc{M} hydrochloric
 \paragraph{Ebselen \refcmpd{ebs.ph}}
 Colourless crystals, m.p. 182.1--182.3\degree C ($\alpha$ polymorph), 173.4-174.6\degree C ($\beta$ and $\gamma$ polymorph), xx\%.
 
+\ce{^1H} NMR (500~MHz, DMSO-\emph{d6}) $\delta$ 8.07 (d, J = 8.0 Hz, 1H), 7.90 (dd, J = 0.7, 7.9 Hz, 1H), 7.68 (dt, J = 0.9, 7.5 Hz, 1H), 7.62 (dd, J = 0.8, 8.3 Hz, 2H), 7.49 (d, J = 7.6 Hz, 2H), 7.45 (t, J = 7.9 Hz, 1H), 7.27 (t, J = 7.4 Hz, 1H). 
+
 \paragraph{4-Nitro ebselen \refcmpd{ebs.4no2}}
 Pale yellow crystals, 7\%.
+
+\ce{^1H} NMR (400~MHz, \ce{CDCl3}) $\delta$ 8.30 (d, J = 9.1 Hz, 2H), 8.14 (d, J = 7.8 Hz, 1H), 7.92 (d, J = 9.1 Hz, 2H), 7.72 (t, J = 7.1 Hz, 1H), 7.68 (d, J = 7.5 Hz, 1H), 7.51 (dt, J = 0.7, 7.3 Hz, 1H). 
 
 \paragraph{4-Cyano ebselen \refcmpd{ebs.4cn}}
 %TF-7-1C
 Colourless crystals, m.p. 191\degree C (dec.), 61\%.
+\ce{^1H} NMR (400~MHz, DMSO-\emph{d6}) $\delta$ 8.07 (d, J = 8.3 Hz, 1H), 7.91 (m, J = 6.0 Hz, 5H), 7.70 (t, J = 7.7 Hz, 1H), 7.48 (t, J = 7.5 Hz, 1H). 
 
 \cmpd{ebs.4cn}$\cdot$DMAP m.p. 157.6--160.2\degree C (DCM solvate, P$2_1/c$).
 
@@ -797,6 +815,8 @@ Colourless crystals, m.p. 191\degree C (dec.), 61\%.
 
 \paragraph{4-Trifluoromethyl ebselen \refcmpd{ebs.4cf3}}
 Colourless crystals, m.p. 184.6--186.4\degree C, 14\%.
+
+\ce{^1H} NMR (500~MHz, DMSO-\emph{d6}) $\delta$ 8.27 (d, J = 7.2 Hz, 1H), 7.98 (dd, J = 0.4, 7.1 Hz, 1H), 7.92 (dt, J = 0.9, 7.2 Hz, 1H), 7.87 (d, J = 8.4 Hz, 2H), 7.84 (dt, J = 0.4, 7.2 Hz, 1H), 7.77 (d, J = 8.3 Hz, 2H). 
 
 \cmpd{ebs.4cf3}$\cdot$DMAP m.p. 178.3--179.6\degree C.
 
@@ -808,16 +828,24 @@ Colourless crystals, m.p. 189.7--190.7\degree C,, 18\%.
 \paragraph{4-Carboxyethyl ebselen \refcmpd{ebs.4co2et}}
 Colourless crystals, m.p. 173.1--174.5\degree C 13\%.
 
+\ce{^1H} NMR (500~MHz, DMSO-\emph{d6}) $\delta$ 8.08 (d, J = 7.8 Hz, 1H), 8.02 (d, J = 8.7 Hz, 2H), 7.92 (dd, J = 0.4, 8.0 Hz, 1H), 7.88 (d, J = 8.6 Hz, 2H), 7.71 (t, J = 7.0 Hz, 1H), 7.50 (t, J = 7.3 Hz, 1H), 4.32 (q, J = 7.2 Hz, 2H), 1.33 (t, J = 7.1 Hz, 3H). 
+
 \cmpd{ebs.4co2et}$\cdot$DMAP m.p. 136.0-138.7\degree C.
 
 \paragraph{4-Methyl ebselen \refcmpd{ebs.4me}}
 Light brown crystals, 58\%.
 
+\ce{^1H} NMR (400~MHz, DMSO-\emph{d6}) $\delta$ 8.06 (d, J = 8.0 Hz, 1H), 7.87 (d, J = 7.3 Hz, 1H), 7.66 (dt, J = 0.3, 7.4 Hz, 1H), 7.48 (d, J = 8.3 Hz, 2H), 7.46 (t, J = 7.3 Hz, 1H), 7.24 (d, J = 8.2 Hz, 2H), 2.31 (s, 3H). 
+
 \paragraph{4-Methoxy ebselen \refcmpd{ebs.4ome}}
 Light brown crystals, 67\%.
 
+\ce{^1H} NMR (500~MHz, DMSO-\emph{d6}) $\delta$ 8.07 (d, J = 7.9 Hz, 1H), 7.88 (d, J = 7.6 Hz, 1H), 7.67 (t, J = 7.1 Hz, 1H), 7.49 (d, J = 8.4 Hz, 2H), 7.47 (t, J = 6.9 Hz, 1H), 7.01 (d, J = 8.6 Hz, 2H), 3.78 (s, 3H). 
+
 \paragraph{4-Ethoxy ebselen \refcmpd{ebs.4oet}}
 Light brown crystals, 67\%.
+
+\ce{^1H} NMR (500~MHz, DMSO-\emph{d6}) $\delta$ 8.06 (d, J = 8.0 Hz, 1H), 7.87 (d, J = 7.5 Hz, 1H), 7.67 (t, J = 7.2 Hz, 1H), 7.48 (t, J = 3.2 Hz, 1H), 7.47 (d, J = 8.8 Hz, 2H), 6.99 (d, J = 8.8 Hz, 2H), 4.05 (q, J = 7.0 Hz, 2H), 1.34 (t, J = 6.9 Hz, 3H). 
 
 \normalsize
 
