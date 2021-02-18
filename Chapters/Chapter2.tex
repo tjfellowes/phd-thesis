@@ -577,7 +577,7 @@ The relatively poor resolution of the solid state \ce{^{13}C} NMR spectrum limit
 \end{figure}
 
 To conclusively demonstrate that there are two systems in the asymmetric unit we conducted a solid state \ce{^{77}Se} NMR experiment, which is shown in \ref{fig:cpmas-sol-77se}.\footnote{The \ce{^{77}Se} spectrum was referenced to diphenyl diselenide.}
-In solution, the \ce{^{77}Se} resonance is found aroud 900~ppm relative to dimethylselenide ($\delta=$0~ppm), and appears as one singlet due to the thermal averaging of all environments.
+In solution, the \ce{^{77}Se} resonance is found around 900~ppm relative to dimethylselenide ($\delta=$0~ppm), and appears as one singlet due to the averaging of all environments.
 In the solid phase, the spectrum is significantly more complex, primarily due to chemical shift anisotropy which manifests as spinning sidebands.
 The true anisotropic chemical shifts can only be discerned by varying the MAS spinning speed, which changes the spacing of the sidebands while leaving the parent signals in the same place.
 Spinning at 12~kHz instead of 10~kHz showed that the signals at 834.69 and 867.02~ppm are the true chemical shifts, and the fact that there are two signals show that there are indeed two Ch-bonded systems in the asymmetric unit.
@@ -589,7 +589,46 @@ Spinning at 12~kHz instead of 10~kHz showed that the signals at 834.69 and 867.0
     \label{fig:cpmas-sol-77se}
 \end{figure}
 
-DETERMINATION OF ANISOTROPIC CHEMICAL SHIFT TENSOR
+\subsubsection{Measurement of chemical shift anisotropy}
+The intensities of the spinning sideband manifold can be analysed to afford the principal values of the chemical shift tensor, that is to say, the shape of the ellipsoid that is described by the tensor.
+An example is presented in \ref{fig:31P-ssnmr} of proton decoupled solid state \ce{^{31}P} spectra of barium diethyl phosphate, reproduced from the work of Herzfeld and Berger\autocite{Herzfeld1980SidebandAngle}.
+In the first spectrum, no magic angle spinning was used, and the lineshape is characteristically broadened due to chemical shift anisotropy and dipolar coupling.
+Note the poor S/N ratio due to the broad peak.
+Assuming constant power is deposited in the sample, sharper lines will give improved S/N ratio as the energy is focused in narrower bands.
+The S/N ratio can be seen to improve as the spinning speed increases, and the sidebands become more sparse, affording a stronger signal overall.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.45\linewidth]{Figures/31P-ssnmr-0khz.pdf}
+    \includegraphics[width=0.45\linewidth]{Figures/31P-ssnmr-0.94khz.pdf}
+    
+    \includegraphics[width=0.45\linewidth]{Figures/31P-ssnmr-2.06khz.pdf}
+    \includegraphics[width=0.45\linewidth]{Figures/31P-ssnmr-2.92khz.pdf}
+    \caption{Proton decoupled solid state \ce{^{31}P} spectra of barium diethyl phosphate spinning at the magic angle, at the speed specified. The isotropic chemical shift is shown by the vertical dotted line.}
+    \label{fig:31P-ssnmr}
+\end{figure}
+
+The relationship between this lineshape and the chemical shift tensor is shown in \ref{fig:ssnmr-tensor}, reproduced from the work of Facelli, Grant, and Michl.\autocite{Facelli1987Carbon-13Determination}
+The principal values of the tensor $\delta_{11}$, $\delta_{22}$ and $\delta_{33}$ correspond to the two extrema of the line, and the central peak.
+Note that this peak is not the same as the isotropic chemical shift observed in solution, which is given by the average
+\begin{equation}
+    \delta_{iso} = \frac{(\delta_{11} + \delta_{22} + \delta_{33})}{3}
+\end{equation}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.45\linewidth]{Figures/ssnmr-tensor.pdf}
+    \caption{Characteristic solid-state NMR powder lineshape for an asymmetric tensor e.g. in an alkene. The positions of the three principal values are shown.}
+    \label{fig:ssnmr-tensor}
+\end{figure}
+
+The principal values of the tensor are clearly easily obtained from a non-spinning sample, as they can practically be read off the spectrum.
+However, the extremely poor S/N ratio (especially for a relatively insensitive nucleus like \ce{^{77}Se}) limits the utility of this method.
+Spinning at the magic angle is clearly necessary to improve the S/N ratio, however this obscures the true locations of the extrema of the lineshape, therefore the values of $\delta_{11}$ and $\delta_{33}$, as well as modifying the position of the maximum ($\delta_{22}$).
+
+
+
+
 
 \subsection{Solution-phase studies}
 While the above crystallographic analysis gives a useful qualitative understanding of the strength of the Ch-bond, we sought an experimental method that could accurately determine bond energies, so that we could easily compare our Ch-bonded complexes with those dominated by other interactions.
