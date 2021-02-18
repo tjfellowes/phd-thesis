@@ -584,7 +584,7 @@ Spinning at 12~kHz instead of 10~kHz showed that the signals at 834.69 and 867.0
 
 \begin{figure}
     \centering
-    \includegraphics[width=\linewidth]{Figures/ebs-4ome-dmap-cpmas-77se.pdf}
+    \includegraphics[width=0.7\linewidth]{Figures/ebs-4ome-dmap-cpmas-77se.pdf}
     \caption{Solid state \ce{^{77}Se}-NMR spectrum of \refcmpd{ebs.4ome}$\cdot$DMAP. The primary resonances are visible at 834.69 and 867.02~ppm. The remaining peaks are spinning sidebands, and are separated from the parent signals by multiples of 10~kHz (the magic angle spinning frequency).}
     \label{fig:cpmas-sol-77se}
 \end{figure}
@@ -625,6 +625,29 @@ Note that this peak is not the same as the isotropic chemical shift observed in 
 The principal values of the tensor are clearly easily obtained from a non-spinning sample, as they can practically be read off the spectrum.
 However, the extremely poor S/N ratio (especially for a relatively insensitive nucleus like \ce{^{77}Se}) limits the utility of this method.
 Spinning at the magic angle is clearly necessary to improve the S/N ratio, however this obscures the true locations of the extrema of the lineshape, therefore the values of $\delta_{11}$ and $\delta_{33}$, as well as modifying the position of the maximum ($\delta_{22}$).
+
+There exist programs (such as XXX\autocite{???}) which can fit an experimental lineshape or sideband manifold affording the principal values of the tensor, however there is clearly a trade-off between obtaining a good S/N ratio and having enough sidebands within the limits of the signal for a meaningful fit.
+Another issue is encountered with preferred orientation of crystallites, as in powder diffraction, which is not modelled in the fitting routine, leading to a poorer fit.
+Perhaps the most fundamental issue stems from the fact that the sample is a powder of randomly oriented particles.
+This means that the absolute orientation of the tensor with respect to the molecule cannot be determined from this kind of experiment.
+Nonetheless, the \emph{shape} of the tensor is still valuable information that may be able to shed light on Ch-bonding in the solid phase.
+
+To this end, we acquired solid state spectra of three complexes spanning the range of electron demand, \cmpd{ebs.4ome}$\cdot$DMAP, \cmpd{ebs.ph}$\cdot$DMAP, and \cmpd{ebs.4no2}$\cdot$DMAP.
+The resulting spectra are presented in \ref{fig:77se-ssnmr-ebs}, and the extracted principal values of the chemical shift tensor are presented in \ref{77se-ssnmr-ebs-csa}.
+In order to verify our results, we also \emph{calculated} the chemical shielding tensors in order to compare the principal values, and also determine the likely orientation of the tensors with respect to the rest of the molecule.
+
+\cmpd{ebs.4ome}$\cdot$DMAP differs from the other structures, in that it crystallises in the space group $P2_1/c$, whereas \cmpd{ebs.ph}$\cdot$DMAP and \cmpd{ebs.4no2}$\cdot$DMAP both crystallise in $P\bar{1}$.
+The $2_1$ screw axis in the former crystal is oriented such that it generates a symmetry equivalent molecule which is rotated by an angle of about 45\degree.
+This means that the observed chemical shift tensor is the average of these two symmetry related orientations, further complicating the analysis.
+Fundamentally this is due to the fact that an ellipsoid does not have twofold rotational symmetry, except about its principal axes.
+The triclinic complexes \cmpd{ebs.ph}$\cdot$DMAP and \cmpd{ebs.4no2}$\cdot$DMAP do not suffer from this issue, as the inversion symmetry operation preserves the shape of the tensor.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.5\linewidth]{Figures/77se-tensor-ebs-dmap.png}
+  \caption{Calculated chemical shielding tensor for \refcmpd{ebs.ph}$\cdot$DMAP.}
+  \label{fig:77se-tensor-ebs-dmap}
+\end{figure}
 
 
 
