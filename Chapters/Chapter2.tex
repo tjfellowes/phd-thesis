@@ -315,7 +315,7 @@ Compounds \cmpd{py.pyrrol,py.morph} were therefore synthesised by treating 4-chl
 \end{scheme}
 
 The benzisoselenazolone derivatives \cmpd{ebs.{ph,4no2,4cn,4cf3,4br,4co2et,4me,4ome,4oet}} were prepared by the reaction of substituted anilines with a selenenyl chloride intermediate \cmpd{diselenide}, ultimately derived from anthranilic acid (\ref{sch:ebs-synthesis}).
-The one-pot selenocyclisation reaction used in the previous work often did not tolerate the various functional groups on the aryl ring, affording reduction, cross-coupling, or protodehalogenation byproducts (\ref{sec:seleocyclisation-byproducts}). 
+The one-pot selenocyclisation reaction used in the previous work often did not tolerate the various functional groups on the aryl ring, affording reduction, cross-coupling, or protodehalogenation byproducts. 
 
 \begin{scheme}
 \centering
@@ -580,7 +580,7 @@ To conclusively demonstrate that there are two systems in the asymmetric unit we
 In solution, the \ce{^{77}Se} resonance is found around 900~ppm relative to dimethylselenide ($\delta=$0~ppm), and appears as one singlet due to the averaging of all environments.
 In the solid phase, the spectrum is significantly more complex, primarily due to chemical shift anisotropy which manifests as spinning sidebands.
 The true anisotropic chemical shifts can only be discerned by varying the MAS spinning speed, which changes the spacing of the sidebands while leaving the parent signals in the same place.
-Spinning at 12~kHz instead of 10~kHz showed that the signals at 834.69 and 867.02~ppm are the true chemical shifts, and the fact that there are two signals show that there are indeed two Ch-bonded systems in the asymmetric unit.
+Spinning at 12~kHz instead of 10~kHz showed that the signals at 834.69 and 867.02~ppm are the true isotropic chemical shifts, and the fact that there are two signals show that there are indeed two Ch-bonded systems in the asymmetric unit.
 
 \begin{figure}
     \centering
@@ -592,9 +592,9 @@ Spinning at 12~kHz instead of 10~kHz showed that the signals at 834.69 and 867.0
 \subsubsection{Measurement of chemical shift anisotropy}
 The intensities of the spinning sideband manifold can be analysed to afford the principal values of the chemical shift tensor, that is to say, the shape of the ellipsoid that is described by the tensor.
 An example is presented in \ref{fig:31P-ssnmr} of proton decoupled solid state \ce{^{31}P} spectra of barium diethyl phosphate, reproduced from the work of Herzfeld and Berger\autocite{Herzfeld1980SidebandAngle}.
-In the first spectrum, no magic angle spinning was used, and the lineshape is characteristically broadened due to chemical shift anisotropy and dipolar coupling.
+In the first spectrum, no magic angle spinning was used, and the lineshape is characteristically broadened due to chemical shift anisotropy.
 Note the poor S/N ratio due to the broad peak.
-Assuming constant power is deposited in the sample, sharper lines will give improved S/N ratio as the energy is focused in narrower bands.
+Assuming constant power is deposited in the sample, sharper lines will give improved S/N ratio as the radiated energy is concentrated in narrower bands.
 The S/N ratio can be seen to improve as the spinning speed increases, and the sidebands become more sparse, affording a stronger signal overall.
 
 \begin{figure}
@@ -626,21 +626,52 @@ The principal values of the tensor are clearly easily obtained from a non-spinni
 However, the extremely poor S/N ratio (especially for a relatively insensitive nucleus like \ce{^{77}Se}) limits the utility of this method.
 Spinning at the magic angle is clearly necessary to improve the S/N ratio, however this obscures the true locations of the extrema of the lineshape, therefore the values of $\delta_{11}$ and $\delta_{33}$, as well as modifying the position of the maximum ($\delta_{22}$).
 
-There exist programs (such as XXX\autocite{???}) which can fit an experimental lineshape or sideband manifold affording the principal values of the tensor, however there is clearly a trade-off between obtaining a good S/N ratio and having enough sidebands within the limits of the signal for a meaningful fit.
+There exist programs (such as SOLA, integrated within TopSpin by Bruker BioSpin) which can fit an experimental lineshape or sideband manifold affording the principal values of the tensor, however there is clearly a trade-off between obtaining a good S/N ratio and having enough sidebands within the limits of the signal for a meaningful fit.
 Another issue is encountered with preferred orientation of crystallites, as in powder diffraction, which is not modelled in the fitting routine, leading to a poorer fit.
 Perhaps the most fundamental issue stems from the fact that the sample is a powder of randomly oriented particles.
 This means that the absolute orientation of the tensor with respect to the molecule cannot be determined from this kind of experiment.
 Nonetheless, the \emph{shape} of the tensor is still valuable information that may be able to shed light on Ch-bonding in the solid phase.
 
 To this end, we acquired solid state spectra of three complexes spanning the range of electron demand, \cmpd{ebs.4ome}$\cdot$DMAP, \cmpd{ebs.ph}$\cdot$DMAP, and \cmpd{ebs.4no2}$\cdot$DMAP.
-The resulting spectra are presented in \ref{fig:77se-ssnmr-ebs}, and the extracted principal values of the chemical shift tensor are presented in \ref{77se-ssnmr-ebs-csa}.
-In order to verify our results, we also \emph{calculated} the chemical shielding tensors in order to compare the principal values, and also determine the likely orientation of the tensors with respect to the rest of the molecule.
-
-\cmpd{ebs.4ome}$\cdot$DMAP differs from the other structures, in that it crystallises in the space group $P2_1/c$, whereas \cmpd{ebs.ph}$\cdot$DMAP and \cmpd{ebs.4no2}$\cdot$DMAP both crystallise in $P\bar{1}$.
+\footnote{\cmpd{ebs.4ome}$\cdot$DMAP differs from the other structures, in that it crystallises in the space group $P2_1/c$, whereas \cmpd{ebs.ph}$\cdot$DMAP and \cmpd{ebs.4no2}$\cdot$DMAP both crystallise in $P\bar{1}$.
 The $2_1$ screw axis in the former crystal is oriented such that it generates a symmetry equivalent molecule which is rotated by an angle of about 45\degree.
 This means that the observed chemical shift tensor is the average of these two symmetry related orientations, further complicating the analysis.
 Fundamentally this is due to the fact that an ellipsoid does not have twofold rotational symmetry, except about its principal axes.
-The triclinic complexes \cmpd{ebs.ph}$\cdot$DMAP and \cmpd{ebs.4no2}$\cdot$DMAP do not suffer from this issue, as the inversion symmetry operation preserves the shape of the tensor.
+The triclinic complexes \cmpd{ebs.ph}$\cdot$DMAP and \cmpd{ebs.4no2}$\cdot$DMAP do not suffer from this issue, as the inversion symmetry operation preserves the shape of the tensor.}
+The resulting spectra are presented in \ref{fig:77se-ssnmr-ebs}, and the extracted principal values of the chemical shift tensor are presented in \ref{tab:77se-ssnmr-ebs-csa}.
+
+\begin{figure}
+  \centering
+  \begin{subfigure}{0.5\linewidth}
+    \includegraphics[height=0.3\textheight]{Figures/ebs-4ome-dmap-cpmas-77se.pdf}
+    \caption{\ce{^{77}Se} CPMAS NMR spectrum of \refcmpd{ebs.4ome}$\cdot$DMAP.}
+  \end{subfigure}
+  \begin{subfigure}{0.5\linewidth}
+    \includegraphics[height=0.3\textheight]{Figures/ebs-ph-dmap-cpmas-77se.pdf}
+    \caption{\ce{^{77}Se} CPMAS NMR spectrum of \refcmpd{ebs.ph}$\cdot$DMAP.}
+  \end{subfigure}
+  \begin{subfigure}{0.5\linewidth}
+    TODO
+    %\includegraphics[height=0.3\textheight]{Figures/ebs-4no2-dmap-cpmas-77se.pdf}
+    \caption{\ce{^{77}Se} CPMAS NMR spectrum of \refcmpd{ebs.4no2}$\cdot$DMAP.}
+  \end{subfigure}
+  \caption{}
+  \label{fig:77se-ssnmr-ebs}
+\end{figure}
+
+\begin{table}
+  \caption{Principal values of the chemical shift tensor extracted from powder spectra in \ref{fig:77se-ssnmr-ebs}.}
+  \begin{tabular}{llll}
+    \toprule
+    Complex                     & $\delta_{11}$ & $\delta_{22}$ & $\delta_{33}$ \\\midrule
+    \cmpd{ebs.4ome}$\cdot$DMAP  &               &               &               \\  
+    \cmpd{ebs.ph}$\cdot$DMAP    &               &               &               \\  
+    \cmpd{ebs.4no2}$\cdot$DMAP  &               &               &               \\\bottomrule
+  \end{tabular}
+  \label{tab:77se-ssnmr-ebs-csa}
+\end{table}
+  
+In order to verify our results, we also \emph{calculated} the chemical shielding tensors in order to compare the principal values, and also determine the likely orientation of the tensors with respect to the rest of the molecule (\ref{fig:77se-tensor-ebs-dmap}).
 
 \begin{figure}
   \centering
@@ -648,6 +679,28 @@ The triclinic complexes \cmpd{ebs.ph}$\cdot$DMAP and \cmpd{ebs.4no2}$\cdot$DMAP 
   \caption{Calculated chemical shielding tensor for \refcmpd{ebs.ph}$\cdot$DMAP.}
   \label{fig:77se-tensor-ebs-dmap}
 \end{figure}
+
+We were fortunate to obtain a single crystal of \cmpd{ebs.ph}$\cdot$DMAP of sufficient size (approx $10\times3\times1$~mm, \ref{fig:ebs-ph-dmap-picture}) for a single crystal SS-NMR experiment, allowing us to measure the orientation of the tensor in that crystal for comparison with our computational results.\footnote{Unfortunately no other derivatives formed crystals of sufficient size or morphology for the SS-NMR experiment.}
+In order to do this, the faces of the crystal had to be indexed to the internal structure.
+As the crystal was too big to mount on the diffractometer, two faces were marked with different coloured pens, then a small fragment was removed from the crystal.
+This was mounted, and a short data collection afforded an indexable pattern.
+The resulting planes are shown in \ref{fig:ebs-ph-dmap-index}, with the internal structure adjacent.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.4\linewidth]{Figures/ebs-ph-dmap-picture.jpg}
+  \caption{Single crystal of \cmpd{ebs.ph}$\cdot$DMAP used for SS-NMR.}
+  \label{fig:ebs-ph-dmap-picture}
+\end{figure}
+
+\begin{figure}
+  \centering
+  TODO
+  %\includegraphics[width=0.4\linewidth]{Figures/ebs-ph-dmap-index.jpg}
+  \caption{Indexed faces of \cmpd{ebs.ph}$\cdot$DMAP.}
+  \label{fig:ebs-ph-dmap-index}
+\end{figure}
+
 
 
 
