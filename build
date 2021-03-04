@@ -18,6 +18,7 @@ for i in $( find Figures -name "*.eps" ); do
    iconv -c -f UTF-8 -t WINDOWS-1252 $i.clean > $i
    rm $i.dirty
    rm $i.clean
+   echo $i
 done
 
 

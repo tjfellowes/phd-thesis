@@ -37,7 +37,8 @@
 \usepackage{pdflscape}
 \usepackage{gensymb}
 \usepackage{subcaption}
-\usepackage[runs=2]{auto-pst-pdf}
+%\usepackage[runs=2,pstricks]{auto-pst-pdf}
+\usepackage[active,pstricks]{pst-pdf}
 \usepackage{microtype}
 
 \usepackage{chemnum}
@@ -82,7 +83,6 @@
 \subject    {}
 \keywords   {}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \maketitle
 %% ----------------------------------------------------------------
 
@@ -175,13 +175,13 @@ $\omega$ & angular frequency & rads$^{-1}$ \\
 % Include the chapters of the thesis, as separate files
 % Just uncomment the lines as you write the chapters
 
-%\input{Chapters/Chapter1}
+\input{Chapters/Chapter1}
 
 \input{Chapters/Chapter2}
 
-%\input{Chapters/Chapter3}
+\input{Chapters/Chapter3}
 
-%\input{Chapters/Chapter4}
+\input{Chapters/Chapter4}
 
 %% ----------------------------------------------------------------
 % Now begin the Appendices, including them as separate files
