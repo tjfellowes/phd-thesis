@@ -12,7 +12,7 @@
 %% ---------------------------------------------------------------- 
 
 % Set up the document
-\documentclass[a4paper, 10pt]{Thesis}  % Use the "Thesis" style, based on the ECS Thesis style by Steve Gunn
+\documentclass[a4paper, 11pt]{Thesis}  % Use the "Thesis" style, based on the ECS Thesis style by Steve Gunn
 %
 % Put your figures in this directory
 \graphicspath{Figures/}  % Location of the graphics files (set up for graphics to be in PDF format)
@@ -30,6 +30,7 @@
 \usepackage{verbatim}  % Needed for the "comment" environment to make LaTeX comments
 \usepackage{vector}  % Allows "\bvec{}" and "\buvec{}" for "blackboard" style bold vectors in maths
 %\hypersetup{urlcolor=blue, colorlinks=true}  % Colours hyperlinks in blue, but this can be distracting if there are many links.
+\usepackage{tablefootnote}
 
 \usepackage{fourier}
 %\usepackage{helvet} %USE FOR LATEX AUXILIARY COMPILATION OF FIGURES
@@ -54,7 +55,7 @@
 
 \addbibresource{thesis.bib}
 
-\setlength{\headheight}{25pt}
+\setlength{\headheight}{30pt}
 
 %% ----------------------------------------------------------------
 \begin{document}
@@ -176,13 +177,13 @@ $\omega$ & angular frequency & rads$^{-1}$ \\
 % Include the chapters of the thesis, as separate files
 % Just uncomment the lines as you write the chapters
 
-\input{Chapters/Chapter1}
+%\input{Chapters/Chapter1}
 
 \input{Chapters/Chapter2}
 
-\input{Chapters/Chapter3}
+%\input{Chapters/Chapter3}
 
-\input{Chapters/Chapter4}
+%\input{Chapters/Chapter4}
 
 %% ----------------------------------------------------------------
 % Now begin the Appendices, including them as separate files

@@ -286,7 +286,7 @@ From dichloromethane/pentane (80\%) m.p. 248.8--249.4\degree C.
 
 \begin{refsection}
 
-\chapter{Hammett relationships and the strength of the Ch-bond}
+\chapter{Further investigations into Ch-bonded complexes}
 
 \section{Introduction}
 In the previous chapter, we established that Ch-bonding is not only present in ebselen derivatives, but dominates packing in crystals of the pure compound (through \ce{Se\cdots O} interactions) and in co-crystals with a variety of Lewis bases.
@@ -413,7 +413,7 @@ The low-angle data, however, does need to be free from faults, so this strategy 
   \label{tab:bondlengths2}
 \end{table}
 
-\subsection{Hammett plots of bond lengths.}
+\subsection{Hammett plots of crystallographic data.}
 Evident in this data is a trend of increasing Ch-bond length with increasing electron donating character of the substituent.
 There are a number of methods to quantify this property of the substituent, and we will explore a couple of the most common.
 The Hammett substituent parameter $\sigma$ for a given substituent is determined from the ionization equilibrium of the parent carboxylic acid.
@@ -589,7 +589,7 @@ Spinning at 12~kHz instead of 10~kHz showed that the signals at 834.69 and 867.0
     \label{fig:cpmas-sol-77se}
 \end{figure}
 
-\subsubsection{Measurement of chemical shift anisotropy}
+\subsection{Measurement of chemical shift anisotropy}
 The intensities of the spinning sideband manifold can be analysed to afford the principal values of the chemical shift tensor, that is to say, the shape of the ellipsoid that is described by the tensor.
 An example is presented in \ref{fig:31P-ssnmr} of proton decoupled solid state \ce{^{31}P} spectra of barium diethyl phosphate, reproduced from the work of Herzfeld and Berger\autocite{Herzfeld1980SidebandAngle}.
 In the first spectrum, no magic angle spinning was used, and the lineshape is characteristically broadened due to chemical shift anisotropy.
@@ -637,7 +637,8 @@ To this end, we acquired solid state spectra of three complexes spanning the ran
 The $2_1$ screw axis in the former crystal is oriented such that it generates a symmetry equivalent molecule which is rotated by an angle of about 45\degree.
 This means that the observed chemical shift tensor is the average of these two symmetry related orientations, further complicating the analysis.
 Fundamentally this is due to the fact that an ellipsoid does not have twofold rotational symmetry, except about its principal axes.
-The triclinic complexes \cmpd{ebs.ph}$\cdot$DMAP and \cmpd{ebs.4no2}$\cdot$DMAP do not suffer from this issue, as the inversion symmetry operation preserves the shape of the tensor.}
+The triclinic complexes \cmpd{ebs.ph}$\cdot$DMAP and \cmpd{ebs.4no2}$\cdot$DMAP do not suffer from this issue, as the inversion symmetry operation preserves the shape of the tensor.
+This can be seen in the latter two principal values of the chemical shift tensor in \ref{tab:77se-ssnmr-ebs-csa}, which have the same value (within experimental error), describing a cigar-shaped tensor.}
 The resulting spectra are presented in \ref{fig:77se-ssnmr-ebs}, and the extracted principal values of the chemical shift tensor are presented in \ref{tab:77se-ssnmr-ebs-csa}.
 
 \begin{figure}
@@ -660,18 +661,51 @@ The resulting spectra are presented in \ref{fig:77se-ssnmr-ebs}, and the extract
 
 \begin{table}
   \caption{Principal values of the chemical shift tensor extracted from powder spectra in \ref{fig:77se-ssnmr-ebs}.}
-  \begin{tabular}{llll}
+  \begin{tabular}{lllll}
     \toprule
-    Complex                     & $\delta_{11}$ & $\delta_{22}$ & $\delta_{33}$ \\\midrule
-    \cmpd{ebs.4ome}$\cdot$DMAP\footnote{Site a}  & 1569.77       & 467.30        & 466.97        \\  
-    \cmpd{ebs.4ome}$\cdot$DMAP\footnote{Site b}  & 1602.10       & 499.63        & 499.29        \\  
-    \cmpd{ebs.ph}$\cdot$DMAP    & 1612.44       & 572.59        & 408.71        \\  
-    \cmpd{ebs.4no2}$\cdot$DMAP  & 1609.42       & 497.11        & 476.34        \\\bottomrule
+    Complex                                    & $\delta_{\textrm{iso}}$ & $\delta_{11}$  & $\delta_{22}$  & $\delta_{33}$   \\\midrule
+   \cmpd{ebs.4ome}$\cdot$DMAP\tablefootnote{Site a}   & 835.2                   & 1572.58        & 466.52         & 466.50          \\
+   \cmpd{ebs.4ome}$\cdot$DMAP\tablefootnote{Site b}   & 866.9                   & 1628.91        & 485.95         & 485.92          \\
+   \cmpd{ebs.ph}$\cdot$DMAP                           & 864.5                   & 1616.74        & 596.21         & 380.64          \\
+   \cmpd{ebs.4no2}$\cdot$DMAP                         & 860.8                   & 1596.92        & 547.82         & 437.66          \\\bottomrule
   \end{tabular}
   \label{tab:77se-ssnmr-ebs-csa}
 \end{table}
   
 In order to verify our results, we also \emph{calculated} the chemical shielding tensors in order to compare the principal values, and also determine the likely orientation of the tensors with respect to the rest of the molecule (\ref{fig:77se-tensor-ebs-dmap}).
+These calculations were conducted at the $\omega$B97X-D/def2tzvp level, using the GIAO method of calculating shielding tensors.\autocite{Schreckenbach1995CalculationTheory,Schreckenbach1996TheApproximation}
+The tensors (in the default reference frame) were found to be
+\begin{equation*}
+  \sigma_{\textrm{\cmpd{ebs.4ome}}\cdot\textrm{DMAP}} = \begin{bmatrix} 1595.7999 & 367.4957 & 6.7322 \\ 322.6389 & 291.3611 & 10.8588 \\ -19.9165 & -35.8017 & 1069.2648 \end{bmatrix}
+\end{equation*}
+\begin{equation*}  
+  \sigma_{\textrm{\cmpd{ebs.ph}}\cdot\textrm{DMAP}} = \begin{bmatrix} 1595.7999 & 367.4957 & 6.7322 \\ 322.6389 & 291.3611 & 10.8588 \\ -19.9165 & -35.8017 & 1069.2648 \end{bmatrix}
+\end{equation*}
+\begin{equation*}    
+  \sigma_{\textrm{\cmpd{ebs.4no2}}\cdot\textrm{DMAP}} = \begin{bmatrix} 1595.7999 & 367.4957 & 6.7322 \\ 322.6389 & 291.3611 & 10.8588 \\ -19.9165 & -35.8017 & 1069.2648 \end{bmatrix}
+\end{equation*}
+affording reference frame independent principal values in \ref{tab:77se-calc-ebs-csa}.
+
+\begin{table}
+  \caption{Principal values of the chemical shielding tensor calculated from optimised structures.}
+  \begin{tabular}{lllll}
+    \toprule
+    Complex                                    & $\sigma_{\textrm{iso}}$ & $\sigma_{11}$  & $\sigma_{22}$  & $\sigma_{33}$   \\\midrule
+   \cmpd{ebs.4ome}$\cdot$DMAP                         & -                   & -        & -         & -          \\
+   \cmpd{ebs.ph}$\cdot$DMAP                           & 985.4753            & 205.5761 & 1069.2485 & 1681.6013          \\
+   \cmpd{ebs.4no2}$\cdot$DMAP                         & -                   & -        & -         & -         \\\bottomrule
+  \end{tabular}
+  \label{tab:77se-calc-ebs-csa}
+\end{table}
+
+In order to convert these chemical shielding tensors $\sigma$ into chemical \emph{shifts} $\delta$, we must reference them to a standard $\sigma_{\textrm{ref}}$.
+
+\begin{equation}
+  \delta = 10^6(\sigma_{\textrm{ref}} - \sigma_{\textrm{sample}})
+\end{equation}
+
+Convention dictates that for \ce{^{77}Se}, dimethylselenide is assigned a chemical shift of 0~ppm.
+The structure of dimethylselenide was therefore optimised and shielding tensors calculated at the same level.
 
 \begin{figure}
   \centering
@@ -680,9 +714,10 @@ In order to verify our results, we also \emph{calculated} the chemical shielding
   \label{fig:77se-tensor-ebs-dmap}
 \end{figure}
 
+\subsubsection{Measurement of CSA in a single crystal}
 We were fortunate to obtain a single crystal of \cmpd{ebs.ph}$\cdot$DMAP of sufficient size (approx $10\times3\times1$~mm, \ref{fig:ebs-ph-dmap-picture}) for a single crystal SS-NMR experiment, allowing us to measure the orientation of the tensor in that crystal for comparison with our computational results.\footnote{Unfortunately no other derivatives formed crystals of sufficient size or morphology for the SS-NMR experiment.}
 In order to do this, the faces of the crystal had to be indexed to the internal structure.
-As the crystal was too big to mount on the diffractometer, two faces were marked with different coloured pens, then a small fragment was removed from the crystal.
+As the crystal was far too big to mount on the diffractometer, two faces were marked with different coloured pens, then a small fragment was removed from the crystal.
 This was mounted, and a short data collection afforded an indexable pattern.
 The resulting planes are shown in \ref{fig:ebs-ph-dmap-index}, with the internal structure adjacent.
 
@@ -709,9 +744,6 @@ The resulting planes are shown in \ref{fig:ebs-ph-dmap-index}, with the internal
   \caption{}
   \label{fig:ebs-ph-dmap-index}
 \end{figure}
-
-
-
 
 
 
