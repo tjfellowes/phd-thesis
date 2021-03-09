@@ -297,11 +297,11 @@ Linear free energy relationships are...
 \section{Results and discussion}
 Our previous work had shown that electron-rich pyridines (specifically DMAP) formed the strongest Ch-bonds out of all the bases trialled. 
 This is roughly consistent with the hydrogen bond basicity (pK\textsubscript{HB}) of the bases (\ref{tab:pkhb}).
-Methyl cation affinities?\autocite{Wei2005}
+Methyl cation affinities?\autocite{Wei2008MethylOrganocatalysts}
 The planar geometry and aromatic character of DMAP may also facilitate crystallisation, as opposed to the relatively bulky and flexible aliphatic bases which may not pack as efficiently.
 For these reasons, we restricted the bases used in this study to other electron-rich pyridines.
 Although DMAP is already a very strong base, the basisicity can be increased by incorporating the aniline nitrogen in another ring.
-This reduces the energetic penalty associated with the delocalisation of the lone pair into the pyridine ring, by forcing a more planar geometry upon the nitrogen.\autocite{Berthelot1998,Heinrich2003}
+This reduces the energetic penalty associated with the delocalisation of the lone pair into the pyridine ring, by forcing a more planar geometry upon the nitrogen.\autocite{Berthelot1998,Heinrich2003EnhancingFixation}
 Compounds \cmpd{py.pyrrol,py.morph} were therefore synthesised by treating 4-chloropyridine hydrochloride with 2 equivalents of the appropriate base (\ref{sch:base-synthesis}).
 
 \begin{scheme}
@@ -651,8 +651,7 @@ The resulting spectra are presented in \ref{fig:77se-ssnmr-ebs}, and the extract
     \caption{\ce{^{77}Se} CPMAS NMR spectrum of \refcmpd{ebs.ph}$\cdot$DMAP.}
   \end{subfigure}
   \begin{subfigure}{0.5\linewidth}
-    TODO
-    %\includegraphics[height=0.3\textheight]{Figures/ebs-4no2-dmap-cpmas-77se.pdf}
+    \includegraphics[height=0.3\textheight]{Figures/ebs-4no2-dmap-cpmas-77se.pdf}
     \caption{\ce{^{77}Se} CPMAS NMR spectrum of \refcmpd{ebs.4no2}$\cdot$DMAP.}
   \end{subfigure}
   \caption{}
@@ -664,9 +663,10 @@ The resulting spectra are presented in \ref{fig:77se-ssnmr-ebs}, and the extract
   \begin{tabular}{llll}
     \toprule
     Complex                     & $\delta_{11}$ & $\delta_{22}$ & $\delta_{33}$ \\\midrule
-    \cmpd{ebs.4ome}$\cdot$DMAP  &               &               &               \\  
-    \cmpd{ebs.ph}$\cdot$DMAP    &               &               &               \\  
-    \cmpd{ebs.4no2}$\cdot$DMAP  &               &               &               \\\bottomrule
+    \cmpd{ebs.4ome}$\cdot$DMAP\footnote{Site a}  & 1569.77       & 467.30        & 466.97        \\  
+    \cmpd{ebs.4ome}$\cdot$DMAP\footnote{Site b}  & 1602.10       & 499.63        & 499.29        \\  
+    \cmpd{ebs.ph}$\cdot$DMAP    & 1612.44       & 572.59        & 408.71        \\  
+    \cmpd{ebs.4no2}$\cdot$DMAP  & 1609.42       & 497.11        & 476.34        \\\bottomrule
   \end{tabular}
   \label{tab:77se-ssnmr-ebs-csa}
 \end{table}
@@ -695,9 +695,18 @@ The resulting planes are shown in \ref{fig:ebs-ph-dmap-index}, with the internal
 
 \begin{figure}
   \centering
-  TODO
-  %\includegraphics[width=0.4\linewidth]{Figures/ebs-ph-dmap-index.jpg}
-  \caption{Indexed faces of \cmpd{ebs.ph}$\cdot$DMAP.}
+  \begin{subfigure}{\linewidth}
+    \centering
+    \includegraphics[width=0.4\linewidth]{Figures/xtal-b.jpg}
+    \includegraphics[width=0.4\linewidth]{Figures/xtal-c.jpg}
+    \caption{Indexed faces of \cmpd{ebs.ph}$\cdot$DMAP.}
+  \end{subfigure}
+  \begin{subfigure}{\linewidth}
+    \centering
+    \includegraphics[width=0.4\linewidth]{Figures/indices.png}
+    \caption{Internal structure of crystal with indexed faces. The plane normal to the Ch-bond is indicated in yellow.}
+  \end{subfigure}
+  \caption{}
   \label{fig:ebs-ph-dmap-index}
 \end{figure}
 
