@@ -703,6 +703,9 @@ The tensors (in the computation reference frame) were found to be
 \begin{equation*}    
   \sigma_{\textrm{\ce{Me2Se}}} = \begin{bmatrix} 2276.3834 & -0.0073 & -0.0175 \\ -0.0159 & 1579.1094 & 0.0349 \\ -0.0622 & -0.0041 & 1583.4669 \end{bmatrix}
 \end{equation*}
+\begin{equation*}  
+  \sigma_{\textrm{\cmpd{ebs.ph}}} = \begin{bmatrix} 1086.4346 & 929.1822 & 929.1822 \\ 862.9168 & 514.6826 & -87.328 \\ 105.4202 & -92.4104 & 1101.0194 \end{bmatrix}
+\end{equation*}
 \begin{equation*}
   \sigma_{\textrm{\cmpd{ebs.4ome}}\cdot\textrm{DMAP}} = \begin{bmatrix} 1595.7999 & 367.4957 & 6.7322 \\ 322.6389 & 291.3611 & 10.8588 \\ -19.9165 & -35.8017 & 1069.2648 \end{bmatrix}
 \end{equation*}
@@ -720,6 +723,7 @@ affording reference frame independent principal values in \ref{tab:77se-calc-ebs
     \toprule
     Complex                                           & $\sigma_{\textrm{iso}}$ & $\sigma_{11}$  & $\sigma_{22}$  & $\sigma_{33}$   \\\midrule
     \ce{Me2Se}                                        & 1812.9866           & 1579.1093& 1583.4670 & 2276.3834  \\
+    \cmpd{ebs.ph}                                     & 900.7122            & -156.9566& 1114.4138 & 1744.6794  \\
     \cmpd{ebs.4ome}$\cdot$DMAP                        & -                   & -        & -         & -          \\
     \cmpd{ebs.ph}$\cdot$DMAP                          & 985.4753            & 205.5761 & 1069.2485 & 1681.6013  \\
     \cmpd{ebs.4no2}$\cdot$DMAP                        & -                   & -        & -         & -          \\\bottomrule
@@ -727,13 +731,14 @@ affording reference frame independent principal values in \ref{tab:77se-calc-ebs
   \label{tab:77se-calc-ebs-shielding-csa}
 \end{table}
 
-These were converted to chemical shifts using \ref{eqn:shieldingtoshift}, which are presented in \ref{tab:77se-calc-ebs-shift-csa}.
+These were converted to chemical shifts using Equation \ref{eqn:shieldingtoshift}, which are presented in \ref{tab:77se-calc-ebs-shift-csa}.
 
 \begin{table}
   \caption{Principal values of the chemical shift tensor calculated from optimised structures.}
   \begin{tabular}{lllll}
     \toprule
     Complex                                           & $\delta_{\textrm{iso}}$ & $\delta_{11}$  & $\delta_{22}$  & $\delta_{33}$   \\\midrule
+    \cmpd{ebs.ph}                                     & 912.2744            & 1969.9432& 698.5728  & 68.3072    \\
     \cmpd{ebs.4ome}$\cdot$DMAP                        & -                   & -        & -         & -          \\
     \cmpd{ebs.ph}$\cdot$DMAP                          & 827.5113            & 1607.4105& 743.7381  & 131.3853   \\
     \cmpd{ebs.4no2}$\cdot$DMAP                        & -                   & -        & -         & -          \\\bottomrule
@@ -752,9 +757,8 @@ This clearly shows the contribution of the lone pair of the pyridyl nitrogen to 
 
 \begin{figure}
   \centering
-  REDO
   \includegraphics[width=0.5\linewidth]{Figures/77se-tensor-ebs-dmap.png}
-  \caption{Calculated chemical shielding tensor for \refcmpd{ebs.ph}$\cdot$DMAP.}
+  \caption{Calculated chemical shift tensor for \refcmpd{ebs.ph}$\cdot$DMAP.}
   \label{fig:77se-tensor-ebs-dmap}
 \end{figure}
 
@@ -764,9 +768,8 @@ The $\sigma$-holes deshield the selenium, therefore the $\delta_{11}$ component 
 
 \begin{figure}
   \centering
-  REDO
   \includegraphics[width=0.5\linewidth]{Figures/77se-tensor-ebs.png}
-  \caption{Calculated chemical shielding tensor for \refcmpd{ebs.ph}.}
+  \caption{Calculated chemical shift tensor for \refcmpd{ebs.ph}.}
   \label{fig:77se-tensor-ebs}
 \end{figure}
 
