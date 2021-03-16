@@ -13,7 +13,7 @@ In the 19th century, it became apparent that these classes paint an incomplete p
 As part of their investigation into solvent effects on the colour of iodine solutions in 1949, Bensei and Hildebrand invoked the concept of ``charge-transfer'' complexes to explain the association of molecular iodine with nucleophililc solvent molecules.\autocite{Benesi1949}
 Although the electrophilic nature of molecular halogens was already well appreciated with respect to reactivity, this appears to be the first acknowledgement that this understanding could be applied to ground state complexes.
 In support of this, Hassel and Hvoslef elucidated the structure of a 1:1 complex of molecular bromine and 1,4-dioxane in 1954, and observed an unusally strong interaction between the two molecules.\autocite{Hassel1954}
-The crystal was comprised of long chains of monomers (figure \ref{fig:hassel-xray}), exhibiting a very short O\dots Br contact (2.71\AA, the sum of the VDW radii is 3.37\AA), and a slightly lengthened Br--Br bond (2.31\AA~vs 2.28\AA~in gaseous bromine).
+The crystal was comprised of long chains of monomers (\cref{fig:hassel-xray}), exhibiting a very short O\dots Br contact (2.71\AA, the sum of the VDW radii is 3.37\AA), and a slightly lengthened Br--Br bond (2.31\AA~vs 2.28\AA~in gaseous bromine).
 
 \begin{figure}[ht]
   \includegraphics[width=0.6\columnwidth]{Figures/hassel-xray.eps}
@@ -37,7 +37,7 @@ Note this is contrary to the formal flow of electron density; Ch-bond \emph{dono
 For the purposes of this report, ``donor'' will refer to the Lewis acidic chalcogen species.
 
 \subsection{Mechanisms}
-As was briefly discussed in the introduction, all intermolecular (and indeed \emph{intra}molecular) forces are manifestations of the electromagnetic force.
+As was discussed in the introduction, all intermolecular (and indeed \emph{intra}molecular) forces are manifestations of the electromagnetic force.
 Nonetheless, it is more convenient to categorise energetic contributions to any given interaction as orbital, electrostatic, or dispersion mediated, as there are marked differences in strength and directionality between them.
 Historically, X- and Ch-bond interactions were understood to be primarily due to orbital overlap and resulting charge transfer.
 Evidence for this included the lengthening of the X--X bond corresponding to increased occupation of the $\sigma^{\star}$(X-X) orbital due to the incoming lone pair (this was observed in Hassel and Hvoslef's original work\autocite{Hassel1954}).
@@ -261,20 +261,20 @@ This force field will prove useful in understanding the interactions between ebs
 
 We began by deriving the classical bonding parameters involving selenium in ebselen, using the procedure of Torsello.\autocite{Torsello2016}
 All quantum calculations were performed using Gaussian09, unless otherwise specified.\autocite{Gaussian09}
-Electrostatic potentials were calculated using the \texttt{cubegen} program in the Gaussian suite, or \texttt{mol2cub} (https://github.com/tjfellowes/mol2cub).
+Electrostatic potentials were calculated using the \texttt{cubegen} program in the Gaussian suite, or \texttt{mol2cub}\footnote{\url{https://github.com/tjfellowes/mol2cub}}.
 The ground state geometry of ebselen was optimized at the $\omega$B97X-D/def2TZVP level, followed by vibrational analysis to confirm the structure was minimized.\autocite{Chai2008,Weigend2005,Weigend2006}
 Partial charges were assigned to the atoms using the RESP scheme, at the HF/6-31G* level.\autocite{Cornell1993}
 This was chosen for consistency with existing AMBER force fields.
 
 \subsection{Classical bonding parameters}
 Bond and angle force constants were derived by conducting a relaxed potential energy surface scan over a range of $\pm0.3$~\AA~for bonds and $\pm10$\degree~for angles.
-The resulting data was truncated to within 5~kcal/mol of the equilibrium energy (at larger distances the surfaces were appreciably anharmonic), and this surface was fitted with a classical harmonic oscillator model (equation \ref{eqn:cho}) using the \texttt{nls} function in the R software package.\autocite{R}
+The resulting data was truncated to within 5~kcal/mol of the equilibrium energy (at larger distances the surfaces were appreciably anharmonic), and this surface was fitted with a classical harmonic oscillator model (equation \cref{eqn:cho}) using the \texttt{nls} function in the R software package.\autocite{R}
 The equilibrium distance/angle $x_0$ was fixed to the value from the optimized geometry.
-Torsion angles were similarly scanned at the DFT and MM (with the torsion term set to zero) levels, and the difference between these surfaces was fitted using a periodic series truncated to the fourth order (equation \ref{eqn:dihe}).
+Torsion angles were similarly scanned at the DFT and MM (with the torsion term set to zero) levels, and the difference between these surfaces was fitted using a periodic series truncated to the fourth order (equation \cref{eqn:dihe}).
 An unrealistically high torsion barrier was identified in the central \ce{Se-N-C_{ar}-C_{ar}} dihedral, due to a repulsive short-range interaction between the aromatic hydrogen and carbonyl oxygen.
 We were unable to correct for this in the periodic series describing the torsion, so the non-bonding parameter for the oxygen was reduced to ???.
 This did not appear to have any negative impact on interactions involving this oxygen, while improving the overall structural model.
-The resulting parameters are presented in tables \ref{tab:cho-params} and \ref{tab:dihe-params}.
+The resulting parameters are presented in \cref{tab:cho-params,tab:dihe-params}.
 
 \begin{equation}
     V(x) = \frac{1}{2} k (x - x_0) ^2
@@ -304,6 +304,7 @@ The resulting parameters are presented in tables \ref{tab:cho-params} and \ref{t
 
 \begin{table}
     \centering
+    \footnotesize
     \begin{tabular}{lllllllll}\toprule
          Parameter & $V_\mathrm{max,2}$ & $V_\mathrm{max,4}$& $V_\mathrm{max,6}$& $V_\mathrm{max,8}$& $\gamma_2$ & $\gamma_4$ & $\gamma_6$ & $\gamma_8$ \\
          & kcal/mol & kcal/mol & kcal/mol & kcal/mol & \degree & \degree & \degree & \degree\\\midrule
@@ -327,7 +328,7 @@ Namely, electrostatics, induction, and dispersion.\autocite{Bleiholder2006,Bleih
 The magnitudes of each component of $\sigma$-hole interactions has been the subject of heated debate in recent years.
 For many applications, these disagreements are fairly philosophical and of little consequence, however this is not the case when attempting to model $\sigma$-hole interactions using MM.
 
-The electrostatic component generally refers to the interaction between two static (not distorted by each other) electric fields, which can be graphically represented by visualizing the electrostatic potential surfaces of the donor and acceptor moieties (figure \ref{fig:ebs-esp}).
+The electrostatic component generally refers to the interaction between two static (not distorted by each other) electric fields, which can be graphically represented by visualizing the electrostatic potential surfaces of the donor and acceptor moieties (\cref{fig:ebs-esp}).
 This is already treated in MM (for the case of atom centered charges) as a sum of pairwise interactions. 
 The accuracy of this component is only limited by the resolution of the electrostatic potential; it would appear that a pseudoatom approach could thus adequately describe the $\sigma$-hole.
 Dispersion is accounted for empirically within the $r^{-6}$ term of the Lennard-Jones potential.
@@ -344,8 +345,8 @@ The total interaction energy $E_\mathrm{tot}$ is decomposed into an electrostati
 These attractive forces are balanced by a repulsive exchange component $E_\mathrm{exch}$.
 
 Four Lewis bases were chosen which are representative of those likely to be encountered in biological systems, and which span a wide range of basicity.
-Their structures are given in figure \ref{fig:complexes}.
-SAPT(DFT) analyses were conducted using the Psi4 software package on geometries optimized at the $\omega$B97X-D/def2TZVP level, and the results are shown in figure \ref{fig:eda}.\autocite{Parrish2017}
+Their structures are given in \cref{fig:complexes}.
+SAPT(DFT) analyses were conducted using the Psi4 software package on geometries optimized at the $\omega$B97X-D/def2TZVP level, and the results are shown in \cref{fig:eda}.\autocite{Parrish2017}
 
 \begin{figure}
     \centering
@@ -388,7 +389,7 @@ where $q$ is the charge separation and $k$ is the force constant.
 Equating these expressions and solving for $k$ gives a force constant of 119.2~kcal/mol$\cdot$\AA$^2$.
 
 \subsection{Electrostatic potential map}
-With these parameters in hand, we were able to construct electrostatic potential maps (figure \ref{fig:ebs-esp}), which show good qualitative agreement between the DFT and pseudoatom model potentials.
+With these parameters in hand, we were able to construct electrostatic potential maps (\cref{fig:ebs-esp}), which show good qualitative agreement between the DFT and pseudoatom model potentials.
 Barely visible in the DFT ESP map is a second $\sigma$-hole, opposite the Se--C bond.
 Carbon is significantly less electronegative than nitrogen, so it doesn't polarize the selenium to the same degree, leading to a much smaller $\sigma$-hole.
 While it is conceivable that this $\sigma$-hole could form Ch-bonds as well, we have not observed any evidence of this in any of the derivatives we have studied.\autocite{Fellowes2019} 
@@ -409,7 +410,7 @@ Geometries were assessed by minimizing the ebselen-Lewis base structure over 100
 Trajectories were performed at 300~K for the strongly bonded systems (\cmpd{ebs}$\cdot$py and \cmpd{ebs}$\cdot$DMAc), however the weaker complexes (\cmpd{ebs}$\cdot$TMA and \cmpd{ebs}$\cdot$DMS) tended to dissociate under these conditions.
 Their trajectories were therefore conducted at 200~K and 100~K respectively.
 Binding energies were calculated by slowly cooling the system to 0~K, then conducting a short simulation to determine the potential energy of the system.
-Relevant parameters are given in figure \ref{fig:1.py-geom} and table \ref{tab:ebs-geom}, alongside DFT values for comparison.
+Relevant parameters are given in \cref{fig:1.py-geom} and \cref{tab:ebs-geom}, alongside DFT values for comparison.
 
 \begin{figure}
     \centering
@@ -428,7 +429,7 @@ Relevant parameters are given in figure \ref{fig:1.py-geom} and table \ref{tab:e
         \cmpd{ebs}$\cdot$DMS & 3.322~\AA~(3.265~\AA) & 165.0\degree~(177.4\degree) & 89.1\degree~(89.8\degree) & -4.541 (-5.646) \\
         \bottomrule
     \end{tabular}
-    \caption{Median geometric parameters for complexes with \cmpd{ebs}. DFT equilibrium values are given in brackets for comparison. DFT energies are derived from SAPT(DFT) (table S5). REDO}
+    \caption{Median geometric parameters for complexes with \cmpd{ebs}. DFT equilibrium values are given in brackets for comparison. DFT energies are derived from SAPT(DFT). REDO}
     \label{tab:ebs-geom}
 \end{table}
 
@@ -462,7 +463,7 @@ The ff14SB force field was used for the protein.
 The ebselen residue was introduced within the binding groove approximately halfway between the two units.
 The complex was then neutralized by addition of four \ce{Na+} ions at the sites of most negative electrostatic potential, and solvated with a TIP3P explicit water model to give a final box size of $77.095\times 96.253\times 78.411$\AA.
 The structure was minimized over 1000 cycles to remove bad contacts, then heated to 300~K over 200~ps.
-A simulation of 2~ns at 300~K was then performed to assess the average binding geometry, which was found to exhibit a bifurcated Ch-bond between the expected Cys111 sulfur and the adjacent Ile113 backbone carbonyl (figure \ref{fig:sod1-ebs}).
+A simulation of 2~ns at 300~K was then performed to assess the average binding geometry, which was found to exhibit a bifurcated Ch-bond between the expected Cys111 sulfur and the adjacent Ile113 backbone carbonyl (\cref{fig:sod1-ebs}).
 A similar experiment was performed \emph{without} the $\sigma$-hole, which failed to bind in a reproducible geometry, with the ebselen molecule wandering through the groove.
 This is presumably driven by hydrophobic interactions, and the entropic cost of desolvation.
 

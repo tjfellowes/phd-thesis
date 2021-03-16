@@ -12,7 +12,7 @@
 %% ---------------------------------------------------------------- 
 
 % Set up the document
-\documentclass[a4paper, 11pt]{Thesis}  % Use the "Thesis" style, based on the ECS Thesis style by Steve Gunn
+\documentclass[a4paper, 12pt]{Thesis}  % Use the "Thesis" style, based on the ECS Thesis style by Steve Gunn
 %
 % Put your figures in this directory
 \graphicspath{Figures/}  % Location of the graphics files (set up for graphics to be in PDF format)
@@ -20,6 +20,8 @@
 
 % Include any extra LaTeX packages required
 \def\jobname{Thesis} %<-- your file name
+
+\hfuzz=5pt
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
@@ -53,9 +55,12 @@
 \usepackage{microtype}
 
 \usepackage{chemnum}
-\usepackage{chemstyle}
+\usepackage[varioref=false]{chemstyle}
 \usepackage[version=4]{mhchem}
 \usepackage{chemscheme}
+
+\usepackage{cleveref}
+\crefname{scheme}{scheme}{schemes}
 
 \newcommand{\tablefit}[1]{\resizebox{\linewidth}{!}{#1}}
 \newcommand{\tablefitlandscape}[2]{\resizebox{#1\paperwidth}{!}{#2}}
