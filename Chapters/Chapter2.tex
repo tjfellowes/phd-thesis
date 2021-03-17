@@ -602,14 +602,61 @@ Spinning at 12~kHz instead of 10~kHz showed that the signals at 834.69 and 867.0
 \subsubsection{SOME MORE ABOUT HAMMETT STUFF}
 
 \subsection{Measurement of chemical shift anisotropy}
-LITTLE INTRO INTO CSA AND ELECTRON DENSITY
+The chemical shift of a nucleus is not a simple scalar quantity, as solution phase NMR experiments might suggest.
+The shielding, and hence the effective magnetic field felt by the nucleus depends on the electronic environment around the nucleus, which is decidedly \emph{an}isotropic, therefore incapable of being expressed as a scalar.
+Depending on the orientation of the electron cloud (and other shielding/deshielding influences) around the nucleus with respect to the magnetic field, different chemical shifts will be observed for the same nucleus.
+This phenomenon is the chemical shift anisotropy of a nucleus, and it is described mathematically by a second rank tensor, which is geometrically depicted as an ellipsoid.
 
-The intensities of the spinning sideband manifold can be analysed to afford the principal values of the chemical shift tensor, that is to say, the shape of the ellipsoid that is described by the tensor.
+In a solution phase NMR experiment, rapid and random tumbling of the molecules averages out the anisotropy of each signal, affording a sharp peak at the isotropic chemical shift.
+This can be simulated to some degree by magic angle spinning in solids experiments, but it is often the case that the chemical shift anisotropy is more interesting that the isotropic shift, so a solid phase NMR experiment is the only way to examine it.
+
+The shape of the chemical shift tensor can provide insight into the electronic environment of a nucleus, with large shielding components often being aligned with electronic features such as bonds or lone pairs.
+It is often convenient to define a principal axis system (PAS) for the tensor, consisting of two components which describe the longest and shortest axes of the ellipsoid, and the axis perpendicular to both.
+The PAS of the chemical shielding tensor is denoted by the lowercase $x$, $y$ and $z$, and the components of the tensor which are aligned with these axes are labelled $\sigma_{xx}$, $\sigma_{yy}$ and $\sigma_{zz}$.
+The laboratory reference frame is denoted by the uppercase $X$, $Y$ and $Z$, with the magnetic field $B_0$ being aligned with the $Z$ axis.
+A common method for transforming one coordinate system to another is through the use of Euler angles $\alpha$, $\beta$ and $\gamma$, which define sequential right-handed rotations about the axes of the rotating frame.
+As the chemical shielding is necessarily invariant to rotation about $Z$, we can dispense with the first of these angles $\alpha$, and simply refer to the latter two as the polar angles $\beta = \theta$ and $\gamma = \phi$.
+The chemical shielding tensor is thus depicted in \cref{fig:chemical-shielding-tensor}, and this will be the convention used in this work.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.4\linewidth]{Figures/Chemical_Shift_Tensor.png}
+  \caption{Representation of the principal axis system (PAS, blue dotted lines) with respect to the laboratory reference frame (black solid lines). The polar angles $\theta$ and $\phi$ relate the former to the latter. The principal components of the tensor are shown in red, and the overall shape is shown by the black ellipses.}
+  \label{fig:chemical-shielding-tensor}
+\end{figure}
+
+In almost all experiments, the chemical shielding tensor $\sigma$ is only indirected measured, \emph{via} the chemical shift $\delta$, which is defined with respect to a reference nucleus such that $\delta = \sigma_{\textrm{ref}} - \sigma_{\textrm{sample}}$.
+As the coordinate system as described above is somewhat arbitrary, the IUPAC convention defines the three principal components of the chemical shift tensor $\delta_{11}$, $\delta_{22}$ and $\delta_{33}$ such that $\delta_{11} \geq \delta_{22} \geq \delta_{33}$. 
+The isotropic chemical shift is given by the average $\delta_{\textrm{iso}} = \frac{(\delta_{11} + \delta_{22} + \delta_{33})}{3}$.
+There are two other conventions for describing chemical shift anisotropy, which are useful in different contexts.
+The Herzfeld Berger convention represents the chemical shift in terms of the span of the signal $\Omega = \delta_{11} - \delta_{33}$ and the skew $\kappa = \frac{3(\delta_{22} - \delta_{\textrm{iso}})}{\Omega}$ where $\delta_{\textrm{iso}}$ is the same as in the IUPAC convention.
+This is particularly useful for intuitively describing the powder lineshape formed by a given signal.
+The other convention is the Haeberlen convention, which defines the three principal components as $|\delta_{zz} - \delta_{\textrm{iso}}| \geq |\delta_{xx} - \delta_{\textrm{iso}}| \geq |\delta_{yy} - \delta_{\textrm{iso}}|$, and the parameters $\delta = \delta_{zz} -\delta_{\textrm{iso}}$ and $\eta = \frac{\delta_{xx} - \delta_{yy}}{\delta_{zz} -\delta_{\textrm{iso}}}$.
+This convention is most useful for describing the angular dependence of a chemical shift on the polar angles $\theta$ and $\phi$, which is given by the relationship\autocite{HAEBERLEN1976}
+\begin{equation}
+  \delta_{\textrm{obs}} = \delta_{\textrm{iso}} + \delta \left(\frac{3 \cos^2 \theta - 1 + \eta \sin^2 \theta \cos 2 \phi}{2} \right)
+  \label{eqn:orientation-csa}
+\end{equation}
+
+In a non-spinning polycrystalline or amorphous powder, the above expression can be integrated over the range of chemical shifts to give the characterisitc powder lineshape see in \cref{fig:ssnmr-tensor}, reproduced from the work of Facelli, Grant, and Michl.\autocite{Facelli1987Carbon-13Determination}
+The sample consists of randomly oriented tensors, all of which contribute to the signal.
+The principal values of the tensor $\delta_{11}$, $\delta_{22}$ and $\delta_{33}$ correspond to the two extrema of the line, and the central peak.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.45\linewidth]{Figures/ssnmr-tensor.pdf}
+  \caption{Characteristic solid-state NMR powder lineshape for an asymmetric tensor e.g. in an alkene. The positions of the three principal values are shown.}
+  \label{fig:ssnmr-tensor}
+\end{figure}
+
+The extremely poor S/N ratio (especially for a relatively insensitive nucleus like \ce{^{77}Se}) limits the utility of this method, as the radiated signal from the nuclei is spread out over a large bandwidth.
+Spinning at the magic angle can improve the S/N ratio by partially averaging out the chemical shift anisotropy and dipolar relaxation.
+Instead of the powder pattern, we instead observe a sharp isotropic chemical shift and a series of spinning sidebands which are separated from the isotropic peak by multiples of the spinning frequency.
+The radiated power is thus concentrated in narrower bands, leading to a much improved S/N ratio.
+
 An example is presented in \cref{fig:31P-ssnmr} of proton decoupled solid state \ce{^{31}P} spectra of barium diethyl phosphate, reproduced from the work of Herzfeld and Berger\autocite{Herzfeld1980SidebandAngle}.
 In the first spectrum, no magic angle spinning was used, and the lineshape is characteristically broadened into an asymmetric peak (the powder lineshape).
 Note the poor S/N ratio due to the broad peak.
-EXPLAIN HOW SSBs ARISE
-Assuming constant power is deposited in the sample, sharper lines will give improved S/N ratio as the radiated energy is concentrated in narrower bands.
 The S/N ratio can be seen to improve as the spinning speed increases, and the sidebands become more sparse, affording a stronger signal overall.
 
 \begin{figure}
@@ -621,20 +668,6 @@ The S/N ratio can be seen to improve as the spinning speed increases, and the si
     \includegraphics[width=0.45\linewidth]{Figures/31P-ssnmr-2.92khz.pdf}
     \caption{Proton decoupled solid state \ce{^{31}P} spectra of barium diethyl phosphate spinning at the magic angle, at the speed specified. The isotropic chemical shift is shown by the vertical dotted line.}
     \label{fig:31P-ssnmr}
-\end{figure}
-
-The relationship between this lineshape and the chemical shift tensor is shown in \cref{fig:ssnmr-tensor}, reproduced from the work of Facelli, Grant, and Michl.\autocite{Facelli1987Carbon-13Determination}
-The principal values of the tensor $\delta_{11}$, $\delta_{22}$ and $\delta_{33}$ correspond to the two extrema of the line, and the central peak.
-Note that this peak is not the same as the isotropic chemical shift observed in solution, which is given by the average
-\begin{equation}
-    \delta_{iso} = \frac{(\delta_{11} + \delta_{22} + \delta_{33})}{3}
-\end{equation}
-
-\begin{figure}
-    \centering
-    \includegraphics[width=0.45\linewidth]{Figures/ssnmr-tensor.pdf}
-    \caption{Characteristic solid-state NMR powder lineshape for an asymmetric tensor e.g. in an alkene. The positions of the three principal values are shown.}
-    \label{fig:ssnmr-tensor}
 \end{figure}
 
 The principal values of the tensor are clearly easily obtained from a non-spinning sample, as they can practically be read off the spectrum.
@@ -690,6 +723,8 @@ The resulting spectra are presented in \cref{fig:77se-ssnmr-ebs}, and the extrac
   \label{tab:77se-ssnmr-ebs-csa}
 \end{table}
   
+
+\subsection{Calculation of chemical shift anisotropy}
 In order to verify our results, we also \emph{calculated} the chemical shielding tensors in order to compare the principal values, and also determine the likely orientation of the tensors with respect to the rest of the molecule (\cref{fig:77se-tensor-ebs-dmap}).
 These calculations were conducted at the $\omega$B97X-D/def2tzvp level, using the GIAO method of calculating shielding tensors.\autocite{Schreckenbach1995CalculationTheory,Schreckenbach1996TheApproximation}
 In order to convert these chemical shielding tensors $\sigma$ into chemical shifts $\delta$, we must reference them to a standard $\sigma_{\textrm{ref}}$.
@@ -795,10 +830,6 @@ The calculated chemical shift tensors were useful in the absence of experimental
 However, we wished to verify the orientation of the tensor by an experimental method.
 
 We were fortunate to obtain a single crystal of \cmpd{ebs.ph}$\cdot$DMAP of sufficient size (approx $10\times3\times1$~mm, \cref{fig:ebs-ph-dmap-picture}) for a single crystal SS-NMR experiment, allowing us to measure the orientation of the tensor in that crystal for comparison with our computational results.\footnote{Unfortunately no other derivatives formed crystals of sufficient size or morphology for the SS-NMR experiment.}
-In order to do this, the faces of the crystal had to be indexed to the internal structure.
-As the crystal was far too big to mount on the diffractometer, two faces were marked with different coloured pens, then a small fragment was removed from the crystal.
-This was mounted, and a short data collection afforded an indexable pattern.
-The resulting planes are shown in \cref{fig:ebs-ph-dmap-index}, with the internal structure adjacent.
 
 \begin{figure}
   \centering
@@ -807,6 +838,12 @@ The resulting planes are shown in \cref{fig:ebs-ph-dmap-index}, with the interna
   \label{fig:ebs-ph-dmap-picture}
 \end{figure}
 
+In order to do this, the faces of the crystal had to be indexed to the internal structure, which was done by x-ray diffraction.
+As the crystal was far too big to mount on the diffractometer, two faces were marked with different coloured pens to preserve the relation to the large crystal, then a small fragment was removed from the crystal.
+This was mounted, and a short data collection afforded an indexable pattern.
+The resulting planes are shown in \cref{fig:ebs-ph-dmap-index}.
+
+\begin{comment}
 \begin{figure}
   \centering
   \includegraphics[width=0.4\linewidth]{Figures/xtal-b.jpg}
@@ -814,16 +851,19 @@ The resulting planes are shown in \cref{fig:ebs-ph-dmap-index}, with the interna
   \caption{Indexed faces of \cmpd{ebs.ph}$\cdot$DMAP.}
   \label{fig:ebs-ph-dmap-index}
 \end{figure}
+\end{comment}
+
 
 \begin{figure}
   \centering
   \includegraphics[width=0.7\linewidth]{Figures/indices.png}
   \caption{Internal structure of crystal with indexed faces. The plane normal to the Ch-bond is indicated in yellow.}
-  \label{fig:ebs-ph-dmap-index2}
+  \label{fig:ebs-ph-dmap-index}
 \end{figure}
 
-The large crystal was mounted in a goniometer probe, and spectra were acquired on a 600~MHz instrument at several angles with respect to the magnetic field.
-The spectra were referenced to a saturated solution of diphenyldiselenide in \ce{CDCl3} at 463~ppm, which was contained in a zirconia MAS rotor adjacent to the crystal.\autocite{Duddeck1995}
+The large crystal was then mounted in a goniometer probe, and spectra were acquired on a 600~MHz instrument using a Hahn echo pulse sequence.
+This was necessary to preseve the extremely weak signal by isolating it from the excitation pulse in the time domain.
+The spectra were referenced to a saturated solution of diphenyldiselenide in \ce{CDCl3} at 463~ppm, which was contained in a zirconia MAS rotor.\autocite{Duddeck1995}
 
 The crystal orientation with respect to the magnetic field is depicted in \cref{fig:ebs-ph-dmap-magfield-index}, and the resulting spectrum is shown in \cref{fig:ebs-dmap-hahnecho-77se}.
 The selenium nucleus in this orientation resonates at 437~ppm.
@@ -842,20 +882,30 @@ The selenium nucleus in this orientation resonates at 437~ppm.
   \label{fig:ebs-dmap-hahnecho-77se}
 \end{figure}
 
-Using the relationship in \cref{eqn:euler}, we are able to derive the Euler angles which relate the principal axis system of the chemical shift tensor to the laboratory coordinate system.
-In this case, as can be seen in \cref{fig:ebs-ph-dmap-magfield-index}, the laboratory reference frame (or at least the $z$-axis) is coincicent with the $c$-axis of the crystal, which greatly simplifies analysis.
+Using the relationship in \cref{eqn:orientation-csa}, we are able to derive the polar angles which relate the principal axis system of the chemical shift tensor to the laboratory coordinate system.
+In this case, as can be seen in \cref{fig:ebs-ph-dmap-magfield-index}, the laboratory reference frame (or at least the $z$-axis) is coincicent with the $c$-axis of the crystal, which greatly simplifies analysis by obviating the need for a further transformation between the crystal axes and laboratory reference.
 
-\begin{equation}
-  \delta_{\textrm{obs}} = \delta_{\textrm{iso}} + \delta_{\textrm{CSA}}\left(\frac{3\cos^2 \beta - 1}{2} + \frac{1}{2} \eta_{\textrm{CSA}} \sin^2 \beta \cos 2 \gamma \right)
-  \label{eqn:euler}
+DO THIS
+
+We can calculate the chemical shift tensor using the diagonal components from the powder experiment and the rotation matrix from the polar angles:
+\begin{equation}\resizebox{.9\hsize}{!}{$
+  \delta = \begin{bmatrix} \cos\theta & \sin\theta\sin\phi & \sin\theta\cos\phi \\ 0 & \cos\phi & -\sin\phi \\ -\sin\theta & \cos\theta\sin\phi & \cos\theta\cos\phi \end{bmatrix}
+  \begin{bmatrix} 1616.74 & 0 & 0 \\ 0 & 596.21 & 0 \\ 0 & 0 & 380.64 \end{bmatrix}
+  \begin{bmatrix} \cos\theta & \sin\theta\sin\phi & \sin\theta\cos\phi \\ 0 & \cos\phi & -\sin\phi \\ -\sin\theta & \cos\theta\sin\phi & \cos\theta\cos\phi \end{bmatrix}^{-1}$}
 \end{equation}
-where $\delta_{\textrm{CSA}} = \delta_{\textrm{ZZ}} -\delta_{\textrm{iso}}$ and $\eta_{\textrm{CSA}} = \frac{\delta_{\textrm{XX}} - \delta_{\textrm{YY}}}{\delta_{\textrm{CSA}}}$.
+which affords
+\begin{equation}
+  \delta = \begin{bmatrix} 0 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{bmatrix}
+\end{equation}
+and hence\begin{equation}
+  \sigma = \begin{bmatrix} 0 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{bmatrix}
+\end{equation}
 
-Setting $\gamma$ to zero, we are able to solve for $\beta$, which is equal to 38.8\degree~or 51.2\degree.
-For comparison, the angle between the $(0 0 1)$ and $(\bar{1} 3 \bar{5})$ (roughly perpendicular to the Ch-bond) planes is 34.1\degree.
-This is an excellent agreement, demonstrating the utility of this method for visualising Ch-bonding.
+This agrees very well with the calculated tensor, and strongly supports our assertion that the chemical shift anisotropy is influenced by the $\sigma$-hole.
 
-We can compare this result to the calculated tensor by successively applying the rotation matrix of the principal axis system to crystal/laboratory reference system, then transforming this tensor to the computation reference frame.
+To briefly summarise, Ch-bonding induces enormous chemical shift anisotropy at the selenium, which is highly sensitive to the approach of the Lewis base and can be measured using both powder and single crystal SSNMR.
+While the technique is perhaps not as sensitive as diffraction based methods, the great advantage lies in the fact that SSNMR does not require crystallinity, even at the nano scale.
+This means that amorphous species such as polymers may be studies, as long as they contain an NMR active nucleus.
 
 \subsection{Solution-phase studies}
 While the above crystallographic analysis gives a useful qualitative understanding of the strength of the Ch-bond, we sought an experimental method that could accurately determine bond energies, so that we could easily compare our Ch-bonded complexes with those dominated by other interactions.
