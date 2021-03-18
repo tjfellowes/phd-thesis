@@ -3,6 +3,7 @@
 \begin{refsection}
 
 \chapter[Thermal rearrangement of a Ch-bonded solvate]{Thermal conversion of a pyridine solvate to a de-solvate facilitated by rearrangement of chalcogen bonds. The solvate and non-solvate structures of N-(2-nitro-4-(3-oxobenzo[\emph{d}][1,2]selenazol-2(3\emph{H})-yl)phenyl)picolinamide.}
+\label{sec:thermal-conversion}
 
 This chapter was published in Cryst. Eng. Comm., 26 May 2020\autocite{Fellowes2020a}. \footnote{Compound numbering, section titles, and terminology have been updated to fit this thesis.}
 
@@ -40,7 +41,6 @@ The benzisoselenazolinone \cmpd{ebs-nitroamide-2py} was prepared from the disele
 \replacecmpd{ebs-nitroaniline}
 \replacecmpd{ebs-nitroamide-2py}
 \replacecmpd{ebs-rhs-2py}
-%TMP LABELS NOT EMBEDDED AS TEXT. REDO.
 \includegraphics[scale=0.8]{Figures/ebs-synthesis3.eps}
 \caption[Synthesis of precursor \refcmpd{ebs-nitroamide-2py}]{Synthesis of precursor \refcmpd{ebs-nitroamide-2py}. a) \ce{SOCl2}, b) 2-nitro-1,4-benzenediamine, \ce{Et3N}, THF, c) Picolinic acid, TCBC/DMAP, \ce{Et3N}, d) [H], \ce{H+}.}
 \label{sch:ebs-synthesis2}
@@ -314,6 +314,45 @@ The mechanism, however, appears to be completely different.
 Ebselen behaves as a glutathione peroxidase mimic, that is to say, a catalyst that increases the rate at which glutathione reduces reactive oxygen species.
 
 \section{Synthesis of analogues}
+Initial targets \cmpd{ebs-rhs,bim-ebs,ebs-ebs} were identified as likely minor groove binders, based on their similarity to the bis-benzimidaozles used previously in the group.
+Bis-benzisoselenazolinone \cmpd{ebs-ebs} was particularly interesting, as it has the potential to be a completely H-bond free minor groove binder.
+However, we first focussed on the synthesis of benzisoselenazolinone-benzimidaozle \cmpd{ebs-rhs-2py}, as this appeared to be the most synthetically accessible using the chemistry developed in the group.
+
+The inital route to this molecule is shown in \cref{sch:ebs-rhs-synthesis-1}, which involved first synthesising the benzisoselenazolinone moiety, then constucting the bisbenzimidazole in a condensation and reductive dehydrocyclisation.
+The results of this, specifically the interesting crystal packing of the late stage intermediate \cmpd{ebs-nitroamide-2py} spurred the investigation detailed in \cref{sec:thermal-conversion}.
+However, this route was not able to furnish the desired product, as the benzisoselenazolinone moiety did not tolerate the reduction conditions trialled.
+Among the conditions trialled were: 
+\begin{itemize}
+    \item palladium catalysed hydrogenation, from which we only recovered starting material presumably due to the catalyst being poisoned by the divalent selenium,
+    \item tin (II) chloride/HCl reduction, which afforded a diselenide \cmpd{ebs-rhs-diselenide} (\cref{fig:diselenide-benzimidazole-2py-xray}),
+    \item dithionite reduction, which afforded a complex mixture of products.
+\end{itemize}
+
+\begin{figure}
+    \centering
+    GET FROM JOHNNY
+    %\includegraphics[width=0.5\linewidth]{Figures/diselenide-benzimidazole-2py-xray.png}
+    \caption{X-ray crystal structure of \refcmpd{ebs-rhs-diselenide}.}
+    \label{fig:diselenide-benzimidazole-2py-xray}
+\end{figure}
+
+\begin{scheme}
+    \replacecmpd{diselenide}
+    \replacecmpd{dichloride}
+    \replacecmpd{ebs-nitroaniline}
+    \replacecmpd{ebs-nitroamide-2py}
+    \replacecmpd{ebs-rhs-2py}
+    \includegraphics[scale=0.8]{Figures/ebs-synthesis3.eps}
+    \caption[Proposed synthesis of \refcmpd{ebs-rhs-2py}]{Proposed synthesis of precursor \refcmpd{ebs-rhs-2py}. a) \ce{SOCl2}, b) 2-nitro-1,4-benzenediamine, \ce{Et3N}, THF, c) Picolinic acid, TCBC/DMAP, \ce{Et3N}, d) [H], \ce{H+}.}
+    \label{sch:ebs-rhs-synthesis-1}
+\end{scheme}
+
+We therefore devised another scheme in which the benzisoselenazolinone ring is formed last (\cref{sch:ebs-rhs-synthesis-2}).
+This initially involved formation of an amide \cmpd{rhs-nitro-amide} by treating 3,4-diamino-1-nitrobenzene with an acid chloride.
+It was found that the acid chloride of picolinic acid (which would ultimately afford the 2-(2-pyridyl) benzimidazole) was not stable, decomposing almost as soon as it was formed.
+Rather than investigate other pathways to this compound (such as the use of coupling agents), we decided to simplify the system to a phenyl ring, as this had previously been shown to bind to DNA.
+We therefore formed \cmpd{rhs-nitro-amide} in excellent yield, which underwent a dehydrocyclisation in the presence of the strong Lewis acid \ce{BF3\cdot OEt2} to form \cmpd{rhs-nitro}.
+
 
 \begin{scheme}
     \replacecmpd{rhs-nitro-amide}
@@ -322,7 +361,7 @@ Ebselen behaves as a glutathione peroxidase mimic, that is to say, a catalyst th
     \replacecmpd{ebs-rhs}
     \caption{Synthesis of benzisoselenazolone-benzimidazole Hoechst analogue \refcmpd{ebs-rhs}.}
     \includegraphics[scale=0.8]{Figures/ebs-rhs-synthesis.eps}
-    \label{sch:ebs-rhs-synthesis}
+    \label{sch:ebs-rhs-synthesis-2}
     \end{scheme}
     
     \begin{scheme}
