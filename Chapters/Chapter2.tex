@@ -466,24 +466,24 @@ Indeed, omitting these data points improves the correlation coefficient to 0.814
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.45\linewidth]{Figures/hammett-endo-dmap.eps}
-    \includegraphics[width=0.45\linewidth]{Figures/hammett-dmap.eps}
+    \includegraphics[width=0.9\linewidth]{Figures/hammett-endo-dmap.eps}
+    \includegraphics[width=0.9\linewidth]{Figures/hammett-dmap.eps}
     \caption{Hammett plots of endocyclic \ce{Se-N} bond length and \ce{Se\cdots N} Ch-bond length of ebselen derivatives complexed with DMAP. The lines are described by the equations $\mathrm{r}(\ce{Se-N}) = (1.957(5) + 0.054(12) \times \sigma_{\mathrm{X}})$~\AA~ and $\mathrm{r}(\ce{Se\cdots N}) = (2.385(17) - 0.15(4) \times \sigma_{\mathrm{X}})$~\AA.}
     \label{fig:hammett-dmap}
 \end{figure}
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.45\linewidth]{Figures/hammett-endo-pyrrol.eps}
-  \includegraphics[width=0.45\linewidth]{Figures/hammett-pyrrol.eps}
+  \includegraphics[width=0.9\linewidth]{Figures/hammett-endo-pyrrol.eps}
+  \includegraphics[width=0.9\linewidth]{Figures/hammett-pyrrol.eps}
   \caption{Hammett plots of endocyclic \ce{Se-N} bond length and \ce{Se\cdots N} Ch-bond length of ebselen derivatives complexed with \refcmpd{py.pyrrol}. The lines are described by the equations $\mathrm{r}(\ce{Se-N}) = (1.9788(32) - 0.024(9) \times \sigma_{\mathrm{X}})$~\AA~($R^2=0.5722$) and $\mathrm{r}(\ce{Se-N}) = (2.331(14) - 0.04(4) \times \sigma_{\mathrm{X}})$~\AA~($R^2=0.1588$)}
   \label{fig:hammett-pyrrol}
 \end{figure}
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.45\linewidth]{Figures/hammett-endo-morph.eps}
-  \includegraphics[width=0.45\linewidth]{Figures/hammett-morph.eps}
+  \includegraphics[width=0.9\linewidth]{Figures/hammett-endo-morph.eps}
+  \includegraphics[width=0.9\linewidth]{Figures/hammett-morph.eps}
   \caption{Hammett plots of endocyclic \ce{Se-N} bond length and \ce{Se\cdots N} Ch-bond length of ebselen derivatives complexed with \refcmpd{py.morph}. The line is described by the equation $\mathrm{r}(\ce{Se-N}) = (1.9673(34) - 0.035(10) \times \sigma_{\mathrm{X}})$~\AA~($R^2=0.7260$) and $\mathrm{r}(\ce{Se-N}) = (2.397(77) - 0.13(2) \times \sigma_{\mathrm{X}})$~\AA~($R^2=0.8708$).}
   \label{fig:hammett-morph}
 \end{figure}
@@ -887,11 +887,14 @@ In this case, as can be seen in \cref{fig:ebs-ph-dmap-magfield-index}, the labor
 DO THIS
 
 We can calculate the chemical shift tensor using the diagonal components from the powder experiment and the rotation matrix from the polar angles:
+\ifpdf{
 \begin{equation}\resizebox{.9\hsize}{!}{$
   \delta = \begin{bmatrix} \cos\theta & \sin\theta\sin\phi & \sin\theta\cos\phi \\ 0 & \cos\phi & -\sin\phi \\ -\sin\theta & \cos\theta\sin\phi & \cos\theta\cos\phi \end{bmatrix}
   \begin{bmatrix} 1616.74 & 0 & 0 \\ 0 & 596.21 & 0 \\ 0 & 0 & 380.64 \end{bmatrix}
   \begin{bmatrix} \cos\theta & \sin\theta\sin\phi & \sin\theta\cos\phi \\ 0 & \cos\phi & -\sin\phi \\ -\sin\theta & \cos\theta\sin\phi & \cos\theta\cos\phi \end{bmatrix}^{-1}$}
 \end{equation}
+}
+\fi
 which affords
 \begin{equation}
   \delta = \begin{bmatrix} 0 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{bmatrix}
@@ -971,16 +974,29 @@ The resulting chemical shifts were then tabulated and plotted against the concen
 These are shown in \cref{fig:nmr-titrations}.
 
 \begin{figure}
-    \centering
-    \includegraphics[width=0.45\linewidth]{Figures/nmr-titration/bn-ebs-dmap.eps}
-    \includegraphics[width=0.45\linewidth]{Figures/nmr-titration/4oet-ebs-dmap.eps}
-    
-    \includegraphics[width=0.45\linewidth]{Figures/nmr-titration/ebs-dmap.eps}
-    \includegraphics[width=0.45\linewidth]{Figures/nmr-titration/4br-ebs-dmap.eps}
-    
-    \includegraphics[width=0.45\linewidth]{Figures/nmr-titration/4cn-ebs-dmap.eps}
-    \caption[NMR titration binding isotherms]{Binding isotherms for ebselen derivatives \refcmpd{ebs.bn,ebs.4oet,ebs.ph,ebs.4br,ebs.4cn} with DMAP. Scatchard plots are inset.}
-    \label{fig:nmr-titrations}
+  \centering
+  \begin{subfigure}{0.45\linewidth}
+    \includegraphics[width=\linewidth]{Figures/nmr-titration/bn-ebs-dmap.eps}
+    \caption{\refcmpd{ebs.bn}$\cdot$DMAP}
+  \end{subfigure}
+  \begin{subfigure}{0.45\linewidth}
+    \includegraphics[width=\linewidth]{Figures/nmr-titration/4oet-ebs-dmap.eps}
+    \caption{\refcmpd{ebs.4oet}$\cdot$DMAP}
+  \end{subfigure}
+  \begin{subfigure}{0.45\linewidth}
+    \includegraphics[width=\linewidth]{Figures/nmr-titration/ebs-dmap.eps}
+    \caption{\refcmpd{ebs.ph}$\cdot$DMAP}
+  \end{subfigure}
+  \begin{subfigure}{0.45\linewidth}
+    \includegraphics[width=\linewidth]{Figures/nmr-titration/4br-ebs-dmap.eps}
+    \caption{\refcmpd{ebs.4br}$\cdot$DMAP}
+  \end{subfigure}
+  \begin{subfigure}{0.45\linewidth}
+    \includegraphics[width=\linewidth]{Figures/nmr-titration/4cn-ebs-dmap.eps}
+    \caption{\refcmpd{ebs.4cn}$\cdot$DMAP}
+  \end{subfigure}
+  \caption[NMR titration binding isotherms]{Binding isotherms for ebselen derivatives \refcmpd{ebs.bn,ebs.4oet,ebs.ph,ebs.4br,ebs.4cn} with DMAP. Scatchard plots are inset.}
+  \label{fig:nmr-titrations}
 \end{figure}
 
 Non-linear regression analysis was performed with the \texttt{nls} function in the R software package using the relationship derived above, and the calculated values are given in \cref{tab:nmr-titrations}.\autocite{R}
