@@ -43,8 +43,10 @@
 %\hypersetup{urlcolor=blue, colorlinks=true}  % Colours hyperlinks in blue, but this can be distracting if there are many links.
 \usepackage{tablefootnote}
 
+
 \usepackage{fourier}
 %\usepackage{helvet} %USE FOR LATEX AUXILIARY COMPILATION OF FIGURES
+
 \usepackage{afterpage}
 \usepackage{caption}
 \usepackage{pdflscape}
@@ -65,6 +67,8 @@
 \newcommand{\tablefit}[1]{\resizebox{\linewidth}{!}{#1}}
 \newcommand{\tablefitlandscape}[2]{\resizebox{#1\paperwidth}{!}{#2}}
 
+\renewcommand{\a}{\ensuremath{\alpha}}
+
 \renewcommand*{\thefootnote}{\fnsymbol{footnote}}
 
 \renewcommand{\textprime}{\ensuremath{^{\prime}}}
@@ -72,6 +76,7 @@
 \addbibresource{thesis.bib}
 
 \setlength{\headheight}{30pt}
+\setchemnum{replace-style=\sffamily\footnotesize}
 
 %% ----------------------------------------------------------------
 \begin{document}
