@@ -37,8 +37,6 @@
                         {   9pt}  % foot height
                         {0.8cm}  % foot sep
 
-\usepackage{showframe}
-
 \usepackage[backend=biber, style=chem-acs, autocite=superscript]{biblatex}
 \usepackage{verbatim}  % Needed for the "comment" environment to make LaTeX comments
 \usepackage{vector}  % Allows "\bvec{}" and "\buvec{}" for "blackboard" style bold vectors in maths
@@ -80,6 +78,8 @@
 \else
   \newcommand{\textprime}{\ensuremath{^{\prime}}}
 \fi
+
+%\renewcommand{\cdot}{\ensuremath{\cdot}}
 
 \addbibresource{thesis.bib}
 
