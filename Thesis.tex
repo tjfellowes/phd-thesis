@@ -92,15 +92,15 @@
 {
     \int_to_symbols:nnn {#1} { 9 }
     {
-        { 1 } { \ce{H} }
-        { 2 } { \ce{NO2} }
-        { 3 } { \ce{CN} }
-        { 4 } { \ce{CF3} }
-        { 5 } { \ce{Br} }
-        { 6 } { \ce{CO2Et} }
-        { 7 } { \ce{CH3} }
-        { 8 } { \ce{OMe} }
-        { 9 } { \ce{OEt} }
+        { 1 } { \ce{NO2} }
+        { 2 } { \ce{CN} }
+        { 3 } { \ce{CF3} }
+        { 4 } { \ce{Br} }
+        { 5 } { \ce{CO2Et} }
+        { 6 } { \ce{CH3} }
+        { 7 } { \ce{OMe} }
+        { 8 } { \ce{OEt} }
+        { 9 } { ??? }
     }
 }
 
@@ -110,7 +110,7 @@
 {
     \int_to_symbols:nnn {#1} { 1 }
     {
-        { 1 } { \ce{$\cdot$\textmd{PMB}} }
+        { 1 } { \ce{\cdot PMB} }
     }
 }
 
@@ -118,9 +118,12 @@
 
 \ExplSyntaxOff
 
-
 %% ----------------------------------------------------------------
 \begin{document}
+
+\labelcmpd[sub-counter-format=hammett]{ebs.4no2,ebs.4cn,ebs.4cf3,ebs.4br,ebs.4co2et,ebs.4me,ebs.4ome,ebs.4oet}
+
+\resetsubcmpd{ebs}
 
 \frontmatter      % Begin Roman style (i, ii, iii, iv...) page numbering
 
