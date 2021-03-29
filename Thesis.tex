@@ -85,6 +85,40 @@
 
 \setchemnum{replace-style=\sffamily\scriptsize}
 
+\RequirePackage{expl3}
+
+\ExplSyntaxOn
+\cs_new:Npn \chem_int_to_hammett:n #1
+{
+    \int_to_symbols:nnn {#1} { 9 }
+    {
+        { 1 } { \ce{H} }
+        { 2 } { \ce{NO2} }
+        { 3 } { \ce{CN} }
+        { 4 } { \ce{CF3} }
+        { 5 } { \ce{Br} }
+        { 6 } { \ce{CO2Et} }
+        { 7 } { \ce{CH3} }
+        { 8 } { \ce{OMe} }
+        { 9 } { \ce{OEt} }
+    }
+}
+
+\newcmpdcounterformat{hammett}{\chem_int_to_hammett:n}
+
+\cs_new:Npn \chem_int_to_pg:n #1
+{
+    \int_to_symbols:nnn {#1} { 1 }
+    {
+        { 1 } { \ce{$\cdot$\textmd{PMB}} }
+    }
+}
+
+\newcmpdcounterformat{pg}{\chem_int_to_pg:n}
+
+\ExplSyntaxOff
+
+
 %% ----------------------------------------------------------------
 \begin{document}
 
