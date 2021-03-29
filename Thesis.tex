@@ -9,7 +9,7 @@
 %%
 %% ----------------------------------------------------------------
 %% Thesis.tex -- MAIN FILE (the one that you compile with LaTeX)
-%% ---------------------------------------------------------------- 
+%% ----------------------------------------------------------------
 
 % Set up the document
 \documentclass[a4paper, 12pt]{Thesis}  % Use the "Thesis" style, based on the ECS Thesis style by Steve Gunn
@@ -37,15 +37,11 @@
                         {   9pt}  % foot height
                         {0.8cm}  % foot sep
 
-\usepackage[backend=biber, style=chem-acs,autocite=superscript]{biblatex}
+\usepackage[backend=biber, style=chem-acs, autocite=superscript]{biblatex}
 \usepackage{verbatim}  % Needed for the "comment" environment to make LaTeX comments
 \usepackage{vector}  % Allows "\bvec{}" and "\buvec{}" for "blackboard" style bold vectors in maths
 %\hypersetup{urlcolor=blue, colorlinks=true}  % Colours hyperlinks in blue, but this can be distracting if there are many links.
 \usepackage{tablefootnote}
-
-
-\usepackage{fourier}
-%\usepackage{helvet} %USE FOR LATEX AUXILIARY COMPILATION OF FIGURES
 
 \usepackage{afterpage}
 \usepackage{caption}
@@ -61,6 +57,12 @@
 \usepackage[version=4]{mhchem}
 \usepackage{chemscheme}
 
+\ifpdf
+  \usepackage{fourier}
+\else
+  \usepackage{helvet} %USE FOR LATEX AUXILIARY COMPILATION OF FIGURES
+\fi
+
 \usepackage{cleveref}
 \crefname{scheme}{scheme}{schemes}
 
@@ -71,10 +73,18 @@
 
 \renewcommand*{\thefootnote}{\fnsymbol{footnote}}
 
+\ifpdf
+  \renewcommand{\textprime}{\ensuremath{^{\prime}}}
+\else
+  \newcommand{\textprime}{\ensuremath{^{\prime}}}
+\fi
+
+%\renewcommand{\cdot}{\ensuremath{\cdot}}
+
 \addbibresource{thesis.bib}
 
 \setlength{\headheight}{30pt}
-\setchemnum{replace-style=\sffamily\footnotesize}
+\setchemnum{replace-style=\sffamily\scriptsize}
 
 %% ----------------------------------------------------------------
 \begin{document}
@@ -82,7 +92,7 @@
 \frontmatter      % Begin Roman style (i, ii, iii, iv...) page numbering
 
 %
-\UNIVERSITY{{THE UNIVERSITY OF MELBOURNE}}    
+\UNIVERSITY{{THE UNIVERSITY OF MELBOURNE}}
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Update your department and school here:

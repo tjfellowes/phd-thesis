@@ -1,4 +1,4 @@
-
+\part{Background}
 \begin{refsection}
 
 \chapter{Introduction}
@@ -200,8 +200,7 @@ This, however, appears to be the extent of research on $\sigma$-hole interaction
 
 This chapter was submitted to chemRxiv...
 
-\section{Introduction}
-Ebselen (\cmpd{ebs}) is a molecule that has piqued the interest of many medicinal chemists, in no small part due to its decidedly non-druglike appearance. 
+Ebselen (\cmpd{ebs}) is a molecule that has piqued the interest of many medicinal chemists, in no small part due to its decidedly non-druglike appearance.
 First synthesized in 1924, its unusual properties went more or less uninvestigated for more than 50 years.\autocite{Lesser1924}
 Interest in ebselen boomed in the early 1980s, and since then it has been the subject of several studies into its synthesis, biological properties, and metabolism.\autocite{Weber1976,Renson1981,Muller1984,Wendel1984,Parnham1984,Engman1989,Schewe1995,Bhabak2010,Iwasaki2017}
 Its biological activity can be broadly attributed to its ability to neutralize reactive oxygen species (ROS), reducing the level of oxidative stress to which cells are subjected.\autocite{Mugesh2000}
@@ -222,7 +221,7 @@ Ebselen can also form non-covalent complexes with Lewis bases through an electro
 \replacecmpd{ebs-seh}
 \replacecmpd{ebs-seoh}
 \replacecmpd{ebs-sesr}
-\includegraphics[scale=0.8]{Figures/ebs-cat-cycle.eps}
+\includegraphics[scale=0.74]{Figures/ebs-cat-cycle.eps}
 \caption{Catalytic cycle of ebselen \emph{in vivo}.}
 \label{fig:catcycle}
 \end{figure}
@@ -251,7 +250,7 @@ It is worth noting an alternative approach, used by Cozzolino and Vargas-Baca, w
 This was used to parametrize the supramolecular synthon 1,2,5-telluradizaole, which is known to self assemble into a range of interesting structures.
 This approach, however, relies on describing the bond using an \emph{an}harmonic potential, which is not easily implemented in AMBER.
 
-The inability to model ebselen in biological systems is a major hurdle in understanding the mechanism of its action. 
+The inability to model ebselen in biological systems is a major hurdle in understanding the mechanism of its action.
 In this work we develop a parameter set for the selenium atom in ebselen, including a pseudoatom to simulate the $\sigma$-hole.
 This work is implemented in AMBER, due to its popularity, speed, and robustness, although there is no reason these parameters could not be extended to other force fields.
 We also restrict ourselves to the ``vanilla'' feature set of AMBER, given that advanced features such as polarizable force fields are not widely used in the analysis of ligand-receptor systems.
@@ -330,7 +329,7 @@ The magnitudes of each component of $\sigma$-hole interactions has been the subj
 For many applications, these disagreements are fairly philosophical and of little consequence, however this is not the case when attempting to model $\sigma$-hole interactions using MM.
 
 The electrostatic component generally refers to the interaction between two static (not distorted by each other) electric fields, which can be graphically represented by visualizing the electrostatic potential surfaces of the donor and acceptor moieties (\cref{fig:ebs-esp}).
-This is already treated in MM (for the case of atom centered charges) as a sum of pairwise interactions. 
+This is already treated in MM (for the case of atom centered charges) as a sum of pairwise interactions.
 The accuracy of this component is only limited by the resolution of the electrostatic potential; it would appear that a pseudoatom approach could thus adequately describe the $\sigma$-hole.
 Dispersion is accounted for empirically within the $r^{-6}$ term of the Lennard-Jones potential.
 
@@ -351,7 +350,7 @@ SAPT(DFT) analyses were conducted using the Psi4 software package on geometries 
 
 \begin{figure}
     \centering
-    \includegraphics[scale=0.8]{Figures/sapt-complexes.eps}
+    \includegraphics[scale=0.74]{Figures/sapt-complexes.eps}
     \caption{Structures of complexes used for SAPT(DFT) analysis.}
     \label{fig:complexes}
 \end{figure}
@@ -374,7 +373,7 @@ The SHAKE algorithm is applied to all H atom types, which serves to damp high fr
 The VDW parameters for this atom type were set to 0, so it would only exert influence through the electrostatic force.
 It is important to note that the non-zero mass of the pseudoatom will slightly effect the dynamics of the system, but not the final equilibrium.
 The pseudoatom was placed on the selenium atom 180\degree~from the nitrogen, at a distance of 0.8~\AA~(i.e. within the VDW surface).
-Force constants of 119.2~kcal/mol$\cdot$\AA$^2$ and 150.0~kcal/mol$\cdot$radian$^2$ were applied. 
+Force constants of 119.2~kcal/mol$\cdot$\AA$^2$ and 150.0~kcal/mol$\cdot$radian$^2$ were applied.
 The former was chosen to mimic the polarizability of an isolated selenium atom, and the latter was arbitrarily set.
 By employing a finite force constant, we are able to simulate the polarization contribution to Ch-bonding.
 The polarizability of an atom can be approximately calculated from first principles as
@@ -393,7 +392,7 @@ Equating these expressions and solving for $k$ gives a force constant of 119.2~k
 With these parameters in hand, we were able to construct electrostatic potential maps (\cref{fig:ebs-esp}), which show good qualitative agreement between the DFT and pseudoatom model potentials.
 Barely visible in the DFT ESP map is a second $\sigma$-hole, opposite the Se--C bond.
 Carbon is significantly less electronegative than nitrogen, so it doesn't polarize the selenium to the same degree, leading to a much smaller $\sigma$-hole.
-While it is conceivable that this $\sigma$-hole could form Ch-bonds as well, we have not observed any evidence of this in any of the derivatives we have studied.\autocite{Fellowes2019} 
+While it is conceivable that this $\sigma$-hole could form Ch-bonds as well, we have not observed any evidence of this in any of the derivatives we have studied.\autocite{Fellowes2019}
 We therefore did not attempt to model it, although it could be modelled in the same way as the main $\sigma$-hole opposite the nitrogen.
 
 \begin{figure}
