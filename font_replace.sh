@@ -20,8 +20,3 @@ for i in $( find Figures -name "*.eps" ); do
    rm $i.clean
    echo $i
 done
-
-latex Thesis
-dvips Thesis.dvi -o Thesis-pics.ps
-ps2pdf Thesis-pics.ps
-
