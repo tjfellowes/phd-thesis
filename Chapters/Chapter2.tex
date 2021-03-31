@@ -338,7 +338,7 @@ This likely reflects the varying strength of the crystal packing due to the \ce{
 \begin{scheme}
 \centering
 \replacecmpd{diselenide}
-\replacecmpd{ebs,ebs.{4no2,4cn,4cf3,4br,4co2et,4me,4ome,4oet}}
+\replacecmpd[merge=false]{ebs,ebs.{4no2,4cn,4cf3,4br,4co2et,4me,4ome,4oet}}
 \includegraphics[scale=0.74]{Figures/ebs-synthesis.eps}
 
 \begin{comment}
@@ -610,8 +610,6 @@ Spinning at 12~kHz instead of 10~kHz showed that the signals at 834.69 and 867.0
     \caption{Solid state \ce{^{77}Se}-NMR spectrum of \refcmpd{ebs.4ome}$\cdot$DMAP. The primary resonances are visible at 834.69 and 867.02~ppm. The remaining peaks are spinning sidebands, and are separated from the parent signals by multiples of 10~kHz (the magic angle spinning frequency).}
     \label{fig:cpmas-sol-77se}
 \end{figure}
-
-\subsubsection{SOME MORE ABOUT HAMMETT STUFF}
 
 \subsection{Measurement of chemical shift anisotropy}
 The chemical shift of a nucleus is not a simple scalar quantity, as solution phase NMR experiments might suggest.
@@ -1084,15 +1082,24 @@ Indeed, this is the basis of the technique of Threshold CID (TCID) developed by 
 Although the experiment is simple, the data analysis is not.
 This is due to the often poorly characterised energy distribution of the reactant ions, and vibrational energy redistribution in the products.
 These barriers are not insurmountable for simple systems (the technique has been successfully applied to metal complexes, and small non-covalent complexes), but in our moderately complex molecules with many vibrational modes, errors are likely to dominate any values extracted from the experiment.
-However, we present here a proof of concept experiment, which shows the decrease in reactant ion intensity and increase in product ion as CID energy is increased (\cref{fig:ebs-tcid}).
+However, we present here a proof of concept experiment, which shows the decrease in reactant ion intensity and increase in product ion as CID energy is increased (\cref{fig:ebs-ph-tcid} and \cref{fig:ebs-bn-tcid}).
 
 \begin{figure}
     \centering
-    TODO
-    %\includegraphics{Figures/ebs-tcid.pdf}
-    \caption[TCID experiment of \refcmpd{ebs}$\cdot$isonicotinate]{Rudimentary TCID experiment of \refcmpd{ebs}$\cdot$isonicotinate.}
-    \label{fig:ebs-tcid}
+    \includegraphics[width=\linewidth]{Figures/ebs-ph-cid.pdf}
+    \caption[TCID experiment of \refcmpd{ebs}$\cdot$isonicotinate]{Rudimentary TCID experiment of \refcmpd{ebs}$\cdot$isonicotinate. The CID energies are given in arbitrary units.}
+    \label{fig:ebs-ph-tcid}
 \end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=\linewidth]{Figures/ebs-bn-cid.pdf}
+  \caption[TCID experiment of \refcmpd{ebs.bn}$\cdot$isonicotinate]{Rudimentary TCID experiment of \refcmpd{ebs.bn}$\cdot$isonicotinate. The CID energies are given in arbitrary units.}
+  \label{fig:ebs-bn-tcid}
+\end{figure}
+
+The ion corresponding to the \cmpd{ebs}$\cdot$isonicotinate/\cmpd{ebs.bn}$\cdot$isonicotinate was first isolated directly from the ESI source in the negative ion mode, then this was subjected to increasing CID energies, recording spectra when the product isonicotinate ion at m/z 122 was first detected.
+Qualitatively, the \cmpd{ebs}$\cdot$isonicotinate Ch-bond can be seen to be stronger than the \cmpd{ebs.bn}$\cdot$isonicotinate Ch-bond, as a higher CID energy is needed to begin breaking the bond (7 arbitrary units \emph{versus} 6 units), and the parent ion persists until 12 units as opposed to 10 units.
 
 \section{Supplementary materials}
 
