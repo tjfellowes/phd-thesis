@@ -171,6 +171,30 @@ The authors estimated that the X-bonding interaction (mediated through a bromo-s
 A 2017 review identified a further 21 X-bonded nucleic acid structures.\autocite{Kolar2017}
 This, however, appears to be the extent of research on $\sigma$-hole interactions with nucleic acids, which is surprising given the attractiveness of nucleic acids as drug targets, and the rich Lewis basic sites exposed through the major and minor grooves.
 
+\section{Experimental methods}
+As mentioned above, X- and Ch-bonded interactions were originally identified crystallographically, with additional spectroscopic evidence being present.
+These pioneering methods have not changed a great deal, and x-ray crystallography is still the most powerful tool we have to study these interactions.
+We also use a number of spectroscopic techniques to probe the nature of Ch-bonding.
+Some of the methods used in this work go beyond the typical level encountered in postgraduate study, so a brief explanation of each is included here.
+
+\subsection{X-ray crystallography}
+Single crystal x-ray crystallography is the main experimental technique used in this work.
+It allows unambiguous determination of the structure of compounds (including stereochemistry), and potentially extremely accurate measurement of geometric parameters such as bond lengths.
+Practically speaking, a structure is determined by mounting a single crystal of a compound on a goniometer which can rotate the crystal through any orientation, then observing the position and intensity of diffracted x-ray beams.
+Rotating the crystal allows different diffraction spots to be observed, and a more complete dataset to be collected.
+The position of the diffraction spots provides information about the size and shape of the unit cell, and the intensities provide information about the internal structure i.e. the locations of the atoms in the unit cell.
+A full discussion of the mathematics of diffraction is outside the scope of this thesis, but the interested reader is referred to \citeauthor{Stout1989}.
+
+\subsubsection{Charge density refinement}
+Fundamental to the technique of x-ray structure determination is the process of refinement, by which parameters of the model (typically the molecular geometry) are varied to reproduce the observed intensity data as well as possible.
+Mathematically, this is performed as a least-squares optimisation, where the function 
+\begin{equation}
+    \sum^{m}_{r=1} w_{r} \left(f_{\mathrm{obs}, r} - f_{\mathrm{calc}, r} \right) ^{2}
+\end{equation}
+is minimised, where $f_{\mathrm{obs}, r}$ corresponds to the observed intensity, and $f_{\mathrm{calc}, r}$ corresponds to the intensity calculated from the model by Fourier synthesis. 
+$w_{r}$ is a weighting function used to reflect the confidence in any given observed data point.
+
+
 \printbibliography[heading=subbibliography]
 \end{refsection}
 
@@ -188,8 +212,8 @@ To this end, ebselen has been investigated for its neuroprotective, mood-stabili
 Recently it was identified as a compound of interest for the treatment of COVID-19, showing promising inhibition of the viral M\textsuperscript{pro} protease enzyme.\autocite{Jin2020}
 
 The \emph{in vivo} antioxidant ability of ebselen is believed to be mediated through a catalytic cycle analogous to that of glutathione peroxidase (a selenoenzyme).\autocite{Antony2011}
-The selenium-containing heterocycle is reductively opened to afford the free selenol \cmpd{ebs-seh}, which is the active catalyst.
-This is rapidly oxidised by ROS to a selenenic acid \cmpd{ebs-seoh}, which is then reduced back to \cmpd{ebs-seh} by glutathione (GSH) via a selenenyl sulfide \cmpd{ebs-sesr}.
+The selenium-containing heterocycle is reductively opened to afford the free selenol, which is the active catalyst.
+This is rapidly oxidised by ROS to a selenenic acid, which is then reduced back to the selenol by glutathione (GSH) via a selenenyl sulfide.
 Its activity against a number of other targets appears to also be mediated through formation of a covalent complex via nucleophilic attack at the selenium.
 There is also evidence that ebselen interacts with targets non-covalently.\autocite{Jin2020}
 These interactions may include association with aromatic or hydrophobic residues, or H-bonding through the carbonyl.
@@ -197,12 +221,10 @@ Ebselen can also form non-covalent complexes with Lewis bases through an electro
 
 \begin{figure}
 \centering
+GET RID OF TMP LABELS
 \replacecmpd{ebs}
-\replacecmpd{ebs-seh}
-\replacecmpd{ebs-seoh}
-\replacecmpd{ebs-sesr}
 \includegraphics[scale=0.74]{Figures/ebs-cat-cycle.eps}
-\caption{Catalytic cycle of ebselen \emph{in vivo}.}
+\caption{Catalytic cycle of ebselen \refcmpd{ebs} \emph{in vivo}.}
 \label{fig:catcycle}
 \end{figure}
 
