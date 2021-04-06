@@ -202,12 +202,45 @@ The question then becomes, how do we determine $f_{\mathrm{calc}, r}$ from our m
 To answer this, we must consider what our model actually \emph{is}.
 
 The simplest refinement model consists of atomic coordinates for each atom, plus an overall scale factor (for now we will neglect the anisotropic displacement parameters and chemical occupancies).
-However, in order to calculate $f_{\mathrm{calc}, r}$ by Fourier transform, we must introduce some description of what the atoms which we are describing ``look like''.
-This forms a ``hidden'', but still crucially important, part of the model.
-Typically, atoms are described in reciprocal space as spherically symmetric functions whose complex contribution to $f_{\mathrm{calc}, r}$ is only dependent on $(\sin\theta)/\lambda$.
+However, in order to calculate $f_{\mathrm{calc}, r}$ by Fourier transform, we must introduce some description of what the atoms which we are locating ``look like''.
+This forms a hidden, but still crucially important, part of the model.
+Typically, atoms are described in reciprocal space as spherically symmetric functions whose contribution to $f_{\mathrm{calc}, r}$ is only dependent on $(\sin\theta)/\lambda$ (\cref{fig:scatterf}).
 This is a consequence of the fact that x-rays are scattered by the \emph{electron cloud} of the atom.\footnote{X-rays have much less energy than the mass-energy of subatomic particles, so are scattered in the low energy limit of Compton scattering, known as Thompson scattering.
 The scattering power of a particle is inversely proportional to the square of its mass, so the massive nuclei contribute negligibly to scattering compared to electrons.}
+At $(\sin\theta)/\lambda = 0$ the scattering factor is equal to the number of electrons in the atom.
+However, the finite size of the electron cloud causes destructive interference and attenuation of the scattering factor as $(\sin\theta)/\lambda$ increases, as x-rays scattered from one side of the electron cloud will be out of phase with those scattered from the other side.
+Contrast this with neutron diffraction, where the neutrons are scattered predominantly by the point-like nucleus, affording a flat scattering function in reciprocal space.
+There is almost no destructive interference, and thus neutron crystallography is characterised by an abundance of strong high angle data.
+The scattering factor functions for all elements of the periodic table (and many ions) have been calculated based on theoretical electron densities from Hartree-Fock wavefunctions, and the results are available in the International Tables.\autocite{IntTabCIntensityofdiffractedintensities}
+These functions are mercifully incorporated in crystallographic refinement software, shielding them from the user.
 
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{Figures/scatterf.png}
+    \caption{Scattering factors for some atoms as a function of $(\sin\theta)/\lambda$.}
+    \label{fig:scatterf}
+\end{figure}
+
+From the above discussion, one major shortcoming of this approach should be clear.
+Namely, that the electron density of bonded atoms is \emph{not} spherically symmetric.
+Perturbations such as bonding electron density, lone pairs, and indeed $\sigma$-holes can, and do, affect the observed scattering factors of atoms, which are not taken into account in typical refinement software.
+An extreme case of this, and one that is familiar to any crystallographer, is that of the hydrogen atom.
+As the lightest element with only one electron, perturbations due to bonding have an enormous effect, such that the typical \ce{C-H} bond length is underestimated by some 0.13~\AA.\autocite{Cooper2010}
+A subtler but more interesting manifestation of this was identified in 1968 by \citeauthor{Coppens1968EvidenceEffects}.\autocite{Coppens1968EvidenceEffects}
+X-ray and neutron structures were determined for a crystal of 1,3,5-triazine, and inspection of the difference (a so-called X-N map) revealed unusual systematic variations in the anisotropic displacement parameters.
+The nitrogen atoms were deformed radially to the ring, while the carbon atoms were deformed tangentially (\cref{fig:x-n-coppens}).
+This is chemically intuitive, as we would expect the lone pairs of the nitrogens to extend radially, while the $\pi$-electrons of the carbon atoms would form a ring.
+The fact that these deformations were incorporated into the anisotropic displacement parameters in the x-ray structure highlights a deficiency of the typical method of refinement.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{Figures/x-n-coppens.png}
+    \caption{X-N map of 1,3,5-triazine, reproduced from \citeauthor{Coppens1968EvidenceEffects}.\autocite{Coppens1968EvidenceEffects}}
+    \label{fig:x-n-coppens}
+\end{figure}
+
+Although such perturbations only manifest in very high quality structures (aspherical atoms are typically the least of a crystallographer's worries), a number of methods have been proposed to improve refinements, and indeed gain further chemical knowledge from the experimentally determined aspheical electron density.
+A simple approach is the use of tabulated aspherical scattering factors for 
 
 \printbibliography[heading=subbibliography]
 \end{refsection}
