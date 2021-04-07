@@ -227,7 +227,7 @@ Perturbations such as bonding electron density, lone pairs, and indeed $\sigma$-
 An extreme case of this, and one that is familiar to any crystallographer, is that of the hydrogen atom.
 As the lightest element with only one electron, perturbations due to bonding have an enormous effect, such that the typical \ce{C-H} bond length is underestimated by some 0.13~\AA.\autocite{Cooper2010}
 A subtler but more interesting manifestation of this was identified in 1968 by \citeauthor{Coppens1968EvidenceEffects}.\autocite{Coppens1968EvidenceEffects}
-X-ray and neutron structures were determined for a crystal of 1,3,5-triazine, and inspection of the difference (a so-called X-N map) revealed unusual systematic variations in the anisotropic displacement parameters.
+X-ray and neutron structures were determined for a crystal of 1,3,5-triazine, and inspection of the difference (a so-called $\mathrm{X}-\mathrm{N}$ map) revealed unusual systematic variations in the anisotropic displacement parameters.
 The nitrogen atoms were deformed radially to the ring, while the carbon atoms were deformed tangentially (\cref{fig:x-n-coppens}).
 This is chemically intuitive, as we would expect the lone pairs of the nitrogens to extend radially, while the $\pi$-electrons of the carbon atoms would form a ring.
 The fact that these deformations were incorporated into the anisotropic displacement parameters in the x-ray structure highlights a deficiency of the typical method of refinement.
@@ -235,12 +235,48 @@ The fact that these deformations were incorporated into the anisotropic displace
 \begin{figure}
     \centering
     \includegraphics[width=0.5\linewidth]{Figures/x-n-coppens.png}
-    \caption{X-N map of 1,3,5-triazine, reproduced from \citeauthor{Coppens1968EvidenceEffects}.\autocite{Coppens1968EvidenceEffects}}
+    \caption{$\mathrm{X}-\mathrm{N}$ map of 1,3,5-triazine, reproduced from \citeauthor{Coppens1968EvidenceEffects}.\autocite{Coppens1968EvidenceEffects}}
     \label{fig:x-n-coppens}
 \end{figure}
 
-Although such perturbations only manifest in very high quality structures (aspherical atoms are typically the least of a crystallographer's worries), a number of methods have been proposed to improve refinements, and indeed gain further chemical knowledge from the experimentally determined aspheical electron density.
-A simple approach is the use of tabulated aspherical scattering factors for 
+Evidence for aspherical atoms can even be traced back to seminal studies performed by the great \citeauthor{Bragg1920}, in which the famous 222 reflection of a diamond crystal was observed.
+The 222 reflection is a systematic extinction of the $Fd\bar{3}m$ space group to which diamond belongs, but its absence is based on the assumption of spherical atoms.
+In diamond, the carbon atoms are actually tetrahedral in form due to the bonding electron density, which reduces the space group symmetry and causes the 222 reflection to be present, though very weak.\autocite{Bragg1920}
+Though cutting edge for the time, Bragg's experiment was rather primitive, and multiple scattering likely contributed some intensity to the observed 222 reflection.
+The observation was nonetheless correct, and the tetrahedral nature of the carbon atoms in diamond has subsequently been proven time and time again.
+
+Although such perturbations generally only manifest in very high quality structures (aspherical atoms are typically the least of a crystallographer's worries), a number of methods have been proposed to improve refinements, and indeed gain further chemical knowledge from the experimentally determined aspheical electron density.
+A simple approach is the use of tabulated aspherical scattering factors for atoms of distinct chemical types.
+An example of this is the ELMAM2 database, developed by Jelsch and coworkers.\autocite{Domagaa2012}
+The ELMAM2 database consists of experimentally derived scattering factors for all common atom types, with a focus on those found in amino acids and peptides.
+A refinement using this database would begin by assigning a type to each atom, which can be done relatively easily using bonding geometries from a more primitive refinement.
+This can afford substantial improvement in refinement statistics by providing a more accurate model, at a very modest computational cost.
+The obvious drawback of this approach is that the scattering factors must already be tabulated, and the enormous diversity beyond the biochemically important C, H, N, and O precludes the assembly of a truly comprehensive database.
+Furthermore, as the scattering factors are pre-tabulated, there is little chemical information that can be extracted from the model beyond somewhat improved precision in geometric parameters.
+
+An improved approach is to compute scattering factors on a case-by-case basis.
+This is the rationale behind Hirshfeld Atom Refinement (HARt), first developed by \citeauthor{Jayatilaka2008}.\autocite{Jayatilaka2008}
+HARt is an iterative procedure in which the atomic coordinates from a spherical atom refinement (perhaps after correcting \ce{C-H} bond distances) are used to variationally calculate a wavefunction, from which is calculated an electron density and thus scattering factors.
+These new scattering factors improve the model after refinement, from which is calculated a \emph{new} wavefunction, and so on until the cycle of least squares refinement and wavefunction calculations converge. 
+Clearly this repeated calculation of a wavefunction is computationally expensive, with even relatively simple molecules taking minutes.
+Fortunately, however, even very inexpensive levels of theory tend to generate sensible densities for the ground state.
+An advantage over the database approach is that one can capture unusual effects in the electron density (such as various non-bonding interaction), provided that they are correctly modelled by the underlying quantum chemistry package used to generate the wavefunction.
+However this raises a philosphical question: what exactly we are hoping to get out of this procedure?
+It can certainly provide improved refinement statistics, including anisotropic refinement of hydrogens in agreement with neutron data, but if we are seeking chemical information about the system, we might as well simply use a gas-phase optimised wavefunction and dispense with the crystallography.
+
+Related to this is the field of quantum crystallography, which differs somewhat in motivation, if not in methodology.
+Quantum crystallography is generally concerned with extracting a wavefunction from diffraction data, rather than using a wavefunction to improve a crystallographic model.
+Clearly there is significant overlap.
+One method takes inspiration from perturbation theory, where, as in MP2, the Hartree-Fock wavefunction is taken as the zeroth order approximation.
+The diffraction data is then used to construct a perturbative term, which introduces a degree of correlation to the wavefunction, bringing it closer to the truth (at least within the Born-Oppenheimer approximation).\autocite{Weiss1962}
+Even with the power of modern computers, this is not an easy task, and quantum crystallography remains an active and exciting are of research.
+
+Perhaps the most powerful approach is that of multipole refinement using the formalism developed by Hansen and Coppens.\autocite{Hansen1978}
+Atomic coordinates are determined from high angle refinement or neutron data.
+Electron density is expanded as a series of spherical harmonics.
+Can capture true electron density in a completely experimental (no assumptions) way.
+
+
 
 \printbibliography[heading=subbibliography]
 \end{refsection}
@@ -296,7 +332,7 @@ This pseudoatom is variously called an extra point (EP), explicit $\sigma$-hole 
 Lone pairs can also be described using negatively charged pseudoatoms, and this approach has been used for some time.\autocite{Dixon1997,Cieplak2001,Harder2016}
 
 It is worth noting an alternative approach, used by Cozzolino and Vargas-Baca, which treats secondary bonding interactions as true bonds, with an explicitly parametrized potential.\autocite{Cozzolino2011}
-This was used to parametrize the supramolecular synthon 1,2,5-telluradizaole, which is known to self assemble into a range of interesting structures.
+This was used to parametrize the supramolecular synthon 1,2,5-tellura\-dizaole, which is known to self assemble into a range of interesting structures.
 This approach, however, relies on describing the bond using an \emph{an}harmonic potential, which is not easily implemented in AMBER.
 
 The inability to model ebselen in biological systems is a major hurdle in understanding the mechanism of its action.
