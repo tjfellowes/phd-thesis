@@ -190,14 +190,14 @@ A full discussion of the mathematics of diffraction is outside the scope of this
 
 \subsubsection{Charge density refinement}
 Fundamental to the technique of x-ray structure determination is the process of refinement, by which parameters of the model (typically the molecular geometry) are optimised to reproduce the observed intensity data as well as possible.
-Mathematically, this is performed as a least-squares optimisation, where the function 
+Mathematically, this is performed as a least-squares optimisation, where the function
 \begin{equation}
     \sum^{m}_{r=1} w_{r} \left(f_{\mathrm{obs}, r} - f_{\mathrm{calc}, r} \right) ^{2}
 \end{equation}
-is minimised, where $f_{\mathrm{obs}, r}$ corresponds to the observed intensity, and $f_{\mathrm{calc}, r}$ corresponds to the intensity calculated from the model by Fourier transform. 
+is minimised, where $f_{\mathrm{obs}, r}$ corresponds to the observed intensity, and $f_{\mathrm{calc}, r}$ corresponds to the intensity calculated from the model by Fourier transform.
 $w_{r}$ is a weighting function used to reflect the confidence in any given observed data point.
 
-Assuming the measured intensities are free of any error\footnote{This is practically never the case, but careful measurement and modern corrections can approach this limit.}, this function could theoretically be minimised to zero i.e. the model is a complete and true representation of the crystal.
+Assuming the measured intensities are free of any error,\footnote{This is practically never the case, but careful measurement and modern corrections can approach this limit.} this function could theoretically be minimised to zero i.e. the model is a complete and true representation of the crystal.
 The question then becomes, how do we determine $f_{\mathrm{calc}, r}$ from our model?
 To answer this, we must consider what our model actually \emph{is}.
 
@@ -241,7 +241,7 @@ The fact that these deformations were incorporated into the anisotropic displace
 
 Evidence for aspherical atoms can even be traced back to seminal studies performed by the great \citeauthor{Bragg1920}, in which the famous 222 reflection of a diamond crystal was observed.
 The 222 reflection is a systematic extinction of the $Fd\bar{3}m$ space group to which diamond belongs, but its absence is based on the assumption of spherical atoms.
-In diamond, the carbon atoms are actually tetrahedral in form due to the bonding electron density, which reduces the space group symmetry and causes the 222 reflection to be present, though very weak.\autocite{Bragg1920}
+In diamond, the carbon atoms are actually tetrahedral in form due to the bonding electron density, which lowers the space group symmetry and causes the 222 reflection to be present, though very weak.\autocite{Bragg1920}
 Though cutting edge for the time, Bragg's experiment was rather primitive, and multiple scattering likely contributed some intensity to the observed 222 reflection.
 The observation was nonetheless correct, and the tetrahedral nature of the carbon atoms in diamond has subsequently been proven time and time again.
 
@@ -257,7 +257,7 @@ Furthermore, as the scattering factors are pre-tabulated, there is little chemic
 An improved approach is to compute scattering factors on a case-by-case basis.
 This is the rationale behind Hirshfeld Atom Refinement (HARt), first developed by \citeauthor{Jayatilaka2008}.\autocite{Jayatilaka2008}
 HARt is an iterative procedure in which the atomic coordinates from a spherical atom refinement (perhaps after correcting \ce{C-H} bond distances) are used to variationally calculate a wavefunction, from which is calculated an electron density and thus scattering factors.
-These new scattering factors improve the model after refinement, from which is calculated a \emph{new} wavefunction, and so on until the cycle of least squares refinement and wavefunction calculations converge. 
+These new scattering factors improve the model after refinement, from which is calculated a \emph{new} wavefunction, and so on until the cycle of least squares refinement and wavefunction calculations converge.
 Clearly this repeated calculation of a wavefunction is computationally expensive, with even relatively simple molecules taking minutes.
 Fortunately, however, even very inexpensive levels of theory tend to generate sensible densities for the ground state.
 An advantage over the database approach is that one can capture unusual effects in the electron density (such as various non-bonding interaction), provided that they are correctly modelled by the underlying quantum chemistry package used to generate the wavefunction.
@@ -265,18 +265,41 @@ However this raises a philosphical question: what exactly we are hoping to get o
 It can certainly provide improved refinement statistics, including anisotropic refinement of hydrogens in agreement with neutron data, but if we are seeking chemical information about the system, we might as well simply use a gas-phase optimised wavefunction and dispense with the crystallography.
 
 Related to this is the field of quantum crystallography, which differs somewhat in motivation, if not in methodology.
-Quantum crystallography is generally concerned with extracting a wavefunction from diffraction data, rather than using a wavefunction to improve a crystallographic model.
+Quantum crystallography is concerned with extracting a wavefunction from diffraction data, rather than using a wavefunction to improve a crystallographic model.
 Clearly there is significant overlap.
 One method takes inspiration from perturbation theory, where, as in MP2, the Hartree-Fock wavefunction is taken as the zeroth order approximation.
 The diffraction data is then used to construct a perturbative term, which introduces a degree of correlation to the wavefunction, bringing it closer to the truth (at least within the Born-Oppenheimer approximation).\autocite{Weiss1962}
-Even with the power of modern computers, this is not an easy task, and quantum crystallography remains an active and exciting are of research.
+Even with the power of modern computers, this is not an easy task, and quantum crystallography remains an active and exciting area of research.
 
-Perhaps the most powerful approach is that of multipole refinement using the formalism developed by Hansen and Coppens.\autocite{Hansen1978}
-Atomic coordinates are determined from high angle refinement or neutron data.
-Electron density is expanded as a series of spherical harmonics.
-Can capture true electron density in a completely experimental (no assumptions) way.
+Perhaps the most powerful approach for experimental crystllographers is that of multipole refinement using the formalism developed by Hansen and Coppens.\autocite{Hansen1978}
+While superficially similar to quantum crystallographic approaches, no chemical restraint\footnote{This is not strictly true, as electroneutrality is routinely imposed as a constraint on multipole models.} is placed on the resulting electron density, allowing for the modelling of phenomena which are not described by \emph{ab inito} calculations.
+The electron density is expanded in a series of atom-centered spherical harmonic basis functions, the local coordinate systems of which are often chosen to align with chemical features.
+Each basis function requires two parameters for the occupancy and expansion, in addition to the position and anisotropic displacement parameters for each atom.
+We therefore require a large number of observations to ensure the system is overdetermined, and can be treated in a least-squares manner.
+Furthermore, the ADPs and dipolar basis terms are highly correlated, leading to an unstable solution if refined simultaneously (\cref{fig:adp-dipole}).
+For this reason, it is critical to establish accurate atomic positions and ADPs before refining the multipole parameters and charge density.
+Traditionally this was done using neutron data which, as mentioned above, is insensitive to electron density perturbations as neutrons are scattered almost exclusively by the nucleus.
+Unfortunately neutron sources are notoriously expensive and low-flux, requiring extremely large crystals which introduces further errors due to extinction.
+With the advent of modern x-ray diffractometer technology, we can luckily determine atomic coordinates and ADPs using x-ray data alone.
+This is done using high angle reflections, which are dominated by core scattering and thus contain little data from the diffuse bonding electron density.
+Core electron density is almost perfectly spherical, allowing ADPs to be correctly refined from this data.
+With accurate atomic coordinates and ADPs in hand, hydrogen atoms can be located in the low angle data, and then the multipole parameters refined to convergence.
+Multipole refinement can benefit enormously from an initial database model, particularly for hydrogen atoms, so it is no surprise that the techniques are often used sequentially.\autocite{mopro,xd}
+The resulting electron density can be used to characterise molecules and predict reactivity, particularly when interpreted within the powerful Quantum Theory of Atoms In Molecules frameork of Bader.\autocite{Bader1991}
+The obvious attraction of this method is that it is almost entirely experimental.
+However, the atom centred multipole functions and their resulting sum, while superficially resembling a wavefunction, is not antisymmetric and is therefore in violation of the Pauli exclusion priniciple.
+It therefore cannot be used to determine \emph{all} properties of a system.
 
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\linewidth]{Figures/adp-dipole.png}
+    \caption{ADPs and dipolar basis terms are highly correlated.}
+    \label{fig:adp-dipole}
+\end{figure}
 
+\subsection{Nuclear Magnetic Resonance}
+
+\subsubsection{Solid State NMR}
 
 \printbibliography[heading=subbibliography]
 \end{refsection}
