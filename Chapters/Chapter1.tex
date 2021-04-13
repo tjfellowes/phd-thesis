@@ -257,10 +257,10 @@ Furthermore, as the scattering factors are pre-tabulated, there is little chemic
 An improved approach is to compute scattering factors on a case-by-case basis.
 This is the rationale behind Hirshfeld Atom Refinement (HARt), first developed by \citeauthor{Jayatilaka2008}.\autocite{Jayatilaka2008}
 HARt is an iterative procedure in which the atomic coordinates from a spherical atom refinement (perhaps after correcting \ce{C-H} bond distances) are used to variationally calculate a wavefunction, from which is calculated an electron density and thus scattering factors.
-These new scattering factors improve the model after refinement, from which is calculated a \emph{new} wavefunction, and so on until the cycle of least squares refinement and wavefunction calculations converge.
+These new scattering factors improve the model after refinement, from which is calculated a \emph{new} wavefunction, and so on until the cycles of least squares refinement and wavefunction calculations converge.
 Clearly this repeated calculation of a wavefunction is computationally expensive, with even relatively simple molecules taking minutes.
 Fortunately, however, even very inexpensive levels of theory tend to generate sensible densities for the ground state.
-An advantage over the database approach is that one can capture unusual effects in the electron density (such as various non-bonding interaction), provided that they are correctly modelled by the underlying quantum chemistry package used to generate the wavefunction.
+An advantage over the database approach is that one can capture unusual effects in the electron density (such as various non-bonding interaction), provided that they are correctly modelled by the underlying quantum chemistry theory used to generate the wavefunction.
 However this raises a philosphical question: what exactly we are hoping to get out of this procedure?
 It can certainly provide improved refinement statistics, including anisotropic refinement of hydrogens in agreement with neutron data, but if we are seeking chemical information about the system, we might as well simply use a gas-phase optimised wavefunction and dispense with the crystallography.
 
@@ -270,6 +270,11 @@ Clearly there is significant overlap.
 One method takes inspiration from perturbation theory, where, as in MP2, the Hartree-Fock wavefunction is taken as the zeroth order approximation.
 The diffraction data is then used to construct a perturbative term, which introduces a degree of correlation to the wavefunction, bringing it closer to the truth (at least within the Born-Oppenheimer approximation).\autocite{Weiss1962}
 Even with the power of modern computers, this is not an easy task, and quantum crystallography remains an active and exciting area of research.
+It is also worth mentioning the x-ray constrained wavefunction method developed by \citeauthor{Grimwood2003}.\autocite{Grimwood2003}
+This is simply a Hartree-Fock wavefunction calculations that is constrained \emph{via} a Lagrangian multiplier to reproduce the observed intensities in the experimental data, assuming there are no crystallographic artifacts in the data such as disorder or twinning.
+That is to say, the crystal is simply comprised of infinitely repeating symmetry related molecular units.
+The x-ray constrained wavefunction can be used to calculate a density, which can be used in a HARt-like procedure, which has been named x-ray wavefunction refinement (XWR).\autocite{Woinska2017}
+Both quantum chemistry and crystallographic refinement codes have been implemented in the software package TONTO.\autocite{Jayatilaka2003}
 
 Perhaps the most powerful approach for experimental crystallographers is that of multipole refinement using the formalism developed by Hansen and Coppens.\autocite{Hansen1978}
 While superficially similar to quantum crystallographic approaches, no chemical restraint\footnote{This is not strictly true, as electroneutrality is routinely imposed as a constraint on multipole models.} is placed on the resulting electron density, allowing for the modelling of phenomena which are not described by \emph{ab inito} calculations.
@@ -287,19 +292,101 @@ With accurate atomic coordinates and ADPs in hand, hydrogen atoms can be located
 Multipole refinement can benefit enormously from an initial database model, particularly for hydrogen atoms, so it is no surprise that the techniques are often used sequentially.\autocite{mopro,xd}
 The resulting electron density can be used to characterise molecules and predict reactivity, particularly when interpreted within the powerful Quantum Theory of Atoms In Molecules frameork of Bader.\autocite{Bader1991}
 The obvious attraction of this method is that it is almost entirely experimental.
-However, the atom centred multipole functions and their resulting sum, while superficially resembling a wavefunction, is not antisymmetric and is therefore in violation of the Pauli exclusion priniciple.
+However, the atom centered multipole functions and their resulting sum, while superficially resembling a wavefunction, is not antisymmetric and is therefore in violation of the Pauli exclusion priniciple.
 It therefore cannot be used to determine \emph{all} properties of a system.
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.6\linewidth]{Figures/adp-dipole.png}
-    \caption{ADPs and dipolar basis terms are highly correlated.}
+    \includegraphics[width=0.6\linewidth]{Figures/valencevsthermaled.pdf}
+    \caption{Thermal motion (described by anisotropic displacement parameters) and dipolar basis terms are highly correlated.}
     \label{fig:adp-dipole}
 \end{figure}
 
 \subsection{Nuclear Magnetic Resonance}
+Nuclear magnetic resonance spectroscopy (NMR) is an essential tool for all organic chemists, as it is able to give relatively detailed structural information quickly and cheaply.
+It is based on the magnetic moment of certain nuclei, which are usually randomly oriented but spontaneously align in the presence of a strong magnetic field.
+
 
 \subsubsection{Solid State NMR}
+The chemical shift of a nucleus is not a simple scalar quantity, as solution phase NMR experiments might suggest.
+The shielding, and hence the effective magnetic field felt by the nucleus depends on the electronic environment around the nucleus, which is decidedly \emph{an}isotropic, therefore incapable of being expressed as a scalar.
+Depending on the orientation of the electron cloud (and other shielding/deshielding influences) around the nucleus with respect to the magnetic field, different chemical shifts will be observed for the same nucleus.
+This phenomenon is the chemical shift anisotropy of a nucleus, and it is described mathematically by a second rank tensor, which is geometrically depicted as an ellipsoid.
+
+In a solution phase NMR experiment, rapid and random tumbling of the molecules averages out the anisotropy of each signal, affording a sharp peak at the isotropic chemical shift.
+This can be simulated to some degree by magic angle spinning in solids experiments, but it is often the case that the chemical shift anisotropy is more interesting that the isotropic shift, so a solid phase NMR experiment is the only way to examine it.
+
+The shape of the chemical shift tensor can provide insight into the electronic environment of a nucleus, with large shielding components often being aligned with electronic features such as bonds or lone pairs.
+It is often convenient to define a principal axis system (PAS) for the tensor, consisting of two components which describe the longest and shortest axes of the ellipsoid, and the axis perpendicular to both.
+The PAS of the chemical shielding tensor is denoted by the lowercase $x$, $y$ and $z$, and the components of the tensor which are aligned with these axes are labelled $\sigma_{xx}$, $\sigma_{yy}$ and $\sigma_{zz}$.
+The laboratory reference frame is denoted by the uppercase $X$, $Y$ and $Z$, with the magnetic field $B_0$ being aligned with the $Z$ axis.
+A common method for transforming one coordinate system to another is through the use of Euler angles $\alpha$, $\beta$ and $\gamma$, which define sequential right-handed rotations about the axes of the rotating frame.
+As the chemical shielding is necessarily invariant to rotation about $Z$, we can dispense with the first of these angles $\alpha$, and simply refer to the latter two as the polar angles $\beta = \theta$ and $\gamma = \phi$.
+The chemical shielding tensor is thus depicted in \cref{fig:chemical-shielding-tensor}, and this will be the convention used in this work.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.4\linewidth]{Figures/Chemical_Shift_Tensor.png}
+  \caption{Representation of the principal axis system (PAS, blue dotted lines) with respect to the laboratory reference frame (black solid lines). The polar angles $\theta$ and $\phi$ relate the former to the latter. The principal components of the tensor are shown in red, and the overall shape is shown by the black ellipses.}
+  \label{fig:chemical-shielding-tensor}
+\end{figure}
+
+In almost all experiments, the chemical shielding tensor $\sigma$ is only indirected measured, \emph{via} the chemical shift $\delta$, which is defined with respect to a reference nucleus such that $\delta = \sigma_{\textrm{ref}} - \sigma_{\textrm{sample}}$.
+As the coordinate system as described above is somewhat arbitrary, the IUPAC convention defines the three principal components of the chemical shift tensor $\delta_{11}$, $\delta_{22}$ and $\delta_{33}$ such that $\delta_{11} \geq \delta_{22} \geq \delta_{33}$.
+The isotropic chemical shift is given by the average $\delta_{\textrm{iso}} = \frac{(\delta_{11} + \delta_{22} + \delta_{33})}{3}$.
+There are two other conventions for describing chemical shift anisotropy, which are useful in different contexts.
+The Herzfeld Berger convention represents the chemical shift in terms of the span of the signal $\Omega = \delta_{11} - \delta_{33}$ and the skew $\kappa = \frac{3(\delta_{22} - \delta_{\textrm{iso}})}{\Omega}$ where $\delta_{\textrm{iso}}$ is the same as in the IUPAC convention.
+This is particularly useful for intuitively describing the powder lineshape formed by a given signal.
+The other convention is the Haeberlen convention, which defines the three principal components as $|\delta_{zz} - \delta_{\textrm{iso}}| \geq |\delta_{xx} - \delta_{\textrm{iso}}| \geq |\delta_{yy} - \delta_{\textrm{iso}}|$, and the parameters $\delta = \delta_{zz} -\delta_{\textrm{iso}}$ and $\eta = \frac{\delta_{xx} - \delta_{yy}}{\delta_{zz} -\delta_{\textrm{iso}}}$.
+This convention is most useful for describing the angular dependence of a chemical shift on the polar angles $\theta$ and $\phi$, which is given by the relationship\autocite{Haeberlen1976}
+\begin{equation}
+  \delta_{\textrm{obs}} = \delta_{\textrm{iso}} + \delta \left(\frac{3 \cos^2 \theta - 1 + \eta \sin^2 \theta \cos 2 \phi}{2} \right)
+  \label{eqn:orientation-csa}
+\end{equation}
+
+In a non-spinning polycrystalline or amorphous powder, the above expression can be integrated over the range of chemical shifts to give the characterisitc powder lineshape see in \cref{fig:ssnmr-tensor}, reproduced from the work of Facelli, Grant, and Michl.\autocite{Facelli1987Carbon-13Determination}
+The sample consists of randomly oriented tensors, all of which contribute to the signal.
+The principal values of the tensor $\delta_{11}$, $\delta_{22}$ and $\delta_{33}$ correspond to the two extrema of the line, and the central peak.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.45\linewidth]{Figures/ssnmr-tensor.pdf}
+  \caption{Characteristic solid-state NMR powder lineshape for an asymmetric tensor e.g. in an alkene. The positions of the three principal values are shown.}
+  \label{fig:ssnmr-tensor}
+\end{figure}
+
+The extremely poor S/N ratio (especially for a relatively insensitive nucleus like \ce{^{77}Se}) limits the utility of this method, as the radiated signal from the nuclei is spread out over a large bandwidth.
+Spinning at the magic angle can improve the S/N ratio by partially averaging out the chemical shift anisotropy and dipolar relaxation.
+Instead of the powder pattern, we instead observe a sharp isotropic chemical shift and a series of spinning sidebands which are separated from the isotropic peak by multiples of the spinning frequency.
+The radiated power is thus concentrated in narrower bands, leading to a much improved S/N ratio.
+
+An example is presented in \cref{fig:31P-ssnmr} of proton decoupled solid state \ce{^{31}P} spectra of barium diethyl phosphate, reproduced from the work of Herzfeld and Berger\autocite{Herzfeld1980SidebandAngle}.
+In the first spectrum, no magic angle spinning was used, and the lineshape is characteristically broadened into an asymmetric peak (the powder lineshape).
+Note the poor S/N ratio due to the broad peak.
+The S/N ratio can be seen to improve as the spinning speed increases, and the sidebands become more sparse, affording a stronger signal overall.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.45\linewidth]{Figures/31P-ssnmr-0khz.pdf}
+    \includegraphics[width=0.45\linewidth]{Figures/31P-ssnmr-0.94khz.pdf}
+
+    \includegraphics[width=0.45\linewidth]{Figures/31P-ssnmr-2.06khz.pdf}
+    \includegraphics[width=0.45\linewidth]{Figures/31P-ssnmr-2.92khz.pdf}
+    \caption{Proton decoupled solid state \ce{^{31}P} spectra of barium diethyl phosphate spinning at the magic angle, at the speed specified. The isotropic chemical shift is shown by the vertical dotted line.}
+    \label{fig:31P-ssnmr}
+\end{figure}
+
+The principal values of the tensor are clearly easily obtained from a non-spinning sample, as they can practically be read off the spectrum.
+However, the extremely poor S/N ratio (especially for a relatively insensitive nucleus like \ce{^{77}Se}) limits the utility of this method.
+Spinning at the magic angle is clearly necessary to improve the S/N ratio, however this obscures the true locations of the extrema of the signal, therefore the values of $\delta_{11}$ and $\delta_{33}$, as well as modifying the position of the maximum ($\delta_{22}$).
+
+There exist programs (such as SOLA, integrated within TopSpin by Bruker BioSpin) which can fit an experimental lineshape or sideband manifold affording the principal values of the tensor, however there is clearly a trade-off between obtaining a good S/N ratio and having enough sidebands within the limits of the signal for a meaningful fit.
+Another issue is encountered with preferred orientation of crystallites, as in powder diffraction, which is not modelled in the fitting routine, leading to a poorer fit.
+Perhaps the most fundamental issue stems from the fact that the sample is a powder of randomly oriented particles.
+This means that the absolute orientation of the tensor with respect to the molecule cannot be determined from this kind of experiment.
+Nonetheless, the \emph{shape} of the tensor is still valuable information that may be able to shed light on Ch-bonding in the solid phase.
+
+
 
 \printbibliography[heading=subbibliography]
 \end{refsection}
