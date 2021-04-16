@@ -743,6 +743,7 @@ This clearly shows the contribution of the lone pair of the pyridyl nitrogen to 
     \caption{Calculated chemical shift tensor for \refcmpd{ebs}.}
     \label{fig:77se-tensor-ebs}
   \end{subfigure}
+  \caption{}
 \end{figure}
 
 This can be contrasted to the chemical shift of the non-complexed selenium (\cref{fig:77se-tensor-ebs}).
@@ -776,36 +777,26 @@ As the crystal was far too big to mount on the diffractometer, two faces were ma
 This was mounted, and a short data collection afforded an indexable pattern.
 The resulting planes are shown in \cref{fig:ebs-ph-dmap-index}.
 
-\begin{comment}
 \begin{figure}
   \centering
-  \includegraphics[width=0.4\linewidth]{Figures/xtal-b.jpg}
-  \includegraphics[width=0.4\linewidth]{Figures/xtal-c.jpg}
+  \includegraphics[width=0.48\linewidth]{Figures/xtal-b.jpg}
+  \includegraphics[width=0.48\linewidth]{Figures/xtal-c.jpg}
   \caption{Indexed faces of \cmpd{ebs}$\cdot$DMAP.}
   \label{fig:ebs-ph-dmap-index}
 \end{figure}
-\end{comment}
 
-
-\begin{figure}
-  \centering
-  \includegraphics[width=0.7\linewidth]{Figures/indices.png}
-  \caption{Internal structure of crystal with indexed faces. The plane normal to the Ch-bond is indicated in yellow.}
-  \label{fig:ebs-ph-dmap-index}
-\end{figure}
-
-The large crystal was then mounted in a goniometer probe, and spectra were acquired on a 600~MHz instrument using a Hahn echo pulse sequence.
+A number of these large crystals were visually indexed based on their morphology, and packed in a rectangular sample holder.
+Spectra were acquired on a 600~MHz instrument using a Hahn echo pulse sequence.
 This was necessary to preseve the extremely weak signal by isolating it from the excitation pulse in the time domain.
-The spectra were referenced to a saturated solution of diphenyldiselenide in \ce{CDCl3} at 463~ppm, which was contained in a zirconia MAS rotor.\autocite{Duddeck1995}
+The spectra were referenced to a saturated solution of diphenyldiselenide in \ce{CDCl3} at 463~ppm, which was contained in a zirconia MAS rotor inside the sample holder.\autocite{Duddeck1995}
 
 The crystal orientation with respect to the magnetic field is depicted in \cref{fig:ebs-ph-dmap-magfield-index}, and the resulting spectrum is shown in \cref{fig:ebs-dmap-hahnecho-77se}.
-The selenium nucleus in this orientation resonates at 437~ppm.
+The selenium nucleus in this orientation resonates at 448~ppm.
 
 \begin{figure}
   \centering
-  REDO BRACKETS
   \includegraphics[width=0.3\linewidth]{Figures/ebs-ph-dmap-magfield-index.pdf}
-  \caption{Orientation of the magnetic field with respect to the crystal. $B_{0}$ is aligned with the $(0 0 1)$ crystal direction. Note that the crystal is actually triclinic ($\alpha\neq\beta\neq\gamma\neq 90$\degree), but the $\alpha$ and $\beta$ angles are sufficiently close to 90\degree that we can treat the (001) plane as approximately perpendicular to the [001] axis.}
+  \caption{Orientation of the magnetic field with respect to the crystal. $B_{0}$ is aligned with the $[0 0 1]$ crystal direction. Note that the crystal is actually triclinic ($\alpha\neq\beta\neq\gamma\neq 90$\degree), but the $\alpha$ and $\beta$ angles are sufficiently close to 90\degree\ that we can treat the (001) plane as approximately perpendicular to the [001] axis.}
   \label{fig:ebs-ph-dmap-magfield-index}
 \end{figure}
 
@@ -816,29 +807,66 @@ The selenium nucleus in this orientation resonates at 437~ppm.
   \label{fig:ebs-dmap-hahnecho-77se}
 \end{figure}
 
-Using the relationship in \cref{eqn:orientation-csa}, we are able to derive the polar angles which relate the principal axis system of the chemical shift tensor to the laboratory coordinate system.
-In this case, as can be seen in \cref{fig:ebs-ph-dmap-magfield-index}, the laboratory reference frame (or at least the $z$-axis) is coincicent with the $c$-axis of the crystal, which greatly simplifies analysis by obviating the need for a further transformation between the crystal axes and laboratory reference.
+The sample holder was then re-packed with the crystals now rotated 90\degree\ to their original orientaton, and a spectrum was again acquired.
+This is shown in \cref{fig:ebs-dmap-hahnecho-77se2,fig:ebs-ph-dmap-magfield-index2}, where the selenium now resonates at 567~ppm
 
-DO THIS
+\begin{figure}
+  \centering
+  \includegraphics[width=0.3\linewidth]{Figures/ebs-ph-dmap-magfield-index2.pdf}
+  \caption{Orientation of the magnetic field with respect to the crystal. $B_{0}$ is aligned with the $[0 1 0]$ crystal direction}
+  \label{fig:ebs-ph-dmap-magfield-index2}
+\end{figure}
 
-We can calculate the chemical shift tensor using the diagonal components from the powder experiment and the rotation matrix from the polar angles:
-\ifpdf{
-\begin{equation}\resizebox{.9\hsize}{!}{$
-  \delta = \begin{bmatrix} \cos\theta & \sin\theta\sin\phi & \sin\theta\cos\phi \\ 0 & \cos\phi & -\sin\phi \\ -\sin\theta & \cos\theta\sin\phi & \cos\theta\cos\phi \end{bmatrix}
-  \begin{bmatrix} 1616.74 & 0 & 0 \\ 0 & 596.21 & 0 \\ 0 & 0 & 380.64 \end{bmatrix}
-  \begin{bmatrix} \cos\theta & \sin\theta\sin\phi & \sin\theta\cos\phi \\ 0 & \cos\phi & -\sin\phi \\ -\sin\theta & \cos\theta\sin\phi & \cos\theta\cos\phi \end{bmatrix}^{-1}$}
-\end{equation}
-}
-\fi
-which affords
+\begin{figure}
+  \centering
+  REDO
+  \includegraphics[width=0.8\linewidth]{Figures/ebs-dmap-hahnecho-77se.pdf}
+  \caption{\ce{^{77}Se} NMR spectrum of a single crystal of \refcmpd{ebs}$\cdot$DMAP in the orientation depicted in \cref{fig:ebs-ph-dmap-magfield-index2}.}
+  \label{fig:ebs-dmap-hahnecho-77se2}
+\end{figure}
+
+In order to orient the tensor in the laboratory reference frame, we must determine the declination and azimuth angles $\theta$ and $\phi$.
+This is done by writing an expression which relates these angles, the principal values (determined from the powder experiment), and the observed chemical shift.
+The rotation of the tensor into the lab reference frame is modelled by a simple rotation matrix of the two polar angles:
 \begin{equation}
-  \delta = \begin{bmatrix} 0 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{bmatrix}
+  \mathbf{Q} = \begin{bmatrix} \cos\theta & 0 & \sin\theta \\ \sin\theta\sin\phi  & \cos\phi & -\cos\theta\sin\phi \\ -\sin\theta\cos\phi & \sin\phi & \cos\theta\cos\phi \end{bmatrix}
 \end{equation}
-and hence\begin{equation}
-  \sigma = \begin{bmatrix} 0 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{bmatrix}
+The 90\degree\ rotation about the \textit{a} axis is modelled by a similar rotation matrix which, for generality, is derived from the Rodrigues rotation formula describing a rotation of angle $\psi$ about a unit vector $\hat{\omega} = \left( \omega_{x}, \omega_{y}, \omega_{z} \right)$:
+\begin{equation}
+  \mathbf{R}_{\hat{\omega}}(\psi) = \mathbf{I} + \tilde{\omega}\sin\psi + \tilde{\omega}^{2}(1-\cos\psi)
+\end{equation}
+where $\tilde{\omega}$ is the antisymmetric matrix:
+\begin{equation}
+  \tilde{\omega} = \begin{bmatrix} 0 & -\omega_{z} & \omega_{y} \\ \omega_{z} & 0 & -\omega_{x} \\ -\omega_{y} & \omega_{x} & 0 \end{bmatrix}
+\end{equation}
+and $\mathbf{I}$ denotes the $3\times 3$ identity matrix.
+This notation is particularly convenient for crystallography, as the unit vector for a rotation is easily generated the Miller indices, which generally correspond to a macroscopic face of a crystal.
+In this case the rotation axis was simply $\hat{\omega} = (1,0,0)$ i.e. the \textit{a} axis.
+
+Sequentially applying these two rotations allows us to represent the tensor in any orientation.
+The projection of the tensor onto the Z axis (the magnetic field $B_{0}$), which coresponds to the observed chemical shift in any given orientation, is given by the $\delta_{Z,Z}$ component of the tensor.
+We therefore simply optimise the function
+\begin{equation}
+  \delta = \mathbf{R} \mathbf{Q} \begin{bmatrix} 1616.74 & 0 & 0 \\ 0 & 596.21 & 0 \\ 0 & 0 & 380.64 \end{bmatrix} \mathbf{Q}^{-1} \mathbf{R}^{-1}
+\end{equation}
+to reproduce the observed $\delta_{Z,Z}$ components for $\psi = 0$\degree\ and $\psi = 90$\degree.
+The polar angles thus calculated are equal to $\theta = 79.9$\degree\ and $\phi = 23.8$\degree.
+
+We can calculate the chemical shift tensor using the diagonal components from the powder experiment and the rotation matrix from the polar angles which affords
+\begin{equation}
+  \delta = \begin{bmatrix} 1578.72 & -86.12 & 195.26 \\ -86.12 & 567.29 & 65.55 \\ 195.26 & 65.55 & 447.56 \end{bmatrix}
 \end{equation}
 
-This agrees very well with the calculated tensor, and strongly supports our assertion that the chemical shift anisotropy is influenced by the $\sigma$-hole.
+This can be plotted within the unit cell of the crystal, where we observe an excellent qualitative agreement with the calculated tensor (\cref{fig:expt-tensor-ebs-dmap}).
+The most deshielded axis is aligned with the \ce{Se-C} bond, and the most shielded axis is aligned with the Ch-bond, as in the calculated tensor.
+This verifies that the tensor is oriented correctly in the crystal, and that the observed shielding is due to the approach of the lone pair into the $\sigma$-hole.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.7\linewidth]{Figures/expt-tensor-ebs-dmap.pdf}
+  \caption{Experimentally determined chemical shift tensor for \refcmpd{ebs}$\cdot$DMAP. Compare with the calculated tensor in \cref{fig:77se-tensor-ebs-dmap}.}
+  \label{fig:expt-tensor-ebs-dmap}
+\end{figure}
 
 To briefly summarise, Ch-bonding induces enormous chemical shift anisotropy at the selenium, which is highly sensitive to the approach of the Lewis base and can be measured using both powder and single crystal SSNMR.
 While the technique is perhaps not as sensitive as diffraction based methods, the great advantage lies in the fact that SSNMR does not require crystallinity, even at the nano scale.
