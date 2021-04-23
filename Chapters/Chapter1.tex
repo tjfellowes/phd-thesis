@@ -306,7 +306,6 @@ It therefore cannot be used to determine \emph{all} properties of a system.
 Nuclear magnetic resonance spectroscopy (NMR) is an essential tool for all organic chemists, as it is able to give relatively detailed structural information quickly and cheaply.
 It is based on the magnetic moment of certain nuclei, which are usually randomly oriented but spontaneously align in the presence of a strong magnetic field.
 
-
 \subsubsection{Solid State NMR}
 The chemical shift of a nucleus is not a simple scalar quantity, as solution phase NMR experiments might suggest.
 The shielding, and hence the effective magnetic field felt by the nucleus depends on the electronic environment around the nucleus, which is decidedly \emph{an}isotropic, therefore incapable of being expressed as a scalar.
@@ -466,7 +465,7 @@ The resulting data was truncated to within 5~kcal/mol of the equilibrium energy 
 The equilibrium distance/angle $x_0$ was fixed to the value from the optimized geometry.
 Torsion angles were similarly scanned at the DFT and MM (with the torsion term set to zero) levels, and the difference between these surfaces was fitted using a periodic series truncated to the fourth order (equation \cref{eqn:dihe}).
 An unrealistically high torsion barrier was identified in the central \ce{Se-N-C_{ar}-C_{ar}} dihedral, due to a repulsive short-range interaction between the aromatic hydrogen and carbonyl oxygen.
-We were unable to correct for this in the periodic series describing the torsion, so the non-bonding parameter for the oxygen was reduced to ???.
+We were unable to correct for this in the periodic series describing the torsion, so the non-bonding parameter for the oxygen was reduced to 1.25 and 0.2.
 This did not appear to have any negative impact on interactions involving this oxygen, while improving the overall structural model.
 The resulting parameters are presented in \cref{tab:cho-params,tab:dihe-params}.
 
@@ -500,17 +499,16 @@ The resulting parameters are presented in \cref{tab:cho-params,tab:dihe-params}.
     \centering
     \footnotesize
     \begin{tabular}{lllllllll}\toprule
-         Parameter & $V_\mathrm{max,2}$ & $V_\mathrm{max,4}$& $V_\mathrm{max,6}$& $V_\mathrm{max,8}$& $\gamma_2$ & $\gamma_4$ & $\gamma_6$ & $\gamma_8$ \\
+         Parameter & $V_\mathrm{max,1}$ & $V_\mathrm{max,2}$& $V_\mathrm{max,3}$& $V_\mathrm{max,4}$& $\gamma_2$ & $\gamma_4$ & $\gamma_6$ & $\gamma_8$ \\
          & kcal/mol & kcal/mol & kcal/mol & kcal/mol & \degree & \degree & \degree & \degree\\\midrule
-         $\phi$(\ce{C_{ar}-C_{ar}-N-Se}) & -0.0862 & 0.7841 & 0.0363 & 0.0424 & 180 & 0 & 0 & 0 \\
+         $\phi$(\ce{C_{ar}-C_{ar}-N-Se}) & -36.8355 & 1.2467 & 35.4794 & -0.3521 & 180 & 180 & 180 & 173.425 \\
         \bottomrule
     \end{tabular}
-    \caption{Dihedral parameters for ebselen. NEEDS REVISION}
+    \caption{Dihedral parameters for ebselen.}
     \label{tab:dihe-params}
 \end{table}
 
-Values of 2.12 and 0.2910 for the Lennard-Jones parameters $\sigma$ and $\varepsilon$ were used for selenium.
-The default GAFF Lennard-Jones parameters for the carbonyl oxygen were found to give an unreasonably high barrier to rotation about the central dihedral angle (due to steric repulsion between the oxygen and the aryl hydrogen), so they were changed to 1.25 and 0.2.
+Values of 1.96 and 0.2910 for the Lennard-Jones parameters $\sigma$ and $\varepsilon$ were used for selenium.
 
 Default GAFF values were used for all other atoms, and Lorentz/Berthelot mixing rules were used to derive cross-terms.
 
