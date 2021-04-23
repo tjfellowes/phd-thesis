@@ -443,13 +443,15 @@ Lone pairs can also be described using negatively charged pseudoatoms, and this 
 
 It is worth noting an alternative approach, used by Cozzolino and Vargas-Baca, which treats secondary bonding interactions as true bonds, with an explicitly parametrized potential.\autocite{Cozzolino2011}
 This was used to parametrize the supramolecular synthon 1,2,5-tellura\-dizaole, which is known to self assemble into a range of interesting structures.
-This approach, however, relies on describing the bond using an \emph{an}harmonic potential, which is not easily implemented in AMBER.
+This approach, however, relies on describing the bond using an \emph{an}harmonic potential, which is not easily implemented in most software.
 
 The inability to model ebselen in biological systems is a major hurdle in understanding the mechanism of its action.
 In this work we develop a parameter set for the selenium atom in ebselen, including a pseudoatom to simulate the $\sigma$-hole.
-This work is implemented in AMBER, due to its popularity, speed, and robustness, although there is no reason these parameters could not be extended to other force fields.
-We also restrict ourselves to the ``vanilla'' feature set of AMBER, given that advanced features such as polarizable force fields are not widely used in the analysis of ligand-receptor systems.
-We then show that this model accurately reproduces experimental geometries and energies, and compares favourably to \emph{ab initio} calculations.
+We have based the force field on GAFF, due to its popularity and ability to describe most druglike molecules in a way which is compatible with biomolecular force fields.
+Although GAFF is designed to work in the AMBER molecular dynamics system, we used GROMACS to develop the parameters, as it natively supports massless pseudoatoms which were critical for the description of the $\sigma$-hole.
+In principle, the work could be translated to any program that supports massless points, or the pseudoatom could even be given a mass and associated harmonic parameters which would enable some level of polarisability.
+However we have simply provided the GROMACS parameters with the massless point for its numerical stability and speed.
+Using these parameters, we show that this model accurately reproduces experimental geometries and energies, and compares favourably to \emph{ab initio} calculations.
 This force field will prove useful in understanding the interactions between ebselen and current targets, and possibly lead to the discovery of new targets.
 
 \section{Results and Discussion}
@@ -465,9 +467,6 @@ Bond and angle force constants were derived by conducting a relaxed potential en
 The resulting data was truncated to within 5~kcal/mol of the equilibrium energy (at larger distances the surfaces were appreciably anharmonic), and this surface was fitted with a classical harmonic oscillator model (equation \cref{eqn:cho}) using the \texttt{nls} function in the R software package.\autocite{R}
 The equilibrium distance/angle $x_0$ was fixed to the value from the optimized geometry.
 Torsion angles were similarly scanned at the DFT and MM (with the torsion term set to zero) levels, and the difference between these surfaces was fitted using a periodic series truncated to the fourth order (equation \cref{eqn:dihe}).
-An unrealistically high torsion barrier was identified in the central \ce{Se-N-C_{ar}-C_{ar}} dihedral, due to a repulsive short-range interaction between the aromatic hydrogen and carbonyl oxygen.
-We were unable to correct for this in the periodic series describing the torsion, so the non-bonding parameter for the oxygen was reduced to ???.
-This did not appear to have any negative impact on interactions involving this oxygen, while improving the overall structural model.
 The resulting parameters are presented in \cref{tab:cho-params,tab:dihe-params}.
 
 \begin{equation}
@@ -509,8 +508,11 @@ The resulting parameters are presented in \cref{tab:cho-params,tab:dihe-params}.
     \label{tab:dihe-params}
 \end{table}
 
-Values of 2.12 and 0.2910 for the Lennard-Jones parameters $\sigma$ and $\varepsilon$ were used for selenium.
-The default GAFF Lennard-Jones parameters for the carbonyl oxygen were found to give an unreasonably high barrier to rotation about the central dihedral angle (due to steric repulsion between the oxygen and the aryl hydrogen), so they were changed to 1.25 and 0.2.
+Values of 2.12 and 0.2910 for the Lennard-Jones parameters $\sigma$ and $\varepsilon$ were used for selenium, to account for the polar flattening that is observed in strongly polarised atoms.
+These values are lower than would be expected for a large atom like selenium (e.g. sulfur's parameters are only slightly lower at 1.9825 and 0.2824), however we found that they gave the most realistic bond energies and geometries.
+This is likely due to errors in the force field which are cancelled out by these artificially low values, which we believe is acceptable seeing as our goal is to provide an internally consistent system rather than absolute truth. 
+The default GAFF Lennard-Jones parameters for the carbonyl oxygen were found to give an unreasonably high barrier to rotation about the central dihedral angle (due to steric repulsion between the oxygen and the aryl hydrogen), so they were changed to 1.5 and 0.08.
+This did not appear to have any negative effect on the rest of the model.
 
 Default GAFF values were used for all other atoms, and Lorentz/Berthelot mixing rules were used to derive cross-terms.
 
@@ -561,26 +563,7 @@ This suggests that the explicit $\sigma$-hole parametrization will be reliable, 
 
 \subsection{Incorporation of pseudoatom}
 With classical parameters for ebselen in hand, as well as theoretical assurance that the system can be adequately described using electrostatics, we began to optimize parameters for the pseudoatom representing the $\sigma$-hole.
-While AMBER supports massless extra points (which would be ideal to model the $\sigma$-hole), these are necessarily hardcoded into the program at this stage. We determined that modification of core routines and recompiling the code was beyond the scope of this work, and represented a significant hurdle to other groups wishing to adopt our model.
-The pseudoatom was therefore modelled as a H atom, with an associated mass of 1 amu.
-The SHAKE algorithm is applied to all H atom types, which serves to damp high frequency vibrations and allows longer time steps to be used.
-The VDW parameters for this atom type were set to 0, so it would only exert influence through the electrostatic force.
-It is important to note that the non-zero mass of the pseudoatom will slightly effect the dynamics of the system, but not the final equilibrium.
-The pseudoatom was placed on the selenium atom 180\degree~from the nitrogen, at a distance of 0.8~\AA~(i.e. within the VDW surface).
-Force constants of 119.2~kcal/mol$\cdot$\AA$^2$ and 150.0~kcal/mol$\cdot$radian$^2$ were applied.
-The former was chosen to mimic the polarizability of an isolated selenium atom, and the latter was arbitrarily set.
-By employing a finite force constant, we are able to simulate the polarization contribution to Ch-bonding.
-The polarizability of an atom can be approximately calculated from first principles as
-\begin{equation}
-\alpha_{\mathrm{atom}} = 4 \pi \epsilon_0 r^{3}
-\end{equation}
-where $r$ is the atomic radius.
-The polarizability of a dipole with variable length (such as the polarized Se--pseudoatom bond) can be shown to be
-\begin{equation}
-    \alpha_{\mathrm{dipole}} = \frac{q^2}{k}
-\end{equation}
-where $q$ is the charge separation and $k$ is the force constant.
-Equating these expressions and solving for $k$ gives a force constant of 119.2~kcal/mol$\cdot$\AA$^2$.
+RESP
 
 \subsection{Electrostatic potential map}
 With these parameters in hand, we were able to construct electrostatic potential maps (\cref{fig:ebs-esp}), which show good qualitative agreement between the DFT and pseudoatom model potentials.
@@ -609,23 +592,45 @@ Relevant parameters are given in \cref{fig:1.py-geom} and \cref{tab:ebs-geom}, a
 \begin{figure}
     \centering
     \includegraphics[width=\linewidth]{Figures/geom-distribution.pdf}
-    \caption{Distribution of geometric parameters for complexes over a 2~ns trajectory. DFT equilibrium values are shown as red circles. REDO}
+    \caption{Distribution of geometric parameters for complexes over a 2~ns trajectory. DFT equilibrium values are shown as red circles.}
     \label{fig:1.py-geom}
 \end{figure}
 
+\begin{comment}
+    kj/mol
+    e ebs =  127.716431
+    e tma = -325.562653
+    e ebs tma = -220.638214
+    e dma = -37.702110
+    e ebs dma = 119.586090
+    e pyr = -167.397964
+    e ebs pyr = -71.262794
+    e dms = -47.586956
+    e ebs dms = 69.634117
+\end{comment}
+
 \begin{table}
+    %DONE
     \centering
     \begin{tabular}{lllll}\toprule
         Complex & r(\ce{Se\cdots B}) & $\angle$(\ce{N-Se\cdots B}) & $\angle$(lone pair) & Energy \\ & & & & (kcal/mol)\\\midrule
-        \cmpd{ebs}$\cdot$py & 2.98~\AA~(2.775~\AA) & 169.8\degree~(176.2\degree) & 158.2\degree~(165.7\degree) & -8.376 (-7.093) \\
-        \cmpd{ebs}$\cdot$DMAc & 2.964~\AA~(2.786~\AA) & 166.3\degree~(172.4\degree) & 129.7\degree~(117.9\degree) & -10.351 (-7.551) \\
-        \cmpd{ebs}$\cdot$TMA & 3.091~\AA~(2.857~\AA) & 167.6\degree~(177.4\degree) & 100.71\degree~(113.6\degree) & -6.666 (-6.627) \\
-        \cmpd{ebs}$\cdot$DMS & 3.322~\AA~(3.265~\AA) & 165.0\degree~(177.4\degree) & 89.1\degree~(89.8\degree) & -4.541 (-5.646) \\
+        \cmpd{ebs}$\cdot$py & 2.879~\AA~(2.775~\AA) & 174.9\degree~(176.2\degree) & 171.1\degree~(165.7\degree) & -7.548 (-7.093) \\%DONE
+        \cmpd{ebs}$\cdot$DMAc & 2.741~\AA~(2.786~\AA) & 174.7\degree~(172.4\degree) & 129.1\degree~(117.9\degree) & -7.068 (-7.551) \\%DONE
+        \cmpd{ebs}$\cdot$TMA & 2.928~\AA~(2.857~\AA) & 170.1\degree~(177.4\degree) & 107.2\degree~(113.6\degree) & -5.447 (-6.627) \\%DONE
+        \cmpd{ebs}$\cdot$DMS & 3.253~\AA~(3.265~\AA) & 160.4\degree~(177.4\degree) & 81.2\degree~(89.8\degree) & -2.510 (-5.646) \\%DONE
         \bottomrule
     \end{tabular}
-    \caption{Median geometric parameters for complexes with \cmpd{ebs}. DFT equilibrium values are given in brackets for comparison. DFT energies are derived from SAPT(DFT). REDO}
+    \caption{Median geometric parameters for complexes with \cmpd{ebs}. DFT equilibrium values are given in brackets for comparison. DFT energies are derived from SAPT(DFT).}
     \label{tab:ebs-geom}
 \end{table}
+
+These results show that Ch-bonds can be adequately described by the inclusion of a positively charged pseudoatom.
+Almost all parameters and energies can be adequately reproduced, with the only anomaly being the substantially underestimated bond energy for the \cmpd{ebs}$\cdot$DMS complex.
+Interestingly, the geometry is modelled well in spite of this.
+This may be due to the increased role of dispersion in this complex, which has been deliberately de-emphasised in our parameters in order to emulate the polar flattening of the selenium.
+There is also a substantial charge-transfer component to this interaction which, when taken to completion, leads to formation of a \ce{Se-S} bond and opening of the ring (\cref{fig:catcycle}).
+This cannot be modelled in a harmonic force field, so it is perhaps not surprising that the interaction energy is underestimated.
+Nonetheless, we believe that the parameter set will still be very useful for molecular docking.
 
 \subsection{Validation against experimental melting point}
 We also sought to validate our model against the experimentally determined melting point.
@@ -641,10 +646,7 @@ The nucleated geometry was used as a starting point for a series of trajectories
     \label{fig:melting}
 \end{figure}
 
-These results show that Ch-bonds can be adequately described by the inclusion of a positively charged pseudoatom.
-Interestingly, the weaker complexes (\cmpd{ebs}$\cdot$TMA and \cmpd{ebs}$\cdot$DMS) are better described both in terms of geometry and energy.
-This may be due to the somewhat decreased charge-transfer component of these interactions, which is poorly described.
-For the stronger complexes, both the interaction energy and distance are overestimated, representing a compromise between the two criteria.
+
 
 \subsection{Validation against SOD1 binding}
 In order to show the utility of our model, we conducted a binding simulation with a known ebselen target.
