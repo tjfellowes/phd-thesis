@@ -312,6 +312,11 @@ It therefore cannot be used to determine \emph{all} properties of a system.
     \label{fig:adp-dipole}
 \end{figure}
 
+To summarise, electron density can be measured in a crystal by x-ray diffraction, and various models used to fit it.
+The ``gold standard'' would be the derivation of a wavefunction, but at present this has not been done without the introduction of chemical constraints.
+In practise, the most accurate and most informative fitting of electron density to diffraction data is done with a series of atom-centered spherical harmonic functions (the Hansen-Coppens formalism).
+The resulting electron density can be used in QTAIM analysis, or used to construct electrostatic potential maps, which can guide chemists in their understanding of molecules in crystals.
+
 \subsection{Nuclear Magnetic Resonance}
 Nuclear magnetic resonance spectroscopy (NMR) is an essential tool for all organic chemists, as it is able to give relatively detailed structural information quickly and cheaply.
 It is based on the magnetic moment of certain nuclei, which are usually randomly oriented but spontaneously align in the presence of a strong magnetic field.
@@ -455,6 +460,7 @@ This was used to parametrize the supramolecular synthon 1,2,5-tellura\-dizaole, 
 This approach, however, relies on describing the bond using an \emph{an}harmonic potential, which is not easily implemented in most software.
 
 The inability to model ebselen in biological systems is a major hurdle in understanding the mechanism of its action.
+Furthermore, recent high-profile work has highlighted the need for an accurate force field which takes quantum effects into account.\autocite{Weglarz-Tomczak2021,Menendez2020}
 In this work we develop a parameter set for the selenium atom in ebselen, including a pseudoatom to simulate the $\sigma$-hole.
 We have based the force field on GAFF, due to its popularity and ability to describe most druglike molecules in a way which is compatible with biomolecular force fields.
 Although GAFF is designed to work in the AMBER molecular dynamics system, we used GROMACS to develop the parameters, as it natively supports massless pseudoatoms which were critical for the description of the $\sigma$-hole.
@@ -465,7 +471,7 @@ This force field will prove useful in understanding the interactions between ebs
 
 \section{Results and Discussion}
 We began by deriving the classical bonding parameters involving selenium in ebselen, using the procedure of Torsello.\autocite{Torsello2016}
-All quantum calculations were performed using Gaussian16, unless otherwise specified.\autocite{Gaussian16}
+All quantum calculations were performed using Gaussian16, unless otherwise specified.\autocite{gaussian16}
 Electrostatic potentials were calculated using the \texttt{cubegen} program in the Gaussian suite, or \texttt{mol2cub}.\autocite{mol2cub}
 The ground state geometry of ebselen was optimized at the $\omega$B97M-V/def2TZVP level, followed by vibrational analysis to confirm the structure was minimized.\autocite{Chai2008,Weigend2005,Weigend2006}
 Partial charges were assigned to the atoms using the RESP scheme, at the HF/6-31G* level.\autocite{Cornell1993}
@@ -475,8 +481,9 @@ This was chosen for consistency with existing AMBER force fields.
 Bond and angle force constants were derived by conducting a relaxed potential energy surface scan over a range of $\pm0.3$~\AA~for bonds and $\pm10$\degree~for angles.
 The resulting data was truncated to within 5~kcal/mol of the equilibrium energy (at larger distances the surfaces were appreciably anharmonic), and this surface was fitted with a classical harmonic oscillator model (\cref{eqn:cho}) using the \texttt{nls} function in the R software package.\autocite{R}
 The equilibrium distance/angle $x_0$ was fixed to the value from the optimized geometry.
-Torsion angles were similarly scanned at the DFT and MM (with the torsion term set to zero) levels, and the difference between these surfaces was fitted using a periodic series truncated to the fourth order (\cref{eqn:dihe}).
-The resulting parameters are presented in \cref{tab:cho-params,tab:dihe-params}, and full force field files are available in the supporting information.
+The resulting potential energy surfaces and harmonic approximations are shown in \cref{fig:pes}.
+Torsion angles were similarly scanned at the DFT and MM (with the torsion term set to zero) levels, and the difference between these surfaces was fitted using a periodic series (\cref{eqn:dihe}).
+The resulting parameters are presented in \cref{tab:cho-params,tab:dihe-params}.
 
 \begin{equation}
     V(x) = \frac{1}{2} k (x - x_0) ^2
@@ -484,7 +491,7 @@ The resulting parameters are presented in \cref{tab:cho-params,tab:dihe-params},
 \end{equation}
 
 \begin{equation}
-    V(\phi) = \sum_{n=1}^4 \left( \frac{V_{\mathrm{max},n}}{2} \times (1 + \cos(n \phi + \gamma_n)) \right)
+    V(\phi) = \sum_{n=1} \left( \frac{V_{\mathrm{max},n}}{2} \times (1 + \cos(n \phi + \gamma_n)) \right)
     \label{eqn:dihe}
 \end{equation}
 
@@ -516,6 +523,44 @@ The resulting parameters are presented in \cref{tab:cho-params,tab:dihe-params},
     \caption{Dihedral parameters for ebselen.}
     \label{tab:dihe-params}
 \end{table}
+
+\begin{figure}
+    \centering
+    \begin{subfigure}{0.42\linewidth}
+        \includegraphics[width=\linewidth]{Figures/ch2-sifig/SeN.pdf}
+        \caption{r(\ce{Se-N})}
+    \end{subfigure}
+    \begin{subfigure}{0.42\linewidth}
+        \includegraphics[width=\linewidth]{Figures/ch2-sifig/SeC.pdf}
+        \caption{r(\ce{Se-C})}
+    \end{subfigure}
+    \begin{subfigure}{0.42\linewidth}
+        \includegraphics[width=\linewidth]{Figures/ch2-sifig/SeCC1.pdf}
+        \caption{$\angle$(\ce{Se-C_1-C_6})}
+    \end{subfigure}
+    \begin{subfigure}{0.42\linewidth}
+        \includegraphics[width=\linewidth]{Figures/ch2-sifig/SeCC2.pdf}
+        \caption{$\angle$(\ce{Se-C_1-C_2})}
+    \end{subfigure}
+    \begin{subfigure}{0.42\linewidth}
+        \includegraphics[width=\linewidth]{Figures/ch2-sifig/SeNC1.pdf}
+        \caption{$\angle$(\ce{Se-N-C_{8}})}
+    \end{subfigure}
+    \begin{subfigure}{0.42\linewidth}
+        \includegraphics[width=\linewidth]{Figures/ch2-sifig/SeNC2.pdf}
+        \caption{$\angle$(\ce{Se-N-C_{7}})}
+    \end{subfigure}
+    \begin{subfigure}{0.42\linewidth}
+        \includegraphics[width=\linewidth]{Figures/ch2-sifig/NSeC.pdf}
+        \caption{$\angle$(\ce{N-Se-C})}
+    \end{subfigure}
+    \begin{subfigure}{0.42\linewidth}
+        \includegraphics[width=\linewidth]{Figures/ch2-sifig/SeNCC.pdf}
+        \caption{$\phi$(\ce{Se-N-C-C})}
+    \end{subfigure}
+    \caption{Potential energy surfaces for the indicated geomeric parameter. The DFT surface is shown as points and the harmonic approximation is shown as a line.}
+    \label{fig:pes}
+\end{figure}
 
 Values of 2.12 and 0.2910 for the Lennard-Jones parameters $\sigma$ and $\varepsilon$ were used for selenium, to account for the polar flattening that is observed in strongly polarised atoms.
 These values are lower than would be expected for a large atom like selenium (e.g. sulfur's parameters are only slightly lower at 1.9825 and 0.2824), however we found that they gave the most realistic bond energies and geometries.
@@ -584,7 +629,7 @@ The charge of the pseudoatom was calculated using the RESP procedure, which fits
 The ESP was calculated at the HF/6-31G* level using Gaussian16, in order to be consistent with existing force field parameters.
 The pseudoatom was then introduced manually, and RESP applied using the ANTECHAMBER program.
 For comparison, we also calculated charges for the structure \emph{without} a pseudoatom.
-Relevant charges are presented in \cref{tab:charges}, and full library files are available in the supporting information???.
+Relevant charges are presented in \cref{tab:charges}.
 
 \begin{table}
     \caption{Selected atomic charges for the pseudoatom and no pseudoatom models.}
@@ -667,26 +712,12 @@ There is also a substantial charge-transfer component to this interaction which,
 This cannot be modelled in a harmonic force field, so it is perhaps not surprising that the interaction energy is underestimated.
 Nonetheless, we believe that the parameter set will still be very useful for molecular docking.
 
-\subsection{Validation against experimental melting point}
-We also sought to validate our model against the experimentally determined melting point.
-An ebselen crystal (CSD code \textbf{SENGOH}, $5 \times 5 \times 5$ unit cells, 1000 molecules) was constructed, and placed in a simulation box of the appropriate size at 1~atm.
-The crystal was heated to 300~K over 2~ns using a Berendsen thermostat and barostat, and the density was calculated to be 1.667~g/cm\textsuperscript{3}, which compares very favourably to the experimental density of 1.646~g/cm\textsuperscript{3}.\autocite{Dupont1990StructuresII}
-Five random molecules were then deleted to create voids (crystal defects) that act as nucleation sites for melting.
-This avoids the effects of superheating, which is a documented issue in simulated phase transitions.\autocite{???}
-The nucleated geometry was used as a starting point for a series of trajectories at temperatures from 400--500~K in 10~K increments to identify an approximate melting range, then 1~K increments to accurately determine the melting point.
-These were conducted over 5~ns using a Berendsen thermostat and Parrinello-Rahman barostat.
-The geometries of the simulated crystal was inspected at the end of the trajectory, and the transition from ordered crystal to disordered liquid was apparent at 472--473~K???, which compares well to the experimental melting point of 456~K.
-We note that the slight overestimation may be explained by our modification of the Lennard-Jones parameters for the carbonyl oxygen atom, which may lead to artificially close packing and overstated electrostatic attraction.
-
-This procedure was repeated using the non-pseudoatom model, which afforded a melting point of XXX.
-The pseudoatom clearly represents a major improvement when simulating the solid state structure of ebselen.
-
-\begin{figure}
-    \centering
-    \includegraphics[width=\columnwidth]{Figures/melting.pdf}
-    \caption{Melting of a simulated ebselen crystal. The final state of the crystal is shown after 2~ns at the specified temperature.}
-    \label{fig:melting}
-\end{figure}
+\subsection{Validation against experimental density}
+We also sought to validate our model against the experimentally determined density of the crystal.
+An ebselen crystal (CSD code \textbf{SENGOH1}, $5 \times 5 \times 5$ unit cells, 1000 molecules) was constructed, and placed in a simulation box of the appropriate size at 1~atm.
+The crystal was heated to 290~K over 2~ns using a Berendsen thermostat and barostat, and the density was calculated to be 1.548~g/cm\textsuperscript{3}, which compares well to the experimental density of 1.529~g/cm\textsuperscript{3} at the same temperature.\autocite{Dupont1990StructuresII}
+This procedure was repeated using the non-pseudoatom model, which afforded a density at 290~K of 1.498~g/cm\textsuperscript{3}.
+The pseudoatom clearly represents an improvement when simulating the solid state structure of ebselen.
 
 \subsection{Validation against SOD1 binding}
 In order to show the utility of our model in a biological context, we conducted a binding simulation with a known ebselen target.
