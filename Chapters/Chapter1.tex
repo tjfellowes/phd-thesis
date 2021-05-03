@@ -411,6 +411,9 @@ Nonetheless, the \emph{shape} of the tensor is still valuable information that m
 
 This chapter was submitted to chemRxiv...
 
+\section{Abstract}
+The organoselenium compound ebselen has recently been investigated as a treatment for COVID-19, however efforts to model ebselen \emph{in silico} have been hampered by the lack of an efficient and accurate method to assess its binding to biological macromolecules. We present here a Generalized Amber Force Field modification which incorporates classical parameters for the selenium atom in ebselen, as well as a positively charged pseudoatom to simulate the $\sigma$-hole, a quantum mechanical phenomenon that dominates the chemistry of ebselen. Our approach is justified using an energy decomposition analysis of a number of DFT optimized structures, which show that the $\sigma$-hole interaction is primarily electrostatic in origin. Finally, our model is verified by conducting MD simulations on a number of simple complexes, as well as the clinically relevant enzyme SOD1, which is known to bind to ebselen.
+
 \section{Introduction}
 Ebselen (\cmpd{ebs}) is a molecule that has piqued the interest of many medicinal chemists, in no small part due to its decidedly non-druglike appearance.
 First synthesized in 1924, its unusual properties went more or less uninvestigated for more than 50 years.\autocite{Lesser1924}
@@ -526,35 +529,35 @@ The resulting parameters are presented in \cref{tab:cho-params,tab:dihe-params}.
 
 \begin{figure}
     \centering
-    \begin{subfigure}{0.42\linewidth}
+    \begin{subfigure}{0.4\linewidth}
         \includegraphics[width=\linewidth]{Figures/ch2-sifig/SeN.pdf}
         \caption{r(\ce{Se-N})}
     \end{subfigure}
-    \begin{subfigure}{0.42\linewidth}
+    \begin{subfigure}{0.4\linewidth}
         \includegraphics[width=\linewidth]{Figures/ch2-sifig/SeC.pdf}
         \caption{r(\ce{Se-C})}
     \end{subfigure}
-    \begin{subfigure}{0.42\linewidth}
+    \begin{subfigure}{0.4\linewidth}
         \includegraphics[width=\linewidth]{Figures/ch2-sifig/SeCC1.pdf}
         \caption{$\angle$(\ce{Se-C_1-C_6})}
     \end{subfigure}
-    \begin{subfigure}{0.42\linewidth}
+    \begin{subfigure}{0.4\linewidth}
         \includegraphics[width=\linewidth]{Figures/ch2-sifig/SeCC2.pdf}
         \caption{$\angle$(\ce{Se-C_1-C_2})}
     \end{subfigure}
-    \begin{subfigure}{0.42\linewidth}
+    \begin{subfigure}{0.4\linewidth}
         \includegraphics[width=\linewidth]{Figures/ch2-sifig/SeNC1.pdf}
         \caption{$\angle$(\ce{Se-N-C_{8}})}
     \end{subfigure}
-    \begin{subfigure}{0.42\linewidth}
+    \begin{subfigure}{0.4\linewidth}
         \includegraphics[width=\linewidth]{Figures/ch2-sifig/SeNC2.pdf}
         \caption{$\angle$(\ce{Se-N-C_{7}})}
     \end{subfigure}
-    \begin{subfigure}{0.42\linewidth}
+    \begin{subfigure}{0.4\linewidth}
         \includegraphics[width=\linewidth]{Figures/ch2-sifig/NSeC.pdf}
         \caption{$\angle$(\ce{N-Se-C})}
     \end{subfigure}
-    \begin{subfigure}{0.42\linewidth}
+    \begin{subfigure}{0.4\linewidth}
         \includegraphics[width=\linewidth]{Figures/ch2-sifig/SeNCC.pdf}
         \caption{$\phi$(\ce{Se-N-C-C})}
     \end{subfigure}
@@ -608,7 +611,7 @@ The range-separated hybrid $\omega$B97M-V has been shown to accurately describe 
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.5\linewidth]{Figures/sapt-eda.pdf}
+    \includegraphics[width=0.75\linewidth]{Figures/sapt-eda.pdf}
     \caption{SAPT(DFT) analysis of complexes with four Lewis bases. All energies are given in kcal/mol.}
     \label{fig:eda}
 \end{figure}
@@ -632,6 +635,7 @@ For comparison, we also calculated charges for the structure \emph{without} a ps
 Relevant charges are presented in \cref{tab:charges}.
 
 \begin{table}
+  \centering
     \caption{Selected atomic charges for the pseudoatom and no pseudoatom models.}
     \label{tab:charges}
     \begin{tabular}{lrr}\toprule
@@ -662,32 +666,9 @@ We therefore did not attempt to model it, although it could be modelled in the s
 \subsection{Validation against DFT geometries}
 A preliminary verification of our model was conducted by comparing the geometries and energies calculated in the SAPT(DFT) analysis with the respective MM values.
 The Lewis bases chosen for the SAPT(DFT) analysis were constructed in AMBER.
-GAFF was used for all atoms, and an extra point was added to simulate the lone pair per the method of Dixon and Kollman.\autocite{Dixon1997}
-Geometries were assessed by minimizing the ebselen-Lewis base structure over 1000 steps, then conducting a 2~ns MD trajectory in a vacuum.
-Trajectories were performed at 300~K for the strongly bonded systems (\cmpd{ebs}$\cdot$py and \cmpd{ebs}$\cdot$DMAc), however the weaker complexes (\cmpd{ebs}$\cdot$TMA and \cmpd{ebs}$\cdot$DMS) tended to dissociate under these conditions.
-Their trajectories were therefore conducted at 200~K and 100~K respectively.
-Binding energies were calculated by slowly cooling the system to 0~K, then conducting a short simulation to determine the potential energy of the system.
-Relevant parameters are given in \cref{fig:1.py-geom} and \cref{tab:ebs-geom}, alongside DFT values for comparison.
-
-\begin{figure}
-    \centering
-    \includegraphics[width=\linewidth]{Figures/geom-distribution.pdf}
-    \caption{Distribution of geometric parameters for complexes over a 2~ns trajectory. DFT equilibrium values are shown as red circles.}
-    \label{fig:1.py-geom}
-\end{figure}
-
-\begin{comment}
-    kj/mol
-    e ebs =  127.716431
-    e tma = -325.562653
-    e ebs tma = -220.638214
-    e dma = -37.702110
-    e ebs dma = 119.586090
-    e pyr = -167.397964
-    e ebs pyr = -71.262794
-    e dms = -47.586956
-    e ebs dms = 69.634117
-\end{comment}
+GAFF was used for all atoms, and an extra point was added to simulate the lone pair(s) of the Lewis bases per the method of Dixon and Kollman.\autocite{Dixon1997}
+Geometries were assessed by minimizing the ebselen-Lewis base structure, and energies calculated relative to the unbound minimized monomers.
+The results are shown in \cref{tab:ebs-geom}.
 
 \begin{table}
     %DONE
@@ -716,7 +697,7 @@ Nonetheless, we believe that the parameter set will still be very useful for mol
 We also sought to validate our model against the experimentally determined density of the crystal.
 An ebselen crystal (CSD code \textbf{SENGOH1}, $5 \times 5 \times 5$ unit cells, 1000 molecules) was constructed, and placed in a simulation box of the appropriate size at 1~atm.
 The crystal was heated to 290~K over 2~ns using a Berendsen thermostat and barostat, and the density was calculated to be 1.548~g/cm\textsuperscript{3}, which compares well to the experimental density of 1.529~g/cm\textsuperscript{3} at the same temperature.\autocite{Dupont1990StructuresII}
-This procedure was repeated using the non-pseudoatom model, which afforded a density at 290~K of 1.498~g/cm\textsuperscript{3}.
+This procedure was repeated using the non-pseudoatom model, which afforded a density at 290~K of 1.468~g/cm\textsuperscript{3}.
 The pseudoatom clearly represents an improvement when simulating the solid state structure of ebselen.
 
 \subsection{Validation against SOD1 binding}
@@ -730,14 +711,13 @@ The ff14SB force field was used for the protein.
 The ebselen residue was introduced within the binding groove approximately halfway between the two units.
 The complex was then neutralized by addition of four \ce{Na+} ions at the sites of most negative electrostatic potential, and solvated with a TIP3P explicit water model to give a final box size of $77.095\times 96.253\times 78.411$\AA.
 The structure was minimized over 1000 cycles to remove bad contacts, then heated to 300~K over 200~ps.
-A simulation of 2~ns at 300~K was then performed to assess the average binding geometry, which was found to exhibit a bifurcated Ch-bond between the expected Cys111 sulfur and the adjacent Ile113 backbone carbonyl (\cref{fig:sod1-ebs}).
+A simulation of 2~ns at 300~K was then performed to assess the average binding geometry, which was found to exhibit a bifurcated Ch-bond between the expected Cys112 sulfur and the adjacent Ile114 backbone carbonyl (\cref{fig:sod1-ebs}).
 A similar experiment was performed \emph{without} the $\sigma$-hole, which failed to bind in a reproducible geometry, with the ebselen molecule wandering through the groove.
 This is presumably driven by hydrophobic interactions, and the entropic cost of desolvation.
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.45\linewidth]{Figures/sod1-ebs-a.pdf}
-    \includegraphics[width=0.45\linewidth]{Figures/sod1-ebs-b.pdf}
+    \includegraphics[width=0.45\linewidth]{Figures/bifurcated-chbond.png}
     \caption{Average binding geometry of ebselen in the SOD1 groove.}
     \label{fig:sod1-ebs}
 \end{figure}
