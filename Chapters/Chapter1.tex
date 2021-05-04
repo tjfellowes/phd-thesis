@@ -410,7 +410,7 @@ Nonetheless, the \emph{shape} of the tensor is still valuable information that m
 
 \chapter[Simulating chalcogen bonding using molecular mechanics]{Simulating chalcogen bonding using molecular mechanics: A pseudoatom approach to model ebselen.}
 
-This chapter was submitted to chemRxiv, 21 Mar 2020.\autocite{Fellowes2020chemrxiv}
+This chapter was submitted to \textit{chemRxiv}, 21 Mar 2020.\autocite{Fellowes2020chemrxiv}
 
 \section{Abstract}
 The organoselenium compound ebselen has recently been investigated as a treatment for COVID-19, however efforts to model ebselen \emph{in silico} have been hampered by the lack of an efficient and accurate method to assess its binding to biological macromolecules. We present here a Generalized Amber Force Field modification which incorporates classical parameters for the selenium atom in ebselen, as well as a positively charged pseudoatom to simulate the $\sigma$-hole, a quantum mechanical phenomenon that dominates the chemistry of ebselen. Our approach is justified using an energy decomposition analysis of a number of DFT optimized structures, which show that the $\sigma$-hole interaction is primarily electrostatic in origin. Finally, our model is verified by conducting MD simulations on a number of simple complexes, as well as the clinically relevant enzyme SOD1, which is known to bind to ebselen.
@@ -710,7 +710,7 @@ SOD1 (PDB \textbf{2C9V}) was chosen because of the availability of an atomic res
 The structure was prepared by removing disorder, then removing water and ions (the Cu and Zn ions were retained).
 The ff14SB force field was used for the protein.
 The ebselen residue was introduced within the binding groove approximately halfway between the two units.
-The complex was then neutralized by addition of four \ce{Na+} ions at the sites of most negative electrostatic potential, and solvated with a TIP3P explicit water model to give a final box size of $77.095\times 96.253\times 78.411$\AA.
+The complex was then neutralized by addition of four \ce{Na+} ions at the sites of most negative electrostatic potential, and solvated with a TIP3P explicit water model to give a final box size of $77.095\times 96.253\times 78.411$~\AA.
 The structure was minimized over 1000 cycles to remove bad contacts, then heated to 300~K over 200~ps.
 A simulation of 2~ns at 300~K was then performed to assess the average binding geometry, which was found to exhibit a bifurcated Ch-bond between the expected Cys112 sulfur and the adjacent Ile114 backbone carbonyl (\cref{fig:sod1-ebs}).
 A similar experiment was performed \emph{without} the $\sigma$-hole, which failed to bind in a reproducible geometry, with the ebselen molecule wandering through the groove.
@@ -718,7 +718,7 @@ This is presumably driven by hydrophobic interactions, and the entropic cost of 
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.45\linewidth]{Figures/bifurcated-chbond.png}
+    \includegraphics[width=0.75\linewidth]{Figures/bifurcated-chbond.png}
     \caption{Average binding geometry of ebselen in the SOD1 groove.}
     \label{fig:sod1-ebs}
 \end{figure}
