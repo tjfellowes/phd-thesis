@@ -34,7 +34,7 @@ Similar applications have also been found for these classes of noncovalent inter
 Ch-bonding is the attractive interaction between a Lewis base and a chalcogen atom bearing an electron withdrawing substituent.
 The terminology of Ch-bonding partners is perhaps counterintuitive, as donors and acceptors are named by analogy with H-bonded equivalents.
 Note this is contrary to the formal flow of electron density; Ch-bond \emph{donors} bear vacant \emph{acceptor} orbitals, while Ch-bond \emph{acceptors} are \emph{donors} of electron density.
-For the purposes of this report, ``donor'' will refer to the Lewis acidic chalcogen species.
+For the purposes of this thesis, ``donor'' will refer to the Lewis acidic chalcogen species.
 
 \subsection{Mechanisms}
 As was discussed in the introduction, all intermolecular (and indeed \emph{intra}molecular) forces are manifestations of the electromagnetic force.
@@ -44,7 +44,7 @@ Evidence for this included the lengthening of the X--X bond corresponding to inc
 Characteristic charge transfer bands are also observed in the UV-vis spectra of halogen solutions.\autocite{Blackstock1987}
 
 Such evidence of orbital contributions is not, however, common to all systems displaying X- or Ch-bond interactions.
-The iodoperfluoroalkanes and arenes studied by Resnati et al show no charge transfer bands in UV-vis spectra, yet are exceptionally strong X-bond donors.\autocite{Yan2014}
+The iodoperfluoroalkanes and arenes studied by Resnati et al. show no charge transfer bands in UV-vis spectra, yet are exceptionally strong X-bond donors.\autocite{Yan2014}
 Jane Murray and Peter Politzer have advocated for an alternative, primarily electrostatic explanation of X- and Ch-bond interactions.\autocite{Murray2008,Murray2009}
 They propose that a positively charged $\sigma$-hole is generated along the extension of a $\sigma$ bond to an electron withdrawing substituent, due to polarisation of the bonding orbital.
 This also adequately explains the strength and directionality of these interactions.
@@ -171,8 +171,19 @@ Holliday junctions are branched nucleic acid structures that appear in many biol
 They are also useful as building blocks for DNA nanotechnology, where their self assembly and predictable gemoetry are exploited.
 The authors estimated that the X-bonding interaction (mediated through a bromo-substituent) was 2--5 kcal/mol stronger than the corresponding H-bond.
 A 2017 review identified a further 21 X-bonded nucleic acid structures.\autocite{Kolar2017}
+X-bonding was in fact able to partially replace inter-strand H-bonding interaction in a DNA oligomer.\autocite{Parker2012}
 
-LOTS TO TALK ABOUT. SEE \cite{Sharma2020} AND RELATED REFERENCES \cite{Farrell2018,Mai2019,Peng2020,Fang2019,Uleany2020,Sun2012,Hassan2010,Vazquez-Mayagoitia2009,Salon2007,DeBoer2007,Sun2019,Faustino2014,Lee2015,Conlon2019,Parker2012}
+Ch-bonding, too, has been investigated in the context of nucleic acids.
+\Citeauthor[]{Sharma2020} recently invesigated the possibility of forming Ch-bonded analogues of the canonical A:T/G:C base pairs in order to expand the genetic alphabet.\autocite{Sharma2020}
+A G\textsubscript{\ce{SeF}}:C dimer was found to be more stable than the canonical G:C pair, where the \ce{SeF} subscript indicates that one of the H-bond donors on the guanine was replaced by a selenenyl fluoride.
+\Citeauthor[]{Farrell2018} showed that introducing heavy chalcogens into nucleobases has profound impacts on their phototochemistry, with implications for their use in photodynamic therapy.\autocite{Farrell2018}
+The photophysics of selenonucleobases has been further explored, showing that they are uniquely photostable while efficiently populating and depopulating their excited states.\autocite{Mai2019,Peng2020,Fang2019,Uleany2020}
+While none of these investigations specifically mentioned Ch-bonding, it is highly likely that it would come into play, which may provide a means of directing the activity of these photosensitisers.
+Selenium has also been incorporated into nucleobases as a H-bond acceptor, in which it was shown that selenonucleobases can effectively discriminate against the formation of a so-called ``wobble'' base pair (U:G as opposed to U:A in RNA, or T:G/T:A in DNA).\autocite{Hassan2010,Sun2012}
+Another advantage of selenonucleobase incorporation is the ability to use the heavy selenium atom for MAD/SAD phasing of macromolecular crystal structures.\autocite{Salon2007}
+This was also the motivation for a \citeyear{Conlon2019} study in which the selenium was incorporated into the phosphate backbone.\autocite{Conlon2019}
+A major advantage of this approach is that the bulk of the selenium atom does not need to be accomodated in the interior of the double helix, so structural distortions are minimised.
+To date, there have not been any drugs which target nucleic acids through Ch-bonding, which is an area we explore in \cref{ch:dna-binder}.
 
 \section{Experimental methods}
 As mentioned above, X- and Ch-bonded interactions were originally identified crystallographically, with additional spectroscopic evidence being present.
@@ -271,7 +282,7 @@ One method takes inspiration from perturbation theory, where, as in MP2, the Har
 The diffraction data is then used to construct a perturbative term, which introduces a degree of correlation to the wavefunction, bringing it closer to the truth (at least within the Born-Oppenheimer approximation).\autocite{Weiss1962}
 Even with the power of modern computers, this is not an easy task, and quantum crystallography remains an active and exciting area of research.
 It is also worth mentioning the x-ray constrained wavefunction method developed by \citeauthor{Grimwood2003}.\autocite{Grimwood2003}
-This is simply a Hartree-Fock wavefunction calculations that is constrained \emph{via} a Lagrangian multiplier to reproduce the observed intensities in the experimental data, assuming there are no crystallographic artifacts in the data such as disorder or twinning.
+This is simply a Hartree-Fock wavefunction calculations that is constrained via a Lagrangian multiplier to reproduce the observed intensities in the experimental data, assuming there are no crystallographic artifacts in the data such as disorder or twinning.
 That is to say, the crystal is simply comprised of infinitely repeating symmetry related molecular units.
 The x-ray constrained wavefunction can be used to calculate a density, which can be used in a HARt-like procedure, which has been named x-ray wavefunction refinement (XWR).\autocite{Woinska2017}
 Both quantum chemistry and crystallographic refinement codes have been implemented in the software package TONTO.\autocite{Jayatilaka2003}
@@ -302,6 +313,11 @@ It therefore cannot be used to determine \emph{all} properties of a system.
     \label{fig:adp-dipole}
 \end{figure}
 
+To summarise, electron density can be measured in a crystal by x-ray diffraction, and various models used to fit it.
+The ``gold standard'' would be the derivation of a wavefunction, but at present this has not been done without the introduction of chemical constraints.
+In practise, the most accurate and most informative fitting of electron density to diffraction data is done with a series of atom-centered spherical harmonic functions (the Hansen-Coppens formalism).
+The resulting electron density can be used in QTAIM analysis, or used to construct electrostatic potential maps, which can guide chemists in their understanding of molecules in crystals.
+
 \subsection{Nuclear Magnetic Resonance}
 Nuclear magnetic resonance spectroscopy (NMR) is an essential tool for all organic chemists, as it is able to give relatively detailed structural information quickly and cheaply.
 It is based on the magnetic moment of certain nuclei, which are usually randomly oriented but spontaneously align in the presence of a strong magnetic field.
@@ -330,7 +346,7 @@ The chemical shielding tensor is thus depicted in \cref{fig:chemical-shielding-t
   \label{fig:chemical-shielding-tensor}
 \end{figure}
 
-In almost all experiments, the chemical shielding tensor $\sigma$ is only indirected measured, \emph{via} the chemical shift $\delta$, which is defined with respect to a reference nucleus such that $\delta = \sigma_{\textrm{ref}} - \sigma_{\textrm{sample}}$.
+In almost all experiments, the chemical shielding tensor $\sigma$ is only indirected measured, via the chemical shift $\delta$, which is defined with respect to a reference nucleus such that $\delta = \sigma_{\textrm{ref}} - \sigma_{\textrm{sample}}$.
 As the coordinate system as described above is somewhat arbitrary, the IUPAC convention defines the three principal components of the chemical shift tensor $\delta_{11}$, $\delta_{22}$ and $\delta_{33}$ such that $\delta_{11} \geq \delta_{22} \geq \delta_{33}$.
 The isotropic chemical shift is given by the average $\delta_{\textrm{iso}} = \frac{(\delta_{11} + \delta_{22} + \delta_{33})}{3}$.
 There are two other conventions for describing chemical shift anisotropy, which are useful in different contexts.
@@ -394,7 +410,10 @@ Nonetheless, the \emph{shape} of the tensor is still valuable information that m
 
 \chapter[Simulating chalcogen bonding using molecular mechanics]{Simulating chalcogen bonding using molecular mechanics: A pseudoatom approach to model ebselen.}
 
-This chapter was submitted to chemRxiv...
+This chapter was submitted to chemRxiv, 21 Mar 2020.\autocite{Fellowes2020chemrxiv}
+
+\section{Abstract}
+The organoselenium compound ebselen has recently been investigated as a treatment for COVID-19, however efforts to model ebselen \emph{in silico} have been hampered by the lack of an efficient and accurate method to assess its binding to biological macromolecules. We present here a Generalized Amber Force Field modification which incorporates classical parameters for the selenium atom in ebselen, as well as a positively charged pseudoatom to simulate the $\sigma$-hole, a quantum mechanical phenomenon that dominates the chemistry of ebselen. Our approach is justified using an energy decomposition analysis of a number of DFT optimized structures, which show that the $\sigma$-hole interaction is primarily electrostatic in origin. Finally, our model is verified by conducting MD simulations on a number of simple complexes, as well as the clinically relevant enzyme SOD1, which is known to bind to ebselen.
 
 \section{Introduction}
 Ebselen (\cmpd{ebs}) is a molecule that has piqued the interest of many medicinal chemists, in no small part due to its decidedly non-druglike appearance.
@@ -428,7 +447,7 @@ The drawbacks are that MM relies on having an extensive parameter set (a ``force
 
 Both of these issues are encountered when attempting to model ebselen using MM.
 Firstly, parameters to describe selenium-containing small molecules are simply not available in most popular force fields, including GAFF, Gromos, and CGenFF.
-This has been substantially addressed in the work of Torsello \emph{et al}, where extensive parametrization of a series of diaryl diselenides and diaryl ditellurides was performed, and they provided a methodology to extend this to general chalcogen-containing molecules.\autocite{Torsello2016}
+This has been substantially addressed in the work of Torsello et al., where extensive parametrization of a series of diaryl diselenides and diaryl ditellurides was performed, and they provided a methodology to extend this to general chalcogen-containing molecules.\autocite{Torsello2016}
 They did not, however, address the second issue of quantum effects, which is reasonable given that they do not play a large role in diselenides.
 The chemistry of ebselen, on the other hand, is dominated by the $\sigma$-hole, which is a quantum effect.\autocite{Thomas2015}
 The $\sigma$-hole is a region of positive electrostatic potential situated opposite to the Se--N bond, caused by a strongly anisotropic electron distribution around the selenium atom.
@@ -445,6 +464,7 @@ This was used to parametrize the supramolecular synthon 1,2,5-tellura\-dizaole, 
 This approach, however, relies on describing the bond using an \emph{an}harmonic potential, which is not easily implemented in most software.
 
 The inability to model ebselen in biological systems is a major hurdle in understanding the mechanism of its action.
+Furthermore, recent high-profile work has highlighted the need for an accurate force field which takes quantum effects into account.\autocite{Weglarz-Tomczak2021,Menendez2020}
 In this work we develop a parameter set for the selenium atom in ebselen, including a pseudoatom to simulate the $\sigma$-hole.
 We have based the force field on GAFF, due to its popularity and ability to describe most druglike molecules in a way which is compatible with biomolecular force fields.
 Although GAFF is designed to work in the AMBER molecular dynamics system, we used GROMACS to develop the parameters, as it natively supports massless pseudoatoms which were critical for the description of the $\sigma$-hole.
@@ -455,7 +475,7 @@ This force field will prove useful in understanding the interactions between ebs
 
 \section{Results and Discussion}
 We began by deriving the classical bonding parameters involving selenium in ebselen, using the procedure of Torsello.\autocite{Torsello2016}
-All quantum calculations were performed using Gaussian16, unless otherwise specified.\autocite{Gaussian16}
+All quantum calculations were performed using Gaussian16, unless otherwise specified.\autocite{gaussian16}
 Electrostatic potentials were calculated using the \texttt{cubegen} program in the Gaussian suite, or \texttt{mol2cub}.\autocite{mol2cub}
 The ground state geometry of ebselen was optimized at the $\omega$B97M-V/def2TZVP level, followed by vibrational analysis to confirm the structure was minimized.\autocite{Chai2008,Weigend2005,Weigend2006}
 Partial charges were assigned to the atoms using the RESP scheme, at the HF/6-31G* level.\autocite{Cornell1993}
@@ -463,10 +483,11 @@ This was chosen for consistency with existing AMBER force fields.
 
 \subsection{Classical bonding parameters}
 Bond and angle force constants were derived by conducting a relaxed potential energy surface scan over a range of $\pm0.3$~\AA~for bonds and $\pm10$\degree~for angles.
-The resulting data was truncated to within 5~kcal/mol of the equilibrium energy (at larger distances the surfaces were appreciably anharmonic), and this surface was fitted with a classical harmonic oscillator model (equation \cref{eqn:cho}) using the \texttt{nls} function in the R software package.\autocite{R}
+The resulting data was truncated to within 5~kcal/mol of the equilibrium energy (at larger distances the surfaces were appreciably anharmonic), and this surface was fitted with a classical harmonic oscillator model (\cref{eqn:cho}) using the \texttt{nls} function in the R software package.\autocite{R}
 The equilibrium distance/angle $x_0$ was fixed to the value from the optimized geometry.
-Torsion angles were similarly scanned at the DFT and MM (with the torsion term set to zero) levels, and the difference between these surfaces was fitted using a periodic series truncated to the fourth order (equation \cref{eqn:dihe}).
-The resulting parameters are presented in \cref{tab:cho-params,tab:dihe-params}, and full force field files are available in the supporting information.
+The resulting potential energy surfaces and harmonic approximations are shown in \cref{fig:pes}.
+Torsion angles were similarly scanned at the DFT and MM (with the torsion term set to zero) levels, and the difference between these surfaces was fitted using a periodic series (\cref{eqn:dihe}).
+The resulting parameters are presented in \cref{tab:cho-params,tab:dihe-params}.
 
 \begin{equation}
     V(x) = \frac{1}{2} k (x - x_0) ^2
@@ -474,7 +495,7 @@ The resulting parameters are presented in \cref{tab:cho-params,tab:dihe-params},
 \end{equation}
 
 \begin{equation}
-    V(\phi) = \sum_{n=1}^4 \left( \frac{V_{\mathrm{max},n}}{2} \times (1 + \cos(n \phi + \gamma_n)) \right)
+    V(\phi) = \sum_{n=1} \left( \frac{V_{\mathrm{max},n}}{2} \times (1 + \cos(n \phi + \gamma_n)) \right)
     \label{eqn:dihe}
 \end{equation}
 
@@ -497,15 +518,53 @@ The resulting parameters are presented in \cref{tab:cho-params,tab:dihe-params},
 \begin{table}
     \centering
     \footnotesize
-    \begin{tabular}{lllllllll}\toprule
-         Parameter & $V_\mathrm{max,1}$ & $V_\mathrm{max,2}$& $V_\mathrm{max,3}$& $V_\mathrm{max,4}$& $\gamma_2$ & $\gamma_4$ & $\gamma_6$ & $\gamma_8$ \\
-         & kcal/mol & kcal/mol & kcal/mol & kcal/mol & \degree & \degree & \degree & \degree\\\midrule
-         $\phi$(\ce{C_{ar}-C_{ar}-N-Se}) & -36.8355 & 1.2467 & 35.4794 & -0.3521 & 180 & 180 & 180 & 173.425 \\
+    \begin{tabular}{lllll}\toprule
+         Parameter & $V_\mathrm{max,1}$ & $V_\mathrm{max,2}$& $\gamma_1$ & $\gamma_2$ \\
+         & kcal/mol & kcal/mol & \degree & \degree\\\midrule
+         $\phi$(\ce{C_{ar}-C_{ar}-N-Se}) & $-0.9653$ & $0.5108$ & 180 & 180 \\
         \bottomrule
     \end{tabular}
     \caption{Dihedral parameters for ebselen.}
     \label{tab:dihe-params}
 \end{table}
+
+\begin{figure}
+    \centering
+    \begin{subfigure}{0.4\linewidth}
+        \includegraphics[width=\linewidth]{Figures/ch2-sifig/SeN.pdf}
+        \caption{r(\ce{Se-N})}
+    \end{subfigure}
+    \begin{subfigure}{0.4\linewidth}
+        \includegraphics[width=\linewidth]{Figures/ch2-sifig/SeC.pdf}
+        \caption{r(\ce{Se-C})}
+    \end{subfigure}
+    \begin{subfigure}{0.4\linewidth}
+        \includegraphics[width=\linewidth]{Figures/ch2-sifig/SeCC1.pdf}
+        \caption{$\angle$(\ce{Se-C_1-C_6})}
+    \end{subfigure}
+    \begin{subfigure}{0.4\linewidth}
+        \includegraphics[width=\linewidth]{Figures/ch2-sifig/SeCC2.pdf}
+        \caption{$\angle$(\ce{Se-C_1-C_2})}
+    \end{subfigure}
+    \begin{subfigure}{0.4\linewidth}
+        \includegraphics[width=\linewidth]{Figures/ch2-sifig/SeNC1.pdf}
+        \caption{$\angle$(\ce{Se-N-C_{8}})}
+    \end{subfigure}
+    \begin{subfigure}{0.4\linewidth}
+        \includegraphics[width=\linewidth]{Figures/ch2-sifig/SeNC2.pdf}
+        \caption{$\angle$(\ce{Se-N-C_{7}})}
+    \end{subfigure}
+    \begin{subfigure}{0.4\linewidth}
+        \includegraphics[width=\linewidth]{Figures/ch2-sifig/NSeC.pdf}
+        \caption{$\angle$(\ce{N-Se-C})}
+    \end{subfigure}
+    \begin{subfigure}{0.4\linewidth}
+        \includegraphics[width=\linewidth]{Figures/ch2-sifig/SeNCC.pdf}
+        \caption{$\phi$(\ce{Se-N-C-C})}
+    \end{subfigure}
+    \caption{Potential energy surfaces for the indicated geomeric parameter. The DFT surface is shown as points and the harmonic approximation is shown as a line.}
+    \label{fig:pes}
+\end{figure}
 
 Values of 2.12 and 0.2910 for the Lennard-Jones parameters $\sigma$ and $\varepsilon$ were used for selenium, to account for the polar flattening that is observed in strongly polarised atoms.
 These values are lower than would be expected for a large atom like selenium (e.g. sulfur's parameters are only slightly lower at 1.9825 and 0.2824), however we found that they gave the most realistic bond energies and geometries.
@@ -553,7 +612,7 @@ The range-separated hybrid $\omega$B97M-V has been shown to accurately describe 
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.5\linewidth]{Figures/sapt-eda.pdf}
+    \includegraphics[width=0.75\linewidth]{Figures/sapt-eda.pdf}
     \caption{SAPT(DFT) analysis of complexes with four Lewis bases. All energies are given in kcal/mol.}
     \label{fig:eda}
 \end{figure}
@@ -574,18 +633,19 @@ The charge of the pseudoatom was calculated using the RESP procedure, which fits
 The ESP was calculated at the HF/6-31G* level using Gaussian16, in order to be consistent with existing force field parameters.
 The pseudoatom was then introduced manually, and RESP applied using the ANTECHAMBER program.
 For comparison, we also calculated charges for the structure \emph{without} a pseudoatom.
-Relevant charges are presented in \cref{tab:charges}, and full library files are available in the supporting information???.
+Relevant charges are presented in \cref{tab:charges}.
 
 \begin{table}
+  \centering
     \caption{Selected atomic charges for the pseudoatom and no pseudoatom models.}
     \label{tab:charges}
-    \begin{tabular}{lll}\toprule
+    \begin{tabular}{lrr}\toprule
         Atom & RESP charge (pseudoatom) & RESP charge (no pseudoatom) \\\midrule
-        \ce{E_{26}} & 0.281382 & --- \\
-        \ce{Se_1} & -0.372631 & 0.056728 \\
-        \ce{N_2} & -0.241674 & -0.599430 \\
-        \ce{C_3} & 0.463064 & 0.827981 \\
-        \ce{O_4} & -0.558076 & -0.613468 \\
+        \ce{E_{26}} & $0.281382$ & --- \\
+        \ce{Se_1} & $-0.372631$ & $0.056728$ \\
+        \ce{N_2} & $-0.241674$ & $-0.599430$ \\
+        \ce{C_3} & $0.463064$ & $0.827981$ \\
+        \ce{O_4} & $-0.558076$ & $-0.613468$ \\\bottomrule
     \end{tabular}
 \end{table}
 
@@ -607,38 +667,15 @@ We therefore did not attempt to model it, although it could be modelled in the s
 \subsection{Validation against DFT geometries}
 A preliminary verification of our model was conducted by comparing the geometries and energies calculated in the SAPT(DFT) analysis with the respective MM values.
 The Lewis bases chosen for the SAPT(DFT) analysis were constructed in AMBER.
-GAFF was used for all atoms, and an extra point was added to simulate the lone pair per the method of Dixon and Kollman.\autocite{Dixon1997}
-Geometries were assessed by minimizing the ebselen-Lewis base structure over 1000 steps, then conducting a 2~ns MD trajectory in a vacuum.
-Trajectories were performed at 300~K for the strongly bonded systems (\cmpd{ebs}$\cdot$py and \cmpd{ebs}$\cdot$DMAc), however the weaker complexes (\cmpd{ebs}$\cdot$TMA and \cmpd{ebs}$\cdot$DMS) tended to dissociate under these conditions.
-Their trajectories were therefore conducted at 200~K and 100~K respectively.
-Binding energies were calculated by slowly cooling the system to 0~K, then conducting a short simulation to determine the potential energy of the system.
-Relevant parameters are given in \cref{fig:1.py-geom} and \cref{tab:ebs-geom}, alongside DFT values for comparison.
-
-\begin{figure}
-    \centering
-    \includegraphics[width=\linewidth]{Figures/geom-distribution.pdf}
-    \caption{Distribution of geometric parameters for complexes over a 2~ns trajectory. DFT equilibrium values are shown as red circles.}
-    \label{fig:1.py-geom}
-\end{figure}
-
-\begin{comment}
-    kj/mol
-    e ebs =  127.716431
-    e tma = -325.562653
-    e ebs tma = -220.638214
-    e dma = -37.702110
-    e ebs dma = 119.586090
-    e pyr = -167.397964
-    e ebs pyr = -71.262794
-    e dms = -47.586956
-    e ebs dms = 69.634117
-\end{comment}
+GAFF was used for all atoms, and an extra point was added to simulate the lone pair(s) of the Lewis bases per the method of Dixon and Kollman.\autocite{Dixon1997}
+Geometries were assessed by minimizing the ebselen-Lewis base structure, and energies calculated relative to the unbound minimized monomers.
+The results are shown in \cref{tab:ebs-geom}.
 
 \begin{table}
     %DONE
     \centering
     \begin{tabular}{lllll}\toprule
-        Complex & r(\ce{Se\cdots B}) & $\angle$(\ce{N-Se\cdots B}) & $\angle$(lone pair) & Energy \\ & & & & (kcal/mol)\\\midrule
+        Complex & r(\ce{Se\cdots B}) & $\angle$(\ce{N-Se\cdots B}) & $\angle$(lone pair) & Energy \\ & \AA & \degree & \degree & (kcal/mol)\\\midrule
         \cmpd{ebs}$\cdot$py & 2.879~\AA~(2.775~\AA) & 174.9\degree~(176.2\degree) & 171.1\degree~(165.7\degree) & -7.548 (-7.093) \\%DONE
         \cmpd{ebs}$\cdot$DMAc & 2.741~\AA~(2.786~\AA) & 174.7\degree~(172.4\degree) & 129.1\degree~(117.9\degree) & -7.068 (-7.551) \\%DONE
         \cmpd{ebs}$\cdot$TMA & 2.928~\AA~(2.857~\AA) & 170.1\degree~(177.4\degree) & 107.2\degree~(113.6\degree) & -5.447 (-6.627) \\%DONE
@@ -657,41 +694,31 @@ There is also a substantial charge-transfer component to this interaction which,
 This cannot be modelled in a harmonic force field, so it is perhaps not surprising that the interaction energy is underestimated.
 Nonetheless, we believe that the parameter set will still be very useful for molecular docking.
 
-\subsection{Validation against experimental melting point}
-We also sought to validate our model against the experimentally determined melting point.
-An ebselen crystal (CSD code \textbf{SENGOH}, $5 \times 5 \times 5$ unit cells, 1000 molecules) was constructed, and placed in a simulation box of the appropriate size at 1~atm.
-The crystal was heated to 300K, then 5 random molecules were deleted to create voids (crystal defects) that act as nucleation sites for melting.
-This avoids the effects of superheating, which is a documented issue in simulated phase transitions.\autocite{???}
-The nucleated geometry was used as a starting point for a series of trajectories at temperatures from 400--500~K in 10~K increments to identify an approximate melting range, then 1~K increments to accurately determine the melting point.
-
-\begin{figure}
-    \centering
-    \includegraphics[width=\columnwidth]{Figures/melting.pdf}
-    \caption{Melting of a simulated ebselen crystal. The final state of the crystal is shown after 2~ns at the specified temperature.}
-    \label{fig:melting}
-\end{figure}
-
-
+\subsection{Validation against experimental density}
+We also sought to validate our model against the experimentally determined density of the crystal.
+An ebselen crystal (CSD code \textbf{SENGOH1}, $5 \times 5 \times 5$ unit cells, 1000 molecules) was constructed, and placed in a simulation box of the appropriate size at 1~atm.
+The crystal was heated to 290~K over 2~ns using a Berendsen thermostat and barostat, and the density was calculated to be 1.548~g/cm\textsuperscript{3}, which compares well to the experimental density of 1.529~g/cm\textsuperscript{3} at the same temperature.\autocite{Dupont1990StructuresII}
+This procedure was repeated using the non-pseudoatom model, which afforded a density at 290~K of 1.468~g/cm\textsuperscript{3}.
+The pseudoatom clearly represents an improvement when simulating the solid state structure of ebselen.
 
 \subsection{Validation against SOD1 binding}
-In order to show the utility of our model, we conducted a binding simulation with a known ebselen target.
+In order to show the utility of our model in a biological context, we conducted a binding simulation with a known ebselen target.
 Superoxide dismutase-1 (SOD1) forms a covalent complex with ebselen through the Cys111 residue, which appears to support correct folding of the protein, inhibiting aggregation and associated toxicity.\autocite{Capper2018}
 Although formation of the covalent complex cannot be simulated using our model (as this is a bond-forming process), we are able to visualize the stabilized encounter complex which undergoes ring opening to form the final adduct.
 Indeed, the Ch-bond formed through the $\sigma$-hole can be thought of as the early stages of a nucleophilic attack at the selenium.\autocite{Thomas2015}
 SOD1 (PDB \textbf{2C9V}) was chosen because of the availability of an atomic resolution structure, demonstrated evidence of ebselen binding, and it's relatively small size.\autocite{Capper2018,Strange2006}
-The structure was prepared for AMBER by removing disorder, then removing water and ions (the Cu and Zn ions were retained).
+The structure was prepared by removing disorder, then removing water and ions (the Cu and Zn ions were retained).
 The ff14SB force field was used for the protein.
 The ebselen residue was introduced within the binding groove approximately halfway between the two units.
 The complex was then neutralized by addition of four \ce{Na+} ions at the sites of most negative electrostatic potential, and solvated with a TIP3P explicit water model to give a final box size of $77.095\times 96.253\times 78.411$\AA.
 The structure was minimized over 1000 cycles to remove bad contacts, then heated to 300~K over 200~ps.
-A simulation of 2~ns at 300~K was then performed to assess the average binding geometry, which was found to exhibit a bifurcated Ch-bond between the expected Cys111 sulfur and the adjacent Ile113 backbone carbonyl (\cref{fig:sod1-ebs}).
+A simulation of 2~ns at 300~K was then performed to assess the average binding geometry, which was found to exhibit a bifurcated Ch-bond between the expected Cys112 sulfur and the adjacent Ile114 backbone carbonyl (\cref{fig:sod1-ebs}).
 A similar experiment was performed \emph{without} the $\sigma$-hole, which failed to bind in a reproducible geometry, with the ebselen molecule wandering through the groove.
 This is presumably driven by hydrophobic interactions, and the entropic cost of desolvation.
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.45\linewidth]{Figures/sod1-ebs-a.pdf}
-    \includegraphics[width=0.45\linewidth]{Figures/sod1-ebs-b.pdf}
+    \includegraphics[width=0.45\linewidth]{Figures/bifurcated-chbond.png}
     \caption{Average binding geometry of ebselen in the SOD1 groove.}
     \label{fig:sod1-ebs}
 \end{figure}

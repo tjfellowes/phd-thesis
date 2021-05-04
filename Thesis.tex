@@ -44,6 +44,7 @@
 \usepackage{tablefootnote}
 
 \usepackage{afterpage}
+\usepackage{perpage}
 \usepackage{caption}
 \usepackage{pdflscape}
 \usepackage{gensymb}
@@ -62,6 +63,8 @@
 \else
   \usepackage{helvet} %USE FOR LATEX AUXILIARY COMPILATION OF FIGURES
 \fi
+
+\MakePerPage{footnote}
 
 \usepackage{cleveref}
 \crefname{scheme}{scheme}{schemes}
@@ -241,11 +244,9 @@ $\omega$ & angular frequency & rads$^{-1}$ \\
 TODO:
 \begin{itemize}
   \item Finish off writing and double check all ?? parts
-  \item Introduction can be consolidated. Include brief description of expt techniques
   \item Come up with a better title
-  \item Chapter 6 needs padding out
-  \item Chapter 8 needs a LOT of padding out. Maybe remove.
   \item Abstract
+  \item Check all reference for completeness (no DOIs!)
   \item Add short titles for tables and figures for lot and lof
   \item List of abbreviations, constants, and symbols
   \item Acknowledgements
@@ -267,6 +268,8 @@ TODO:
 \input{Chapters/Chapter3}
 
 \input{Chapters/Chapter4}
+
+\input{Chapters/Conclusion}
 
 %% ----------------------------------------------------------------
 % Now begin the Appendices, including them as separate files
