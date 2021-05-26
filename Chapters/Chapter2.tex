@@ -554,8 +554,11 @@ For a further discussion of this phenomenon, see \cref{sec:z2}.
   \caption{Linear regression results for Hammett plots in \cref{fig:hammett-dmap,fig:hammett-pyrrol,fig:hammett-morph}.}
   \begin{tabular}{lllllll}\toprule
          & \multicolumn{3}{c}{$\mathrm{r}(\ce{Se\cdots N})$} & \multicolumn{3}{c}{$\mathrm{r}(\ce{Se-N})$} \\
-    Base & gradient & intercept & $R^2$ & gradient & intercept & $R^2$ \\\midrule
-    DMAP & 
+         \cmidrule(lr){2-4}\cmidrule(lr){5-7}
+    Base            & gradient  & intercept & $R^2$ & gradient & intercept & $R^2$ \\\midrule
+    DMAP            & -0.12(4)  & 2.363(17) & 0.4104& 0.067(10)& 1.959(5)  & 0.7857 \\
+    \cmpd{py.pyrrol}& -0.071(17)& 2.347(7)  & 0.8005& 0.029(8) & 1.9761(28)& 0.7828 \\
+    \cmpd{py.morph} & -0.13(2)  & 2.397(8)  & 0.8708& 0.035(10)& 1.9673(34)& 0.7260 \\\bottomrule 
   \end{tabular}
   \label{tab:hammett-results}
 \end{table}
