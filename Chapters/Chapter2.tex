@@ -530,7 +530,7 @@ For a further discussion of this phenomenon, see \cref{sec:z2}.
     \centering
     \includegraphics[width=0.9\linewidth]{Figures/hammett-endo-dmap.eps}
     \includegraphics[width=0.9\linewidth]{Figures/hammett-dmap.eps}
-    \caption[Hammett plots of endocyclic \ce{Se-N} bond length and \ce{Se\cdots N} Ch-bond length of ebselen derivatives complexed with DMAP.]{Hammett plots of endocyclic \ce{Se-N} bond length and \ce{Se\cdots N} Ch-bond length of ebselen derivatives complexed with DMAP. The lines are described by the equations $\mathrm{r}(\ce{Se-N}) = (1.957(5) + 0.054(12) \times \sigma_{\mathrm{X}})$~\AA~ and $\mathrm{r}(\ce{Se\cdots N}) = (2.385(17) - 0.15(4) \times \sigma_{\mathrm{X}})$~\AA.}
+    \caption[Hammett plots of endocyclic \ce{Se-N} bond length and \ce{Se\cdots N} Ch-bond length of ebselen derivatives complexed with DMAP.]{Hammett plots of endocyclic \ce{Se-N} bond length and \ce{Se\cdots N} Ch-bond length of ebselen derivatives complexed with DMAP. The lines are described by the equations $\mathrm{r}(\ce{Se-N}) = (1.959(5) + 0.067(10) \times \sigma_{\mathrm{X}})$~\AA~($R^2=0.7857$) and $\mathrm{r}(\ce{Se\cdots N}) = (2.363(17) - 0.12(4) \times \sigma_{\mathrm{X}})$~\AA~($R^2=0.4104$).}
     \label{fig:hammett-dmap}
 \end{figure}
 
@@ -538,7 +538,7 @@ For a further discussion of this phenomenon, see \cref{sec:z2}.
   \centering
   \includegraphics[width=0.9\linewidth]{Figures/hammett-endo-pyrrol.eps}
   \includegraphics[width=0.9\linewidth]{Figures/hammett-pyrrol.eps}
-  \caption[Hammett plots of endocyclic \ce{Se-N} bond length and \ce{Se\cdots N} Ch-bond length of ebselen derivatives complexed with \refcmpd{py.pyrrol}.]{Hammett plots of endocyclic \ce{Se-N} bond length and \ce{Se\cdots N} Ch-bond length of ebselen derivatives complexed with \refcmpd{py.pyrrol}. The lines are described by the equations $\mathrm{r}(\ce{Se-N}) = (1.9788(32) - 0.024(9) \times \sigma_{\mathrm{X}})$~\AA~($R^2=0.5722$) and $\mathrm{r}(\ce{Se-N}) = (2.331(14) - 0.04(4) \times \sigma_{\mathrm{X}})$~\AA~($R^2=0.1588$)}
+  \caption[Hammett plots of endocyclic \ce{Se-N} bond length and \ce{Se\cdots N} Ch-bond length of ebselen derivatives complexed with \refcmpd{py.pyrrol}.]{Hammett plots of endocyclic \ce{Se-N} bond length and \ce{Se\cdots N} Ch-bond length of ebselen derivatives complexed with \refcmpd{py.pyrrol}. The lines are described by the equations $\mathrm{r}(\ce{Se-N}) = (1.9761(28) + 0.029(8) \times \sigma_{\mathrm{X}})$~\AA~($R^2=0.7828$) and $\mathrm{r}(\ce{Se\cdots N}) = (2.347(7) - 0.071(17) \times \sigma_{\mathrm{X}})$~\AA~($R^2=0.8005$)}
   \label{fig:hammett-pyrrol}
 \end{figure}
 
@@ -546,9 +546,19 @@ For a further discussion of this phenomenon, see \cref{sec:z2}.
   \centering
   \includegraphics[width=0.9\linewidth]{Figures/hammett-endo-morph.eps}
   \includegraphics[width=0.9\linewidth]{Figures/hammett-morph.eps}
-  \caption[Hammett plots of endocyclic \ce{Se-N} bond length and \ce{Se\cdots N} Ch-bond length of ebselen derivatives complexed with \refcmpd{py.morph}.]{Hammett plots of endocyclic \ce{Se-N} bond length and \ce{Se\cdots N} Ch-bond length of ebselen derivatives complexed with \refcmpd{py.morph}. The line is described by the equation $\mathrm{r}(\ce{Se-N}) = (1.9673(34) - 0.035(10) \times \sigma_{\mathrm{X}})$~\AA~($R^2=0.7260$) and $\mathrm{r}(\ce{Se-N}) = (2.397(77) - 0.13(2) \times \sigma_{\mathrm{X}})$~\AA~($R^2=0.8708$).}
+  \caption[Hammett plots of endocyclic \ce{Se-N} bond length and \ce{Se\cdots N} Ch-bond length of ebselen derivatives complexed with \refcmpd{py.morph}.]{Hammett plots of endocyclic \ce{Se-N} bond length and \ce{Se\cdots N} Ch-bond length of ebselen derivatives complexed with \refcmpd{py.morph}. The line is described by the equation $\mathrm{r}(\ce{Se-N}) = (1.9673(34) + 0.035(10) \times \sigma_{\mathrm{X}})$~\AA~($R^2=0.7260$) and $\mathrm{r}(\ce{Se\cdots N}) = (2.397(77) - 0.13(2) \times \sigma_{\mathrm{X}})$~\AA~($R^2=0.8708$).}
   \label{fig:hammett-morph}
 \end{figure}
+
+\begin{table}
+  \caption{Linear regression results for Hammett plots in \cref{fig:hammett-dmap,fig:hammett-pyrrol,fig:hammett-morph}.}
+  \begin{tabular}{lllllll}\toprule
+         & \multicolumn{3}{c}{$\mathrm{r}(\ce{Se\cdots N})$} & \multicolumn{3}{c}{$\mathrm{r}(\ce{Se-N})$} \\
+    Base & gradient & intercept & $R^2$ & gradient & intercept & $R^2$ \\\midrule
+    DMAP & 
+  \end{tabular}
+  \label{tab:hammett-results}
+\end{table}
 
 Hammett plots can also be constructed using the electron density parameters at the bond critical point ($\rho_\text{BCP}$ and $\nabla^2\rho_{\text{BCP}}$) of the Ch bond.
 The electron density $\rho_\text{BCP}$ shows a similar trend to the bond distance ($\rho_{\text{BCP}} = (0.379(16) + 0.105(37) \times \sigma_{\mathrm{X}})$~e/\AA\textsuperscript{3}~($R^2=0.3783$)), while the Laplacian $\nabla^2\rho_{\text{BCP}}$ is more or less independent of the Hammett constant ($\nabla^2\rho_{\text{BCP}} = (2.74(13) + 0.05(29) \times \sigma_{\mathrm{X}})$~e/\AA\textsuperscript{5}~($R^2=0.002$)).
