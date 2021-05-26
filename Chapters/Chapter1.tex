@@ -443,10 +443,10 @@ The isotropic chemical shift is given by the average $\delta_{\textrm{iso}} = \f
 There are two other conventions for describing chemical shift anisotropy, which are useful in different contexts.
 The Herzfeld Berger convention represents the chemical shift in terms of the span of the signal $\Omega = \delta_{11} - \delta_{33}$ and the skew $\kappa = \frac{3(\delta_{22} - \delta_{\textrm{iso}})}{\Omega}$ where $\delta_{\textrm{iso}}$ is the same as in the IUPAC convention.
 This is particularly useful for intuitively describing the powder lineshape formed by a given signal.
-The other convention is the Haeberlen convention, which defines the three principal components as $|\delta_{zz} - \delta_{\textrm{iso}}| \geq |\delta_{xx} - \delta_{\textrm{iso}}| \geq |\delta_{yy} - \delta_{\textrm{iso}}|$, and the parameters $\delta = \delta_{zz} -\delta_{\textrm{iso}}$ and $\eta = \frac{\delta_{xx} - \delta_{yy}}{\delta_{zz} -\delta_{\textrm{iso}}}$.
+The other convention is the Haeberlen convention, which defines the three principal components as $|\delta_{zz} - \delta_{\textrm{iso}}| \geq |\delta_{xx} - \delta_{\textrm{iso}}| \geq |\delta_{yy} - \delta_{\textrm{iso}}|$, and the parameters $\Delta_{\textrm{CSA}} = \delta_{zz} -\delta_{\textrm{iso}}$ and $\eta_{\textrm{CSA}} = \frac{\delta_{xx} - \delta_{yy}}{\delta_{zz} -\delta_{\textrm{iso}}}$.
 This convention is most useful for describing the angular dependence of a chemical shift on the polar angles $\theta$ and $\phi$, which is given by the relationship\autocite{Haeberlen1976}
 \begin{equation}
-  \delta_{\textrm{obs}} = \delta_{\textrm{iso}} + \delta \left(\frac{3 \cos^2 \theta - 1 + \eta \sin^2 \theta \cos 2 \phi}{2} \right)
+  \delta_{\textrm{obs}} = \delta_{\textrm{iso}} + \Delta_{\textrm{CSA}} \left(\frac{3 \cos^2 \theta - 1 + \eta_{\textrm{CSA}} \sin^2 \theta \cos 2 \phi}{2} \right)
   \label{eqn:orientation-csa}
 \end{equation}
 
@@ -461,7 +461,6 @@ The principal values of the tensor $\delta_{11}$, $\delta_{22}$ and $\delta_{33}
   \label{fig:ssnmr-tensor}
 \end{figure}
 
-The extremely poor S/N ratio (especially for a relatively insensitive nucleus like \ce{^{77}Se}) limits the utility of this method, as the radiated signal from the nuclei is spread out over a large bandwidth.
 Spinning at the magic angle can improve the S/N ratio by partially averaging out the chemical shift anisotropy and dipolar relaxation.
 Instead of the powder pattern, we instead observe a sharp isotropic chemical shift and a series of spinning sidebands which are separated from the isotropic peak by multiples of the spinning frequency.
 The radiated power is thus concentrated in narrower bands, leading to a much improved S/N ratio.

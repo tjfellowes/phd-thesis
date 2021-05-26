@@ -28,7 +28,7 @@
 \usepackage{savesym}
 \savesymbol{degree}
 
-\setmarginsrb           {3.5cm}  % left margin
+\setmarginsrb           {4cm}  % left margin
                         {1.5cm}  % top margin
                         {3.0cm}  % right margin
                         {3.0cm}  % bottom margin
@@ -57,6 +57,8 @@
 \usepackage[varioref=false]{chemstyle}
 \usepackage[version=4]{mhchem}
 \usepackage{chemscheme}
+
+\usepackage{stackengine}
 
 \ifpdf
   \usepackage{fourier}
@@ -227,19 +229,17 @@
 Speed of Light & $c$ & $=$ & $2.997\ 924\ 58\times10^{8}\ \mbox{ms}^{-\mbox{s}}$ (exact)\\
 
 }
-
+\end{comment}
 %% ----------------------------------------------------------------
 \clearpage  %Start a new page
 %\lhead{\emph{Symbols}}  % Set the left side page header to "Symbols"
 \listofnomenclature{lll}  % Include a list of Symbols (a three column table)
 {
 % symbol & name & unit \\
-$a$ & distance & m \\
-$P$ & power & W (Js$^{-1}$) \\
-& & \\ % Gap to separate the Roman symbols from the Greek
-$\omega$ & angular frequency & rads$^{-1}$ \\
+$\sigma$ & chemical shielding\\
+$\sigma$ & estimated standard deviation\\
 }
-\end{comment}
+
 %% ----------------------------------------------------------------
 % End of the pre-able, contents and lists of things
 \clearpage

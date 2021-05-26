@@ -165,12 +165,12 @@ The N\textsubscript{QUIN}$\cdots$Se and N\textsubscript{DABCO}$\cdots$Se distanc
 
 \subsection{DFT interaction energies, NBO and NEDA analysis}
 Interaction energies for the complexes were calculated using the $\omega$B97X-D dispersion corrected functional, which has been used to study similar systems with good agreement with coupled cluster methods.\autocite{Oliveira2017}
-All geometries were therefore optimized at $\omega$B97X-D/def2TZVP, and minima verified by frequency analysis.
+All geometries were therefore optimized at $\omega$B97X-D/def2-TZVP, and minima verified by frequency analysis.
 
 \begin{figure}
   \centering
   \includegraphics[width=0.8\linewidth]{Figures/dft-energies.pdf}
-  \caption[Interaction energies for various complexes.]{Interaction enthalpies calculated at $\omega$B97X-D/def2TZVP. Optimised geometries for the DMAP complexes are shown to the left.}
+  \caption[Interaction energies for various complexes.]{Interaction enthalpies calculated at $\omega$B97X-D/def2-TZVP. Optimised geometries for the DMAP complexes are shown to the left.}
 \end{figure}
 
 NBO analysis was conducted on the optimized geometries, which supports our suggestion that there is a strong orbital component to Ch-bonding in these systems.
@@ -353,6 +353,17 @@ The lower the transition state energy, the shorter will be the \ce{Se\dots N} Ch
 \end{figure}
 
 \section{Results and discussion}
+
+\begin{scheme}
+  \centering
+  \replacecmpd[sub-only]{py.pyrrol}
+  \replacecmpd[sub-only]{py.morph}
+  \replacecmpd{py.pyrrol,py.morph}
+  \includegraphics[scale=0.74]{Figures/base-synthesis.eps}
+  \caption{Synthesis of Lewis bases \refcmpd{py.pyrrol,py.morph}.}
+  \label{sch:base-synthesis}
+  \end{scheme}
+  
 Our previous work had shown that electron-rich pyridines (specifically DMAP) formed the strongest Ch-bonds out of all the bases trialled (\cref{sec:crystengcomm1}).
 This is roughly consistent with the hydrogen bond basicity (pK\textsubscript{HB}) of the bases (\cref{tab:pkhb}).
 The planar geometry and aromatic character of DMAP may also facilitate crystallisation, as opposed to the relatively bulky and flexible aliphatic bases which may not pack as efficiently.
@@ -362,14 +373,27 @@ This reduces the energetic penalty associated with the delocalisation of the lon
 Compounds \cmpd{py.pyrrol,py.morph} were therefore synthesised by treating 4-chloropyridine hydrochloride with 2 equivalents of the appropriate base (\cref{sch:base-synthesis}).
 
 \begin{scheme}
-\centering
-\replacecmpd[sub-only]{py.pyrrol}
-\replacecmpd[sub-only]{py.morph}
-\replacecmpd{py.pyrrol,py.morph}
-\includegraphics[scale=0.74]{Figures/base-synthesis.eps}
-\caption{Synthesis of Lewis bases \refcmpd{py.pyrrol,py.morph}.}
-\label{sch:base-synthesis}
-\end{scheme}
+  \centering
+  \replacecmpd{diselenide}
+  \replacecmpd[merge=false,compress=false]{ebs}
+  \includegraphics[scale=0.74]{Figures/ebs-synthesis.eps}
+  
+  \begin{comment}
+  \vspace{0.6cm}
+  
+  \footnotesize{
+  \begin{tabular}{cccccc}\toprule
+      Compound & R = & Compound & R = & Compound & R = \\\midrule
+      \cmpd{ebs} & \ce{-H} & \cmpd{ebs.4cf3} & \ce{-CF3} & \cmpd{ebs.4me} & \ce{-CH3}\\
+      \cmpd{ebs.4no2} & \ce{-NO2} & \cmpd{ebs.4br} & \ce{-Br} & \cmpd{ebs.4ome} & \ce{-OMe}\\
+      \cmpd{ebs.4cn} & \ce{-CN} & \cmpd{ebs.4co2et} & \ce{-CO2Et} & \cmpd{ebs.4oet} & \ce{-OEt} \\\bottomrule
+  \end{tabular}}
+  \end{comment}
+  
+  \caption{Synthesis of benzisoselenazolone derivatives.}
+  
+  \label{sch:ebs-synthesis}
+  \end{scheme}
 
 The benzisoselenazolone derivatives \cmpd[merge=false,compress=false]{ebs,ebs.{4no2,4cn,4cf3,4br,4co2et,4me,4ome,4oet}} were prepared by the reaction of substituted anilines with a selenenyl chloride intermediate \cmpd{diselenide}, ultimately derived from anthranilic acid (\cref{sch:ebs-synthesis}).
 The one-pot selenocyclisation reaction used in \cref{sec:crystengcomm1} often did not tolerate the various functional groups on the aryl ring, affording reduction, cross-coupling, or protodehalogenation byproducts.
@@ -380,29 +404,6 @@ We therefore first deprotonated the aniline using \ce{NaH} (60\% suspension in m
 We also note the solubility trends of the products as the electron demand of the substituent increases.
 The electron rich derivatives \cmpd[merge=false,compress=false]{ebs.4ome,ebs.4oet,ebs.4me} were highly soluble even in relatively poor solvents (\ce{Et2O}, \ce{EtOAc}), while the electron poor derivatives \cmpd{ebs.4no2,ebs.4cn} were insoluble in all but the strongest solvents (DMSO).
 This likely reflects the varying strength of the crystal packing due to the \ce{Se\cdots O=C} Ch-bond.
-
-\begin{scheme}
-\centering
-\replacecmpd{diselenide}
-\replacecmpd[merge=false,compress=false]{ebs}
-\includegraphics[scale=0.74]{Figures/ebs-synthesis.eps}
-
-\begin{comment}
-\vspace{0.6cm}
-
-\footnotesize{
-\begin{tabular}{cccccc}\toprule
-    Compound & R = & Compound & R = & Compound & R = \\\midrule
-    \cmpd{ebs} & \ce{-H} & \cmpd{ebs.4cf3} & \ce{-CF3} & \cmpd{ebs.4me} & \ce{-CH3}\\
-    \cmpd{ebs.4no2} & \ce{-NO2} & \cmpd{ebs.4br} & \ce{-Br} & \cmpd{ebs.4ome} & \ce{-OMe}\\
-    \cmpd{ebs.4cn} & \ce{-CN} & \cmpd{ebs.4co2et} & \ce{-CO2Et} & \cmpd{ebs.4oet} & \ce{-OEt} \\\bottomrule
-\end{tabular}}
-\end{comment}
-
-\caption{Synthesis of benzisoselenazolone derivatives.}
-
-\label{sch:ebs-synthesis}
-\end{scheme}
 
 Co-crystals of the benzisoselenazolones and pyridines were grown by vapour diffusion from an equimolar solution in dichloromethane/pentane.
 Relevant structural parameters are given in \cref{tab:bondlengths2}.
@@ -500,7 +501,7 @@ Hammett substituent parameters are particularly convenient as they have been det
 \end{figure}
 
 The structural effects most relevant to Ch-bonding will manifest themselves in the vicinity of the selenium atom.
-Of particular interest is the endocyclic \ce{Se-N} bond length, which serves as a measure of $\sigma^\star$(\ce{Se-N}) orbital occupancy, thus the degree of hyperconjugation and strength of the Ch-bond.
+Of particular interest is the endocyclic \ce{Se-N} bond length, which serves as a measure of $\sigma^\star$(\ce{Se-N}) orbital occupancy, thus the degree of hyperconjugation and character of the Ch-bond.
 
 As can be seen in \cref{fig:hammett-endo-free}, there is practically no correlation between the electronic properties of the aryl ring and the endocyclic \ce{Se-N} bond length in crystals of the unbound ebselen derivatives.
 This is not unexpected, as in all cases the crystals consist of one dimensional chains of ebselen molecules Ch-bonded to the carbonyl oxygen of the next (\cref{fig:ebs-me-packing}).
@@ -514,7 +515,31 @@ These opposing effects appear to be approximately equal in magnitude, so cancel 
   \label{fig:ebs-me-packing}
 \end{figure}
 
-Fortunately, inspecting the same bond length in co-crystals of ebselen derivatives and a Lewis base gives us a much clearer dependence, as can be seen in \cref{fig:hammett-dmap}, \cref{fig:hammett-pyrrol}, and \cref{fig:hammett-morph}.
+\begin{figure}
+  \centering
+  \includegraphics[width=0.9\linewidth]{Figures/hammett-endo-dmap.eps}
+  \includegraphics[width=0.9\linewidth]{Figures/hammett-dmap.eps}
+  \caption[Hammett plots of endocyclic \ce{Se-N} bond length and \ce{Se\cdots N} Ch-bond length of ebselen derivatives complexed with DMAP.]{Hammett plots of endocyclic \ce{Se-N} bond length and \ce{Se\cdots N} Ch-bond length of ebselen derivatives complexed with DMAP. The lines are described by the equations $\mathrm{r}(\ce{Se-N}) = (1.959(5) + 0.067(10) \times \sigma_{\mathrm{X}})$~\AA~($R^2=0.7857$) and $\mathrm{r}(\ce{Se\cdots N}) = (2.363(17) - 0.12(4) \times \sigma_{\mathrm{X}})$~\AA~($R^2=0.4104$).}
+  \label{fig:hammett-dmap}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.9\linewidth]{Figures/hammett-endo-pyrrol.eps}
+\includegraphics[width=0.9\linewidth]{Figures/hammett-pyrrol.eps}
+\caption[Hammett plots of endocyclic \ce{Se-N} bond length and \ce{Se\cdots N} Ch-bond length of ebselen derivatives complexed with \refcmpd{py.pyrrol}.]{Hammett plots of endocyclic \ce{Se-N} bond length and \ce{Se\cdots N} Ch-bond length of ebselen derivatives complexed with \refcmpd{py.pyrrol}. The lines are described by the equations $\mathrm{r}(\ce{Se-N}) = (1.9761(28) + 0.029(8) \times \sigma_{\mathrm{X}})$~\AA~($R^2=0.7828$) and $\mathrm{r}(\ce{Se\cdots N}) = (2.347(7) - 0.071(17) \times \sigma_{\mathrm{X}})$~\AA~($R^2=0.8005$)}
+\label{fig:hammett-pyrrol}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.9\linewidth]{Figures/hammett-endo-morph.eps}
+\includegraphics[width=0.9\linewidth]{Figures/hammett-morph.eps}
+\caption[Hammett plots of endocyclic \ce{Se-N} bond length and \ce{Se\cdots N} Ch-bond length of ebselen derivatives complexed with \refcmpd{py.morph}.]{Hammett plots of endocyclic \ce{Se-N} bond length and \ce{Se\cdots N} Ch-bond length of ebselen derivatives complexed with \refcmpd{py.morph}. The line is described by the equation $\mathrm{r}(\ce{Se-N}) = (1.9673(34) + 0.035(10) \times \sigma_{\mathrm{X}})$~\AA~($R^2=0.7260$) and $\mathrm{r}(\ce{Se\cdots N}) = (2.397(77) - 0.13(2) \times \sigma_{\mathrm{X}})$~\AA~($R^2=0.8708$).}
+\label{fig:hammett-morph}
+\end{figure}
+
+Fortunately, inspecting the same bond length in co-crystals of ebselen derivatives and a Lewis base gives us a much clearer dependence, as can be seen in \cref{fig:hammett-dmap,fig:hammett-pyrrol,fig:hammett-morph}.
 This is because the Ch-bond acceptor ability is now independent of the electronic properties of the Ch-bond donor, so the \ce{Se-N} bond length is determined solely by the latter.
 Linear regression analysis affords the relationship $\mathrm{r}(\ce{Se-N}) = (1.957(5) + 0.054(12) \times \sigma_{\mathrm{X}})$~\AA~with a correlation coefficient of 0.6297 for co-crystals with DMAP.
 
@@ -526,44 +551,27 @@ While the more strongly Ch-bonded systems (with electron withdrawing substituent
 Indeed, omitting these data points improves the correlation coefficient to 0.8148 while the gradient and intercept are almost unchanged at $-0.156(28)$~\AA~and $2.386(15)$~\AA~respectively, suggesting that the model is appropriate, and that there is some other effect occurring in electron rich systems.
 For a further discussion of this phenomenon, see \cref{sec:z2}.
 
-\begin{figure}
-    \centering
-    \includegraphics[width=0.9\linewidth]{Figures/hammett-endo-dmap.eps}
-    \includegraphics[width=0.9\linewidth]{Figures/hammett-dmap.eps}
-    \caption[Hammett plots of endocyclic \ce{Se-N} bond length and \ce{Se\cdots N} Ch-bond length of ebselen derivatives complexed with DMAP.]{Hammett plots of endocyclic \ce{Se-N} bond length and \ce{Se\cdots N} Ch-bond length of ebselen derivatives complexed with DMAP. The lines are described by the equations $\mathrm{r}(\ce{Se-N}) = (1.959(5) + 0.067(10) \times \sigma_{\mathrm{X}})$~\AA~($R^2=0.7857$) and $\mathrm{r}(\ce{Se\cdots N}) = (2.363(17) - 0.12(4) \times \sigma_{\mathrm{X}})$~\AA~($R^2=0.4104$).}
-    \label{fig:hammett-dmap}
-\end{figure}
-
-\begin{figure}
-  \centering
-  \includegraphics[width=0.9\linewidth]{Figures/hammett-endo-pyrrol.eps}
-  \includegraphics[width=0.9\linewidth]{Figures/hammett-pyrrol.eps}
-  \caption[Hammett plots of endocyclic \ce{Se-N} bond length and \ce{Se\cdots N} Ch-bond length of ebselen derivatives complexed with \refcmpd{py.pyrrol}.]{Hammett plots of endocyclic \ce{Se-N} bond length and \ce{Se\cdots N} Ch-bond length of ebselen derivatives complexed with \refcmpd{py.pyrrol}. The lines are described by the equations $\mathrm{r}(\ce{Se-N}) = (1.9761(28) + 0.029(8) \times \sigma_{\mathrm{X}})$~\AA~($R^2=0.7828$) and $\mathrm{r}(\ce{Se\cdots N}) = (2.347(7) - 0.071(17) \times \sigma_{\mathrm{X}})$~\AA~($R^2=0.8005$)}
-  \label{fig:hammett-pyrrol}
-\end{figure}
-
-\begin{figure}
-  \centering
-  \includegraphics[width=0.9\linewidth]{Figures/hammett-endo-morph.eps}
-  \includegraphics[width=0.9\linewidth]{Figures/hammett-morph.eps}
-  \caption[Hammett plots of endocyclic \ce{Se-N} bond length and \ce{Se\cdots N} Ch-bond length of ebselen derivatives complexed with \refcmpd{py.morph}.]{Hammett plots of endocyclic \ce{Se-N} bond length and \ce{Se\cdots N} Ch-bond length of ebselen derivatives complexed with \refcmpd{py.morph}. The line is described by the equation $\mathrm{r}(\ce{Se-N}) = (1.9673(34) + 0.035(10) \times \sigma_{\mathrm{X}})$~\AA~($R^2=0.7260$) and $\mathrm{r}(\ce{Se\cdots N}) = (2.397(77) - 0.13(2) \times \sigma_{\mathrm{X}})$~\AA~($R^2=0.8708$).}
-  \label{fig:hammett-morph}
-\end{figure}
-
 \begin{table}
   \caption{Linear regression results for Hammett plots in \cref{fig:hammett-dmap,fig:hammett-pyrrol,fig:hammett-morph}.}
-  \begin{tabular}{lllllll}\toprule
+  \begin{tabular}{llllllll}\toprule
          & \multicolumn{3}{c}{$\mathrm{r}(\ce{Se\cdots N})$} & \multicolumn{3}{c}{$\mathrm{r}(\ce{Se-N})$} \\
-         \cmidrule(lr){2-4}\cmidrule(lr){5-7}
-    Base            & gradient  & intercept & $R^2$ & gradient & intercept & $R^2$ \\\midrule
-    DMAP            & -0.12(4)  & 2.363(17) & 0.4104& 0.067(10)& 1.959(5)  & 0.7857 \\
-    \cmpd{py.pyrrol}& -0.071(17)& 2.347(7)  & 0.8005& 0.029(8) & 1.9761(28)& 0.7828 \\
-    \cmpd{py.morph} & -0.13(2)  & 2.397(8)  & 0.8708& 0.035(10)& 1.9673(34)& 0.7260 \\\bottomrule 
+         \cmidrule(lr){3-5}\cmidrule(lr){6-8}
+    Base            & pK\textsubscript{HB}\autocite{Berthelot1998} & gradient  & intercept & $R^2$ & gradient & intercept & $R^2$ \\\midrule
+    \cmpd{py.morph} & 2.68                 & -0.13(2)  & 2.397(8)  & 0.8708& 0.035(10)& 1.9673(34)& 0.7260 \\
+    DMAP            & 2.80                 & -0.12(4)  & 2.363(17) & 0.4104& 0.067(10)& 1.959(5)  & 0.7857 \\
+    \cmpd{py.pyrrol}& 2.93                 & -0.071(17)& 2.347(7)  & 0.8005& 0.029(8) & 1.9761(28)& 0.7828 \\
+    \bottomrule 
   \end{tabular}
   \label{tab:hammett-results}
 \end{table}
 
-Hammett plots can also be constructed using the electron density parameters at the bond critical point ($\rho_\text{BCP}$ and $\nabla^2\rho_{\text{BCP}}$) of the Ch bond.
+The results of the linear regression analysis for the Hammett plots in \cref{fig:hammett-dmap,fig:hammett-pyrrol,fig:hammett-morph} are given in \cref{tab:hammett-results}.
+Qualitatively we can see a link between the strength of the base used and the gradient of the line of best fit.
+As the base gets stronger, the Ch-bond length varies less with the electron demand of the Ch-bond donor.
+This can be rationalised as the potential energy surface for the Ch-bond stretching becomes steeper as the base gets stronger, meaning the distance is less affected by the electronics of the donor.
+Incidentally, we believe this is also why the more electron poor systems do not display the same variation in bond lengths that we see in the electron rich systems (see \cref{sec:z2} for further details).
+
+Hammett plots can also be constructed using the electron density parameters at the bond critical point ($\rho_\text{BCP}$ and $\nabla^2\rho_{\text{BCP}}$) of the Ch bond (\cref{fig:hammett-qtaim-dmap,fig:hammett-qtaim-pyrrol,fig:hammett-qtaim-morph}).
 The electron density $\rho_\text{BCP}$ shows a similar trend to the bond distance ($\rho_{\text{BCP}} = (0.379(16) + 0.105(37) \times \sigma_{\mathrm{X}})$~e/\AA\textsuperscript{3}~($R^2=0.3783$)), while the Laplacian $\nabla^2\rho_{\text{BCP}}$ is more or less independent of the Hammett constant ($\nabla^2\rho_{\text{BCP}} = (2.74(13) + 0.05(29) \times \sigma_{\mathrm{X}})$~e/\AA\textsuperscript{5}~($R^2=0.002$)).
 This reinforces the significance of the Laplacian not as an indicator of the strength of an interaction, but as a measure of its ionic or covalent character, which does not appear to change significantly across the range of electron demand.
 
@@ -594,7 +602,7 @@ This reinforces the significance of the Laplacian not as an indicator of the str
 \subsubsection{Co-crystals where \texorpdfstring{$Z^\prime=2$}{Z'=2}}
 \label{sec:z2}
 DFT calculations show that the vibrational mode associated with Ch-bond stretching is found at very low energy.
-The force constant is 5--10~$\mu$dyne$\cdot$\AA$^{-1}$, which means that the energetic penalty associated with a 0.18~\AA~ deformation (the difference between the shortest and longest Ch-bond length) is only 0.02--0.03~kcal$\cdot$mol$^{-1}$.
+The force constant is 5--10~$\mu$dyne$\cdot$\AA$^{-1}$, which means that the energetic penalty associated with a 0.18~\AA~ deformation (the difference between the shortest and longest Ch-bond length in \cmpd{ebs.4ome}$\cdot$DMAP) is only 0.02--0.03~kcal$\cdot$mol$^{-1}$.
 Crystal packing forces (the sum of weak interactions such as C-H/$\pi$, $\pi /\pi$ and C-H/O interactions) are commonly accepted to be in the range of 1--2~kcal$\cdot$mol$^{-1}$, so it is perhaps not surprising that the Ch-bond is deformed by the crystal environment.\autocite{Dunitz1988}
 
 That said, there are no obvious differences between the two Ch-bond environments in any of the crystals that display this effect.
@@ -603,20 +611,22 @@ We performed a solid state IR experiment to probe the crystalline environment su
 \begin{figure}
     \centering
     \includegraphics[width=0.9\linewidth]{Figures/ebs-4oet-dmap-ir.eps}
-    \caption[Solid state IR spectrum of \refcmpd{ebs.4oet}$\cdot$DMAP.]{Solid state IR spectrum of \refcmpd{ebs.4oet}$\cdot$DMAP. The spectrum of the pure \refcmpd{ebs.4oet} is shown in gray.}
+    \caption[Solid state IR spectrum of \refcmpd{ebs.4oet}$\cdot$DMAP.]{Solid state IR spectrum of \refcmpd{ebs.4oet}$\cdot$DMAP. The spectrum of the pure \refcmpd{ebs.4oet} is shown in gray, which contains only one molecule in the asymmetric unit.}
     \label{fig:ebs-4oet-dmap-ir}
 \end{figure}
 
 In the pure compound the carbonyl peak is found at approximately 1590~cm$^{-1}$ and is relatively sharp and well defined.
 In the co-crystal, we observe the carbonyl peak at higher wavenumber (1610~cm$^{-1}$), due to the increased double bond character, as the $\pi$ system and oxygen lone pair are no longer involved in the Ch-bond.
-This effect ostensibly outweighs the \emph{decreased} double bond character caused by the shortened Ch-bond formed between the pyridyl nitrogen and selenium (\cref{fig:ch-bond-deloc}).
+This effect ostensibly outweighs the \emph{decreased} double bond character caused by the shortened Ch-bond formed between the pyridyl nitrogen and selenium (see \cref{fig:bond-breaking} for a depiction of the decreased carbonyl double bond character).
 
+\begin{comment}
 \begin{figure}
     \centering
     \includegraphics[scale=0.74]{Figures/ch-bond-deloc.eps}
     \caption[Resonance forms of a Ch-bonded complex with strong Lewis bases.]{Contributing resonance form of a Ch-bonded complex with strong Lewis bases. The double bond character of the carbonyl is decreased.}
     \label{fig:ch-bond-deloc}
 \end{figure}
+\end{comment}
 
 If there are truly two Ch-bonded environments, we would expect to see splitting or at least broadening of the carbonyl signal in the IR spectrum of the co-crystal.
 This is not the case, meaning that either the difference is too small to be seen in the spectrum, or the two environments are actually the same, and the measured differences are a crystallographic artefact, either a manifestation of missed symmetry, disorder, or a doubled cell.
@@ -704,13 +714,14 @@ Spinning at 12~kHz instead of 10~kHz showed that the signals at 834.69 and 867.0
 
 \subsection{Measurement of chemical shift anisotropy}
 We acquired solid state spectra of three complexes spanning the range of electron demand, \cmpd{ebs.4ome}$\cdot$DMAP, \cmpd{ebs}$\cdot$DMAP, and \cmpd{ebs.4no2}$\cdot$DMAP.
-\footnote{\cmpd{ebs.4ome}$\cdot$DMAP differs from the other structures, in that it crystallises in the space group $P2_1/c$, whereas \cmpd{ebs}$\cdot$DMAP and \cmpd{ebs.4no2}$\cdot$DMAP both crystallise in $P\bar{1}$.
+The resulting spectra are presented in \cref{fig:77se-ssnmr-ebs}, and the extracted principal values of the chemical shift tensor are presented in \cref{tab:77se-ssnmr-ebs-csa}.
+
+\cmpd{ebs.4ome}$\cdot$DMAP differs from the other structures, in that it crystallises in the space group $P2_1/c$, whereas \cmpd{ebs}$\cdot$DMAP and \cmpd{ebs.4no2}$\cdot$DMAP both crystallise in $P\bar{1}$.
 The $2_1$ screw axis in the former crystal is oriented such that it generates a symmetry equivalent molecule which is rotated by an angle of about 45\degree.
 This means that the observed chemical shift tensor is the average of these two symmetry related orientations, further complicating the analysis.
 Fundamentally this is due to the fact that an ellipsoid does not have twofold rotational symmetry, except about its principal axes.
 The triclinic complexes \cmpd{ebs}$\cdot$DMAP and \cmpd{ebs.4no2}$\cdot$DMAP do not suffer from this issue, as the inversion symmetry operation preserves the shape of the tensor.
-This can be seen in the latter two principal values of the chemical shift tensor in \cref{tab:77se-ssnmr-ebs-csa}, which have the same value (within experimental error), describing a cigar-shaped tensor.}
-The resulting spectra are presented in \cref{fig:77se-ssnmr-ebs}, and the extracted principal values of the chemical shift tensor are presented in \cref{tab:77se-ssnmr-ebs-csa}.
+This can be seen in the latter two principal values of the chemical shift tensor in \cref{tab:77se-ssnmr-ebs-csa}, which have the same value (within experimental error), describing a cigar-shaped tensor.
 
 \begin{figure}
   \centering
@@ -735,21 +746,23 @@ The resulting spectra are presented in \cref{fig:77se-ssnmr-ebs}, and the extrac
 
 \begin{table}
   \caption{Principal values of the chemical shift tensor extracted from powder spectra in \cref{fig:77se-ssnmr-ebs}.}
-  \begin{tabular}{lllll}
+  \tablefit{\begin{tabular}{lllllllll}
     \toprule
-    Complex                                    & $\delta_{\textrm{iso}}$ & $\delta_{11}$  & $\delta_{22}$  & $\delta_{33}$   \\\midrule
-   \cmpd{ebs.4ome}$\cdot$DMAP\tablefootnote{Site a}   & 835.2                   & 1572.58        & 466.52         & 466.50          \\
-   \cmpd{ebs.4ome}$\cdot$DMAP\tablefootnote{Site b}   & 866.9                   & 1628.91        & 485.95         & 485.92          \\
-   \cmpd{ebs}$\cdot$DMAP                           & 864.5                   & 1616.74        & 596.21         & 380.64          \\
-   \cmpd{ebs.4no2}$\cdot$DMAP                         & 860.8                   & 1596.92        & 547.82         & 437.66          \\\bottomrule
-  \end{tabular}
+    & & \multicolumn{3}{c}{IUPAC} & \multicolumn{2}{c}{Haeberlen} & \multicolumn{2}{c}{Herzfeld-Berger}\\
+    \cmidrule(lr){3-5}\cmidrule(lr){6-7}\cmidrule(lr){8-9}
+    Complex                                    & $\delta_{\textrm{iso}}$ & $\delta_{11}$  & $\delta_{22}$  & $\delta_{33}$ & $\Delta_{\textrm{CSA}}$ & $\eta_{\textrm{CSA}}$ & $\Omega$ & $\kappa$ \\\midrule
+   \cmpd{ebs.4ome}$\cdot$DMAP\tablefootnote{Site a}   & 835.2                   & 1572.58        & 466.52         & 466.50 & 724.69 &  0.003 & 1088.11 & -1.0  \\
+   \cmpd{ebs.4ome}$\cdot$DMAP\tablefootnote{Site b}   & 866.9                   & 1628.91        & 485.95         & 485.92 & 759.35 & -0.003 & 1140.06 & -1.0  \\
+   \cmpd{ebs}$\cdot$DMAP                              & 864.5                   & 1616.74        & 596.21         & 380.64 & 752.21 & -0.287 & 1236.09 & -0.65 \\
+   \cmpd{ebs.4no2}$\cdot$DMAP                         & 860.8                   & 1596.92        & 547.82         & 437.66 & 736.12 & -0.15  & 1159.27 & -0.81 \\\bottomrule
+  \end{tabular}}
   \label{tab:77se-ssnmr-ebs-csa}
 \end{table}
 
 
 \subsection{Calculation of chemical shift anisotropy}
 In order to verify our results, we also \emph{calculated} the chemical shielding tensors in order to compare the principal values, and also determine the likely orientation of the tensors with respect to the rest of the molecule (\cref{fig:77se-tensor-ebs-dmap}).
-These calculations were conducted at the $\omega$B97X-D/def2TZVP level, using the GIAO method of calculating shielding tensors.\autocite{Schreckenbach1995CalculationTheory,Schreckenbach1996TheApproximation}
+These calculations were conducted at the $\omega$B97X-D/def2-TZVP level, using the GIAO method of calculating shielding tensors.\autocite{Schreckenbach1995CalculationTheory,Schreckenbach1996TheApproximation}
 In order to convert these chemical shielding tensors $\sigma$ into chemical shifts $\delta$, we must reference them to a standard $\sigma_{\textrm{ref}}$.
 \begin{equation}
   \delta = \sigma_{\textrm{ref}} - \sigma_{\textrm{sample}}
@@ -877,40 +890,32 @@ The resulting planes are shown in \cref{fig:ebs-ph-dmap-index}.
 
 A number of these large crystals were visually indexed based on their morphology, and packed in a rectangular sample holder.
 Spectra were acquired on a 600~MHz instrument using a Hahn echo pulse sequence.
-This was necessary to preseve the extremely weak signal by isolating it from the excitation pulse in the time domain.
+This was necessary to preserve the extremely weak signal by isolating it from the excitation pulse in the time domain.
 The spectra were referenced to a saturated solution of diphenyldiselenide in \ce{CDCl3} at 463~ppm, which was contained in a zirconia MAS rotor inside the sample holder.\autocite{Duddeck1995}
 
-The crystal orientation with respect to the magnetic field is depicted in \cref{fig:ebs-ph-dmap-magfield-index}, and the resulting spectrum is shown in \cref{fig:ebs-dmap-hahnecho-77se}.
+A spectrum was collected with the crystals lying flat relative to the magnetic field, and the resulting spectrum is shown in \cref{fig:ebs-dmap-hahnecho-77se}.
 The selenium nucleus in this orientation resonates at 448~ppm.
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.3\linewidth]{Figures/ebs-ph-dmap-magfield-index.pdf}
-  \caption[Orientation of the magnetic field with respect to the crystal.]{Orientation of the magnetic field with respect to the crystal. $B_{0}$ is aligned with the $[0 0 1]$ crystal direction. Note that the crystal is actually triclinic ($\alpha\neq\beta\neq\gamma\neq 90$\degree), but the $\alpha$ and $\beta$ angles are sufficiently close to 90\degree\ that we can treat the (001) plane as approximately perpendicular to the [001] axis.}
-  \label{fig:ebs-ph-dmap-magfield-index}
-\end{figure}
-
-\begin{figure}
-  \centering
   \includegraphics[width=0.8\linewidth]{Figures/ebs-dmap-hahnecho-77se.pdf}
-  \caption{\ce{^{77}Se} NMR spectrum of a single crystal of \refcmpd{ebs}$\cdot$DMAP in the orientation depicted in \cref{fig:ebs-ph-dmap-magfield-index}.}
+  \begin{picture}(0,0)
+    \put(-10cm,2cm){\includegraphics[width=3cm]{Figures/ebs-ph-dmap-magfield-index.pdf}}
+  \end{picture}
+  \caption{\ce{^{77}Se} NMR spectrum of a single crystal of \refcmpd{ebs}$\cdot$DMAP in the orientation depicted in the inset.}
   \label{fig:ebs-dmap-hahnecho-77se}
 \end{figure}
 
 The sample holder was then re-packed with the crystals now rotated 90\degree\ to their original orientaton, and a spectrum was again acquired.
-This is shown in \cref{fig:ebs-dmap-hahnecho-77se2,fig:ebs-ph-dmap-magfield-index2}, where the selenium now resonates at 567~ppm
-
-\begin{figure}
-  \centering
-  \includegraphics[width=0.3\linewidth]{Figures/ebs-ph-dmap-magfield-index2.pdf}
-  \caption[Orientation of the magnetic field with respect to the crystal.]{Orientation of the magnetic field with respect to the crystal. $B_{0}$ is aligned with the $[0 1 0]$ crystal direction}
-  \label{fig:ebs-ph-dmap-magfield-index2}
-\end{figure}
+This is shown in \cref{fig:ebs-dmap-hahnecho-77se2}, where the selenium now resonates at 567~ppm.
 
 \begin{figure}
   \centering
   \includegraphics[width=0.8\linewidth]{Figures/ebs-dmap-hahnecho-77se2.pdf}
-  \caption[\ce{^{77}Se} NMR spectrum of a single crystal of \refcmpd{ebs}$\cdot$DMAP in the orientation depicted in \cref{fig:ebs-ph-dmap-magfield-index2}.]{\ce{^{77}Se} NMR spectrum of a single crystal of \refcmpd{ebs}$\cdot$DMAP in the orientation depicted in \cref{fig:ebs-ph-dmap-magfield-index2}. The smaller satellite signals are due to slightly misaligned crystals in the sample holder. This also explains the poorer signal to noise ratio of the main peak.}
+  \begin{picture}(0,0)
+    \put(-10cm,2cm){\includegraphics[width=3cm]{Figures/ebs-ph-dmap-magfield-index2.pdf}}
+  \end{picture}
+  \caption[\ce{^{77}Se} NMR spectrum of a single crystal of \refcmpd{ebs}$\cdot$DMAP in the orientation depicted in the inset.]{\ce{^{77}Se} NMR spectrum of a single crystal of \refcmpd{ebs}$\cdot$DMAP in the orientation depicted in the inset. The smaller satellite signals are due to slightly misaligned crystals in the sample holder. This also explains the poorer signal to noise ratio of the main peak.}
   \label{fig:ebs-dmap-hahnecho-77se2}
 \end{figure}
 
@@ -938,7 +943,7 @@ We therefore simply optimise the function
 \begin{equation}
   \delta = \mathbf{R} \mathbf{Q} \begin{bmatrix} 1616.74 & 0 & 0 \\ 0 & 596.21 & 0 \\ 0 & 0 & 380.64 \end{bmatrix} \mathbf{Q}^{-1} \mathbf{R}^{-1}
 \end{equation}
-to reproduce the observed $\delta_{Z,Z}$ components for $\psi = 0$\degree\ and $\psi = 90$\degree.
+to reproduce the observed $\delta_{ZZ}$ components for $\psi = 0$\degree\ and $\psi = 90$\degree.
 The polar angles thus calculated are equal to $\theta = 79.9$\degree\ and $\phi = 23.8$\degree.
 
 We can calculate the chemical shift tensor using the diagonal components from the powder experiment and the rotation matrix from the polar angles which affords
@@ -1035,7 +1040,7 @@ These are shown in \cref{fig:nmr-titrations}.
     \caption{\refcmpd{ebs.4oet}$\cdot$DMAP}
   \end{subfigure}
   \begin{subfigure}{0.45\linewidth}
-    \includegraphics[width=\linewidth]{Figures/nmr-titration/ebs-dmap.eps}
+    \includegraphics[width=\linewidth]{Figures/nmr-titration/ph-ebs-dmap.eps}
     \caption{\refcmpd{ebs}$\cdot$DMAP}
   \end{subfigure}
   \begin{subfigure}{0.45\linewidth}
@@ -1082,20 +1087,33 @@ Firstly, relatively large amounts ($\sim$100~mg) of the Ch-bond donor were requi
 For simple systems such as these, this was not an issue, however we hoped to apply the technique to less synthetically accessible molecules, which may not be available in such quantities.
 Secondly, the experiment is quite time consuming, with tens of minutes required per spectrum.
 
+\begin{figure}
+  \includegraphics[width=0.7\linewidth]{Figures/ebs-dmap-uv-titration.pdf}
+  \caption{UV-Vis titration of \refcmpd{ebs} with DMAP.}
+  \label{fig:ebs-dmap-uv-titration}
+\end{figure}
+
 UV-Vis spectroscopy presented a possible solution to both of these issues, with spectra collected in seconds even with extremely dilute solutions.
 Interactions which have a charge-transfer component (such as Ch-bonding) can give rise to strong absorbances attributable to the n $\rightarrow \sigma^{\star}$ transition.\autocite{Blackstock1987}
-However, we were unable to observe any evidence of such absorbances in our systems.
+However, we were unable to observe any evidence of such absorbances in our systems (\cref{fig:ebs-dmap-uv-titration}).
 This may be due to the fact that these Ch-bonds are primarily electrostatic in origin, or because the aromatic systems are already strongly absorbing, thus obscuring the charge-transfer band.
 
 \subsection{Ch-bonding in the gas phase}
 To complete our trifecta of experiments, we sought evidence that supports Ch-bonding in the gas phase.
-Broadly, we intended to isolate an ion corresponding to the complex by mass spectrometer, and subsequently fragment it by CID to regain the original species.
+Using an ESI source, LTQ ion trap and TOF detector, we intended to isolate an ion corresponding to the complex, and subsequently fragment it by collision induced dissociation (CID) to regain the original species.
+CID is a process by which ions are fragmented by accelerating them into inert gas particles (noble gases such as He and Ar are commonly used).
+The energy of the collision can be controlled by varying the potential applied to accelerate the ions.
+A collision with a noble gas particle causes the kinetic energy of the ion to be converted into vibrational potential energy among the bonds of the ion.
+If sufficient energy is deposited in the ion, the weakest bonds will break, and product ions will be observed.
+Mass can also be lost as neutral molecules or radicals, which are not detected in the mass spectrometer due to the lack of charge.
+
+We sought to break the Ch-bond of a Ch-bonded complex, and observe a fragment ion.
 Naturally, this requires that one (or both) of the components of the complex have a charge, so that it can be detected by the mass spectrometer.
 We initally injected an equimolar mixture of DMAP and ebselen \cmpd{ebs} in methanol, and isolated an ion of m/z 398.08 a.m.u.
-However, this could be assigned to either the desired Ch-bonded complex, protonated at the carbonyl oxygen, or to a H-bonded complex.
+However, this could be assigned to either the desired Ch-bonded complex, protonated at the carbonyl oxygen, or to a H-bonded complex.\footnote{Source/detector conditions here}
 CID of this ion exclusively gave an ion of m/z 123.09 a.m.u., corresponding to protonated DMAP (\cref{fig:pos-esi-ms}).
 We interpreted this as evidence that we had formed the H-bonded complex, as migration of the proton on the timescale of a collision is unlikely, and the proton is most likely to remain with the more basic species in the H-bond.
-Furthermore, a \ce{N+ -H\cdots O} hydrogen bonds are very strong (in excess of 15~kcal/mol)\autocite{Emsley1980}, which is likely to out compete Ch-bonding, with estimated bond enthalpies of <~10~kcal/mol in the gas phase.
+Furthermore, \ce{N+ -H\cdots O} hydrogen bonds are very strong (in excess of 15~kcal/mol)\autocite{Emsley1980}, which is likely to out compete Ch-bonding, with estimated bond enthalpies of <~10~kcal/mol in the gas phase.
 
 \begin{figure}
     \centering
