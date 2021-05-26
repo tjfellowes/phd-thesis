@@ -196,7 +196,7 @@ In the early days of Ch-bonding interactions (2001, before the name had come int
 A remarkable number of close contacts (sum of Van der Waals radii plus 0.5\AA) between sulfur and Lewis basic (X) atoms were identified in the structures, with 33\% of cysteine residues and 22\% of methionine residues showing a close contact.
 Furthermore, the geometric parameters of these contacts were studied, with more than half of all contacts having a S--S--X (X=O,N) of 150--180\degree.
 The observed contacts were ascribed to a $\pi$(C=O)$\rightarrow \sigma^{\star}$(S--S) interaction, in contrast to the $n(X) \rightarrow \sigma^{\star}$(S-X) interaction which dominates in small molecules.
-Also contrary to the case of small molecules, the authors suggest that the orbital component of the interaction is small, though important for establishing the directionality of the interaction.
+Also contrary to the case of small molecules, the authors suggested that the orbital component of the interaction is small, though important for establishing the directionality of the interaction.
 Dispersion appears to be the major stabilising force, as optimization using a non-dispersion corrected level of theory gave unrealistically large distances.
 
 The differences between Ch-bonding in proteins and small molecules is likely due to variation in orbital energies in the functional groups which are found in each class.
@@ -207,7 +207,14 @@ In general, the HOMO of a system (the most Lewis basic site) is dominated by lon
 This is observed in most small molecules, as they form Ch-bonds through these lone pairs.
 However, the amide bond, which is ubiquitous in proteins, shows an unusual inversion in orbital energies.
 The $\pi$(C=O) orbital is elevated with respect to the lone pair according to MP2 calculations, making it the more basic site.
-Structural data supports this assertion, as the Ch-bond donor usually approaches the top of the C=O bond in proteins, rather than the usual approach towards the oxygen lone pair.\autocite{Iwaoka2012}
+Structural data supports this assertion, as the Ch-bond donor usually approaches the top of the C=O bond in proteins, rather than the usual approach towards the oxygen lone pair (\cref{fig:amide-diselenide-ch-bond}).\autocite{Iwaoka2012}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.4\linewidth]{Figures/amide-diselenide-ch-bond.pdf}
+    \caption{Directional preference for Ch-bonded interactions in proteins.}
+    \label{fig:amide-diselenide-ch-bond}
+\end{figure}
 
 It is worth noting that selenium is also found in proteins as selenocysteine and selenomethionine.
 This would be expected to be an even stronger Ch-bond donor.
@@ -226,15 +233,22 @@ Non-conventional protein-ligand interactions are summarised in a comprehensive r
 Nucleic acids represent another application of Ch-bonding in biology.
 In addition to their crucial role in the storage of genetic information, they have also been investigated as a structural material in nanotechnology.
 The ubiquity of H-bonds in nucleic acid complexes suggests that $\sigma$-hole interactions may also be used to direct formation of these complexes.
-X-bonding was indeed able to be used to direct formation of a Holliday junction between two DNA strands.\autocite{Voth2007}
+X-bonding was indeed able to be used to direct formation of a Holliday junction between two DNA strands (\cref{fig:holliday-junction}).\autocite{Voth2007}
 Holliday junctions are branched nucleic acid structures that appear in many biological processes includin recombination and double-strand break repair.
 They are also useful as building blocks for DNA nanotechnology, where their self assembly and predictable gemoetry are exploited.
 The authors estimated that the X-bonding interaction (mediated through a bromo-substituent) was 2--5 kcal/mol stronger than the corresponding H-bond.
 A 2017 review identified a further 21 X-bonded nucleic acid structures.\autocite{Kolar2017}
 X-bonding was in fact able to partially replace inter-strand H-bonding interaction in a DNA oligomer.\autocite{Parker2012}
 
+\begin{figure}
+    \centering
+    \includegraphics[width=0.4\linewidth]{Figures/holliday-junction.pdf}
+    \caption{Holliday junction formed by X-bonding.\autocite{Voth2007}}
+    \label{fig:holliday-junction}
+\end{figure}
+
 Ch-bonding, too, has been investigated in the context of nucleic acids.
-\Citeauthor[]{Sharma2020} recently invesigated the possibility of forming Ch-bonded analogues of the canonical A:T/G:C base pairs in order to expand the genetic alphabet.\autocite{Sharma2020}
+\Citeauthor{Sharma2020} recently invesigated the possibility of forming Ch-bonded analogues of the canonical A:T/G:C base pairs in order to expand the genetic alphabet.\autocite{Sharma2020}
 A G\textsubscript{\ce{SeF}}:C dimer was found to be more stable than the canonical G:C pair, where the \ce{SeF} subscript indicates that one of the H-bond donors on the guanine was replaced by a selenenyl fluoride.
 \Citeauthor[]{Farrell2018} showed that introducing heavy chalcogens into nucleobases has profound impacts on their phototochemistry, with implications for their use in photodynamic therapy.\autocite{Farrell2018}
 The photophysics of selenonucleobases has been further explored, showing that they are uniquely photostable while efficiently populating and depopulating their excited states.\autocite{Mai2019,Peng2020,Fang2019,Uleany2020}
@@ -249,11 +263,19 @@ To date, there have not been any drugs which target nucleic acids through Ch-bon
 As mentioned above, X- and Ch-bonded interactions were originally identified crystallographically, with additional spectroscopic evidence being present.
 These pioneering methods have not changed a great deal, and x-ray crystallography is still the most powerful tool we have to study these interactions.
 We also use a number of spectroscopic techniques to probe the nature of Ch-bonding.
-Some of the methods used in this work go beyond the typical level encountered in postgraduate study, so a brief explanation of each is included here.
+Some of the methods used in this thesis are explained below.
+
+\subsection{Computational methods}
+
+\subsubsection{Energy Decomposition Analysis}
+
+\subsubsection{Natural Bond Orbital theory}
+
+\subsubsection{Quantum Theory of Atoms In Molecules}
 
 \subsection{X-ray crystallography}
 Single crystal x-ray crystallography is the main experimental technique used in this work.
-It allows unambiguous determination of the structure of compounds (including stereochemistry), and potentially extremely accurate measurement of geometric parameters such as bond lengths.
+It allows unambiguous determination of the structure of compounds (including stereochemistry), and  extremely accurate measurement of geometric parameters such as bond lengths.
 Practically speaking, a structure is determined by mounting a single crystal of a compound on a goniometer which can rotate the crystal through any orientation, then observing the position and intensity of diffracted x-ray beams.
 Rotating the crystal allows different diffraction spots to be observed, and a more complete dataset to be collected.
 The position of the diffraction spots provides information about the size and shape of the unit cell, and the intensities provide information about the internal structure i.e. the locations of the atoms in the unit cell.
@@ -276,7 +298,7 @@ The simplest refinement model consists of atomic coordinates for each atom, plus
 However, in order to calculate $f_{\mathrm{calc}, r}$ by Fourier transform, we must introduce some description of what the atoms which we are locating ``look like''.
 This forms a hidden, but still crucially important, part of the model.
 Typically, atoms are described in reciprocal space as spherically symmetric functions whose contribution to $f_{\mathrm{calc}, r}$ is only dependent on $(\sin\theta)/\lambda$ (\cref{fig:scatterf}).
-This is a consequence of the fact that x-rays are scattered by the \emph{electron cloud} of the atom.\footnote{X-rays have much less energy than the mass-energy of subatomic particles, so are scattered in the low energy limit of Compton scattering, known as Thompson scattering.
+This is a consequence of the fact that x-rays are scattered by the \emph{electron cloud} of the atom.\footnote{X-rays have much less energy than the mass-energy of subatomic particles, and so are scattered in the low energy limit of Compton scattering, known as Thompson scattering.
 The scattering power of a particle is inversely proportional to the square of its mass, so the massive nuclei contribute negligibly to scattering compared to electrons.}
 At $(\sin\theta)/\lambda = 0$ the scattering factor is equal to the number of electrons in the atom.
 However, the finite size of the electron cloud causes destructive interference and attenuation of the scattering factor as $(\sin\theta)/\lambda$ increases, as x-rays scattered from one side of the electron cloud will be out of phase with those scattered from the other side.
@@ -310,7 +332,7 @@ The fact that these deformations were incorporated into the anisotropic displace
     \label{fig:x-n-coppens}
 \end{figure}
 
-Evidence for aspherical atoms can even be traced back to seminal studies performed by the great \citeauthor{Bragg1920}, in which the famous 222 reflection of a diamond crystal was observed.
+Evidence for aspherical atoms can even be traced back to seminal studies performed by \citeauthor{Bragg1920}, in which the famous 222 reflection of a diamond crystal was observed.
 The 222 reflection is a systematic extinction of the $Fd\bar{3}m$ space group to which diamond belongs, but its absence is based on the assumption of spherical atoms.
 In diamond, the carbon atoms are actually tetrahedral in form due to the bonding electron density, which lowers the space group symmetry and causes the 222 reflection to be present, though very weak.\autocite{Bragg1920}
 Though cutting edge for the time, Bragg's experiment was rather primitive, and multiple scattering likely contributed some intensity to the observed 222 reflection.
@@ -353,6 +375,14 @@ The electron density is expanded in a series of atom-centered spherical harmonic
 Each basis function requires two parameters for the occupancy and expansion, in addition to the position and anisotropic displacement parameters for each atom.
 We therefore require a large number of observations to ensure the system is overdetermined, and can be treated in a least-squares manner.
 Furthermore, the ADPs and dipolar basis terms are highly correlated, leading to an unstable solution if refined simultaneously (\cref{fig:adp-dipole}).
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\linewidth]{Figures/valencevsthermaled.pdf}
+    \caption[Correlation of thermal and dipolar functions.]{Thermal motion (described by anisotropic displacement parameters) and dipolar basis terms are highly correlated.}
+    \label{fig:adp-dipole}
+\end{figure}
+
 For this reason, it is critical to establish accurate atomic positions and ADPs before refining the multipole parameters and charge density.
 Traditionally this was done using neutron data which, as mentioned above, is insensitive to electron density perturbations as neutrons are scattered almost exclusively by the nucleus.
 Unfortunately neutron sources are notoriously expensive and low-flux, requiring extremely large crystals which introduces further errors due to extinction.
@@ -363,15 +393,8 @@ With accurate atomic coordinates and ADPs in hand, hydrogen atoms can be located
 Multipole refinement can benefit enormously from an initial database model, particularly for hydrogen atoms, so it is no surprise that the techniques are often used sequentially.\autocite{Guillot2001,Volkov2006}
 The resulting electron density can be used to characterise molecules and predict reactivity, particularly when interpreted within the powerful Quantum Theory of Atoms In Molecules frameork of Bader.\autocite{Bader1991}
 The obvious attraction of this method is that it is almost entirely experimental.
-However, the atom centered multipole functions and their resulting sum, while superficially resembling a wavefunction, is not antisymmetric and is therefore in violation of the Pauli exclusion priniciple.
+However, the atom centered multipole functions and their resulting sum, while superficially resembling a wavefunction, is not antisymmetric and is therefore in violation of the Pauli exclusion principle.
 It therefore cannot be used to determine \emph{all} properties of a system.
-
-\begin{figure}
-    \centering
-    \includegraphics[width=0.6\linewidth]{Figures/valencevsthermaled.pdf}
-    \caption[Correlation of thermal and dipolar functions.]{Thermal motion (described by anisotropic displacement parameters) and dipolar basis terms are highly correlated.}
-    \label{fig:adp-dipole}
-\end{figure}
 
 To summarise, electron density can be measured in a crystal by x-ray diffraction, and various models used to fit it.
 The ``gold standard'' would be the derivation of a wavefunction, but at present this has not been done without the introduction of chemical constraints.
@@ -460,8 +483,6 @@ Another issue is encountered with preferred orientation of crystallites, as in p
 Perhaps the most fundamental issue stems from the fact that the sample is a powder of randomly oriented particles.
 This means that the absolute orientation of the tensor with respect to the molecule cannot be determined from this kind of experiment.
 Nonetheless, the \emph{shape} of the tensor is still valuable information that may be able to shed light on Ch-bonding in the solid phase.
-
-
 
 \printbibliography[heading=subbibliography]
 \end{refsection}
