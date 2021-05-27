@@ -8,12 +8,12 @@ While we may think of the more familiar covalent and ionic bonds as the core of 
 
 At a fundamental level, all non-bonding interactions (indeed, conventional bonding too) are attributable to the electrostatic force.
 However, it is more convenient to broadly categorise interactions based on strength and structural motifs that are common to each class.
-Such classes include dispersion forces, dipole-dipole interactions, and H-bonding.
+Such classes include dispersion forces, dipole-dipole interactions, and hydrogen bonding (H-bonding).
 In the 19th century, it became apparent that these classes paint an incomplete picture of intermolecular bonding.
 As part of their investigation into solvent effects on the colour of iodine solutions in 1949, Bensei and Hildebrand invoked the concept of ``charge-transfer'' complexes to explain the association of molecular iodine with nucleophililc solvent molecules.\autocite{Benesi1949}
 Although the electrophilic nature of molecular halogens was already well appreciated with respect to reactivity, this appears to be the first acknowledgement that this understanding could be applied to ground state complexes.
 In support of this, Hassel and Hvoslef elucidated the structure of a 1:1 complex of molecular bromine and 1,4-dioxane in 1954, and observed an unusally strong interaction between the two molecules.\autocite{Hassel1954}
-The crystal was comprised of long chains of monomers (\cref{fig:hassel-xray}), exhibiting a very short O\dots Br contact (2.71\AA, the sum of the VDW radii is 3.37\AA), and a slightly lengthened Br--Br bond (2.31\AA~vs 2.28\AA~in gaseous bromine).
+The crystal was comprised of long chains of monomers (\cref{fig:hassel-xray}), exhibiting a very short O\dots Br contact (2.71\AA, the sum of the van der Waals (VDW) radii is 3.37\AA), and a slightly lengthened Br--Br bond (2.31\AA~vs 2.28\AA~in gaseous bromine).
 
 \begin{figure}[ht]
   \includegraphics[width=0.6\columnwidth]{Figures/hassel-xray.eps}
@@ -31,13 +31,20 @@ From X-bonding grew the related concepts of chalcogen (Ch-), pnicogen (Pn-), and
 Similar applications have also been found for these classes of noncovalent interactions, Ch-bonding in particular.\autocite{Fanfrlik2014,Garrett2016,Ho2016,Wonner2017,Mitchell2017,Benz2017,Biot2018,Ho2017}
 
 \section{Chalcogen Bonding}
-Ch-bonding is the attractive interaction between a Lewis base and a chalcogen atom bearing an electron withdrawing substituent.
+Ch-bonding is the attractive interaction between a Lewis base and a chalcogen atom bearing an electron withdrawing substituent (\cref{fig:ch-bonding-intro}).
 The terminology of Ch-bonding partners is perhaps counterintuitive, as donors and acceptors are named by analogy with H-bonded equivalents.
 Note this is contrary to the formal flow of electron density; Ch-bond \emph{donors} bear vacant \emph{acceptor} orbitals, while Ch-bond \emph{acceptors} are \emph{donors} of electron density.
 For the purposes of this thesis, ``donor'' will refer to the Lewis acidic chalcogen species.
 
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\linewidth]{Figures/ch-bonding.pdf}
+    \caption{Chalcogen bonding model, and similarity to H-bonding.}
+    \label{fig:ch-bonding-intro}
+\end{figure}
+
 \subsection{Mechanisms}
-As was discussed in the introduction, all intermolecular (and indeed \emph{intra}molecular) forces are manifestations of the electromagnetic force.
+As was discussed in the previous section, all intermolecular (and indeed \emph{intra}molecular) forces are manifestations of the electromagnetic force.
 Nonetheless, it is more convenient to categorise energetic contributions to any given interaction as orbital, electrostatic, or dispersion mediated, as there are marked differences in strength and directionality between them.
 Historically, X- and Ch-bond interactions were understood to be primarily due to orbital overlap and resulting charge transfer.
 Evidence for this included the lengthening of the X--X bond corresponding to increased occupation of the $\sigma^{\star}$(X-X) orbital due to the incoming lone pair (this was observed in Hassel and Hvoslef's original work\autocite{Hassel1954}).
@@ -48,15 +55,21 @@ The iodoperfluoroalkanes and arenes studied by Resnati et al. show no charge tra
 Jane Murray and Peter Politzer have advocated for an alternative, primarily electrostatic explanation of X- and Ch-bond interactions.\autocite{Murray2008,Murray2009}
 They propose that a positively charged $\sigma$-hole is generated along the extension of a $\sigma$ bond to an electron withdrawing substituent, due to polarisation of the bonding orbital.
 This also adequately explains the strength and directionality of these interactions.
-
 An interpretation which has not attracted as much attention is that of dispersion forces.
 
 While the varying contributions from each of these factors can be dissected computationally via pertubation methods, experimental evidence is surprisingly sparse.
 Pascoe, Ling and Cockroft, however, devised an elegant experiment to quantitatively determine energetic contributions.\autocite{Pascoe2017}
-\textsuperscript{19}F NMR was used to determine the relative populations of two conformors of a "molecular balance", one bearing a Ch-bond interaction, one not.
+\textsuperscript{19}F NMR was used to determine the relative populations of two conformors of a "molecular balance", one bearing a Ch-bond interaction, one not (\cref{fig:cockroft-balances}).
 Interaction energies were thus derived, and found to be more or less invariant with respect to the solvent.
 This appeared to rule out electrostatic contributions, as solvent dipole moment and bulk polarisability would otherwise have a large effect on the position of the equilibrium.
 These results also suggest that dispersion plays only a minor role, for similar reasons.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\linewidth]{Figures/cockroft-balances.pdf}
+    \caption{``Molecular balances'' designed by \citeauthor[]{Pascoe2017} for the measurement of Ch-bond energies.\autocite{Pascoe2017}}
+    \label{fig:cockroft-balances}
+\end{figure}
 
 DFT was used to further probe the dispersion contribution.
 Free energies were calculated using functionals which both did, and did not include dispersion corrections, and the values compared to the experimental results.
@@ -74,24 +87,59 @@ The following are brief summaries of existing applications in the literature.
 The major applications of $\sigma$-hole interactions have so far been in the realm of crystal engineering.
 Early work by \citeauthor{Corradi2000} showed that halogen bonding was able to outcompete H-bonding in the formation of supramolecular architectures.\autocite{Corradi2000}
 A review by \citeauthor{Metrangolo2008} summarised the forms that are accessible using X-bonding to direct crystal growth.\autocite{Metrangolo2008}
-1D, 2D, and 3D architectures are able to be generated using appropriate X-bond donors, and these show potential in the design of liquid crystals, organic semiconductors and paramagnetic materials.
+1D, 2D, and 3D architectures are able to be generated using appropriate X-bond donors, and these show potential in the design of liquid crystals, organic semiconductors and paramagnetic materials (\cref{fig:iodotempo-chains})
 A more recent review by the same group described applications in anion transport, and luminescent and photoresponsive crystals.\autocite{Priimagi2013}
-The group of Stefan Matile has further explored anion transport, and has published a review comparing X-bonding with other hydrophobic interactions such as anion-$\pi$ and anion-macrodipole interactions.\autocite{VargasJentzsch2013}
+The group of Stefan Matile has further explored anion transport, and has published a review comparing X-bonding with other hydrophobic interactions such as anion-$\pi$ and anion-macrodipole interactions (\cref{fig:matile-anion-binder}).\autocite{VargasJentzsch2013}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\linewidth]{Figures/iodotempo-chains.pdf}
+    \caption{One-dimensional chains of 4-(4-iodobenzylidene)-TEMPO structured by X-bonds.\autocite{Metrangolo2008}}
+    \label{fig:iodotempo-chains}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.4\linewidth]{Figures/matile-anion-binder.pdf}
+    \caption{Anion binding through anion-$\pi$ interactions and X-bonding.\autocite{VargasJentzsch2013}}
+    \label{fig:matile-anion-binder}
+\end{figure}
 
 Ch-bonding, too, has been investigated with respect to materials chemistry.
 \citeauthor{Fanfrlik2014} demonstrated the importance of Ch-bonding on the crystal packing of thiaboranes.\autocite{Fanfrlik2014}
-They found that the sulfur-based $\sigma$-hole was sufficiently strong to interact with the weakly basic $\pi$ electrons of a phenyl group, with contacts as short as 3.2\AA~being observed.
+They found that the sulfur-based $\sigma$-hole was sufficiently strong to interact with the weakly basic $\pi$ electrons of a phenyl group, with contacts as short as 3.2\AA~being observed (\cref{fig:thiaborane-ch-bond}).
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.45\linewidth]{Figures/thiaborane-ch-bond.pdf}
+    \caption{Ch-bonding in thiaboranes.\autocite{Fanfrlik2014}}
+    \label{fig:thiaborane-ch-bond}
+\end{figure}
 
 In 2016, \citeauthor{Ho2016} published their work into tellurium-based Ch-bonding.\autocite{Ho2016}
-Their scaffolds are based on an iso-tellurazole N-oxide, which reversibly forms macrocyclic structures that persist in both gas and solution phase.
+Their scaffolds are based on an iso-tellurazole N-oxide, which reversibly forms macrocyclic structures that persist in both gas and solution phase (\cref{fig:te-pd-macrocycle}).
 The macrocycles were found to coordinate \ce{Pd2+}.
 This is particularly interesting, as the tellurium atoms are simultaneously behaving as a Lewis acid and base.
 The authors point out that such soft macrocycles are quite rare, and their work could facilitate further studies of transition metals in a soft coordination environment.
 They went on to investigate benzo-fused derivatives of iso-tellurazoles, as well as selenium analogues, which crystallised to form macromolecular pores and voids.\autocite{Ho2017}
 
+\begin{figure}
+    \centering
+    \includegraphics[width=0.4\linewidth]{Figures/te-pd-macrocycle.pdf}
+    \caption{A tetrameric macrocycle held together by Ch-bonds.\autocite{Ho2016}}
+    \label{fig:te-pd-macrocycle}
+\end{figure}
+
 The Taylor group has been active in the development of X- and Ch-bonding molecular sensors.
 Early work demonstrated that X-bonding tridentate ligands (reminiscent of enterobactin) showed moderate selectivity for \ce{Cl-}.\autocite{Dimitrijevic2010}
-They later developed bidentate Ch-bonding ligands which exhibited a tenfold increase in association constant with respect to chloride.\autocite{Garrett2015a,Garrett2016}
+They later developed bidentate Ch-bonding ligands which exhibited a tenfold increase in association constant with respect to chloride (\cref{fig:taylor-cl-binder}).\autocite{Garrett2015a,Garrett2016}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\linewidth]{Figures/taylor-cl-binder.pdf}
+    \caption{A bidentate Ch-bonding anion binder.\autocite{Garrett2016}}
+    \label{fig:taylor-cl-binder}
+\end{figure}
 
 Similar results have been achieved by the Beer group, who have developed X-bonding sensors for the perrhenate anion.\autocite{Cornes2017}
 These sensors are based on functionalised cyclodextrins, and are even more sensitive than the corresponding H-bonding analogues.
@@ -99,7 +147,15 @@ The group has also use iodotriazole scaffolds to chelate anions.\autocite{Boriss
 Incorporation of a chial binapthol moiety was shown to differentiate between enantiomers of chiral anions.
 
 The role of selenium-based Ch-bonding on the crystal structure and mechanism of the drug ebselen was demonstrated by Thomas et al.\autocite{Thomas2015}
+Ch-bonding between the selenium atom and carbonyl oxygen directs the crystal packing of this compound, and leads to the formation of one-dimensional chains of molecules (\cref{fig:ebs-packing}).
 Interestingly, the Lewis acidity of the $\sigma$-hole was invoked as an explanation of the antioxidant properties of the drug.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.7\linewidth]{Figures/ebs-packing.pdf}
+    \caption{One dimensional chais formed in the crystal packing of ebselen.}
+    \label{fig:ebs-packing}
+\end{figure}
 
 \subsection{Catalysis and bond activation}
 In 2008, halogen bonding was first applied to a Hantzsch ester reduction of a quinoline derivative.\autocite{Bruckmann2008}
@@ -113,18 +169,30 @@ A similar alkylation of 1-chloroisochroman was achieved by the same group using 
 The proposed mechanism is similar to the thiourea-catalysed reaction of \citeauthor{Reisman2008}\autocite{Reisman2008}, which has shown promise in asymmetric induction.
 The authors noted issues with solubility of the perfluoroiodoarene catalysts, which is expected of such highly fluorinated compounds.
 
-These reactions have all been repeated with Ch-bond donors in place of X-bonds.
-
-The quinoline reduction was sucessfully catalysed by a dithiophene system by \citeauthor{Benz2017}. in 2017\autocite{Benz2017}, and then again by the same group with a benzodiselenazole.\autocite{Benz2017a}
+The reduction of quinoline was sucessfully catalysed by a dithiophene system by \citeauthor{Benz2017} in 2017\autocite{Benz2017}, and then again by the same group with a benzodiselenazole (\cref{fig:quinoline-redn}).\autocite{Benz2017a}
 With the increased selectivity and strength of the Se-based Ch-bonding catalyst compared to the X-bonding perfluoroiodoalkane, the authors were able to reduce the catalyst loading to 1\%.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.4\linewidth]{Figures/quinoline-redn.pdf}
+    \caption{Proposed mechanism for the catalytic reduction of quinoline by a Ch-bonding catalyst.\autocite{Benz2017}}
+    \label{fig:quinoline-redn}
+\end{figure}
 
 \citeauthor{Wonner2017} developed a selenated bisbenzimidazolium Ch-bonding catalyst for the alkylation of 1-chloroisochroman, and solvolysis of benzyhydryl bromide.\autocite{Wonner2017,Wonner2017a}
 Although the best results were observed with the dicationic catalysts, conversion was also achieved with a neutral bisbenzimidazole catalyst, providing further evidence that the catalytic Lewis-acid site is indeed the $\sigma$-hole.
 For a given row in the periodic table (i.e. comparing a Se-based donor to a Br-based donor), Ch-bonding appeared to give superior results to X-bonding, as measured by \% yield.
 
 An unusal manifestation of X-bonding is in the self-disproportionation of enantiomers, as reported by \citeauthor{Soloshonok2017}.\autocite{Soloshonok2017}
-They observed spontaneous enrichment of one enantiomer of mebroqualone upon chromatography using an achiral solid phase, which they attributed to the formation of diasteromeric X-bonded oligomers.
-This phenomenon has been observed in compounds capable of interacting through H-bonding or strong dipole-dipole interactions.
+They observed spontaneous enrichment of one enantiomer of mebroqualone (\cref{fig:mebroqualone}) upon chromatography using an achiral solid phase, which they attributed to the formation of diasteromeric X-bonded oligomers.
+This phenomenon has been observed in compounds capable of interacting through H-bonding or strong dipole-dipole interactions.\autocite{Cundy1983}
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.8]{Figures/mebroqualone.eps}
+    \caption[The structure of mebroqualone.]{The structure of mebroqualone. Rotation is hindered about the biaryl bond, allowing the isolation of two atropisomers.}
+    \label{fig:mebroqualone}
+\end{figure}
 
 \subsection{Biological systems}
 
@@ -136,7 +204,7 @@ In the early days of Ch-bonding interactions (2001, before the name had come int
 A remarkable number of close contacts (sum of Van der Waals radii plus 0.5\AA) between sulfur and Lewis basic (X) atoms were identified in the structures, with 33\% of cysteine residues and 22\% of methionine residues showing a close contact.
 Furthermore, the geometric parameters of these contacts were studied, with more than half of all contacts having a S--S--X (X=O,N) of 150--180\degree.
 The observed contacts were ascribed to a $\pi$(C=O)$\rightarrow \sigma^{\star}$(S--S) interaction, in contrast to the $n(X) \rightarrow \sigma^{\star}$(S-X) interaction which dominates in small molecules.
-Also contrary to the case of small molecules, the authors suggest that the orbital component of the interaction is small, though important for establishing the directionality of the interaction.
+Also contrary to the case of small molecules, the authors suggested that the orbital component of the interaction is small, though important for establishing the directionality of the interaction.
 Dispersion appears to be the major stabilising force, as optimization using a non-dispersion corrected level of theory gave unrealistically large distances.
 
 The differences between Ch-bonding in proteins and small molecules is likely due to variation in orbital energies in the functional groups which are found in each class.
@@ -147,14 +215,21 @@ In general, the HOMO of a system (the most Lewis basic site) is dominated by lon
 This is observed in most small molecules, as they form Ch-bonds through these lone pairs.
 However, the amide bond, which is ubiquitous in proteins, shows an unusual inversion in orbital energies.
 The $\pi$(C=O) orbital is elevated with respect to the lone pair according to MP2 calculations, making it the more basic site.
-Structural data supports this assertion, as the Ch-bond donor usually approaches the top of the C=O bond in proteins, rather than the usual approach towards the oxygen lone pair.\autocite{Iwaoka2012}
+Structural data supports this assertion, as the Ch-bond donor usually approaches the top of the C=O bond in proteins, rather than the usual approach towards the oxygen lone pair (\cref{fig:amide-diselenide-ch-bond}).\autocite{Iwaoka2012}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.4\linewidth]{Figures/amide-diselenide-ch-bond.pdf}
+    \caption{Directional preference for Ch-bonded interactions in proteins.}
+    \label{fig:amide-diselenide-ch-bond}
+\end{figure}
 
 It is worth noting that selenium is also found in proteins as selenocysteine and selenomethionine.
 This would be expected to be an even stronger Ch-bond donor.
 However, selenoproteins are relatively few in number, precluding such extensive statistical analysis.\autocite{Iwaoka2015}
 They are only mentioned here for the sake of completeness.
 
-\emph{Intra}molecular interactions are just one instance of Ch-bonding in biological systems.
+Intramolecular interactions are just one instance of Ch-bonding in biological systems.
 Proteins often interact with ligands or substrates through H-bonds, so it is reasonable to propose that Ch-bonding could be applied in this field as well.
 Indeed, a protein-ligand Ch- and X-bonding interaction was used to target the gatekeeper methionine (MET146) residue of c-Jun N-terminal kinase 3 (JNK3) in a model study by \citeauthor{Lange2015}.\autocite{Lange2015}
 In this work, a protein$\rightarrow$ligand Ch-bond was used to stabilise the interaction.
@@ -166,20 +241,35 @@ Non-conventional protein-ligand interactions are summarised in a comprehensive r
 Nucleic acids represent another application of Ch-bonding in biology.
 In addition to their crucial role in the storage of genetic information, they have also been investigated as a structural material in nanotechnology.
 The ubiquity of H-bonds in nucleic acid complexes suggests that $\sigma$-hole interactions may also be used to direct formation of these complexes.
-X-bonding was indeed able to be used to direct formation of a Holliday junction between two DNA strands.\autocite{Voth2007}
+X-bonding was indeed able to be used to direct formation of a Holliday junction between two DNA strands (\cref{fig:holliday-junction}).\autocite{Voth2007}
 Holliday junctions are branched nucleic acid structures that appear in many biological processes includin recombination and double-strand break repair.
 They are also useful as building blocks for DNA nanotechnology, where their self assembly and predictable gemoetry are exploited.
 The authors estimated that the X-bonding interaction (mediated through a bromo-substituent) was 2--5 kcal/mol stronger than the corresponding H-bond.
 A 2017 review identified a further 21 X-bonded nucleic acid structures.\autocite{Kolar2017}
 X-bonding was in fact able to partially replace inter-strand H-bonding interaction in a DNA oligomer.\autocite{Parker2012}
 
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\linewidth]{Figures/holliday-junction.pdf}
+    \caption{Holliday junction formed by X-bonding.\autocite{Voth2007}}
+    \label{fig:holliday-junction}
+\end{figure}
+
 Ch-bonding, too, has been investigated in the context of nucleic acids.
-\Citeauthor[]{Sharma2020} recently invesigated the possibility of forming Ch-bonded analogues of the canonical A:T/G:C base pairs in order to expand the genetic alphabet.\autocite{Sharma2020}
+\Citeauthor{Sharma2020} recently invesigated the possibility of forming Ch-bonded analogues of the canonical A:T/G:C base pairs in order to expand the genetic alphabet.\autocite{Sharma2020}
 A G\textsubscript{\ce{SeF}}:C dimer was found to be more stable than the canonical G:C pair, where the \ce{SeF} subscript indicates that one of the H-bond donors on the guanine was replaced by a selenenyl fluoride.
 \Citeauthor[]{Farrell2018} showed that introducing heavy chalcogens into nucleobases has profound impacts on their phototochemistry, with implications for their use in photodynamic therapy.\autocite{Farrell2018}
 The photophysics of selenonucleobases has been further explored, showing that they are uniquely photostable while efficiently populating and depopulating their excited states.\autocite{Mai2019,Peng2020,Fang2019,Uleany2020}
 While none of these investigations specifically mentioned Ch-bonding, it is highly likely that it would come into play, which may provide a means of directing the activity of these photosensitisers.
-Selenium has also been incorporated into nucleobases as a H-bond acceptor, in which it was shown that selenonucleobases can effectively discriminate against the formation of a so-called ``wobble'' base pair (U:G as opposed to U:A in RNA, or T:G/T:A in DNA).\autocite{Hassan2010,Sun2012}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\linewidth]{Figures/wobble-bp.pdf}
+    \caption[Canonical Watson-Crick U/A base pair, and the ``wobble'' U:G base pair in RNA.]{Canonical Watson-Crick U:A base pair, and the ``wobble'' U/G base pair in RNA. The latter is disfavoured when an oxygen atom in uracil is substituted by selenium.}
+    \label{fig:wobble-bp}
+\end{figure}
+
+Selenium has also been incorporated into nucleobases as a H-bond acceptor, in which it was shown that selenonucleobases can effectively discriminate against the formation of a so-called ``wobble'' base pair (U:G as opposed to U:A in RNA, or T:G/T:A in DNA, \cref{fig:wobble-bp}).\autocite{Hassan2010,Sun2012}
 Another advantage of selenonucleobase incorporation is the ability to use the heavy selenium atom for MAD/SAD phasing of macromolecular crystal structures.\autocite{Salon2007}
 This was also the motivation for a \citeyear{Conlon2019} study in which the selenium was incorporated into the phosphate backbone.\autocite{Conlon2019}
 A major advantage of this approach is that the bulk of the selenium atom does not need to be accomodated in the interior of the double helix, so structural distortions are minimised.
@@ -188,12 +278,60 @@ To date, there have not been any drugs which target nucleic acids through Ch-bon
 \section{Experimental methods}
 As mentioned above, X- and Ch-bonded interactions were originally identified crystallographically, with additional spectroscopic evidence being present.
 These pioneering methods have not changed a great deal, and x-ray crystallography is still the most powerful tool we have to study these interactions.
-We also use a number of spectroscopic techniques to probe the nature of Ch-bonding.
-Some of the methods used in this work go beyond the typical level encountered in postgraduate study, so a brief explanation of each is included here.
+We also use a number of spectroscopic and computational techniques to probe the nature of Ch-bonding.
+Some of the methods used in this thesis are explained below.
+
+\subsection{Computational methods}
+Computational methods are an indispensible tool for chemists, allowing us to study molecules too fragile to isolate in the laboratory, and extract further insight from real-world systems.
+A number of the techniques used in this thesis are briefly explained below.
+
+\subsubsection{Natural Bond Orbital theory}
+The SCF procedure, which is at the heart of alomst all quantum chemistry calculations, affords a set of solution wavefunctions $\Psi$ to the Schr\"{o}dinger equation (\cref{eqn:schrodinger}) using a Hamiltonian which is approximated to some degree (e.g. the Fock operator in the Hartree-Fock method).
+
+\begin{equation}
+    \hat{H}\Psi = E\Psi
+    \label{eqn:schrodinger}
+\end{equation}
+
+Each one electron wavefunction, or molecular orbital (MO), describes the distribution of an electron in the field of the nuclear potentials, and is generally constructed from a Linear Combination of Atomic Orbitals (LCAO)\footnote{An alternative approach is that of plane-wave basis sets, which are better suited to infinitely periodic systems.}, that is, sums and differences of atom centered basis functions of various symmetries.
+The Pauli exclusion principle states that a (many-particle) wavefunction must be antisymmetric with respect to exchange of two fermionic particles such as electrons.
+This means that for every MO resulting from the sum of two atomic orbitals, there must be a corresponding MO resulting from the difference of the same two atomic orbitals, from which we obtain the familiar MO construction for simple diatomics (\cref{fig:h-orbital-diagram}).
+
+\begin{figure}
+    \includegraphics[width=0.6\linewidth]{Figures/h-orbital-diagram.pdf}
+    \caption{MO diagram for dihydrogen. Reproduced from reference \cite{h-orbital-diagram}.}
+    \label{fig:h-orbital-diagram}
+\end{figure}
+
+In more complex polyatomic species, these MOs are most easily interpreted as eigenfunctions of the molecular Hamiltonian, and their energies are the corresponding eigenvalues. 
+These orbitals describe the distribution of each electron throughout the molecule and hence the bonding within the molecule, but do not translate well into the more intuitive valence bond description of bonding that is most useful to chemists.
+From a series of MOs, there is not an easy way to draw a Lewis structure of the molecule at hand.
+This is because MOs tend to be highly delocalised throughout the molecule, which is obvious even in the relatively simple case of benzene (\cref{fig:benzene-mo}).
+
+\begin{figure}
+    \includegraphics[width=0.8\linewidth]{Figures/benzene-mo.pdf}
+    \caption{MOs of benzene. Reproduced from reference \cite{Luhmann2015}.}
+    \label{fig:benzene-mo}
+\end{figure}
+
+The Natural Bond Orbital (NBO) scheme attempts to ameliorate this delocalisation, by reframing the molecular orbitals into NBOs which correspond to features found in a Lewis structure.
+These take the form of one centre and two centre elements (lone pairs and bonding pairs respectively), which together form the optimal Lewis structure for a molecule.
+The NBO scheme also provides a framework for non-Lewis features, such as non-valence electrons which are found in core NBOs, and hyperconjugation and delocalisation effects which manifest as departures from either full or zero occupancy of NBOs.
+Rydberg NBOs complete the span of the NBO space, which are high energy, highly diffuse orbitals which typically contribute little to the overall chemistry of the system. 
+
+How do we use it????
+
+
+\subsubsection{Energy Decomposition Analysis}
+Energy Decomposition Analysis (EDA) encompasses a number of techniques that are concerned with dissecting energetic contributions to particular interactions.
+It is most commonly applied to non-covalent interactions,
+
+\subsubsection{Quantum Theory of Atoms In Molecules}
+The Quantum Theory of Atoms In Molecules is a description of bonding that is complimentary to that of NBO
 
 \subsection{X-ray crystallography}
 Single crystal x-ray crystallography is the main experimental technique used in this work.
-It allows unambiguous determination of the structure of compounds (including stereochemistry), and potentially extremely accurate measurement of geometric parameters such as bond lengths.
+It allows unambiguous determination of the structure of compounds (including stereochemistry), and  extremely accurate measurement of geometric parameters such as bond lengths.
 Practically speaking, a structure is determined by mounting a single crystal of a compound on a goniometer which can rotate the crystal through any orientation, then observing the position and intensity of diffracted x-ray beams.
 Rotating the crystal allows different diffraction spots to be observed, and a more complete dataset to be collected.
 The position of the diffraction spots provides information about the size and shape of the unit cell, and the intensities provide information about the internal structure i.e. the locations of the atoms in the unit cell.
@@ -216,7 +354,7 @@ The simplest refinement model consists of atomic coordinates for each atom, plus
 However, in order to calculate $f_{\mathrm{calc}, r}$ by Fourier transform, we must introduce some description of what the atoms which we are locating ``look like''.
 This forms a hidden, but still crucially important, part of the model.
 Typically, atoms are described in reciprocal space as spherically symmetric functions whose contribution to $f_{\mathrm{calc}, r}$ is only dependent on $(\sin\theta)/\lambda$ (\cref{fig:scatterf}).
-This is a consequence of the fact that x-rays are scattered by the \emph{electron cloud} of the atom.\footnote{X-rays have much less energy than the mass-energy of subatomic particles, so are scattered in the low energy limit of Compton scattering, known as Thompson scattering.
+This is a consequence of the fact that x-rays are scattered by the \emph{electron cloud} of the atom.\footnote{X-rays have much less energy than the mass-energy of subatomic particles, and so are scattered in the low energy limit of Compton scattering, known as Thompson scattering.
 The scattering power of a particle is inversely proportional to the square of its mass, so the massive nuclei contribute negligibly to scattering compared to electrons.}
 At $(\sin\theta)/\lambda = 0$ the scattering factor is equal to the number of electrons in the atom.
 However, the finite size of the electron cloud causes destructive interference and attenuation of the scattering factor as $(\sin\theta)/\lambda$ increases, as x-rays scattered from one side of the electron cloud will be out of phase with those scattered from the other side.
@@ -250,7 +388,7 @@ The fact that these deformations were incorporated into the anisotropic displace
     \label{fig:x-n-coppens}
 \end{figure}
 
-Evidence for aspherical atoms can even be traced back to seminal studies performed by the great \citeauthor{Bragg1920}, in which the famous 222 reflection of a diamond crystal was observed.
+Evidence for aspherical atoms can even be traced back to seminal studies performed by \citeauthor{Bragg1920}, in which the famous 222 reflection of a diamond crystal was observed.
 The 222 reflection is a systematic extinction of the $Fd\bar{3}m$ space group to which diamond belongs, but its absence is based on the assumption of spherical atoms.
 In diamond, the carbon atoms are actually tetrahedral in form due to the bonding electron density, which lowers the space group symmetry and causes the 222 reflection to be present, though very weak.\autocite{Bragg1920}
 Though cutting edge for the time, Bragg's experiment was rather primitive, and multiple scattering likely contributed some intensity to the observed 222 reflection.
@@ -293,6 +431,14 @@ The electron density is expanded in a series of atom-centered spherical harmonic
 Each basis function requires two parameters for the occupancy and expansion, in addition to the position and anisotropic displacement parameters for each atom.
 We therefore require a large number of observations to ensure the system is overdetermined, and can be treated in a least-squares manner.
 Furthermore, the ADPs and dipolar basis terms are highly correlated, leading to an unstable solution if refined simultaneously (\cref{fig:adp-dipole}).
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\linewidth]{Figures/valencevsthermaled.pdf}
+    \caption[Correlation of thermal and dipolar functions.]{Thermal motion (described by anisotropic displacement parameters) and dipolar basis terms are highly correlated.}
+    \label{fig:adp-dipole}
+\end{figure}
+
 For this reason, it is critical to establish accurate atomic positions and ADPs before refining the multipole parameters and charge density.
 Traditionally this was done using neutron data which, as mentioned above, is insensitive to electron density perturbations as neutrons are scattered almost exclusively by the nucleus.
 Unfortunately neutron sources are notoriously expensive and low-flux, requiring extremely large crystals which introduces further errors due to extinction.
@@ -303,15 +449,8 @@ With accurate atomic coordinates and ADPs in hand, hydrogen atoms can be located
 Multipole refinement can benefit enormously from an initial database model, particularly for hydrogen atoms, so it is no surprise that the techniques are often used sequentially.\autocite{Guillot2001,Volkov2006}
 The resulting electron density can be used to characterise molecules and predict reactivity, particularly when interpreted within the powerful Quantum Theory of Atoms In Molecules frameork of Bader.\autocite{Bader1991}
 The obvious attraction of this method is that it is almost entirely experimental.
-However, the atom centered multipole functions and their resulting sum, while superficially resembling a wavefunction, is not antisymmetric and is therefore in violation of the Pauli exclusion priniciple.
+However, the atom centered multipole functions and their resulting sum, while superficially resembling a wavefunction, is not antisymmetric and is therefore in violation of the Pauli exclusion principle.
 It therefore cannot be used to determine \emph{all} properties of a system.
-
-\begin{figure}
-    \centering
-    \includegraphics[width=0.6\linewidth]{Figures/valencevsthermaled.pdf}
-    \caption[Correlation of thermal and dipolar functions.]{Thermal motion (described by anisotropic displacement parameters) and dipolar basis terms are highly correlated.}
-    \label{fig:adp-dipole}
-\end{figure}
 
 To summarise, electron density can be measured in a crystal by x-ray diffraction, and various models used to fit it.
 The ``gold standard'' would be the derivation of a wavefunction, but at present this has not been done without the introduction of chemical constraints.
@@ -352,10 +491,10 @@ The isotropic chemical shift is given by the average $\delta_{\textrm{iso}} = \f
 There are two other conventions for describing chemical shift anisotropy, which are useful in different contexts.
 The Herzfeld Berger convention represents the chemical shift in terms of the span of the signal $\Omega = \delta_{11} - \delta_{33}$ and the skew $\kappa = \frac{3(\delta_{22} - \delta_{\textrm{iso}})}{\Omega}$ where $\delta_{\textrm{iso}}$ is the same as in the IUPAC convention.
 This is particularly useful for intuitively describing the powder lineshape formed by a given signal.
-The other convention is the Haeberlen convention, which defines the three principal components as $|\delta_{zz} - \delta_{\textrm{iso}}| \geq |\delta_{xx} - \delta_{\textrm{iso}}| \geq |\delta_{yy} - \delta_{\textrm{iso}}|$, and the parameters $\delta = \delta_{zz} -\delta_{\textrm{iso}}$ and $\eta = \frac{\delta_{xx} - \delta_{yy}}{\delta_{zz} -\delta_{\textrm{iso}}}$.
+The other convention is the Haeberlen convention, which defines the three principal components as $|\delta_{zz} - \delta_{\textrm{iso}}| \geq |\delta_{xx} - \delta_{\textrm{iso}}| \geq |\delta_{yy} - \delta_{\textrm{iso}}|$, and the parameters $\Delta_{\textrm{CSA}} = \delta_{zz} -\delta_{\textrm{iso}}$ and $\eta_{\textrm{CSA}} = \frac{\delta_{xx} - \delta_{yy}}{\delta_{zz} -\delta_{\textrm{iso}}}$.
 This convention is most useful for describing the angular dependence of a chemical shift on the polar angles $\theta$ and $\phi$, which is given by the relationship\autocite{Haeberlen1976}
 \begin{equation}
-  \delta_{\textrm{obs}} = \delta_{\textrm{iso}} + \delta \left(\frac{3 \cos^2 \theta - 1 + \eta \sin^2 \theta \cos 2 \phi}{2} \right)
+  \delta_{\textrm{obs}} = \delta_{\textrm{iso}} + \Delta_{\textrm{CSA}} \left(\frac{3 \cos^2 \theta - 1 + \eta_{\textrm{CSA}} \sin^2 \theta \cos 2 \phi}{2} \right)
   \label{eqn:orientation-csa}
 \end{equation}
 
@@ -370,7 +509,6 @@ The principal values of the tensor $\delta_{11}$, $\delta_{22}$ and $\delta_{33}
   \label{fig:ssnmr-tensor}
 \end{figure}
 
-The extremely poor S/N ratio (especially for a relatively insensitive nucleus like \ce{^{77}Se}) limits the utility of this method, as the radiated signal from the nuclei is spread out over a large bandwidth.
 Spinning at the magic angle can improve the S/N ratio by partially averaging out the chemical shift anisotropy and dipolar relaxation.
 Instead of the powder pattern, we instead observe a sharp isotropic chemical shift and a series of spinning sidebands which are separated from the isotropic peak by multiples of the spinning frequency.
 The radiated power is thus concentrated in narrower bands, leading to a much improved S/N ratio.
@@ -401,8 +539,6 @@ Perhaps the most fundamental issue stems from the fact that the sample is a powd
 This means that the absolute orientation of the tensor with respect to the molecule cannot be determined from this kind of experiment.
 Nonetheless, the \emph{shape} of the tensor is still valuable information that may be able to shed light on Ch-bonding in the solid phase.
 
-
-
 \printbibliography[heading=subbibliography]
 \end{refsection}
 
@@ -425,7 +561,7 @@ Recently it was identified as a compound of interest for the treatment of COVID-
 
 The \emph{in vivo} antioxidant ability of ebselen is believed to be mediated through a catalytic cycle analogous to that of glutathione peroxidase (a selenoenzyme).\autocite{Antony2011}
 The selenium-containing heterocycle is reductively opened to afford the free selenol, which is the active catalyst.
-This is rapidly oxidised by ROS to a selenenic acid, which is then reduced back to the selenol by glutathione (GSH) via a selenenyl sulfide.
+This is rapidly oxidised by ROS to a selenenic acid, which is then reduced back to the selenol by glutathione (GSH) via a selenenyl sulfide (\cref{fig:catcycle}).
 Its activity against a number of other targets appears to also be mediated through formation of a covalent complex via nucleophilic attack at the selenium.
 There is also evidence that ebselen interacts with targets non-covalently.\autocite{Jin2020}
 These interactions may include association with aromatic or hydrophobic residues, or H-bonding through the carbonyl.
@@ -477,7 +613,8 @@ This force field will prove useful in understanding the interactions between ebs
 We began by deriving the classical bonding parameters involving selenium in ebselen, using the procedure of Torsello.\autocite{Torsello2016}
 All quantum calculations were performed using Gaussian16, unless otherwise specified.\autocite{gaussian16}
 Electrostatic potentials were calculated using the \texttt{cubegen} program in the Gaussian suite, or \texttt{mol2cub}.\autocite{mol2cub}
-The ground state geometry of ebselen was optimized at the $\omega$B97M-V/def2TZVP level, followed by vibrational analysis to confirm the structure was minimized.\autocite{Chai2008,Weigend2005,Weigend2006}
+The ground state geometry of ebselen was optimized at the $\omega$B97M-V/def2-TZVP level, followed by vibrational analysis to confirm the structure was minimized.\autocite{Chai2008,Weigend2005,Weigend2006}
+The range-separated hybrid functional $\omega$B97M-V has been shown to accurately describe Ch-bonding interactions at modest computational cost.\autocite{Mehta2021}
 Partial charges were assigned to the atoms using the RESP scheme, at the HF/6-31G* level.\autocite{Cornell1993}
 This was chosen for consistency with existing AMBER force fields.
 
@@ -600,8 +737,7 @@ These attractive forces are balanced by a repulsive exchange component $E_\mathr
 
 Four Lewis bases were chosen which are representative of those likely to be encountered in biological systems, and which span a wide range of basicity.
 Their structures are given in \cref{fig:complexes}.
-SAPT(DFT) analyses were conducted using the Psi4 software package on geometries optimized at the $\omega$B97M-V/def2TZVP level, and the results are shown in \cref{fig:eda}.\autocite{Parrish2017}
-The range-separated hybrid $\omega$B97M-V has been shown to accurately describe Ch-bonding interactions at modest computational cost.\autocite{Mehta2021}
+SAPT(DFT) analyses were conducted using the Psi4 software package on geometries optimized at the $\omega$B97M-V/def2-TZVP level, and the results are shown in \cref{fig:eda}.\autocite{Parrish2017}
 
 \begin{figure}
     \centering
@@ -624,7 +760,7 @@ This suggests that the explicit $\sigma$-hole parametrization will be reliable, 
 With classical parameters for ebselen in hand, as well as theoretical assurance that the system can be adequately described using electrostatics, we began to optimize parameters for the pseudoatom representing the $\sigma$-hole.
 The pseudoatom was modelled as a virtual site riding on the selenium atom along the extension of the \ce{Se-N} bond.
 In GROMACS this is assigned the type \texttt{2fd}, which is described by only one parameter (the distance along the extension of the defining bond).
-This very computationally efficient, although it is an approximation to reality, as the center of the $\sigma$-hole is actually slightly offset (see \cref{fig:ebs-esp}).
+This is very computationally efficient, although it is an approximation to reality, as the center of the $\sigma$-hole is actually slightly offset (see \cref{fig:ebs-esp}).
 A more accurate description would be the three-center \texttt{3fd} or \texttt{3fad} type, however this would introduce a performance penalty.
 
 The distance parameter for the pseudoatom was set to 1.189\AA\ which places the point charge on the VdW surface of the selenium atom.

@@ -28,7 +28,7 @@
 \usepackage{savesym}
 \savesymbol{degree}
 
-\setmarginsrb           {3.5cm}  % left margin
+\setmarginsrb           {4cm}  % left margin
                         {1.5cm}  % top margin
                         {3.0cm}  % right margin
                         {3.0cm}  % bottom margin
@@ -37,7 +37,7 @@
                         { 10pt}  % foot height
                         {0.8cm}  % foot sep
 
-\usepackage[backend=biber, style=chem-acs, autocite=superscript]{biblatex}
+\usepackage[backend=biber, style=chem-acs, autocite=superscript, doi=true]{biblatex}
 \usepackage{verbatim}  % Needed for the "comment" environment to make LaTeX comments
 \usepackage{vector}  % Allows "\bvec{}" and "\buvec{}" for "blackboard" style bold vectors in maths
 %\hypersetup{urlcolor=blue, colorlinks=true}  % Colours hyperlinks in blue, but this can be distracting if there are many links.
@@ -57,6 +57,8 @@
 \usepackage[varioref=false]{chemstyle}
 \usepackage[version=4]{mhchem}
 \usepackage{chemscheme}
+
+\usepackage{stackengine}
 
 \ifpdf
   \usepackage{fourier}
@@ -146,7 +148,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Set up the Title Page
 % Change your thesis title and your information here
-\title  {Applications of Chalcogen bonding}
+\title  {Applications of Chalcogen Bonding}
 \authors  {\texorpdfstring
             {\href{mailto:fellowes@student.unimelb.edu.au}{Thomas Fellowes\\ \small ORCID: 0000-0002-6389-6049 }}
             {Thomas Fellowes}
@@ -227,19 +229,17 @@
 Speed of Light & $c$ & $=$ & $2.997\ 924\ 58\times10^{8}\ \mbox{ms}^{-\mbox{s}}$ (exact)\\
 
 }
-
+\end{comment}
 %% ----------------------------------------------------------------
 \clearpage  %Start a new page
 %\lhead{\emph{Symbols}}  % Set the left side page header to "Symbols"
 \listofnomenclature{lll}  % Include a list of Symbols (a three column table)
 {
 % symbol & name & unit \\
-$a$ & distance & m \\
-$P$ & power & W (Js$^{-1}$) \\
-& & \\ % Gap to separate the Roman symbols from the Greek
-$\omega$ & angular frequency & rads$^{-1}$ \\
+$\sigma$ & chemical shielding\\
+$\sigma$ & estimated standard deviation\\
 }
-\end{comment}
+
 %% ----------------------------------------------------------------
 % End of the pre-able, contents and lists of things
 \clearpage

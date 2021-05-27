@@ -560,6 +560,8 @@ Instead, the nitro group of \cmpd{2cl-4no2-amide} was reduced to the aniline \cm
 \end{scheme}
 \end{comment}
 
+
+\begin{comment}
 \section{Cell imaging}
 
 BOH
@@ -601,8 +603,7 @@ The reason for this is not clear???.
 \end{figure}
 
 To demonstrate that the benzisoselenazolinone \cmpd{ebs-rhs-ph} may also be used as a stain, we DID SOME STUFF???
-
-
+\end{comment}
 
 \section{DNA binding studies}
 Previous studies of Hoechst derivatives have shown that radioprotective ability is strongly correlated with a high affinity for the minor groove of DNA.
@@ -618,7 +619,7 @@ Two major techniques have been used in this project to determine DNA binding aff
 The first is a UV-vis titration of a DNA oligomer into a solution of the ligand.
 Briefly, this works by measuring the degree of conjugation between the two benzimidazole (or benzimidazole-like) systems.
 Free bis-benzimidazoles have a significant torsion about the central bond, partially due to the push-pull character of these compounds.
-This leads to relatively poor orbital overlap and conjugation between the benzimidazoles, and an associated blue shift in the absorbance spectrum as compared to a completely planar molecule.
+This leads to relatively poor orbital overlap and conjugation between the benzimidazoles, and an associated blue shift in the absorbance spectrum as compared to a completely planar molecule of the same size.
 As the bis-benzimidazole binds to the minor groove of a DNA molecule, a more planar geometry is imposed, so the orbital overlap is improved and the absorbance peak moves towards the red.
 By the application of a simple binding model, a dissociation constant can be derived.
 
@@ -627,7 +628,7 @@ Both of these are referred to as non-specific binding, as they do not rely on th
 These types of binding are not associated with a bathychromic shift in the absorbance spectrum, but instead with a quenching of the signal.
 It is important to note that non-specific binding occurs simultaneously with specific minor groove binding, but the latter, when present, dominates the changes in the absorbance spectrum.
 
-\subsection{Co-crystallisation}
+\subsection{Co-crystallisation results}
 The second main technique used is co-crystallisation of the ligand with DNA oligomers.
 Unlike the co-crystallisation experiments used earlier in this thesis, this experiment bears more similarity to the techniques employed in macromolecular crystallisation, simply due to the delicate nature of the DNA oligomers.
 Vapour diffusion from hanging drops was the method used to grow the crystals, which were analysed using synchrotron radiation.
@@ -638,7 +639,7 @@ The technique is also quite efficient, in that only small amounts of compound ar
 The components of the drops were as follows:
 \begin{itemize}
     \item DNA oligomer, the A2T2 self-complimentary 16mer was used for all experiments (CGCGCGAATTCGCGCG);
-    \item ligand molecule;
+    \item ligand molecule \cmpd{ebs-rhs-ph};
     \item spermine hydrochloride, a polycationic tetramine which helps to stabilise the negative charge on the phosphate backbone of the DNA;
     \item \ce{MgCl2}, a source of \ce{Mg^{2+}} cations to further stabilise the negative DNA;
     \item sodium cacodylate, a buffer to ensure constant pH, and to inhibit microbial growth;
@@ -648,25 +649,89 @@ The components of the drops were as follows:
 
 The solvent reservoir contained only water and 2-methyl-2,4-pentanediol.
 
-Co-crystallisation allows us to definitively demonstrate the ability for the ligand to bind in the minor groove, as residual electron density is visible.
+Unfortunately, we were not able to obtain co-crystals of \cmpd{ebs-rhs-ph} with the DNA oligomer, as precipitation of an amorphous solid occurred upon addition of the ligand solution to the drop.
+This suggested that solubility of the compound may be an issue, which is fairly common among bis-benzimidazoles.
+
+In order to circumvent this, we instead grew crystals of the DNA oligomer in the absence of the ligand.
+This afforded large crystals suitable for x-ray diffraction.
+To introduce the ligand into the minor groove, we soaked the DNA crystals in a solution of the ligand in crystallisation buffer.
+The DNA crystal structure contains substantial amounts of disordered water, forming channels through which the ligand may diffuse (\cref{fig:dna-oligo}).
+However, upon exposure to the ligand, the DNA crystals appeared to disintegrate to give a similar amorphous precipitate.
+
+We therefore abandoned this method of characterising the binding of the ligand.
+
+\begin{figure}
+    \includegraphics[width=\linewidth]{Figures/dna_oligo.png}
+    \caption{Crystal packing of the A2T2 self-complimentary DNA 16mer, showing the open channels between the DNA molecules.}
+    \label{fig:dna-oligo}
+\end{figure}
 
 \subsection{Titration results}
-
+In order to assess the binding constant, the absorption spectrum and extinction coefficient for the free ligand must be measured.
 The extinction coefficient at $\lambda_{\text{max}} = 309$~nm for \cmpd{ebs-rhs-ph} in 0.1\% TFA/45\% MeOH was determined to be 21062~\textsc{m}\textsuperscript{-1}cm\textsuperscript{-1} (\cref{fig:ebs-rhs-ph-calcurve}).
 
+<<<<<<< HEAD
+The extinction coefficient at $\lambda_{\text{max}} = 309$~nm for \cmpd{ebs-rhs-ph} in 0.1\% TFA/45\% MeOH was determined to be 21062~\textsc{m}\textsuperscript{-1}cm\textsuperscript{-1} (\cref{fig:ebs-rhs-ph-calcurve}).
+
+=======
+>>>>>>> 16a7ee118b42533aec1fcfb8537d2fac8ed50224
 \begin{figure}
     \includegraphics[width=0.5\linewidth]{Figures/ebshoe-calibration.png}
     \caption{Calibration curve for \refcmpd{ebs-rhs-ph}.}
     \label{fig:ebs-rhs-ph-calcurve}
 \end{figure}
 
+<<<<<<< HEAD
 \subsection{Co-crystal structures}
+=======
+The titration was then carried out using a solution of the ligand in 0.1\% TFA/45\% MeOH (15~$\mu$\textsc{m}) and diluted DNA stock (0.025~m\textsc{m}bp), and the resulting spectra are shown in \cref{fig:ebshoe-ctdna-lowconc}.
+A shift in absorbance is not readily apparent at such low DNA concentrations, so the experiment was repeated using 2~m\textsc{m}bp DNA stock, and the resulting spectra are shown in \cref{fig:ebshoe-ctdna-hiconc}.
+At this concentration, we observed precipitation of the ligand and DNA, which can be seen in the broadly absorbing tail in the spectra.
+This is highly undesirable, as the resulting data cannot be used to calculate the binding affinity.
+
+\begin{figure}
+    \includegraphics[width=0.7\linewidth]{Figures/ebshoe-ctdna-lowconc.pdf}
+    \caption{UV-vis titration of \refcmpd{ebs-rhs-ph} with ct-DNA at low DNA stock concentration.}
+    \label{fig:ebshoe-ctdna-lowconc}
+\end{figure}
+
+\begin{figure}
+    \includegraphics[width=0.7\linewidth]{Figures/ebshoe-ctdna-hiconc.pdf}
+    \caption{UV-vis titration of \refcmpd{ebs-rhs-ph} with ct-DNA at high DNA stock concentration.}
+    \label{fig:ebshoe-ctdna-hiconc}
+\end{figure}
+
+A further sample of the precipitate was prepared using the same conditions, and the solid isolated by centrifuging.
+The supernatant was pipetted off, and the UV-vis spectrum revealed no absorbance at 309~nm, so we concluded that all of the ligand was contained in the precipitate.
+The solid was washed with T/E/N buffer (\cref{sec:buffers}) to remove excess DNA, and 0.1\% TFA/45\% MeOH to remove excess ligand, dried in vacuo, then dissolved in \ce{\textit{d}6}-DMSO.
+\ce{^{1}H}NMR revealed that the solid contained nucleic acid material (in the downfield region) as well as aromatic signals consistent with the ligand (\cref{fig:ebshoe-dna-adduct}).
+We suspected that this was the same amorphous material that formed in the co-crystallsation experiment, and attribute its formation to a reaction between the ligand and the DNA.
+
+\begin{figure}
+    \begin{subfigure}{\linewidth}
+        \includegraphics[width=0.8\linewidth]{Figures/ebshoe-dna-adduct-full.pdf}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}{\linewidth}
+        \includegraphics[width=0.8\linewidth]{Figures/ebshoe-dna-adduct-aromatic.pdf}
+        \caption{}
+    \end{subfigure}
+    \caption{\ce{^{1}H} NMR spectra of the adduct of \refcmpd{ebs-rhs-ph} with ct-DNA, and the pure ligand (blue) for comparison.}
+    \label{fig:ebshoe-dna-adduct}
+\end{figure}
+
+Unfortunately this makes \cmpd{ebs-rhs-ph} useless for the radioprotectors project, as a core requirement is the formation of a \emph{non}-covalent complex.
+>>>>>>> 16a7ee118b42533aec1fcfb8537d2fac8ed50224
 
 \section{Conclusions}
 
 \section{Experimental procedures}
 
 \subsection{DNA titration procedure}
+<<<<<<< HEAD
+=======
+\label{sec:buffers}
+>>>>>>> 16a7ee118b42533aec1fcfb8537d2fac8ed50224
 The following solutions were prepared:
 \begin{itemize}
     \item Tris stock -- 1~\textsc{M}, pH 7.2
