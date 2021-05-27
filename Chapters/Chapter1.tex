@@ -111,7 +111,7 @@ They found that the sulfur-based $\sigma$-hole was sufficiently strong to intera
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.3\linewidth]{Figures/thiaborane-ch-bond.pdf}
+    \includegraphics[width=0.45\linewidth]{Figures/thiaborane-ch-bond.pdf}
     \caption{Ch-bonding in thiaboranes.\autocite{Fanfrlik2014}}
     \label{fig:thiaborane-ch-bond}
 \end{figure}
@@ -250,7 +250,7 @@ X-bonding was in fact able to partially replace inter-strand H-bonding interacti
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.4\linewidth]{Figures/holliday-junction.pdf}
+    \includegraphics[width=0.6\linewidth]{Figures/holliday-junction.pdf}
     \caption{Holliday junction formed by X-bonding.\autocite{Voth2007}}
     \label{fig:holliday-junction}
 \end{figure}
@@ -261,7 +261,15 @@ A G\textsubscript{\ce{SeF}}:C dimer was found to be more stable than the canonic
 \Citeauthor[]{Farrell2018} showed that introducing heavy chalcogens into nucleobases has profound impacts on their phototochemistry, with implications for their use in photodynamic therapy.\autocite{Farrell2018}
 The photophysics of selenonucleobases has been further explored, showing that they are uniquely photostable while efficiently populating and depopulating their excited states.\autocite{Mai2019,Peng2020,Fang2019,Uleany2020}
 While none of these investigations specifically mentioned Ch-bonding, it is highly likely that it would come into play, which may provide a means of directing the activity of these photosensitisers.
-Selenium has also been incorporated into nucleobases as a H-bond acceptor, in which it was shown that selenonucleobases can effectively discriminate against the formation of a so-called ``wobble'' base pair (U:G as opposed to U:A in RNA, or T:G/T:A in DNA).\autocite{Hassan2010,Sun2012}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\linewidth]{Figures/wobble-bp.pdf}
+    \caption[Canonical Watson-Crick U/A base pair, and the ``wobble'' U:G base pair in RNA.]{Canonical Watson-Crick U:A base pair, and the ``wobble'' U/G base pair in RNA. The latter is disfavoured when an oxygen atom in uracil is substituted by selenium.}
+    \label{fig:wobble-bp}
+\end{figure}
+
+Selenium has also been incorporated into nucleobases as a H-bond acceptor, in which it was shown that selenonucleobases can effectively discriminate against the formation of a so-called ``wobble'' base pair (U:G as opposed to U:A in RNA, or T:G/T:A in DNA, \cref{fig:wobble-bp}).\autocite{Hassan2010,Sun2012}
 Another advantage of selenonucleobase incorporation is the ability to use the heavy selenium atom for MAD/SAD phasing of macromolecular crystal structures.\autocite{Salon2007}
 This was also the motivation for a \citeyear{Conlon2019} study in which the selenium was incorporated into the phosphate backbone.\autocite{Conlon2019}
 A major advantage of this approach is that the bulk of the selenium atom does not need to be accomodated in the interior of the double helix, so structural distortions are minimised.
@@ -270,16 +278,56 @@ To date, there have not been any drugs which target nucleic acids through Ch-bon
 \section{Experimental methods}
 As mentioned above, X- and Ch-bonded interactions were originally identified crystallographically, with additional spectroscopic evidence being present.
 These pioneering methods have not changed a great deal, and x-ray crystallography is still the most powerful tool we have to study these interactions.
-We also use a number of spectroscopic techniques to probe the nature of Ch-bonding.
+We also use a number of spectroscopic and computational techniques to probe the nature of Ch-bonding.
 Some of the methods used in this thesis are explained below.
 
 \subsection{Computational methods}
-
-\subsubsection{Energy Decomposition Analysis}
+Computational methods are an indispensible tool for chemists, allowing us to study molecules too fragile to isolate in the laboratory, and extract further insight from real-world systems.
+A number of the techniques used in this thesis are briefly explained below.
 
 \subsubsection{Natural Bond Orbital theory}
+The SCF procedure, which is at the heart of alomst all quantum chemistry calculations, affords a set of solution wavefunctions $\Psi$ to the Schr\"{o}dinger equation (\cref{eqn:schrodinger}) using a Hamiltonian which is approximated to some degree (e.g. the Fock operator in the Hartree-Fock method).
+
+\begin{equation}
+    \hat{H}\Psi = E\Psi
+    \label{eqn:schrodinger}
+\end{equation}
+
+Each one electron wavefunction, or molecular orbital (MO), describes the distribution of an electron in the field of the nuclear potentials, and is generally constructed from a Linear Combination of Atomic Orbitals (LCAO)\footnote{An alternative approach is that of plane-wave basis sets, which are better suited to infinitely periodic systems.}, that is, sums and differences of atom centered basis functions of various symmetries.
+The Pauli exclusion principle states that a (many-particle) wavefunction must be antisymmetric with respect to exchange of two fermionic particles such as electrons.
+This means that for every MO resulting from the sum of two atomic orbitals, there must be a corresponding MO resulting from the difference of the same two atomic orbitals, from which we obtain the familiar MO construction for simple diatomics (\cref{fig:h-orbital-diagram}).
+
+\begin{figure}
+    \includegraphics[width=0.6\linewidth]{Figures/h-orbital-diagram.pdf}
+    \caption{MO diagram for dihydrogen. Reproduced from reference \cite{h-orbital-diagram}.}
+    \label{fig:h-orbital-diagram}
+\end{figure}
+
+In more complex polyatomic species, these MOs are most easily interpreted as eigenfunctions of the molecular Hamiltonian, and their energies are the corresponding eigenvalues. 
+These orbitals describe the distribution of each electron throughout the molecule and hence the bonding within the molecule, but do not translate well into the more intuitive valence bond description of bonding that is most useful to chemists.
+From a series of MOs, there is not an easy way to draw a Lewis structure of the molecule at hand.
+This is because MOs tend to be highly delocalised throughout the molecule, which is obvious even in the relatively simple case of benzene (\cref{fig:benzene-mo}).
+
+\begin{figure}
+    \includegraphics[width=0.8\linewidth]{Figures/benzene-mo.pdf}
+    \caption{MOs of benzene. Reproduced from reference \cite{Luhmann2015}.}
+    \label{fig:benzene-mo}
+\end{figure}
+
+The Natural Bond Orbital (NBO) scheme attempts to ameliorate this delocalisation, by reframing the molecular orbitals into NBOs which correspond to features found in a Lewis structure.
+These take the form of one centre and two centre elements (lone pairs and bonding pairs respectively), which together form the optimal Lewis structure for a molecule.
+The NBO scheme also provides a framework for non-Lewis features, such as non-valence electrons which are found in core NBOs, and hyperconjugation and delocalisation effects which manifest as departures from either full or zero occupancy of NBOs.
+Rydberg NBOs complete the span of the NBO space, which are high energy, highly diffuse orbitals which typically contribute little to the overall chemistry of the system. 
+
+How do we use it????
+
+
+\subsubsection{Energy Decomposition Analysis}
+Energy Decomposition Analysis (EDA) encompasses a number of techniques that are concerned with dissecting energetic contributions to particular interactions.
+It is most commonly applied to non-covalent interactions,
 
 \subsubsection{Quantum Theory of Atoms In Molecules}
+The Quantum Theory of Atoms In Molecules is a description of bonding that is complimentary to that of NBO
 
 \subsection{X-ray crystallography}
 Single crystal x-ray crystallography is the main experimental technique used in this work.
