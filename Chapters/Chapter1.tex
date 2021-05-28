@@ -319,12 +319,41 @@ These take the form of one centre and two centre elements (lone pairs and bondin
 The NBO scheme also provides a framework for non-Lewis features, such as non-valence electrons which are found in core NBOs.
 As a consequence of the transformation from atomic orbitals to NBOs, higher energy two centre elements arise, which correspond to antibonding orbitals whose partial occupancy leads to reduction of bond order.
 Rydberg NBOs complete the span of the NBO space, which are high energy, highly diffuse orbitals which typically contribute little to the overall chemistry of the system. 
-An example of NBOs in a simple molecule is shown in \cref{fig:nbos}
+Examples of NBOs in a simple molecule are shown in \cref{fig:nbos}
 
 \begin{figure}
-    NBO FIGURE HERE???
-    %\includegraphics[width=0.9\linewidth]{Figures/nbo-types.pdf}
-    \caption{Natural Bond Orbitals of a DMF molecule.}
+    \centering
+    \begin{subfigure}{0.3\linewidth}
+        \includegraphics[width=\linewidth]{Figures/dmfnbo-core.png}
+        \caption{Core NBO.}
+    \end{subfigure}
+    \begin{subfigure}{0.3\linewidth}
+        \includegraphics[width=\linewidth]{Figures/dmfnbo-sigma.png}
+        \caption{$\sigma$ bonding NBO.}
+    \end{subfigure}
+    \begin{subfigure}{0.3\linewidth}
+        \includegraphics[width=\linewidth]{Figures/dmfnbo-pi.png}
+        \caption{$\pi$ bonding NBO.}
+    \end{subfigure}
+
+    \begin{subfigure}{0.3\linewidth}
+        \includegraphics[width=\linewidth]{Figures/dmfnbo-n.png}
+        \caption{Lone pair (n) NBO.}
+    \end{subfigure}
+    \begin{subfigure}{0.3\linewidth}
+        \includegraphics[width=\linewidth]{Figures/dmfnbo-sigmastar.png}
+        \caption{$\sigma^{\star}$ antibonding NBO.}
+    \end{subfigure}
+    \begin{subfigure}{0.3\linewidth}
+        \includegraphics[width=\linewidth]{Figures/dmfnbo-pistar.png}
+        \caption{$\pi^{\star}$ antibonding NBO.}
+    \end{subfigure}
+
+    \begin{subfigure}{0.3\linewidth}
+        \includegraphics[width=\linewidth]{Figures/dmfnbo-rydberg.png}
+        \caption{Rydberg NBO.}
+    \end{subfigure}
+    \caption{Representative Natural Bond Orbitals of a DMF molecule.}
     \label{fig:nbos}
 \end{figure}
 
@@ -354,8 +383,13 @@ These are given the symbols $\lambda_1$, $\lambda_2$, and $\lambda_3$.
 The sum of these eigenvalues is called the Laplacian of the electron density, which is given the symbol $\nabla^{2}\rho(\textbf{r})$
 
 \begin{figure}
-    \includegraphics[width=0.35\linewidth]{Figures/dmf-molecule.pdf}
-    \includegraphics[width=0.55\linewidth]{Figures/dmf-density.pdf}
+    \centering
+    \includegraphics[width=0.85\linewidth]{Figures/dmf-dens-contour.pdf}
+
+    \includegraphics[width=0.85\linewidth]{Figures/dmf-dens-relief.pdf}
+    \begin{picture}(0,0)
+        \put(-10cm,19cm){\includegraphics[width=3cm]{Figures/dmf-molecule.png}}
+    \end{picture}
     \caption[Electron density $\rho(\textbf{r})$ in the plane of a DMF molecule.]{Electron density in the plane of a DMF molecule. The nuclei correspond to the large peaks, and bonds correspond to the ridges linking them.}
     \label{fig:dmf-rho}
 \end{figure}
@@ -368,15 +402,27 @@ This is similar to the idea of functional groups in organic chemistry.
 In the same way a carboxylic acid functional group can be transferred between molecules while retaining its characteristic properties (its acidity), a QTAIM atom can also be transferred, as its properties depend \emph{only} on the topology of the electron density.
 
 \begin{figure}
-    \includegraphics[width=0.65\linewidth]{Figures/dmf-gradient.pdf}
-    \caption[Electron density gradient $\nabla\rho(\textbf{r})$ vector field of DMF.]{Electron density gradient $\nabla\rho(\textbf{r})$ vector field of DMF. All field lines (red) converge on the nuclei, and asymptotically approach the zero flux surfaces (black lines) which bound the QTAIM atoms. Bond critical points are shown as blue points.}
+    \includegraphics[width=0.85\linewidth]{Figures/dmf-grad.pdf}
+    \caption[Electron density gradient $\nabla\rho(\textbf{r})$ vector field of DMF.]{Electron density gradient $\nabla\rho(\textbf{r})$ vector field of DMF. All field lines (red) converge on the nuclei, and asymptotically approach the zero flux surfaces (black lines) which bound the QTAIM atoms. Bond paths and critical points are shown in blue.}
     \label{fig:dmf-gradient}
+\end{figure}
+
+\begin{figure}
+    \includegraphics[width=0.85\linewidth]{Figures/dmf-lapl.pdf}
+    \caption[Laplacian of the electron density $\nabla^{2}\rho(\textbf{r})$ of DMF.]{Laplacian}
+    \label{fig:dmf-lapl}
 \end{figure}
 
 Each QTAIM atom is associated with a local maximum of electron density which is located at the nucleus.
 At this point $\nabla\rho(\textbf{r})$ is zero, so it is termed a critical point.
 As it is a maximum, $\rho(\textbf{r})$ will decrease in all directions, therefore all three eigenvalues of $\mathbf{H}$ will be negative.
 These atomic critical points are therefore termed $(3,-3)$ critical points, as they exist in three dimensional space and have three negative eigenvalues.
+
+\begin{figure}
+    \includegraphics[width=0.65\linewidth]{Figures/dmf-cp.png}
+    \caption[Critical points of DMF.]{Critical points}
+    \label{fig:dmf-cps}
+\end{figure}
 
 Nuclei are not the only place critical points are found (where $\nabla\rho(\textbf{r})$ is zero).
 Atomic critical points contained within neighbouring QTAIM atoms (sharing a common zero gradient flux surface) are linked by lines along which $\rho(\textbf{r})$ decreases in the two directions perpendicular to the line.
