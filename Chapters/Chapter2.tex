@@ -763,6 +763,11 @@ This can be seen in the latter two principal values of the chemical shift tensor
 \subsection{Calculation of chemical shift anisotropy}
 In order to verify our results, we also \emph{calculated} the chemical shielding tensors in order to compare the principal values, and also determine the likely orientation of the tensors with respect to the rest of the molecule (\cref{fig:77se-tensor-ebs-dmap}).
 These calculations were conducted at the $\omega$B97X-D/def2-TZVP level, using the GIAO method of calculating shielding tensors.\autocite{Schreckenbach1995CalculationTheory,Schreckenbach1996TheApproximation}
+The Gauge Independent Atomic Orbital (GIAO) overcomes the so-called gauge problem in evaluating perturbations in the wave function due to a magnetic field.
+For an atomic orbital described by a finite basis set, the perturbation is proportional to $B_{z}]\hat{l}_{z}$, where $\hat{l}_{z}$ is the z component of the angular momentum operator which is dependent on the distance to the origin of the coordinate system.
+This is obviously unphysical, and typical basis sets are not large enough to accomodate these non-atom centered perturbations.
+The gauge problem is overcome in GIAO by transforming the atomic orbitals using a complex gauge factor which is dependent on the magnetic field and the location of the basis function relative to the origin.
+This affords chemical shielding tensors using reasonably sized basis sets.
 In order to convert these chemical shielding tensors $\sigma$ into chemical shifts $\delta$, we must reference them to a standard $\sigma_{\textrm{ref}}$.
 \begin{equation}
   \delta = \sigma_{\textrm{ref}} - \sigma_{\textrm{sample}}

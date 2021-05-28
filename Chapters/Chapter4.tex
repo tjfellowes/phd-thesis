@@ -609,34 +609,22 @@ To demonstrate that the benzisoselenazolinone \cmpd{ebs-rhs-ph} may also be used
 Previous studies of Hoechst derivatives have shown that radioprotective ability is strongly correlated with a high affinity for the minor groove of DNA.
 Although it is conceivable that ROS may be reduced in the cytoplasm by radioprotector molecules, this does not appear to be the major method of radioprotection for these compounds.
 
+\begin{comment}
 \subsection{Background}
 DNA binding studies are a relatively fast and simple preliminary method to determine radioprotective potential, which is invalulable for providing rapid feedback into the molecular design and synthesis steps.
 Without a fast screening assay, radioprotection would have to be assessed directly using either pulse radiolysis or clonogenic survival assays, both of which require specialised facilities with an associated cost.
-
-\subsubsection{UV-Vis titration}
-\label{sec:absorbance}
-Two major techniques have been used in this project to determine DNA binding affinity.
-The first is a UV-vis titration of a DNA oligomer into a solution of the ligand.
-Briefly, this works by measuring the degree of conjugation between the two benzimidazole (or benzimidazole-like) systems.
-Free bis-benzimidazoles have a significant torsion about the central bond, partially due to the push-pull character of these compounds.
-This leads to relatively poor orbital overlap and conjugation between the benzimidazoles, and an associated blue shift in the absorbance spectrum as compared to a completely planar molecule of the same size.
-As the bis-benzimidazole binds to the minor groove of a DNA molecule, a more planar geometry is imposed, so the orbital overlap is improved and the absorbance peak moves towards the red.
-By the application of a simple binding model, a dissociation constant can be derived.
-
-Also visible in these titration experiments are spectroscopic signatures of different types of binding, including intercalation and major groove binding.
-Both of these are referred to as non-specific binding, as they do not rely on the presence of four consecutive A-T pairs to expose H-bond acceptors in the minor groove.
-These types of binding are not associated with a bathychromic shift in the absorbance spectrum, but instead with a quenching of the signal.
-It is important to note that non-specific binding occurs simultaneously with specific minor groove binding, but the latter, when present, dominates the changes in the absorbance spectrum.
+\end{comment}
 
 \subsection{Co-crystallisation results}
-The second main technique used is co-crystallisation of the ligand with DNA oligomers.
+The main technique used is co-crystallisation of the ligand with DNA oligomers.
 Unlike the co-crystallisation experiments used earlier in this thesis, this experiment bears more similarity to the techniques employed in macromolecular crystallisation, simply due to the delicate nature of the DNA oligomers.
-Vapour diffusion from hanging drops was the method used to grow the crystals, which were analysed using synchrotron radiation.
+Vapour diffusion from hanging drops was selected as the method for growing the crystals.
 Hanging drop crystallisation relies on the equilibration of water between a reservoir of certain osmotic potential, and a droplet just above it containing the components of the crystal.
 The main benefit is the slow rate of diffusion of water between the droplet and the reservoir, which leads to the formation of high quality crystals.
 The technique is also quite efficient, in that only small amounts of compound are used.
 
 The components of the drops were as follows:
+
 \begin{itemize}
     \item DNA oligomer, the A2T2 self-complimentary 16mer was used for all experiments (CGCGCGAATTCGCGCG);
     \item ligand molecule \cmpd{ebs-rhs-ph};
@@ -661,12 +649,25 @@ However, upon exposure to the ligand, the DNA crystals appeared to disintegrate 
 We therefore abandoned this method of characterising the binding of the ligand.
 
 \begin{figure}
-    \includegraphics[width=\linewidth]{Figures/dna_oligo.png}
+    \includegraphics[width=0.7\linewidth]{Figures/dna_oligo.png}
     \caption{Crystal packing of the A2T2 self-complimentary DNA 16mer, showing the open channels between the DNA molecules.}
     \label{fig:dna-oligo}
 \end{figure}
 
-\subsection{Titration results}
+\subsection{UV-Vis titration}
+\label{sec:absorbance}
+In the absence of a co-crystal structure, we sought to measure the binding of the ligand by Uv-Vis titration.
+Briefly, this works by measuring the degree of conjugation between the two benzimidazole (or benzimidazole-like) systems.
+Free bis-benzimidazoles have a significant torsion about the central bond, partially due to the push-pull character of these compounds.
+This leads to relatively poor orbital overlap and conjugation between the benzimidazoles, and an associated blue shift in the absorbance spectrum as compared to a completely planar molecule of the same size.
+As the bis-benzimidazole binds to the minor groove of a DNA molecule, a more planar geometry is imposed, so the orbital overlap is improved and the absorbance peak moves towards the red.
+By the application of a simple binding model, a dissociation constant can be derived.
+
+Also visible in these titration experiments are spectroscopic signatures of different types of binding, including intercalation and major groove binding.
+Both of these are referred to as non-specific binding, as they do not rely on the presence of four consecutive A-T pairs to expose H-bond acceptors in the minor groove.
+These types of binding are not associated with a bathychromic shift in the absorbance spectrum, but instead with a quenching of the signal.
+It is important to note that non-specific binding occurs simultaneously with specific minor groove binding, but the latter, when present, dominates the changes in the absorbance spectrum.
+
 In order to assess the binding constant, the absorption spectrum and extinction coefficient for the free ligand must be measured.
 The extinction coefficient at $\lambda_{\text{max}} = 309$~nm for \cmpd{ebs-rhs-ph} in 0.1\% TFA/45\% MeOH was determined to be 21062~\textsc{m}\textsuperscript{-1}cm\textsuperscript{-1} (\cref{fig:ebs-rhs-ph-calcurve}).
 
@@ -700,11 +701,14 @@ The solid was washed with T/E/N buffer (\cref{sec:buffers}) to remove excess DNA
 We suspected that this was the same amorphous material that formed in the co-crystallsation experiment, and attribute its formation to a reaction between the ligand and the DNA.
 
 \begin{figure}
+    \centering
     \begin{subfigure}{\linewidth}
+        \centering
         \includegraphics[width=0.8\linewidth]{Figures/ebshoe-dna-adduct-full.pdf}
         \caption{}
     \end{subfigure}
     \begin{subfigure}{\linewidth}
+        \centering
         \includegraphics[width=0.8\linewidth]{Figures/ebshoe-dna-adduct-aromatic.pdf}
         \caption{}
     \end{subfigure}
