@@ -380,7 +380,8 @@ Differentiating $\nabla\rho(\textbf{r})$ again affords the second derivative of 
 $\mathbf{H}$ is a tensor quantity, which is most commonly represented as a $3\times3$ matrix.
 This is not easily represented as a field, but the three eigenvalues (components of the diagonalised Hessian) are useful quantities, which each represent the rate of change of $\nabla\rho(\textbf{r})$ at a given point. 
 These are given the symbols $\lambda_1$, $\lambda_2$, and $\lambda_3$.
-The sum of these eigenvalues is called the Laplacian of the electron density, which is given the symbol $\nabla^{2}\rho(\textbf{r})$
+The sum of these eigenvalues is called the Laplacian of the electron density, which is given the symbol $\nabla^{2}\rho(\textbf{r})$.
+Maps of $\nabla^{2}\rho(\textbf{r})$ can recover some chemical features of molecules that are reminiscent of the orbital structure, even though it is derived completely from the $\rho(\textbf{r})$ scalar field (\cref{fig:dmf-lapl}).
 
 \begin{figure}
     \centering
@@ -388,6 +389,12 @@ The sum of these eigenvalues is called the Laplacian of the electron density, wh
     \includegraphics[width=0.48\linewidth]{Figures/dmf-dens-relief.pdf}
     \caption[Electron density $\rho(\textbf{r})$ in the plane of a DMF molecule.]{Electron density in the plane of a DMF molecule. The nuclei correspond to the large peaks, and bonds correspond to the ridges linking them.}
     \label{fig:dmf-rho}
+\end{figure}
+
+\begin{figure}
+    \includegraphics[width=0.48\linewidth]{Figures/dmf-lapl.pdf}
+    \caption[Laplacian of the electron density $\nabla^{2}\rho(\textbf{r})$ of DMF.]{Laplacian of the electron density $\nabla^{2}\rho(\textbf{r})$ of DMF. Positive values are shwon in red and negative values in blue. $\nabla^{2}\rho(\textbf{r})$ can be seen to recover the shell structure of atoms, as well as chemical features such as bonds and lone pairs.}
+    \label{fig:dmf-lapl}
 \end{figure}
 
 A QTAIM atom is defined by a volume bounded by a surface of zero electron density gradient flux (\cref{fig:dmf-gradient}).
@@ -403,12 +410,6 @@ In the same way a carboxylic acid functional group can be transferred between mo
     \label{fig:dmf-gradient}
 \end{figure}
 
-\begin{figure}
-    \includegraphics[width=0.48\linewidth]{Figures/dmf-lapl.pdf}
-    \caption[Laplacian of the electron density $\nabla^{2}\rho(\textbf{r})$ of DMF.]{Laplacian of the electron density $\nabla^{2}\rho(\textbf{r})$ of DMF. Positive values are shwon in red and negative values in blue. $\nabla^{2}\rho(\textbf{r})$ can be seen to recover the shell structure of atoms, as well as chemical features such as bonds and lone pairs.}
-    \label{fig:dmf-lapl}
-\end{figure}
-
 Each QTAIM atom is associated with a local maximum of electron density which is located at the nucleus.
 At this point $\nabla\rho(\textbf{r})$ is zero, so it is termed a critical point.
 As it is a maximum, $\rho(\textbf{r})$ will decrease in all directions, therefore all three eigenvalues of $\mathbf{H}$ will be negative.
@@ -420,7 +421,6 @@ These atomic critical points are therefore termed $(3,-3)$ critical points, as t
     \label{fig:dmf-cps}
 \end{figure}
 
-
 Nuclei are not the only place critical points are found (where $\nabla\rho(\textbf{r})$ is zero).
 Atomic critical points contained within neighbouring QTAIM atoms (sharing a common zero gradient flux surface) are linked by lines along which $\rho(\textbf{r})$ decreases in the two directions perpendicular to the line.
 In two dimensions this can be visualised as a ridge connecting two mountain peaks.
@@ -428,6 +428,7 @@ This line is termed a bond path, as the presence of such a line is a prerequisit
 At the point where the bond path crosses the zero gradient flux surface there will be another critical point where $\nabla\rho(\textbf{r})$ is zero.
 This type of critical point is called a bond critical point (BCP) or $(3,-1)$ critical point, as $\rho(\textbf{r})$ decreases in two directions but increases in one direction (along the bond path).
 $\mathbf{H}$ at a $(3,-1)$ critical point therefore has two negative eigenvalues and one positive eigenvalue.
+An example of a molecular structure derived from the critical points and bond paths is shown in \cref{fig:dmf-cps}.
 There are also critical points found at the centres of rings (ring or $(3,1)$ critical points) or at the centres of cage-like structures (cage or $(3,3)$ critical points), however these are not discussed in this thesis.
 
 As stated before, the presence of a bond path and BCP is necessary but not sufficient to say there is chemical bonding occuring.
