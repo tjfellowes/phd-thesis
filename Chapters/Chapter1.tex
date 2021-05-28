@@ -310,7 +310,7 @@ This is because MOs tend to be highly delocalised throughout the molecule, which
 
 \begin{figure}
     \includegraphics[width=0.8\linewidth]{Figures/benzene-mo.pdf}
-    \caption{MOs of benzene. Reproduced from reference \cite{Luhmann2015}.}
+    \caption{Molecular orbitals of benzene. Reproduced from reference \cite{Luhmann2015}.}
     \label{fig:benzene-mo}
 \end{figure}
 
@@ -319,6 +319,14 @@ These take the form of one centre and two centre elements (lone pairs and bondin
 The NBO scheme also provides a framework for non-Lewis features, such as non-valence electrons which are found in core NBOs.
 As a consequence of the transformation from atomic orbitals to NBOs, higher energy two centre elements arise, which correspond to antibonding orbitals whose partial occupancy leads to reduction of bond order.
 Rydberg NBOs complete the span of the NBO space, which are high energy, highly diffuse orbitals which typically contribute little to the overall chemistry of the system. 
+An example of NBOs in a simple molecule is shown in \cref{fig:nbos}
+
+\begin{figure}
+    NBO FIGURE HERE???
+    %\includegraphics[width=0.9\linewidth]{Figures/nbo-types.pdf}
+    \caption{Natural Bond Orbitals of a DMF molecule.}
+    \label{fig:nbos}
+\end{figure}
 
 We use NBO theory to rationalise the hyperconjugative effects present in Ch-bonded complexes, namely, the $\text{n}\rightarrow\sigma^{\star}$ overlap which appears to be present.
 NBO analysis allows a numerical value to be assigned to the degree of this overlap, in terms of the formal number of electrons which are ``transferred'' from one orbital to the other.
@@ -336,25 +344,38 @@ It can also be calculated from a molecular wavefunction, which can itself be cal
 
 To discuss QTAIM, we must first discuss some mathematical aspects of topology.
 The fundamental quantity in QTAIM is the electron density $\rho(\textbf{r})$, which constitutes a scalar field over the molecule.
-That is, every point in space has a single number representing the electron density at that point.
+That is, every point in space has a single number representing the electron density at that point (see \cref{fig:dmf-rho} for an example).
 Differentiating $\rho(\textbf{r})$ affords the gradient $\nabla\rho(\textbf{r})$, a measure of the local rate of change (in space) of the electron density.
 $\nabla\rho(\textbf{r})$ is a vector quantity, with a magnitude and direction, which thus forms a vector field.
-Differentiating $\nabla\rho(\textbf{r})$ again affords the second derivative of $\rho(\textbf{r})$, also called the Hessian $\mathbb{H}$.
-$\mathbb{H}$ is a tensor quantity, which is most commonly represented as a $3\times3$ matrix.
+Differentiating $\nabla\rho(\textbf{r})$ again affords the second derivative of $\rho(\textbf{r})$, also called the Hessian $\mathbf{H}$.
+$\mathbf{H}$ is a tensor quantity, which is most commonly represented as a $3\times3$ matrix.
 This is not easily represented as a field, but the three eigenvalues (components of the diagonalised Hessian) are useful quantities, which each represent the rate of change of $\nabla\rho(\textbf{r})$ at a given point. 
 These are given the symbols $\lambda_1$, $\lambda_2$, and $\lambda_3$.
 The sum of these eigenvalues is called the Laplacian of the electron density, which is given the symbol $\nabla^{2}\rho(\textbf{r})$
 
-A QTAIM atom is defined by a volume bounded by a surface of zero electron density gradient flux.
+\begin{figure}
+    \includegraphics[width=0.35\linewidth]{Figures/dmf-molecule.pdf}
+    \includegraphics[width=0.55\linewidth]{Figures/dmf-density.pdf}
+    \caption[Electron density $\rho(\textbf{r})$ in the plane of a DMF molecule.]{Electron density in the plane of a DMF molecule. The nuclei correspond to the large peaks, and bonds correspond to the ridges linking them.}
+    \label{fig:dmf-rho}
+\end{figure}
+
+A QTAIM atom is defined by a volume bounded by a surface of zero electron density gradient flux (\cref{fig:dmf-gradient}).
 That is, there are no field lines of $\nabla\rho(\textbf{r})$ crossing the surface.
 A molecule can thus be partitioned into atoms, each of which is strictly additive and transferable.
 Furthermore, atomic contributions to molecular properties can be uniquely defined.
 This is similar to the idea of functional groups in organic chemistry.
 In the same way a carboxylic acid functional group can be transferred between molecules while retaining its characteristic properties (its acidity), a QTAIM atom can also be transferred, as its properties depend \emph{only} on the topology of the electron density.
 
+\begin{figure}
+    \includegraphics[width=0.65\linewidth]{Figures/dmf-gradient.pdf}
+    \caption[Electron density gradient $\nabla\rho(\textbf{r})$ vector field of DMF.]{Electron density gradient $\nabla\rho(\textbf{r})$ vector field of DMF. All field lines (red) converge on the nuclei, and asymptotically approach the zero flux surfaces (black lines) which bound the QTAIM atoms. Bond critical points are shown as blue points.}
+    \label{fig:dmf-gradient}
+\end{figure}
+
 Each QTAIM atom is associated with a local maximum of electron density which is located at the nucleus.
 At this point $\nabla\rho(\textbf{r})$ is zero, so it is termed a critical point.
-As it is a maximum, $\rho(\textbf{r})$ will decrease in all directions, therefore all three eigenvalues of $\mathbb{H}$ will be negative.
+As it is a maximum, $\rho(\textbf{r})$ will decrease in all directions, therefore all three eigenvalues of $\mathbf{H}$ will be negative.
 These atomic critical points are therefore termed $(3,-3)$ critical points, as they exist in three dimensional space and have three negative eigenvalues.
 
 Nuclei are not the only place critical points are found (where $\nabla\rho(\textbf{r})$ is zero).
@@ -363,7 +384,7 @@ In two dimensions this can be visualised as a ridge connecting two mountain peak
 This line is termed a bond path, as the presence of such a line is a prerequisite for bonding to occur (although the reverse is not necessarily true).
 At the point where the bond path crosses the zero gradient flux surface there will be another critical point where $\nabla\rho(\textbf{r})$ is zero.
 This type of critical point is called a bond critical point (BCP) or $(3,-1)$ critical point, as $\rho(\textbf{r})$ decreases in two directions but increases in one direction (along the bond path).
-$\mathbb{H}$ at a $(3,-1)$ critical point therefore has two negative eigenvalues and one positive eigenvalue.
+$\mathbf{H}$ at a $(3,-1)$ critical point therefore has two negative eigenvalues and one positive eigenvalue.
 There are also critical points found at the centres of rings (ring or $(3,1)$ critical points) or at the centres of cage-like structures (cage or $(3,3)$ critical points), however these are not discussed in this thesis.
 
 As stated before, the presence of a bond path and BCP is necessary but not sufficient to say there is chemical bonding occuring.
