@@ -348,6 +348,17 @@
     \cleardoublepage
 }\end{spacing}
 }
+\newcommand\listcompoundname{Compounds}
+\usepackage{longtable}
+\newcommand\listofcompounds[2]{
+\btypeout{\listcompoundname}
+\addtotoc{\listcompoundname}
+    \chapter*{\listcompoundname
+      \@mkboth{
+          \MakeUppercase\listcompoundname}{\MakeUppercase\listcompoundname}}
+\begin{longtable}[c]{#1}#2\end{longtable}\par
+    \cleardoublepage
+}
 \newcommand\listsymbolname{Abbreviations}
 \usepackage{longtable}
 \newcommand\listofsymbols[2]{

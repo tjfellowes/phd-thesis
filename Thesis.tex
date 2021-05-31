@@ -71,6 +71,8 @@
 \usepackage{cleveref}
 \crefname{scheme}{scheme}{schemes}
 
+\newcommand{\cmpdrow}[2]{\refcmpd{#1} & \texttt{#1} & \vspace{0.4cm}\parbox[c]{4cm}{\centering\includegraphics[scale=0.6]{Figures/loc/#2}}}
+
 \newcommand{\tablefit}[1]{\resizebox{\linewidth}{!}{#1}}
 \newcommand{\tablefitlandscape}[2]{\resizebox{#1\paperwidth}{!}{#2}}
 
@@ -218,6 +220,42 @@
 \setstretch{1.5}  % Set the line spacing to 1.5, this makes the following tables easier to read
 \clearpage  % Start a new page
 
+
+%\lhead{\emph{List of Compounds}} 
+\listofcompounds{ccc}  % Include a list of Abbreviations (a table of two columns)
+{
+\textbf{Compound number} & \textbf{Compound code} & \textbf{Structure} \\
+\cmpdrow{ebs}{ebs.eps} \\
+\refcmpd{ebs}\textbf{R} & \texttt{ebs.4R} & \vspace{0.4cm}\parbox[c]{4cm}{\centering\includegraphics[scale=0.6]{Figures/loc/ebs_r.eps}} \\
+\cmpdrow{ebs.bn}{ebs_bn.eps} \\
+\cmpdrow{ebs.h}{ebs_h.eps} \\
+\cmpdrow{amide}{amide.eps} \\
+\cmpdrow{amide.bn}{amide_bn.eps} \\
+\cmpdrow{amide.h}{amide_h.eps} \\
+\cmpdrow{tetracycle}{tetracycle.eps} \\
+\cmpdrow{py.pyrrol}{py_pyrrol.eps} \\
+\cmpdrow{py.morph}{py_morph.eps} \\
+\cmpdrow{diselenide}{diselenide.eps} \\
+\cmpdrow{dichloride}{dichloride.eps} \\
+\cmpdrow{dimethylcyclohexanone-oxime-dnp}{dimethylcyclohexanone-oxime-dnp.eps} \\
+\cmpdrow{cyclohexanone-oxime-dnp}{cyclohexanone-oxime-dnp.eps} \\
+\cmpdrow{acetone-oxime-dnp}{acetone-oxime-dnp.eps} \\
+\cmpdrow{m2pb}{m2pb.eps} \\
+\cmpdrow{ebs-rhs-2py}{ebs-rhs-2py.eps} \\
+\cmpdrow{ebs-ebs-2py}{ebs-ebs-2py.eps} \\
+\cmpdrow{ebs-nitroamide-2py}{ebs-nitroamide-2py.eps} \\
+\cmpdrow{ebs-nitroaniline}{ebs-nitroaniline.eps} \\
+\cmpdrow{rhs-bromo-2py}{rhs-bromo-2py.eps} \\
+\cmpdrow{bromodiamine}{bromodiamine.eps} \\
+\cmpdrow{2py-carboximidate}{2py-carboximidate.eps} \\
+\cmpdrow{rhs-bromo-ph}{rhs-bromo-ph.eps} \\
+\cmpdrow{ebs-rhs-ph}{ebs-rhs-ph.eps} \\
+\cmpdrow{ebs-rhs-2py-diselenide}{ebs-rhs-2py-diselenide.eps} \\
+\cmpdrow{rhs-nitro-amide}{rhs-nitro-amide.eps} \\
+\cmpdrow{rhs-nitro}{rhs-nitro.eps} \\
+\cmpdrow{rhs-amine}{rhs-amine.eps} \\
+}
+
 \begin{comment}
 %\lhead{\emph{Abbreviations}}  % Set the left side page header to "Abbreviations"
 \listofsymbols{ll}  % Include a list of Abbreviations (a table of two columns)
@@ -283,6 +321,7 @@ $\sigma$ & estimated standard deviation\\
 
 \addtocontents{toc}{\vspace{2em}}  % Add a gap in the Contents, for aesthetics
 \backmatter
+
 
 %% ----------------------------------------------------------------
 %\label{Bibliography}
