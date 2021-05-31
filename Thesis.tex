@@ -71,7 +71,7 @@
 \usepackage{cleveref}
 \crefname{scheme}{scheme}{schemes}
 
-\newcommand{\cmpdrow}[2]{\refcmpd{#1} & \texttt{#1} & \parbox[c]{5cm}{\includegraphics[scale=0.6]{Figures/loc/#2}}}
+\newcommand{\cmpdrow}[2]{\refcmpd{#1} & \texttt{#1} & \vspace{0.4cm}\parbox[c]{4cm}{\centering\includegraphics[scale=0.6]{Figures/loc/#2}}}
 
 \newcommand{\tablefit}[1]{\resizebox{\linewidth}{!}{#1}}
 \newcommand{\tablefitlandscape}[2]{\resizebox{#1\paperwidth}{!}{#2}}
@@ -226,7 +226,7 @@
 {
 \textbf{Compound number} & \textbf{Compound code} & \textbf{Structure} \\
 \cmpdrow{ebs}{ebs.eps} \\
-\refcmpd{ebs}\textbf{R} & \texttt{ebs.4R} & \parbox[c]{5cm}{\includegraphics[scale=0.6]{Figures/loc/ebs_r.eps}} \\
+\refcmpd{ebs}\textbf{R} & \texttt{ebs.4R} & \vspace{0.4cm}\parbox[c]{4cm}{\centering\includegraphics[scale=0.6]{Figures/loc/ebs_r.eps}} \\
 \cmpdrow{ebs.bn}{ebs_bn.eps} \\
 \cmpdrow{ebs.h}{ebs_h.eps} \\
 \cmpdrow{amide}{amide.eps} \\
@@ -246,6 +246,8 @@
 \cmpdrow{ebs-nitroamide-2py}{ebs-nitroamide-2py.eps} \\
 \cmpdrow{ebs-nitroaniline}{ebs-nitroaniline.eps} \\
 \cmpdrow{rhs-bromo-2py}{rhs-bromo-2py.eps} \\
+\cmpdrow{bromodiamine}{bromodiamine.eps} \\
+\cmpdrow{2py-carboximidate}{2py-carboximidate.eps} \\
 \cmpdrow{rhs-bromo-ph}{rhs-bromo-ph.eps} \\
 \cmpdrow{ebs-rhs-ph}{ebs-rhs-ph.eps} \\
 \cmpdrow{ebs-rhs-2py-diselenide}{ebs-rhs-2py-diselenide.eps} \\
