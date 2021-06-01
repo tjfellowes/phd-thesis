@@ -49,6 +49,7 @@
       \field{title}{{A Spectrophotometric Investigation of the Interaction of Iodine with Aromatic Hydrocarbons}}
       \field{volume}{71}
       \field{year}{1949}
+      \field{dateera}{ce}
       \field{pages}{2703\bibrangedash 2707}
       \range{pages}{5}
       \verb{doi}
@@ -101,6 +102,7 @@
       \field{title}{{The Structure of Bromine 1,4-Dioxanate.}}
       \field{volume}{8}
       \field{year}{1954}
+      \field{dateera}{ce}
       \field{pages}{873\bibrangedash 873}
       \range{pages}{1}
       \verb{doi}
@@ -136,6 +138,7 @@
       \field{title}{{Structural chemistry of donor-acceptor interactions}}
       \field{volume}{68}
       \field{year}{1968}
+      \field{dateera}{ce}
       \field{pages}{587\bibrangedash 648}
       \range{pages}{62}
       \verb{doi}
@@ -173,6 +176,7 @@
       \field{booktitle}{Halides, Pseudo-Halides and Azides: Part 2 (1983)}
       \field{title}{{Molecular interactions involving organic halides}}
       \field{year}{1983}
+      \field{dateera}{ce}
       \field{pages}{985\bibrangedash 1020}
       \range{pages}{36}
       \verb{doi}
@@ -210,6 +214,7 @@
       \field{title}{{Pi-Electron 'donor-acceptor' complexes B ... ClF and the existence of the 'chlorine bond'}}
       \field{volume}{4}
       \field{year}{1998}
+      \field{dateera}{ce}
       \field{pages}{1890\bibrangedash 1897}
       \range{pages}{8}
       \verb{doi}
@@ -241,6 +246,7 @@
       \field{title}{{Prereactive complexes of dihalogens XY with Lewis bases B in the gas phase: A systematic case for the halogen analogue B{·}{·}{·}XY of the hydrogen bond B{·}{·}{·}HX}}
       \field{volume}{38}
       \field{year}{1999}
+      \field{dateera}{ce}
       \field{pages}{2686\bibrangedash 2714}
       \range{pages}{29}
       \verb{doi}
@@ -291,6 +297,7 @@
       \field{title}{{Halogen bonding versus hydrogen bonding in driving self-assembly processes}}
       \field{volume}{39}
       \field{year}{2000}
+      \field{dateera}{ce}
       \field{pages}{1782\bibrangedash 1786}
       \range{pages}{5}
       \verb{doi}
@@ -341,6 +348,7 @@
       \field{title}{{Halogen bonding in supramolecular chemistry}}
       \field{volume}{47}
       \field{year}{2008}
+      \field{dateera}{ce}
       \field{pages}{6114\bibrangedash 6127}
       \range{pages}{14}
       \verb{doi}
@@ -386,6 +394,7 @@
       \field{title}{{The Halogen Bond in the Design of Functional Supramolecular Materials: Recent Advances}}
       \field{volume}{46}
       \field{year}{2013}
+      \field{dateera}{ce}
       \field{pages}{2686\bibrangedash 2695}
       \range{pages}{10}
       \verb{doi}
@@ -430,6 +439,7 @@
       \field{title}{{Halogen-bond-induced activation of a carbon-heteroatom bond}}
       \field{volume}{50}
       \field{year}{2011}
+      \field{dateera}{ce}
       \field{pages}{7187\bibrangedash 7191}
       \range{pages}{5}
       \verb{doi}
@@ -492,6 +502,7 @@
       \field{title}{{Possible Case of Halogen Bond-Driven Self-Disproportionation of Enantiomers (SDE) via Achiral Chromatography}}
       \field{volume}{23}
       \field{year}{2017}
+      \field{dateera}{ce}
       \field{pages}{14631\bibrangedash 14638}
       \range{pages}{8}
       \verb{doi}
@@ -542,6 +553,7 @@
       \field{title}{{Halogen‐Bonding‐Mediated and Controlled Cationic Polymerization of Isobutyl Vinyl Ether: Expanding the Catalytic Scope of 2‐Iodoimidazolium Salts}}
       \field{volume}{23}
       \field{year}{2017}
+      \field{dateera}{ce}
       \field{pages}{9495\bibrangedash 9500}
       \range{pages}{6}
       \verb{doi}
@@ -593,6 +605,7 @@
       \field{title}{{Selective perrhenate recognition in pure water by halogen bonding and hydrogen bonding alpha-cyclodextrin based receptors}}
       \field{volume}{53}
       \field{year}{2017}
+      \field{dateera}{ce}
       \field{pages}{3866\bibrangedash 3869}
       \range{pages}{4}
       \verb{doi}
@@ -643,6 +656,7 @@
       \field{title}{{Synthetic ion transporters that work with anion-?? interactions, halogen bonds, and anion-macrodipole interactions}}
       \field{volume}{46}
       \field{year}{2013}
+      \field{dateera}{ce}
       \field{pages}{2791\bibrangedash 2800}
       \range{pages}{10}
       \verb{doi}
@@ -704,6 +718,7 @@
       \field{title}{{Neutral iodotriazole foldamers as tetradentate halogen bonding anion receptors}}
       \field{volume}{00}
       \field{year}{2017}
+      \field{dateera}{ce}
       \field{pages}{1\bibrangedash 3}
       \range{pages}{3}
       \verb{doi}
@@ -755,6 +770,7 @@
       \field{title}{{{$\sigma$}-hole bonding: Molecules containing group VI atoms}}
       \field{volume}{13}
       \field{year}{2007}
+      \field{dateera}{ce}
       \field{pages}{1033\bibrangedash 1038}
       \range{pages}{6}
       \verb{doi}
@@ -830,6 +846,7 @@
       \field{title}{{The dominant role of chalcogen bonding in the crystal packing of 2D/3D aromatics}}
       \field{volume}{53}
       \field{year}{2014}
+      \field{dateera}{ce}
       \field{pages}{10139\bibrangedash 10142}
       \range{pages}{4}
       \verb{doi}
@@ -879,6 +896,7 @@
       \field{title}{{Anion recognition by a bidentate chalcogen bond donor}}
       \field{volume}{52}
       \field{year}{2016}
+      \field{dateera}{ce}
       \field{pages}{9881\bibrangedash 9884}
       \range{pages}{4}
       \verb{doi}
@@ -965,6 +983,7 @@
       \field{title}{{Supramolecular macrocycles reversibly assembled by Te{\ldots}O chalcogen bonding}}
       \field{volume}{7}
       \field{year}{2016}
+      \field{dateera}{ce}
       \field{pages}{11299}
       \range{pages}{1}
       \verb{doi}
@@ -1016,6 +1035,7 @@
       \field{title}{{Catalytic Carbon–Chlorine Bond Activation by Selenium-Based Chalcogen Bond Donors}}
       \field{volume}{23}
       \field{year}{2017}
+      \field{dateera}{ce}
       \field{pages}{16972\bibrangedash 16975}
       \range{pages}{4}
       \verb{doi}
@@ -1049,6 +1069,7 @@
       \field{title}{{Discovering protein-ligand chalcogen bonding in the protein data bank using endocyclic sulfur-containing heterocycles as ligand search subsets}}
       \field{volume}{23}
       \field{year}{2017}
+      \field{dateera}{ce}
       \field{pages}{287}
       \range{pages}{1}
       \verb{doi}
@@ -1107,6 +1128,7 @@
       \field{title}{{Catalysis with Chalcogen Bonds}}
       \field{volume}{56}
       \field{year}{2017}
+      \field{dateera}{ce}
       \field{pages}{812\bibrangedash 815}
       \range{pages}{4}
       \verb{doi}
@@ -1148,6 +1170,7 @@
       \field{title}{{Programming Recognition Arrays through Double Chalcogen-Bonding Interactions}}
       \field{volume}{24}
       \field{year}{2018}
+      \field{dateera}{ce}
       \field{pages}{5439\bibrangedash 5443}
       \range{pages}{5}
       \verb{doi}
@@ -1220,6 +1243,7 @@
       \field{title}{{Synthesis and structural characterisation of the aggregates of benzo-1,2-chalcogenazole 2-oxides}}
       \field{volume}{46}
       \field{year}{2017}
+      \field{dateera}{ce}
       \field{pages}{6570\bibrangedash 6579}
       \range{pages}{10}
       \verb{doi}
@@ -1265,6 +1289,7 @@
       \field{title}{{Charge-Transfer Interactions of Amines with Tetrahalomethanes. X-ray Crystal Structures of the Donor-Acceptor Complexes of Quinuclidine and Diazabicyclo[2.2.2]octane with Carbon Tetrabromide}}
       \field{volume}{52}
       \field{year}{1987}
+      \field{dateera}{ce}
       \field{pages}{1451\bibrangedash 1460}
       \range{pages}{10}
       \verb{doi}
@@ -1310,6 +1335,7 @@
       \field{title}{{The Competition of {$\sigma$}-Hole{·}{·}{·}Cl – and {$\pi$}-Hole{·}{·}{·}Cl – Bonds between C 6 F 5 X (X = F, Cl, Br, I) and the Chloride Anion and Its Potential Application in Separation Science}}
       \field{volume}{118}
       \field{year}{2014}
+      \field{dateera}{ce}
       \field{pages}{1080\bibrangedash 1087}
       \range{pages}{8}
       \verb{doi}
@@ -1359,6 +1385,7 @@
       \field{title}{{Simultaneous {$\sigma$}-hole and hydrogen bonding by sulfur- and selenium-containing heterocycles}}
       \field{volume}{108}
       \field{year}{2008}
+      \field{dateera}{ce}
       \field{pages}{2770\bibrangedash 2781}
       \range{pages}{12}
       \verb{doi}
@@ -1400,6 +1427,7 @@
       \field{title}{{Expansion of the sigma-hole concept}}
       \field{volume}{15}
       \field{year}{2009}
+      \field{dateera}{ce}
       \field{pages}{723\bibrangedash 729}
       \range{pages}{7}
       \verb{doi}
@@ -1449,6 +1477,7 @@
       \field{title}{{The Origin of Chalcogen-Bonding Interactions}}
       \field{volume}{139}
       \field{year}{2017}
+      \field{dateera}{ce}
       \field{pages}{15160\bibrangedash 15167}
       \range{pages}{8}
       \verb{doi}
@@ -1494,6 +1523,7 @@
       \field{title}{{Measurements of weak halogen bond donor abilities with tridentate anion receptors}}
       \field{volume}{46}
       \field{year}{2010}
+      \field{dateera}{ce}
       \field{pages}{9025\bibrangedash 9027}
       \range{pages}{3}
       \verb{doi}
@@ -1544,6 +1574,7 @@
       \field{title}{{Chalcogen bonding in solution: Interactions of benzotelluradiazoles with anionic and uncharged Lewis bases}}
       \field{volume}{137}
       \field{year}{2015}
+      \field{dateera}{ce}
       \field{pages}{4126\bibrangedash 4133}
       \range{pages}{8}
       \verb{doi}
@@ -1588,6 +1619,7 @@
       \field{title}{{Unusually short chalcogen bonds involving organoselenium: Insights into the SE-N bond cleavage mechanism of the antioxidant ebselen and analogues}}
       \field{volume}{21}
       \field{year}{2015}
+      \field{dateera}{ce}
       \field{pages}{6793\bibrangedash 6800}
       \range{pages}{8}
       \verb{doi}
@@ -1627,6 +1659,7 @@
       \field{number}{6}
       \field{title}{{Organocatalysis through halogen-bond activation}}
       \field{year}{2008}
+      \field{dateera}{ce}
       \field{pages}{900\bibrangedash 902}
       \range{pages}{3}
       \verb{doi}
@@ -1692,6 +1725,7 @@
       \field{title}{{Organocatalysis by neutral multidentate halogen-bond donors}}
       \field{volume}{52}
       \field{year}{2013}
+      \field{dateera}{ce}
       \field{pages}{7028\bibrangedash 7032}
       \range{pages}{5}
       \verb{doi}
@@ -1732,6 +1766,7 @@
       \field{title}{{Enantioselective thiourea-catalyzed additions to oxocarbenium ions}}
       \field{volume}{130}
       \field{year}{2008}
+      \field{dateera}{ce}
       \field{pages}{7198\bibrangedash 7199}
       \range{pages}{2}
       \verb{doi}
@@ -1782,6 +1817,7 @@
       \field{title}{{Catalysis with chalcogen bonds: neutral benzodiselenazole scaffolds with high-precision selenium donors of variable strength}}
       \field{volume}{8}
       \field{year}{2017}
+      \field{dateera}{ce}
       \field{pages}{8164\bibrangedash 8169}
       \range{pages}{6}
       \verb{doi}
@@ -1854,6 +1890,7 @@
       \field{title}{{Carbon-Halogen Bond Activation by Selenium-Based Chalcogen Bonding}}
       \field{volume}{56}
       \field{year}{2017}
+      \field{dateera}{ce}
       \field{pages}{12009\bibrangedash 12012}
       \range{pages}{4}
       \verb{doi}
@@ -1895,6 +1932,7 @@
       \field{title}{{Unexpected pehnomenon in the high-performance liquid chromatographic anlaysis of racemic 14C-labelled nicotine: Separation of enantiomers in a totally achiral system}}
       \field{volume}{281}
       \field{year}{1983}
+      \field{dateera}{ce}
       \field{pages}{17\bibrangedash 33}
       \range{pages}{17}
       \verb{doi}
@@ -1947,6 +1985,7 @@
       \field{number}{2}
       \field{title}{{Statistical Characterization of Nonbonded S{·}{·}{·}O Interactions in Proteins}}
       \field{year}{2001}
+      \field{dateera}{ce}
       \field{pages}{132\bibrangedash 133}
       \range{pages}{2}
       \verb{doi}
@@ -1987,6 +2026,7 @@
       \field{title}{{Hypervalent nonbonded interactions of a divalent sulfur atom. Implications in protein architecture and the functions}}
       \field{volume}{17}
       \field{year}{2012}
+      \field{dateera}{ce}
       \field{pages}{7266\bibrangedash 7283}
       \range{pages}{18}
       \verb{doi}
@@ -2031,6 +2071,7 @@
       \field{booktitle}{Noncovalent Forces}
       \field{title}{{Chalcogen Bonds in Protein Architecture}}
       \field{year}{2015}
+      \field{dateera}{ce}
       \field{pages}{265\bibrangedash 289}
       \range{pages}{25}
       \verb{doi}
@@ -2136,6 +2177,7 @@
       \field{title}{{Targeting the Gatekeeper MET146 of C-Jun N-Terminal Kinase 3 Induces a Bivalent Halogen/Chalcogen Bond}}
       \field{volume}{137}
       \field{year}{2015}
+      \field{dateera}{ce}
       \field{pages}{14640\bibrangedash 14652}
       \range{pages}{13}
       \verb{doi}
@@ -2215,6 +2257,7 @@
       \field{title}{{Inhibition of the Cysteine Protease Human Cathepsin L by Triazine Nitriles: Amide⋅⋅⋅Heteroarene {$\pi$}-Stacking Interactions and Chalcogen Bonding in the S3 Pocket}}
       \field{volume}{12}
       \field{year}{2017}
+      \field{dateera}{ce}
       \field{pages}{257\bibrangedash 270}
       \range{pages}{14}
       \verb{doi}
@@ -2265,6 +2308,7 @@
       \field{title}{{A Survey of the Role of Noncovalent Sulfur Interactions in Drug Design}}
       \field{volume}{58}
       \field{year}{2015}
+      \field{dateera}{ce}
       \field{pages}{4383\bibrangedash 4438}
       \range{pages}{56}
       \verb{doi}
@@ -2304,6 +2348,7 @@
       \field{title}{{Directing macromolecular conformation through halogen bonds}}
       \field{volume}{104}
       \field{year}{2007}
+      \field{dateera}{ce}
       \field{pages}{6188\bibrangedash 6193}
       \range{pages}{6}
       \verb{doi}
@@ -2346,6 +2391,7 @@
       \field{title}{{Halogen Bonding in Nucleic Acid Complexes}}
       \field{volume}{60}
       \field{year}{2017}
+      \field{dateera}{ce}
       \field{pages}{8681\bibrangedash 8690}
       \range{pages}{10}
       \verb{doi}
@@ -2399,6 +2445,7 @@
       \field{title}{{Halogen bonding in DNA base pairs}}
       \field{volume}{134}
       \field{year}{2012}
+      \field{dateera}{ce}
       \field{pages}{5165\bibrangedash 5172}
       \range{pages}{8}
       \verb{doi}
@@ -2449,6 +2496,7 @@
       \field{title}{{Can modified DNA base pairs with chalcogen bonding expand the genetic alphabet? A combined quantum chemical and molecular dynamics simulation study}}
       \field{volume}{22}
       \field{year}{2020}
+      \field{dateera}{ce}
       \field{pages}{23754\bibrangedash 23765}
       \range{pages}{12}
       \verb{doi}
@@ -2501,6 +2549,7 @@
       \field{title}{{Heavy-Atom-Substituted Nucleobases in Photodynamic Applications: Substitution of Sulfur with Selenium in 6-Thioguanine Induces a Remarkable Increase in the Rate of Triplet Decay in 6-Selenoguanine}}
       \field{volume}{140}
       \field{year}{2018}
+      \field{dateera}{ce}
       \field{pages}{11214\bibrangedash 11218}
       \range{pages}{5}
       \verb{doi}
@@ -2543,6 +2592,7 @@
       \field{title}{{Curious Case of 2-Selenouracil: Efficient Population of Triplet States and Yet Photostable}}
       \field{volume}{15}
       \field{year}{2019}
+      \field{dateera}{ce}
       \field{pages}{3730\bibrangedash 3742}
       \range{pages}{13}
       \verb{doi}
@@ -2603,6 +2653,7 @@
       \field{title}{{Selenium substitution effects on excited-state properties and photophysics of uracil: a MS-CASPT2 study}}
       \field{volume}{22}
       \field{year}{2020}
+      \field{dateera}{ce}
       \field{pages}{12120\bibrangedash 12128}
       \range{pages}{9}
       \verb{doi}
@@ -2655,6 +2706,7 @@
       \field{title}{{MS-CASPT2 Studies on the Photophysics of Selenium-Substituted Guanine Nucleobase}}
       \field{volume}{4}
       \field{year}{2019}
+      \field{dateera}{ce}
       \field{pages}{9769\bibrangedash 9777}
       \range{pages}{9}
       \verb{doi}
@@ -2712,6 +2764,7 @@
       \field{title}{{Observation of enhanced dissociative photochemistry in the non-native nucleobase 2-thiouracil}}
       \field{volume}{25}
       \field{year}{2020}
+      \field{dateera}{ce}
       \field{pages}{15\bibrangedash 17}
       \range{pages}{3}
       \verb{doi}
@@ -2760,6 +2813,7 @@
       \field{title}{{High fidelity of base pairing by 2-selenothymidine in DNA}}
       \field{volume}{132}
       \field{year}{2010}
+      \field{dateera}{ce}
       \field{pages}{2120\bibrangedash 2121}
       \range{pages}{2}
       \verb{doi}
@@ -2817,6 +2871,7 @@
       \field{title}{{Novel RNA base air with higher specificity using single selenium atom}}
       \field{volume}{40}
       \field{year}{2012}
+      \field{dateera}{ce}
       \field{pages}{5171\bibrangedash 5179}
       \range{pages}{9}
       \verb{doi}
@@ -2874,6 +2929,7 @@
       \field{title}{{Oxygen replacement with selenium at the thymidine 4-position for the Se base pairing and crystal structure studies}}
       \field{volume}{129}
       \field{year}{2007}
+      \field{dateera}{ce}
       \field{pages}{4862\bibrangedash 4863}
       \range{pages}{2}
       \verb{doi}
@@ -2964,6 +3020,7 @@
       \field{title}{{Solid-phase synthesis and structural characterisation of phosphoroselenolate-modified DNA: A backbone analogue which does not impose conformational bias and facilitates SAD X-ray crystallography}}
       \field{volume}{10}
       \field{year}{2019}
+      \field{dateera}{ce}
       \field{pages}{10948\bibrangedash 10957}
       \range{pages}{10}
       \verb{doi}
@@ -2993,6 +3050,7 @@
       \field{note}{[Online; accessed 27-May-2021, CC BY-SA 3.0,]}
       \field{title}{{Molecular orbital diagram} --- {W}ikipedia{,} The Free Encyclopedia}
       \field{year}{2021}
+      \field{dateera}{ce}
     \endentry
     \entry{Luhmann2015}{article}{}
       \name{author}{3}{}{%
@@ -3030,6 +3088,7 @@
       \field{title}{{Emulating Molecular Orbitals and Electronic Dynamics with Ultracold Atoms}}
       \field{volume}{5}
       \field{year}{2015}
+      \field{dateera}{ce}
       \field{pages}{031016}
       \range{pages}{1}
       \verb{doi}
@@ -3082,6 +3141,7 @@
       \field{title}{{Intermolecular Interactions from a Natural Bond Orbital, Donor—Acceptor Viewpoint}}
       \field{volume}{88}
       \field{year}{1988}
+      \field{dateera}{ce}
       \field{pages}{899\bibrangedash 926}
       \range{pages}{28}
       \verb{doi}
@@ -3111,6 +3171,7 @@
       \field{title}{{A Quantum Theory of Molecular Structure and Its Applications}}
       \field{volume}{91}
       \field{year}{1991}
+      \field{dateera}{ce}
       \field{pages}{893\bibrangedash 928}
       \range{pages}{36}
       \verb{doi}
@@ -3146,6 +3207,7 @@
       \field{series}{A Wiley-Interscience publication}
       \field{title}{X-Ray Structure Determination: A Practical Guide}
       \field{year}{1989}
+      \field{dateera}{ce}
       \verb{urlraw}
       \verb https://books.google.com.au/books?id=EOASAQAAIAAJ
       \endverb
@@ -3202,6 +3264,7 @@
       \field{title}{{Intensity of diffracted intensities}}
       \field{volume}{C}
       \field{year}{2006}
+      \field{dateera}{ce}
       \field{pages}{554\bibrangedash 595}
       \range{pages}{42}
       \verb{doi}
@@ -3251,6 +3314,7 @@
       \field{title}{{CRYSTALS enhancements: Dealing with hydrogen atoms in refinement}}
       \field{volume}{43}
       \field{year}{2010}
+      \field{dateera}{ce}
       \field{pages}{1100\bibrangedash 1107}
       \range{pages}{8}
       \verb{doi}
@@ -3287,6 +3351,7 @@
       \field{title}{{Evidence for systematic errors in X-ray temperature parameters resulting from bonding effects}}
       \field{volume}{24}
       \field{year}{1968}
+      \field{dateera}{ce}
       \field{pages}{1272\bibrangedash 1274}
       \range{pages}{3}
       \verb{doi}
@@ -3318,6 +3383,7 @@
       \field{title}{{The intensity of X-ray reflection by diamond}}
       \field{volume}{33}
       \field{year}{1920}
+      \field{dateera}{ce}
       \field{pages}{304\bibrangedash 311}
       \range{pages}{8}
       \verb{doi}
@@ -3377,6 +3443,7 @@
       \field{title}{{An improved experimental databank of transferable multipolar atom models - ELMAM2. Construction details and applications}}
       \field{volume}{68}
       \field{year}{2012}
+      \field{dateera}{ce}
       \field{pages}{337\bibrangedash 351}
       \range{pages}{15}
       \verb{doi}
@@ -3419,6 +3486,7 @@
       \field{title}{{X-ray structure refinement using aspherical atomic density functions obtained from quantum-mechanical calculations}}
       \field{volume}{64}
       \field{year}{2008}
+      \field{dateera}{ce}
       \field{pages}{383\bibrangedash 393}
       \range{pages}{11}
       \verb{doi}
@@ -3456,6 +3524,7 @@
       \field{title}{X-ray determination of electron distributions}
       \field{volume}{6}
       \field{year}{1962}
+      \field{dateera}{ce}
     \endentry
     \entry{Grimwood2003}{article}{}
       \name{author}{3}{}{%
@@ -3491,6 +3560,7 @@
       \field{title}{{Wave functions derived from experiment. V. Investigation of electron densities, electrostatic potentials, and electron localization functions for noncentrosymmetric crystals}}
       \field{volume}{24}
       \field{year}{2003}
+      \field{dateera}{ce}
       \field{pages}{470\bibrangedash 483}
       \range{pages}{14}
       \verb{doi}
@@ -3561,6 +3631,7 @@
       \field{title}{{Validation of X-ray Wavefunction Refinement}}
       \field{volume}{18}
       \field{year}{2017}
+      \field{dateera}{ce}
       \field{pages}{3334\bibrangedash 3351}
       \range{pages}{18}
       \verb{doi}
@@ -3606,6 +3677,7 @@
       \field{title}{{Tonto: A Fortran Based Object-Oriented System for Quantum Chemistry and Crystallography}}
       \field{volume}{2660}
       \field{year}{2003}
+      \field{dateera}{ce}
       \field{pages}{142\bibrangedash 151}
       \range{pages}{10}
       \verb{doi}
@@ -3649,6 +3721,7 @@
       \field{title}{{Testing aspherical atom refinements on small‐molecule data sets}}
       \field{volume}{34}
       \field{year}{1978}
+      \field{dateera}{ce}
       \field{pages}{909\bibrangedash 921}
       \range{pages}{13}
       \verb{doi}
@@ -3700,6 +3773,7 @@
       \field{title}{{Refinement of proteins at subatomic resolution with MOPRO}}
       \field{volume}{34}
       \field{year}{2001}
+      \field{dateera}{ce}
       \field{pages}{214\bibrangedash 223}
       \range{pages}{10}
       \verb{doi}
@@ -3765,6 +3839,7 @@
       \field{labeltitlesource}{title}
       \field{title}{{XD2006 - A Computer Program Package for Multipole Refinement, Topological Analysis of Charge Densities and Evaluation of Intermolecular Energies from Experimental and Theoretical Structure Factors}}
       \field{year}{2006}
+      \field{dateera}{ce}
     \endentry
     \entry{Haeberlen1976}{incollection}{}
       \name{author}{1}{}{%
@@ -3800,6 +3875,7 @@
       \field{booktitle}{High Resolut. Nmr Solids Sel. Averaging}
       \field{title}{{Manifestations of Nuclear Magnetic Shielding in NMR Spectra of Solids}}
       \field{year}{1976}
+      \field{dateera}{ce}
       \field{pages}{17\bibrangedash 35}
       \range{pages}{19}
       \verb{doi}
@@ -3845,6 +3921,7 @@
       \field{title}{{Carbon-13 Shielding Tensors: Experimental and Theoretical Determination}}
       \field{volume}{20}
       \field{year}{1987}
+      \field{dateera}{ce}
       \field{pages}{152\bibrangedash 158}
       \range{pages}{7}
       \verb{doi}
@@ -3879,6 +3956,7 @@
       \field{title}{{Sideband intensities in NMR spectra of samples spinning at the magic angle}}
       \field{volume}{73}
       \field{year}{1980}
+      \field{dateera}{ce}
       \field{pages}{6021\bibrangedash 6030}
       \range{pages}{10}
       \verb{doi}
@@ -3916,6 +3994,7 @@
       \field{labeltitlesource}{title}
       \field{title}{{Simulating Chalcogen Bonding Using Molecular Mechanics: A Pseudoatom Approach to Model Ebselen.}}
       \field{year}{2020}
+      \field{dateera}{ce}
       \verb{doi}
       \verb 10.26434/chemrxiv.12345434.v1
       \endverb
@@ -3955,6 +4034,7 @@
       \field{title}{{Über selenhaltige aromatische Verbindungen (VI)}}
       \field{volume}{57}
       \field{year}{1924}
+      \field{dateera}{ce}
       \field{pages}{1077\bibrangedash 1082}
       \range{pages}{6}
       \verb{doi}
@@ -3994,6 +4074,7 @@
       \field{number}{7-8}
       \field{title}{{3-​Chloro-​1,​2-​benzisoselenazolium chlorides: synthesis, hydrolysis, thiolation, ammonolysis}}
       \field{year}{1976}
+      \field{dateera}{ce}
       \field{pages}{1124\bibrangedash 6}
       \range{pages}{3}
     \endentry
@@ -4030,6 +4111,7 @@
       \field{labeltitlesource}{title}
       \field{title}{{2-Phenyl-1,2-benzisoselenazol-3(2H)-one containing pharmaceutical preparations and process for the treatment of rheumatic diseases}}
       \field{year}{1981}
+      \field{dateera}{ce}
     \endentry
     \entry{Muller1984}{article}{}
       \name{author}{4}{}{%
@@ -4070,6 +4152,7 @@
       \field{title}{{A novel biologically active seleno-organic compound—1}}
       \field{volume}{33}
       \field{year}{1984}
+      \field{dateera}{ce}
       \field{pages}{3235\bibrangedash 3239}
       \range{pages}{5}
       \verb{doi}
@@ -4126,6 +4209,7 @@
       \field{title}{{A novel biologically active seleno-organic compound—II}}
       \field{volume}{33}
       \field{year}{1984}
+      \field{dateera}{ce}
       \field{pages}{3241\bibrangedash 3245}
       \range{pages}{5}
       \verb{doi}
@@ -4167,6 +4251,7 @@
       \field{title}{{A novel biologically active seleno-organic compound—III}}
       \field{volume}{33}
       \field{year}{1984}
+      \field{dateera}{ce}
       \field{pages}{3247\bibrangedash 3250}
       \range{pages}{4}
       \verb{doi}
@@ -4207,6 +4292,7 @@
       \field{title}{{Expedient Synthesis of Ebselen and Related Compounds}}
       \field{volume}{54}
       \field{year}{1989}
+      \field{dateera}{ce}
       \field{pages}{2966\bibrangedash 2968}
       \range{pages}{3}
       \verb{doi}
@@ -4236,6 +4322,7 @@
       \field{title}{{Molecular actions of Ebselen-an antiinflammatory antioxidant}}
       \field{volume}{26}
       \field{year}{1995}
+      \field{dateera}{ce}
       \field{pages}{1153\bibrangedash 1169}
       \range{pages}{17}
       \verb{doi}
@@ -4283,6 +4370,7 @@
       \field{title}{{Cu-Catalyzed Efficient Synthetic Methodology for Ebselen and Related Se−N Heterocycles}}
       \field{volume}{12}
       \field{year}{2010}
+      \field{dateera}{ce}
       \field{pages}{5394\bibrangedash 5397}
       \range{pages}{4}
       \verb{doi}
@@ -4341,6 +4429,7 @@
       \field{title}{{Synthesis of Benzoisoselenazolone Derivatives by Nickel-Catalyzed Dehydrogenative Direct Selenation of C(sp2)-H Bonds with Elemental Selenium in Air}}
       \field{volume}{19}
       \field{year}{2017}
+      \field{dateera}{ce}
       \field{pages}{1092\bibrangedash 1095}
       \range{pages}{4}
       \verb{doi}
@@ -4375,6 +4464,7 @@
       \field{title}{{Synthetic organoselenium compounds as antioxidants: Glutathione peroxidase activity}}
       \field{volume}{29}
       \field{year}{2000}
+      \field{dateera}{ce}
       \field{pages}{347\bibrangedash 357}
       \range{pages}{11}
       \verb{doi}
@@ -4409,6 +4499,7 @@
       \field{title}{{Seleno-organic compounds and the therapy of hydroperoxide-linked pathological conditions}}
       \field{volume}{36}
       \field{year}{1987}
+      \field{dateera}{ce}
       \field{pages}{3095\bibrangedash 3102}
       \range{pages}{8}
       \verb{doi}
@@ -4458,6 +4549,7 @@
       \field{title}{{Ebselen treatment reduces noise induced hearing loss via the mimicry and induction of glutathione peroxidase}}
       \field{volume}{226}
       \field{year}{2007}
+      \field{dateera}{ce}
       \field{pages}{44\bibrangedash 51}
       \range{pages}{8}
       \verb{doi}
@@ -4540,6 +4632,7 @@
       \field{title}{{A safe lithium mimetic for bipolar disorder}}
       \field{volume}{4}
       \field{year}{2013}
+      \field{dateera}{ce}
       \field{pages}{1332\bibrangedash 1337}
       \range{pages}{6}
       \verb{doi}
@@ -4581,6 +4674,7 @@
       \field{title}{{Ebselen, a promising antioxidant drug: mechanisms of action and targets of biological pathways}}
       \field{volume}{41}
       \field{year}{2014}
+      \field{dateera}{ce}
       \field{pages}{4865\bibrangedash 4879}
       \range{pages}{15}
       \verb{doi}
@@ -4622,6 +4716,7 @@
       \field{title}{{Ebselen: prospective therapy for cerebral ischaemia}}
       \field{volume}{9}
       \field{year}{2000}
+      \field{dateera}{ce}
       \field{pages}{607\bibrangedash 619}
       \range{pages}{13}
       \verb{doi}
@@ -4712,6 +4807,7 @@
       \field{title}{{Ebselen as template for stabilization of A4V mutant dimer for motor neuron disease therapy}}
       \field{volume}{3}
       \field{year}{2020}
+      \field{dateera}{ce}
       \field{pages}{97}
       \range{pages}{1}
       \verb{doi}
@@ -4902,6 +4998,7 @@
       \field{title}{{Structure of Mpro from SARS-CoV-2 and discovery of its inhibitors}}
       \field{volume}{582}
       \field{year}{2020}
+      \field{dateera}{ce}
       \field{pages}{289\bibrangedash 293}
       \range{pages}{5}
       \verb{doi}
@@ -4945,6 +5042,7 @@
       \field{title}{{Modeling the mechanism of the glutathione peroxidase mimic ebselen}}
       \field{volume}{50}
       \field{year}{2011}
+      \field{dateera}{ce}
       \field{pages}{12075\bibrangedash 12084}
       \range{pages}{10}
       \verb{doi}
@@ -4989,6 +5087,7 @@
       \field{title}{{Unusually short chalcogen bonds involving organoselenium: Insights into the SE-N bond cleavage mechanism of the antioxidant ebselen and analogues}}
       \field{volume}{21}
       \field{year}{2015}
+      \field{dateera}{ce}
       \field{pages}{6793\bibrangedash 6800}
       \range{pages}{8}
       \verb{doi}
@@ -5028,6 +5127,7 @@
       \field{title}{{New insights into chalcogen bonding provided by co-crystal structures of benzisoselenazolinone derivatives and nitrogen bases}}
       \field{volume}{21}
       \field{year}{2019}
+      \field{dateera}{ce}
       \field{pages}{1539\bibrangedash 1542}
       \range{pages}{4}
       \verb{doi}
@@ -5083,6 +5183,7 @@
       \field{title}{{A Survey of the Role of Noncovalent Sulfur Interactions in Drug Design}}
       \field{volume}{58}
       \field{year}{2015}
+      \field{dateera}{ce}
       \field{pages}{4383\bibrangedash 4438}
       \range{pages}{56}
       \verb{doi}
@@ -5137,6 +5238,7 @@
       \field{title}{{General AMBER Force Field Parameters for Diphenyl Diselenides and Diphenyl Ditellurides}}
       \field{volume}{120}
       \field{year}{2016}
+      \field{dateera}{ce}
       \field{pages}{4389\bibrangedash 4400}
       \range{pages}{12}
       \verb{doi}
@@ -5176,6 +5278,7 @@
       \field{title}{{Expansion of the sigma-hole concept}}
       \field{volume}{15}
       \field{year}{2009}
+      \field{dateera}{ce}
       \field{pages}{723\bibrangedash 729}
       \range{pages}{7}
       \verb{doi}
@@ -5232,6 +5335,7 @@
       \field{title}{{Halogen bonding: the {$\sigma$}-hole}}
       \field{volume}{13}
       \field{year}{2007}
+      \field{dateera}{ce}
       \field{pages}{291\bibrangedash 296}
       \range{pages}{6}
       \verb{doi}
@@ -5283,6 +5387,7 @@
       \field{title}{{Halogen bonding in ligand-receptor systems in the framework of classical force fields}}
       \field{volume}{13}
       \field{year}{2011}
+      \field{dateera}{ce}
       \field{pages}{19508\bibrangedash 19516}
       \range{pages}{9}
       \verb{doi}
@@ -5313,6 +5418,7 @@
       \field{title}{{Molecular mechanical study of halogen bonding in drug discovery}}
       \field{volume}{32}
       \field{year}{2011}
+      \field{dateera}{ce}
       \field{pages}{2564\bibrangedash 2574}
       \range{pages}{11}
       \verb{doi}
@@ -5353,6 +5459,7 @@
       \field{title}{{On extension of the current biomolecular empirical force field for the description of halogen bonds}}
       \field{volume}{8}
       \field{year}{2012}
+      \field{dateera}{ce}
       \field{pages}{1325\bibrangedash 1333}
       \range{pages}{9}
       \verb{doi}
@@ -5457,6 +5564,7 @@
       \field{title}{{OPLS3: A Force Field Providing Broad Coverage of Drug-like Small Molecules and Proteins}}
       \field{volume}{12}
       \field{year}{2016}
+      \field{dateera}{ce}
       \field{pages}{281\bibrangedash 296}
       \range{pages}{16}
       \verb{doi}
@@ -5492,6 +5600,7 @@
       \field{title}{{Advancing beyond the atom-centered model in additive and nonadditive molecular mechanics}}
       \field{volume}{18}
       \field{year}{1997}
+      \field{dateera}{ce}
       \field{pages}{1632\bibrangedash 1646}
       \range{pages}{15}
       \verb{doi}
@@ -5538,6 +5647,7 @@
       \field{title}{{Molecular mechanical models for organic and biological systems going beyond the atom centered two body additive approximation: Aqueous solution free energies of methanol and N-methyl acetamide, nucleic acid base, and amide hydrogen bonding and chloroform/}}
       \field{volume}{22}
       \field{year}{2001}
+      \field{dateera}{ce}
       \field{pages}{1048\bibrangedash 1057}
       \range{pages}{10}
       \verb{doi}
@@ -5573,6 +5683,7 @@
       \field{title}{{Parametrization of a force field for Te-N secondary bonding interactions and its application in the design of supramolecular structures based on heterocyclic building blocks}}
       \field{volume}{11}
       \field{year}{2011}
+      \field{dateera}{ce}
       \field{pages}{668\bibrangedash 677}
       \range{pages}{10}
       \verb{doi}
@@ -5633,6 +5744,7 @@
       \field{title}{{Identification of ebselen and its analogues as potent covalent inhibitors of papain-like protease from SARS-CoV-2}}
       \field{volume}{11}
       \field{year}{2021}
+      \field{dateera}{ce}
       \field{pages}{3640}
       \range{pages}{1}
       \verb{doi}
@@ -5696,6 +5808,7 @@
       \field{title}{{Molecular characterization of ebselen binding activity to SARS-CoV-2 main protease}}
       \field{volume}{6}
       \field{year}{2020}
+      \field{dateera}{ce}
       \field{pages}{eabd0345}
       \range{pages}{-1}
       \verb{doi}
@@ -6099,6 +6212,7 @@
       \field{labeltitlesource}{title}
       \field{title}{{Gaussian16 Revision C.01}}
       \field{year}{2016}
+      \field{dateera}{ce}
     \endentry
     \entry{mol2cub}{online}{}
       \name{author}{1}{}{%
@@ -6154,6 +6268,7 @@
       \field{title}{{Long-range corrected hybrid density functionals with damped atom-atom dispersion corrections}}
       \field{volume}{10}
       \field{year}{2008}
+      \field{dateera}{ce}
       \field{pages}{6615\bibrangedash 6620}
       \range{pages}{6}
       \verb{doi}
@@ -6188,6 +6303,7 @@
       \field{title}{{Balanced basis sets of split valence, triple zeta valence and quadruple zeta valence quality for H to Rn: Design and assessment of accuracy}}
       \field{volume}{7}
       \field{year}{2005}
+      \field{dateera}{ce}
       \field{pages}{3297\bibrangedash 3305}
       \range{pages}{9}
       \verb{doi}
@@ -6217,6 +6333,7 @@
       \field{title}{{Accurate Coulomb-fitting basis sets for H to Rn}}
       \field{volume}{8}
       \field{year}{2006}
+      \field{dateera}{ce}
       \field{pages}{1057\bibrangedash 1065}
       \range{pages}{9}
       \verb{doi}
@@ -6263,6 +6380,7 @@
       \field{title}{{CHAL336 Benchmark Set: How Well Do Quantum-Chemical Methods Describe Chalcogen-Bonding Interactions?}}
       \field{volume}{17}
       \field{year}{2021}
+      \field{dateera}{ce}
       \field{pages}{2783\bibrangedash 2806}
       \range{pages}{24}
       \verb{doi}
@@ -6317,6 +6435,7 @@
       \field{title}{{Application of RESP Charges To Calculate Conformational Energies, Hydrogen Bond Energies, and Free Energies of Solvation}}
       \field{volume}{115}
       \field{year}{1993}
+      \field{dateera}{ce}
       \field{pages}{9620\bibrangedash 9631}
       \range{pages}{12}
       \verb{doi}
@@ -6347,6 +6466,7 @@
       \field{labeltitlesource}{title}
       \field{title}{{R: A Language and Environment for Statistical Computing}}
       \field{year}{2019}
+      \field{dateera}{ce}
       \verb{urlraw}
       \verb https://www.r-project.org/
       \endverb
@@ -6393,6 +6513,7 @@
       \field{title}{{Theoretical investigations on chalcogen-chalcogen interactions: What makes these nonbonded interactions bonding?}}
       \field{volume}{128}
       \field{year}{2006}
+      \field{dateera}{ce}
       \field{pages}{2666\bibrangedash 2674}
       \range{pages}{9}
       \verb{doi}
@@ -6438,6 +6559,7 @@
       \field{title}{{Theoretical investigations on heteronuclear chalcogen-chalcogen interactions: On the nature of weak bonds between chalcogen centers}}
       \field{volume}{46}
       \field{year}{2007}
+      \field{dateera}{ce}
       \field{pages}{2249\bibrangedash 2260}
       \range{pages}{12}
       \verb{doi}
@@ -6481,6 +6603,7 @@
       \field{title}{{The Origin of Chalcogen-Bonding Interactions}}
       \field{volume}{139}
       \field{year}{2017}
+      \field{dateera}{ce}
       \field{pages}{15160\bibrangedash 15167}
       \range{pages}{8}
       \verb{doi}
@@ -6609,6 +6732,7 @@
       \field{howpublished}{University of Delaware and University of Warsaw}
       \field{title}{{SAPT2020: An Ab Initio Program for Many-Body Symmetry-Adapted Perturbation Theory Calculations of Intermolecular Interaction Energies}}
       \field{year}{2020}
+      \field{dateera}{ce}
       \verb{urlraw}
       \verb http://www.physics.udel.edu/~szalewic/SAPT/SAPT.html
       \endverb
@@ -6649,6 +6773,7 @@
       \field{title}{{Perturbation Theory Approach to Intermolecular Potential Energy Surfaces of van der Waals Complexes}}
       \field{volume}{94}
       \field{year}{1994}
+      \field{dateera}{ce}
       \field{pages}{1887\bibrangedash 1930}
       \range{pages}{44}
       \verb{doi}
@@ -6803,6 +6928,7 @@
       \field{title}{{Psi4 1.1: An Open-Source Electronic Structure Program Emphasizing Automation, Advanced Libraries, and Interoperability}}
       \field{volume}{13}
       \field{year}{2017}
+      \field{dateera}{ce}
       \field{pages}{3185\bibrangedash 3197}
       \range{pages}{13}
       \verb{doi}
@@ -6842,6 +6968,7 @@
       \field{title}{{Structures de l'ebselen (phényl-2 2H-benzisosélénazole-1,2 one-3) (I) et de l'acétonylséléno-2 benzanilide (II)}}
       \field{volume}{46}
       \field{year}{1990}
+      \field{dateera}{ce}
       \field{pages}{484\bibrangedash 486}
       \range{pages}{3}
       \verb{doi}
@@ -6924,6 +7051,7 @@
       \field{title}{{The cysteine-reactive small molecule ebselen facilitates effective SOD1 maturation}}
       \field{volume}{9}
       \field{year}{2018}
+      \field{dateera}{ce}
       \field{pages}{1\bibrangedash 9}
       \range{pages}{9}
       \verb{doi}
@@ -6984,6 +7112,7 @@
       \field{title}{{Variable metallation of human superoxide dismutase: Atomic resolution crystal structures of Cu-Zn, Zn-Zn and as-isolated wild-type enzymes}}
       \field{volume}{356}
       \field{year}{2006}
+      \field{dateera}{ce}
       \field{pages}{1152\bibrangedash 1162}
       \range{pages}{11}
       \verb{doi}
@@ -7027,6 +7156,7 @@
       \field{title}{{New insights into chalcogen bonding provided by co-crystal structures of benzisoselenazolinone derivatives and nitrogen bases}}
       \field{volume}{21}
       \field{year}{2019}
+      \field{dateera}{ce}
       \field{pages}{1539\bibrangedash 1542}
       \range{pages}{4}
       \verb{doi}
@@ -7065,6 +7195,7 @@
       \field{title}{{Discovering protein-ligand chalcogen bonding in the protein data bank using endocyclic sulfur-containing heterocycles as ligand search subsets}}
       \field{volume}{23}
       \field{year}{2017}
+      \field{dateera}{ce}
       \field{pages}{287}
       \range{pages}{1}
       \verb{doi}
@@ -7138,6 +7269,7 @@
       \field{title}{{Carbon-Halogen Bond Activation by Selenium-Based Chalcogen Bonding}}
       \field{volume}{56}
       \field{year}{2017}
+      \field{dateera}{ce}
       \field{pages}{12009\bibrangedash 12012}
       \range{pages}{4}
       \verb{doi}
@@ -7218,6 +7350,7 @@
       \field{title}{{The dominant role of chalcogen bonding in the crystal packing of 2D/3D aromatics}}
       \field{volume}{53}
       \field{year}{2014}
+      \field{dateera}{ce}
       \field{pages}{10139\bibrangedash 10142}
       \range{pages}{4}
       \verb{doi}
@@ -7259,6 +7392,7 @@
       \field{title}{{Chalcogen Bonding: An Overview}}
       \field{volume}{58}
       \field{year}{2019}
+      \field{dateera}{ce}
       \field{pages}{1880\bibrangedash 1891}
       \range{pages}{12}
       \verb{doi}
@@ -7299,6 +7433,7 @@
       \field{title}{{On the Hydrogen Bond Breaking Ability of Fluorocarbons Containing Higher Halogens}}
       \field{volume}{52}
       \field{year}{1974}
+      \field{dateera}{ce}
       \field{pages}{3612\bibrangedash 3622}
       \range{pages}{11}
       \verb{doi}
@@ -7345,6 +7480,7 @@
       \field{title}{{A world beyond hydrogen bonds? - Chalcogen-chalcogen interactions yielding tubular structures}}
       \field{volume}{9}
       \field{year}{2003}
+      \field{dateera}{ce}
       \field{pages}{2676\bibrangedash 2683}
       \range{pages}{8}
       \verb{doi}
@@ -7395,6 +7531,7 @@
       \field{title}{{Supramolecular Wiring of Benzo-1,3-chalcogenazoles through Programmed Chalcogen Bonding Interactions}}
       \field{volume}{22}
       \field{year}{2016}
+      \field{dateera}{ce}
       \field{pages}{5665\bibrangedash 5675}
       \range{pages}{11}
       \verb{doi}
@@ -7433,6 +7570,7 @@
       \field{journaltitle}{Chem. Commun.}
       \field{title}{{Organic selenocyanates as strong and directional chalcogen bond donors for crystal engineering}}
       \field{year}{2017}
+      \field{dateera}{ce}
       \field{pages}{8467\bibrangedash 8469}
       \range{pages}{3}
       \verb{doi}
@@ -7495,6 +7633,7 @@
       \field{title}{{Chalcogen Bonding Macrocycles and [2]Rotaxanes for Anion Recognition}}
       \field{volume}{139}
       \field{year}{2017}
+      \field{dateera}{ce}
       \field{pages}{3122\bibrangedash 3133}
       \range{pages}{12}
       \verb{doi}
@@ -7543,6 +7682,7 @@
       \field{title}{{Thermodynamics of Anion Binding by Chalcogen Bonding Receptors}}
       \field{volume}{24}
       \field{year}{2018}
+      \field{dateera}{ce}
       \field{pages}{14560\bibrangedash 14566}
       \range{pages}{7}
       \verb{doi}
@@ -7600,6 +7740,7 @@
       \field{title}{{Anion recognition by a bidentate chalcogen bond donor}}
       \field{volume}{52}
       \field{year}{2016}
+      \field{dateera}{ce}
       \field{pages}{9881\bibrangedash 9884}
       \range{pages}{4}
       \verb{doi}
@@ -7651,6 +7792,7 @@
       \field{title}{{Catalytic Carbon–Chlorine Bond Activation by Selenium-Based Chalcogen Bond Donors}}
       \field{volume}{23}
       \field{year}{2017}
+      \field{dateera}{ce}
       \field{pages}{16972\bibrangedash 16975}
       \range{pages}{4}
       \verb{doi}
@@ -7703,6 +7845,7 @@
       \field{title}{{Catalysis with Chalcogen Bonds}}
       \field{volume}{56}
       \field{year}{2017}
+      \field{dateera}{ce}
       \field{pages}{812\bibrangedash 815}
       \range{pages}{4}
       \verb{doi}
@@ -7760,6 +7903,7 @@
       \field{title}{{Catalysis with chalcogen bonds: neutral benzodiselenazole scaffolds with high-precision selenium donors of variable strength}}
       \field{volume}{8}
       \field{year}{2017}
+      \field{dateera}{ce}
       \field{pages}{8164\bibrangedash 8169}
       \range{pages}{6}
       \verb{doi}
@@ -7809,6 +7953,7 @@
       \field{number}{2}
       \field{title}{{Statistical Characterization of Nonbonded S{·}{·}{·}O Interactions in Proteins}}
       \field{year}{2001}
+      \field{dateera}{ce}
       \field{pages}{132\bibrangedash 133}
       \range{pages}{2}
       \verb{doi}
@@ -7858,6 +8003,7 @@
       \field{booktitle}{Noncovalent Forces}
       \field{title}{{Chalcogen Bonds in Protein Architecture}}
       \field{year}{2015}
+      \field{dateera}{ce}
       \field{pages}{265\bibrangedash 289}
       \range{pages}{25}
       \verb{doi}
@@ -7914,6 +8060,7 @@
       \field{title}{{Chalcogen bonding in solution: Interactions of benzotelluradiazoles with anionic and uncharged Lewis bases}}
       \field{volume}{137}
       \field{year}{2015}
+      \field{dateera}{ce}
       \field{pages}{4126\bibrangedash 4133}
       \range{pages}{8}
       \verb{doi}
@@ -7994,6 +8141,7 @@
       \field{title}{{Supramolecular macrocycles reversibly assembled by Te{\ldots}O chalcogen bonding}}
       \field{volume}{7}
       \field{year}{2016}
+      \field{dateera}{ce}
       \field{pages}{11299}
       \range{pages}{1}
       \verb{doi}
@@ -8065,6 +8213,7 @@
       \field{title}{{Synthesis and structural characterisation of the aggregates of benzo-1,2-chalcogenazole 2-oxides}}
       \field{volume}{46}
       \field{year}{2017}
+      \field{dateera}{ce}
       \field{pages}{6570\bibrangedash 6579}
       \range{pages}{10}
       \verb{doi}
@@ -8116,6 +8265,7 @@
       \field{title}{{A novel biologically active seleno-organic compound—1}}
       \field{volume}{33}
       \field{year}{1984}
+      \field{dateera}{ce}
       \field{pages}{3235\bibrangedash 3239}
       \range{pages}{5}
       \verb{doi}
@@ -8151,6 +8301,7 @@
       \field{title}{{Molecular actions of Ebselen-an antiinflammatory antioxidant}}
       \field{volume}{26}
       \field{year}{1995}
+      \field{dateera}{ce}
       \field{pages}{1153\bibrangedash 1169}
       \range{pages}{17}
       \verb{doi}
@@ -8201,6 +8352,7 @@
       \field{title}{{Ebselen treatment reduces noise induced hearing loss via the mimicry and induction of glutathione peroxidase}}
       \field{volume}{226}
       \field{year}{2007}
+      \field{dateera}{ce}
       \field{pages}{44\bibrangedash 51}
       \range{pages}{8}
       \verb{doi}
@@ -8283,6 +8435,7 @@
       \field{title}{{A safe lithium mimetic for bipolar disorder}}
       \field{volume}{4}
       \field{year}{2013}
+      \field{dateera}{ce}
       \field{pages}{1332\bibrangedash 1337}
       \range{pages}{6}
       \verb{doi}
@@ -8323,6 +8476,7 @@
       \field{title}{{Ebselen: prospective therapy for cerebral ischaemia}}
       \field{volume}{9}
       \field{year}{2000}
+      \field{dateera}{ce}
       \field{pages}{607\bibrangedash 619}
       \range{pages}{13}
       \verb{doi}
@@ -8374,6 +8528,7 @@
       \field{title}{{Unusually short chalcogen bonds involving organoselenium: Insights into the SE-N bond cleavage mechanism of the antioxidant ebselen and analogues}}
       \field{volume}{21}
       \field{year}{2015}
+      \field{dateera}{ce}
       \field{pages}{6793\bibrangedash 6800}
       \range{pages}{8}
       \verb{doi}
@@ -8414,6 +8569,7 @@
       \field{title}{{The Many Facets of Chalcogen Bonding: Described by Vibrational Spectroscopy}}
       \field{volume}{121}
       \field{year}{2017}
+      \field{dateera}{ce}
       \field{pages}{6845\bibrangedash 6862}
       \range{pages}{18}
       \verb{doi}
@@ -8457,6 +8613,7 @@
       \field{title}{{The Origin of Chalcogen-Bonding Interactions}}
       \field{volume}{139}
       \field{year}{2017}
+      \field{dateera}{ce}
       \field{pages}{15160\bibrangedash 15167}
       \range{pages}{8}
       \verb{doi}
@@ -8510,6 +8667,7 @@
       \field{journaltitle}{Journal of Computational Chemistry}
       \field{title}{{Characterization of chalcogen bonding interactions via an in-depth conceptual quantum chemical analysis}}
       \field{year}{2017}
+      \field{dateera}{ce}
       \field{pages}{557\bibrangedash 572}
       \range{pages}{16}
       \verb{doi}
@@ -8545,6 +8703,7 @@
       \field{title}{{Computer Modeling of Halogen Bonds and Other {$\sigma$}-Hole Interactions}}
       \field{volume}{116}
       \field{year}{2016}
+      \field{dateera}{ce}
       \field{pages}{5155\bibrangedash 5187}
       \range{pages}{33}
       \verb{doi}
@@ -8595,6 +8754,7 @@
       \field{title}{{From Noncovalent Chalcogen-Chalcogen Interactions to Supramolecular Aggregates: Experiments and Calculations}}
       \field{volume}{118}
       \field{year}{2018}
+      \field{dateera}{ce}
       \field{pages}{2010\bibrangedash 2041}
       \range{pages}{32}
       \verb{doi}
@@ -8634,6 +8794,7 @@
       \field{title}{{Halogen-bonded cocrystals of 4-(N,N-dimethylamino)pyridine with fluorinated iodobenzenes}}
       \field{volume}{9}
       \field{year}{2009}
+      \field{dateera}{ce}
       \field{pages}{5319\bibrangedash 5326}
       \range{pages}{8}
       \verb{doi}
@@ -8663,6 +8824,7 @@
       \field{title}{{Structures of Complexes Formed by Halogen Molecules with Aromatic and with Oxygenated Solvents}}
       \field{volume}{72}
       \field{year}{1950}
+      \field{dateera}{ce}
       \field{pages}{600\bibrangedash 608}
       \range{pages}{9}
       \verb{doi}
@@ -8709,6 +8871,7 @@
       \field{title}{{Cu-Catalyzed Efficient Synthetic Methodology for Ebselen and Related Se−N Heterocycles}}
       \field{volume}{12}
       \field{year}{2010}
+      \field{dateera}{ce}
       \field{pages}{5394\bibrangedash 5397}
       \range{pages}{4}
       \verb{doi}
@@ -8747,6 +8910,7 @@
       \field{title}{{Van der Waals radii of elements}}
       \field{volume}{37}
       \field{year}{2001}
+      \field{dateera}{ce}
       \field{pages}{871\bibrangedash 885}
       \range{pages}{15}
       \verb{doi}
@@ -8790,6 +8954,7 @@
       \field{number}{2}
       \field{title}{{Hydrogen-bond basicity pKHB scale of six-membered aromatic N-heterocycles}}
       \field{year}{1998}
+      \field{dateera}{ce}
       \field{pages}{283\bibrangedash 290}
       \range{pages}{8}
       \verb{doi}
@@ -8845,6 +9010,7 @@
       \field{title}{{L'échelle p K HB de basicité de liaison hydrogène des amines tertiaires aliphatiques}}
       \field{volume}{80}
       \field{year}{2002}
+      \field{dateera}{ce}
       \field{pages}{1375\bibrangedash 1385}
       \range{pages}{11}
       \verb{doi}
@@ -8939,6 +9105,7 @@
       \field{title}{{MX1: A bending-magnet crystallography beamline serving both chemical and macromolecular crystallography communities at the Australian Synchrotron}}
       \field{volume}{22}
       \field{year}{2015}
+      \field{dateera}{ce}
       \field{pages}{187\bibrangedash 190}
       \range{pages}{4}
       \verb{doi}
@@ -8972,6 +9139,7 @@
       \field{title}{{Crystal structure refinement with SHELXL}}
       \field{volume}{71}
       \field{year}{2015}
+      \field{dateera}{ce}
       \field{pages}{3\bibrangedash 8}
       \range{pages}{6}
       \verb{doi}
@@ -9003,6 +9171,7 @@
       \field{title}{{ORTEP-3 for windows - A version of ORTEP-III with a graphical user interface (GUI)}}
       \field{volume}{30}
       \field{year}{1997}
+      \field{dateera}{ce}
       \field{pages}{565}
       \range{pages}{1}
       \verb{doi}
@@ -9034,6 +9203,7 @@
       \field{title}{{WinGX suite for small-molecule single-crystal crystallography}}
       \field{volume}{32}
       \field{year}{1999}
+      \field{dateera}{ce}
       \field{pages}{837\bibrangedash 838}
       \range{pages}{2}
       \verb{doi}
@@ -9081,6 +9251,7 @@
       \field{title}{{1-Iodoacétylènes. IV. Relations structure–réactivité pour la complexation des 1-iodoacétylènes substitués avec des bases de Lewis}}
       \field{volume}{61}
       \field{year}{1983}
+      \field{dateera}{ce}
       \field{pages}{135\bibrangedash 138}
       \range{pages}{4}
       \verb{doi}
@@ -9139,6 +9310,7 @@
       \field{title}{{Thermodynamics of Halogen Bonding in Solution: Sub, Structural, and Solvent Effects}}
       \field{volume}{132}
       \field{year}{2010}
+      \field{dateera}{ce}
       \field{pages}{1646\bibrangedash 1653}
       \range{pages}{8}
       \verb{doi}
@@ -9188,6 +9360,7 @@
       \field{number}{2}
       \field{title}{{Hydrogen-bond basicity pKHB scale of six-membered aromatic N-heterocycles}}
       \field{year}{1998}
+      \field{dateera}{ce}
       \field{pages}{283\bibrangedash 290}
       \range{pages}{8}
       \verb{doi}
@@ -9244,6 +9417,7 @@
       \field{title}{{Enhancing the Catalytic Activity of 4-(Dialkylamino)pyridines by Conformational Fixation}}
       \field{volume}{42}
       \field{year}{2003}
+      \field{dateera}{ce}
       \field{pages}{4826\bibrangedash 4828}
       \range{pages}{3}
       \verb{doi}
@@ -9356,6 +9530,7 @@
       \field{title}{{Accurate crystal structures and chemical properties from NoSpherA2}}
       \field{volume}{12}
       \field{year}{2021}
+      \field{dateera}{ce}
       \field{pages}{1675\bibrangedash 1692}
       \range{pages}{18}
       \verb{doi}
@@ -9405,6 +9580,7 @@
       \field{title}{{A Survey of Hammett Substituent Constants and Resonance and Field Parameters}}
       \field{volume}{91}
       \field{year}{1991}
+      \field{dateera}{ce}
       \field{pages}{165\bibrangedash 195}
       \range{pages}{31}
       \verb{doi}
@@ -9437,6 +9613,7 @@
       \field{number}{7}
       \field{title}{{An approach for assessing the relative importance of field and $\sigma$ inductive contributions to polar substituent effects based on the nonproportionality of field and $\sigma$ inductive substituent constants}}
       \field{year}{1980}
+      \field{dateera}{ce}
       \field{pages}{985\bibrangedash 991}
       \range{pages}{7}
       \verb{doi}
@@ -9478,6 +9655,7 @@
       \field{title}{{A Reëxamination of the Hammett Equation.}}
       \field{volume}{53}
       \field{year}{1953}
+      \field{dateera}{ce}
       \field{pages}{191\bibrangedash 261}
       \range{pages}{71}
       \verb{doi}
@@ -9527,6 +9705,7 @@
       \field{title}{{Atomic Motions in Molecular Crystals from Diffraction Measurements}}
       \field{volume}{27}
       \field{year}{1988}
+      \field{dateera}{ce}
       \field{pages}{880\bibrangedash 895}
       \range{pages}{16}
       \verb{doi}
@@ -9569,6 +9748,7 @@
       \field{title}{{Chemical shift referencing in MAS solid state NMR}}
       \field{volume}{162}
       \field{year}{2003}
+      \field{dateera}{ce}
       \field{pages}{479\bibrangedash 486}
       \range{pages}{8}
       \verb{doi}
@@ -9609,6 +9789,7 @@
       \field{title}{{Calculation of NMR Shielding Tensors Using Gauge-Including Atomic Orbitals and Modern Density Functional Theory}}
       \field{volume}{99}
       \field{year}{1995}
+      \field{dateera}{ce}
       \field{pages}{606\bibrangedash 611}
       \range{pages}{6}
       \verb{doi}
@@ -9651,6 +9832,7 @@
       \field{title}{{The calculation of NMR shielding tensors based on density functional theory and the frozen-core approximation}}
       \field{volume}{60}
       \field{year}{1996}
+      \field{dateera}{ce}
       \field{pages}{753\bibrangedash 766}
       \range{pages}{14}
       \verb{doi}
@@ -9687,6 +9869,7 @@
       \field{title}{{Selenium-77 nuclear magnetic resonance spectroscopy}}
       \field{volume}{27}
       \field{year}{1995}
+      \field{dateera}{ce}
       \field{pages}{1\bibrangedash 323}
       \range{pages}{323}
       \verb{doi}
@@ -9734,6 +9917,7 @@
       \field{title}{{Anion templated crystal engineering of halogen bonding tripodal tris(halopyridinium) compounds}}
       \field{volume}{22}
       \field{year}{2020}
+      \field{dateera}{ce}
       \field{pages}{2526\bibrangedash 2536}
       \range{pages}{11}
       \verb{doi}
@@ -9776,6 +9960,7 @@
       \field{title}{{Halogen- and hydrogen-bonding triazole-functionalised porphyrin-based receptors for anion recognition}}
       \field{volume}{42}
       \field{year}{2013}
+      \field{dateera}{ce}
       \field{pages}{15766\bibrangedash 15773}
       \range{pages}{8}
       \verb{doi}
@@ -9825,6 +10010,7 @@
       \field{title}{{Chalcogen bonding in solution: Interactions of benzotelluradiazoles with anionic and uncharged Lewis bases}}
       \field{volume}{137}
       \field{year}{2015}
+      \field{dateera}{ce}
       \field{pages}{4126\bibrangedash 4133}
       \range{pages}{8}
       \verb{doi}
@@ -9854,6 +10040,7 @@
       \field{title}{{Determining association constants from titration experiments in supramolecular chemistry}}
       \field{volume}{40}
       \field{year}{2011}
+      \field{dateera}{ce}
       \field{pages}{1305\bibrangedash 1323}
       \range{pages}{19}
       \verb{doi}
@@ -9890,6 +10077,7 @@
       \field{labeltitlesource}{title}
       \field{title}{{R: A Language and Environment for Statistical Computing}}
       \field{year}{2019}
+      \field{dateera}{ce}
       \verb{urlraw}
       \verb https://www.r-project.org/
       \endverb
@@ -9930,6 +10118,7 @@
       \field{title}{{Charge-Transfer Interactions of Amines with Tetrahalomethanes. X-ray Crystal Structures of the Donor-Acceptor Complexes of Quinuclidine and Diazabicyclo[2.2.2]octane with Carbon Tetrabromide}}
       \field{volume}{52}
       \field{year}{1987}
+      \field{dateera}{ce}
       \field{pages}{1451\bibrangedash 1460}
       \range{pages}{10}
       \verb{doi}
@@ -9959,6 +10148,7 @@
       \field{title}{{Very strong hydrogen bonding}}
       \field{volume}{9}
       \field{year}{1980}
+      \field{dateera}{ce}
       \field{pages}{91\bibrangedash 124}
       \range{pages}{34}
       \verb{doi}
@@ -9992,6 +10182,7 @@
       \field{booktitle}{Modern Mass Spectrometry}
       \field{title}{{Threshold Collision-Induced Dissociations for the Determination of Accurate Gas-Phase Binding Energies and Reaction Barriers}}
       \field{year}{2003}
+      \field{dateera}{ce}
       \field{pages}{233\bibrangedash 262}
       \range{pages}{30}
       \verb{doi}
@@ -10027,6 +10218,7 @@
       \field{title}{{Noncovalent metal-ligand bond energies AS studied by threshold collision-induced dissociation}}
       \field{volume}{19}
       \field{year}{2000}
+      \field{dateera}{ce}
       \field{pages}{215\bibrangedash 247}
       \range{pages}{33}
       \verb{doi}
@@ -10066,6 +10258,7 @@
       \field{title}{{Simple fitting of energy-resolved reactive cross sections in threshold collision-induced dissociation (T-CID) experiments}}
       \field{volume}{111}
       \field{year}{2007}
+      \field{dateera}{ce}
       \field{pages}{7006\bibrangedash 7013}
       \range{pages}{8}
       \verb{doi}
@@ -10098,6 +10291,7 @@
       \field{title}{{Crystal structure refinement with SHELXL}}
       \field{volume}{71}
       \field{year}{2015}
+      \field{dateera}{ce}
       \field{pages}{3\bibrangedash 8}
       \range{pages}{6}
       \verb{doi}
@@ -10138,6 +10332,7 @@
       \field{title}{{Structures de l'ebselen (phényl-2 2H-benzisosélénazole-1,2 one-3) (I) et de l'acétonylséléno-2 benzanilide (II)}}
       \field{volume}{46}
       \field{year}{1990}
+      \field{dateera}{ce}
       \field{pages}{484\bibrangedash 486}
       \range{pages}{3}
       \verb{doi}
@@ -10186,6 +10381,7 @@
       \field{title}{{Experimental evidence of chalcogen bonding at oxygen}}
       \field{volume}{56}
       \field{year}{2020}
+      \field{dateera}{ce}
       \field{pages}{3313\bibrangedash 3316}
       \range{pages}{4}
       \verb{doi}
@@ -10235,6 +10431,7 @@
       \field{title}{{Supramolecular Capsules: Strong versus Weak Chalcogen Bonding}}
       \field{volume}{57}
       \field{year}{2018}
+      \field{dateera}{ce}
       \field{pages}{17259\bibrangedash 17264}
       \range{pages}{6}
       \verb{doi}
@@ -10283,6 +10480,7 @@
       \field{title}{{Chalcogen bonding in synthesis, catalysis and design of materials}}
       \field{volume}{46}
       \field{year}{2017}
+      \field{dateera}{ce}
       \field{pages}{10121\bibrangedash 10138}
       \range{pages}{18}
       \verb{doi}
@@ -10333,6 +10531,7 @@
       \field{title}{{Back Cover: Chalcogen Bonding Catalysis of a Nitro-Michael Reaction (Angew. Chem. Int. Ed. 47/2019)}}
       \field{volume}{58}
       \field{year}{2019}
+      \field{dateera}{ce}
       \field{pages}{17082\bibrangedash 17082}
       \range{pages}{1}
       \verb{doi}
@@ -10418,6 +10617,7 @@
       \field{title}{{Supramolecular macrocycles reversibly assembled by Te{\ldots}O chalcogen bonding}}
       \field{volume}{7}
       \field{year}{2016}
+      \field{dateera}{ce}
       \field{pages}{11299}
       \range{pages}{1}
       \verb{doi}
@@ -10473,6 +10673,7 @@
       \field{title}{{Supramolecular Wiring of Benzo-1,3-chalcogenazoles through Programmed Chalcogen Bonding Interactions}}
       \field{volume}{22}
       \field{year}{2016}
+      \field{dateera}{ce}
       \field{pages}{5665\bibrangedash 5675}
       \range{pages}{11}
       \verb{doi}
@@ -10523,6 +10724,7 @@
       \field{title}{{Catalysis with chalcogen bonds: neutral benzodiselenazole scaffolds with high-precision selenium donors of variable strength}}
       \field{volume}{8}
       \field{year}{2017}
+      \field{dateera}{ce}
       \field{pages}{8164\bibrangedash 8169}
       \range{pages}{6}
       \verb{doi}
@@ -10563,6 +10765,7 @@
       \field{title}{{Hypervalent nonbonded interactions of a divalent sulfur atom. Implications in protein architecture and the functions}}
       \field{volume}{17}
       \field{year}{2012}
+      \field{dateera}{ce}
       \field{pages}{7266\bibrangedash 7283}
       \range{pages}{18}
       \verb{doi}
@@ -10606,6 +10809,7 @@
       \field{title}{{Simultaneous {$\sigma$}-hole and hydrogen bonding by sulfur- and selenium-containing heterocycles}}
       \field{volume}{108}
       \field{year}{2008}
+      \field{dateera}{ce}
       \field{pages}{2770\bibrangedash 2781}
       \range{pages}{12}
       \verb{doi}
@@ -10654,6 +10858,7 @@
       \field{title}{{The chalcogen bond: Can it be formed by oxygen?}}
       \field{volume}{21}
       \field{year}{2019}
+      \field{dateera}{ce}
       \field{pages}{19969\bibrangedash 19986}
       \range{pages}{18}
       \verb{doi}
@@ -10684,6 +10889,7 @@
       \field{title}{{Does Oxygen Feature Chalcogen Bonding?}}
       \field{volume}{24}
       \field{year}{2019}
+      \field{dateera}{ce}
       \field{pages}{3166}
       \range{pages}{1}
       \verb{doi}
@@ -10735,6 +10941,7 @@
       \field{title}{{Structure correlation study of the beckmann rearrangement: X-ray structural analysis and 13C- 13C 1-bond coupling constant study of a range of cyclohexanone oxime derivatives}}
       \field{volume}{65}
       \field{year}{2012}
+      \field{dateera}{ce}
       \field{pages}{905\bibrangedash 917}
       \range{pages}{13}
       \verb{doi}
@@ -10764,6 +10971,7 @@
       \field{title}{{Van der waals volumes and radii}}
       \field{volume}{68}
       \field{year}{1964}
+      \field{dateera}{ce}
       \field{pages}{441\bibrangedash 451}
       \range{pages}{11}
       \verb{doi}
@@ -10792,6 +11000,7 @@
       \field{title}{{Relationship between the dissociation constant of the proton donor and hydrogen-bonding}}
       \field{volume}{66}
       \field{year}{1970}
+      \field{dateera}{ce}
       \field{pages}{1052\bibrangedash 1057}
       \range{pages}{6}
       \verb{doi}
@@ -10831,6 +11040,7 @@
       \field{title}{{Intermolecular Interactions from a Natural Bond Orbital, Donor—Acceptor Viewpoint}}
       \field{volume}{88}
       \field{year}{1988}
+      \field{dateera}{ce}
       \field{pages}{899\bibrangedash 926}
       \range{pages}{28}
       \verb{doi}
@@ -10861,6 +11071,7 @@
       \field{title}{{A Quantum Theory of Molecular Structure and Its Applications}}
       \field{volume}{91}
       \field{year}{1991}
+      \field{dateera}{ce}
       \field{pages}{893\bibrangedash 928}
       \range{pages}{36}
       \verb{doi}
@@ -10933,6 +11144,7 @@
       \field{labeltitlesource}{title}
       \field{title}{{NBO 7.0}}
       \field{year}{2018}
+      \field{dateera}{ce}
     \endentry
     \entry{gaussian16}{misc}{}
       \name{author}{74}{}{%
@@ -11319,6 +11531,7 @@
       \field{labeltitlesource}{title}
       \field{title}{{Gaussian16 Revision C.01}}
       \field{year}{2016}
+      \field{dateera}{ce}
     \endentry
     \entry{Zhao2008}{article}{}
       \name{author}{2}{}{%
@@ -11348,6 +11561,7 @@
       \field{title}{{The M06 suite of density functionals for main group thermochemistry, thermochemical kinetics, noncovalent interactions, excited states, and transition elements: Two new functionals and systematic testing of four M06-class functionals and 12 other function}}
       \field{volume}{120}
       \field{year}{2008}
+      \field{dateera}{ce}
       \field{pages}{215\bibrangedash 241}
       \range{pages}{27}
       \verb{doi}
@@ -11383,6 +11597,7 @@
       \field{title}{{Gaussian basis sets for use in correlated molecular calculations. V. Core-valence basis sets for boron through neon}}
       \field{volume}{103}
       \field{year}{1995}
+      \field{dateera}{ce}
       \field{pages}{4572\bibrangedash 4585}
       \range{pages}{14}
       \verb{doi}
@@ -11430,6 +11645,7 @@
       \field{title}{{Halogen and Chalcogen Binding Dominated by Density-Driven Errors}}
       \field{volume}{10}
       \field{year}{2019}
+      \field{dateera}{ce}
       \field{pages}{295\bibrangedash 301}
       \range{pages}{7}
       \verb{doi}
@@ -11473,6 +11689,7 @@
       \field{title}{{The Origin of Chalcogen-Bonding Interactions}}
       \field{volume}{139}
       \field{year}{2017}
+      \field{dateera}{ce}
       \field{pages}{15160\bibrangedash 15167}
       \range{pages}{8}
       \verb{doi}
@@ -11526,6 +11743,7 @@
       \field{title}{{The Cambridge structural database}}
       \field{volume}{72}
       \field{year}{2016}
+      \field{dateera}{ce}
       \field{pages}{171\bibrangedash 179}
       \range{pages}{9}
       \verb{doi}
@@ -11602,6 +11820,7 @@
       \field{title}{{The secondary amine/nitric oxide complex ion R2N[N(O)NO]- as nucleophile and leaving group in SNAr reactions}}
       \field{volume}{66}
       \field{year}{2001}
+      \field{dateera}{ce}
       \field{pages}{3090\bibrangedash 3098}
       \range{pages}{9}
       \verb{doi}
@@ -11667,6 +11886,7 @@
       \field{title}{{Chiral 1-alkoxyaziridines: resolution, nitrogen inversion, stucture and diastereomeric transformations}}
       \field{volume}{12}
       \field{year}{2002}
+      \field{dateera}{ce}
       \field{pages}{137\bibrangedash 140}
       \range{pages}{4}
       \verb{doi}
@@ -11793,6 +12013,7 @@
       \field{title}{{PABA/NO as an anticancer lead: Analogue synthesis, structure revision, solution chemistry, reactivity toward glutathione, and in vitro activity}}
       \field{volume}{49}
       \field{year}{2006}
+      \field{dateera}{ce}
       \field{pages}{1157\bibrangedash 1164}
       \range{pages}{8}
       \verb{doi}
@@ -11827,6 +12048,7 @@
       \field{title}{{Iterative Oxime Bond Chemistry Leads to Protease Inhibitors}}
       \field{volume}{5}
       \field{year}{2003}
+      \field{dateera}{ce}
       \field{pages}{4693\bibrangedash 4696}
       \range{pages}{4}
       \verb{doi}
@@ -11861,6 +12083,7 @@
       \field{title}{{Testing aspherical atom refinements on small‐molecule data sets}}
       \field{volume}{34}
       \field{year}{1978}
+      \field{dateera}{ce}
       \field{pages}{909\bibrangedash 921}
       \range{pages}{13}
       \verb{doi}
@@ -11905,6 +12128,7 @@
       \field{title}{{Advances in protein and small-molecule charge-density refinement methods using MoPro}}
       \field{volume}{38}
       \field{year}{2005}
+      \field{dateera}{ce}
       \field{pages}{38\bibrangedash 54}
       \range{pages}{17}
       \verb{doi}
@@ -11939,6 +12163,7 @@
       \field{title}{{How molecules stick together in organic crystals: Weak intermolecular interactions}}
       \field{volume}{38}
       \field{year}{2009}
+      \field{dateera}{ce}
       \field{pages}{2622\bibrangedash 2633}
       \range{pages}{12}
       \verb{doi}
@@ -11993,6 +12218,7 @@
       \field{title}{{Revealing noncovalent interactions}}
       \field{volume}{132}
       \field{year}{2010}
+      \field{dateera}{ce}
       \field{pages}{6498\bibrangedash 6506}
       \range{pages}{9}
       \verb{doi}
@@ -12022,6 +12248,7 @@
       \field{title}{{Hydrogen bond energetics from topological analysis of experimental electron densities: Recognising the importance of the promolecule}}
       \field{volume}{301}
       \field{year}{1999}
+      \field{dateera}{ce}
       \field{pages}{425\bibrangedash 429}
       \range{pages}{5}
       \verb{doi}
@@ -12051,6 +12278,7 @@
       \field{title}{{Chemical bonding in crystals: New directions}}
       \field{volume}{220}
       \field{year}{2005}
+      \field{dateera}{ce}
       \field{pages}{399\bibrangedash 457}
       \range{pages}{59}
       \verb{doi}
@@ -12081,6 +12309,7 @@
       \field{title}{{Bond paths are not chemical bonds}}
       \field{volume}{113}
       \field{year}{2009}
+      \field{dateera}{ce}
       \field{pages}{10391\bibrangedash 10396}
       \range{pages}{6}
       \verb{doi}
@@ -12126,6 +12355,7 @@
       \field{title}{{The implications of symmetry of the external potential on bond paths}}
       \field{volume}{14}
       \field{year}{2008}
+      \field{dateera}{ce}
       \field{pages}{10232\bibrangedash 10234}
       \range{pages}{3}
       \verb{doi}
@@ -12177,6 +12407,7 @@
       \field{title}{{Influence of endohedral confinement on the electronic interaction between he atoms: A He2@C20H20 case study}}
       \field{volume}{15}
       \field{year}{2009}
+      \field{dateera}{ce}
       \field{pages}{1985\bibrangedash 1990}
       \range{pages}{6}
       \verb{doi}
@@ -12226,6 +12457,7 @@
       \field{title}{{Thermal conversion of a pyridine solvate to a de-solvate facilitated by rearrangement of chalcogen bonds. The solvate and non-solvate structures ofN-(2-nitro-4-(3-oxobenzo[d][1,2]selenazol-2(3H)-yl)phenyl)picolinamide}}
       \field{volume}{22}
       \field{year}{2020}
+      \field{dateera}{ce}
       \field{pages}{4023\bibrangedash 4029}
       \range{pages}{7}
       \verb{doi}
@@ -12266,6 +12498,7 @@
       \field{title}{{Chalcogen Bonding: An Overview}}
       \field{volume}{58}
       \field{year}{2019}
+      \field{dateera}{ce}
       \field{pages}{1880\bibrangedash 1891}
       \range{pages}{12}
       \verb{doi}
@@ -12316,6 +12549,7 @@
       \field{title}{{Theoretical investigations on chalcogen-chalcogen interactions: What makes these nonbonded interactions bonding?}}
       \field{volume}{128}
       \field{year}{2006}
+      \field{dateera}{ce}
       \field{pages}{2666\bibrangedash 2674}
       \range{pages}{9}
       \verb{doi}
@@ -12366,6 +12600,7 @@
       \field{title}{{Chalcogen bonding in solution: Interactions of benzotelluradiazoles with anionic and uncharged Lewis bases}}
       \field{volume}{137}
       \field{year}{2015}
+      \field{dateera}{ce}
       \field{pages}{4126\bibrangedash 4133}
       \range{pages}{8}
       \verb{doi}
@@ -12415,6 +12650,7 @@
       \field{title}{{A Survey of the Role of Noncovalent Sulfur Interactions in Drug Design}}
       \field{volume}{58}
       \field{year}{2015}
+      \field{dateera}{ce}
       \field{pages}{4383\bibrangedash 4438}
       \range{pages}{56}
       \verb{doi}
@@ -12465,6 +12701,7 @@
       \field{title}{{Halogen bonding: the {$\sigma$}-hole}}
       \field{volume}{13}
       \field{year}{2007}
+      \field{dateera}{ce}
       \field{pages}{291\bibrangedash 296}
       \range{pages}{6}
       \verb{doi}
@@ -12511,6 +12748,7 @@
       \field{title}{{The influence of intramolecular sulfur–lone pair interactions on small-molecule drug design and receptor binding}}
       \field{volume}{14}
       \field{year}{2016}
+      \field{dateera}{ce}
       \field{pages}{3975\bibrangedash 3980}
       \range{pages}{6}
       \verb{doi}
@@ -12556,6 +12794,7 @@
       \field{title}{{Statistical and theoretical investigations on the directionality of nonbonded S{·}{·}{·}O interactions. Implications for molecular design and protein engineering}}
       \field{volume}{124}
       \field{year}{2002}
+      \field{dateera}{ce}
       \field{pages}{10613\bibrangedash 10620}
       \range{pages}{8}
       \verb{doi}
@@ -12605,6 +12844,7 @@
       \field{title}{{Stereoelectronic effects dictate molecular conformation and biological function of heterocyclic amides}}
       \field{volume}{136}
       \field{year}{2014}
+      \field{dateera}{ce}
       \field{pages}{11914\bibrangedash 11917}
       \range{pages}{4}
       \verb{doi}
@@ -12660,6 +12900,7 @@
       \field{title}{{Chalcogen Bonding Macrocycles and [2]Rotaxanes for Anion Recognition}}
       \field{volume}{139}
       \field{year}{2017}
+      \field{dateera}{ce}
       \field{pages}{3122\bibrangedash 3133}
       \range{pages}{12}
       \verb{doi}
@@ -12714,6 +12955,7 @@
       \field{title}{{Anion recognition by a bidentate chalcogen bond donor}}
       \field{volume}{52}
       \field{year}{2016}
+      \field{dateera}{ce}
       \field{pages}{9881\bibrangedash 9884}
       \range{pages}{4}
       \verb{doi}
@@ -12772,6 +13014,7 @@
       \field{journaltitle}{Journal of the American Chemical Society}
       \field{title}{{Anion recognition in water by charge-neutral halogen and chalcogen bonding foldamer receptors}}
       \field{year}{2019}
+      \field{dateera}{ce}
       \field{pages}{jacs.9b00148}
       \range{pages}{-1}
       \verb{doi}
@@ -12812,6 +13055,7 @@
       \field{title}{{Programming Recognition Arrays through Double Chalcogen-Bonding Interactions}}
       \field{volume}{24}
       \field{year}{2018}
+      \field{dateera}{ce}
       \field{pages}{5439\bibrangedash 5443}
       \range{pages}{5}
       \verb{doi}
@@ -12863,6 +13107,7 @@
       \field{title}{{Reversible Self-Assembly of Supramolecular Vesicles and Nanofibers Driven by Chalcogen-Bonding Interactions}}
       \field{volume}{140}
       \field{year}{2018}
+      \field{dateera}{ce}
       \field{pages}{7079\bibrangedash 7082}
       \range{pages}{4}
       \verb{doi}
@@ -12942,6 +13187,7 @@
       \field{title}{{Supramolecular macrocycles reversibly assembled by Te{\ldots}O chalcogen bonding}}
       \field{volume}{7}
       \field{year}{2016}
+      \field{dateera}{ce}
       \field{pages}{11299}
       \range{pages}{1}
       \verb{doi}
@@ -12998,6 +13244,7 @@
       \field{title}{{From Noncovalent Chalcogen-Chalcogen Interactions to Supramolecular Aggregates: Experiments and Calculations}}
       \field{volume}{118}
       \field{year}{2018}
+      \field{dateera}{ce}
       \field{pages}{2010\bibrangedash 2041}
       \range{pages}{32}
       \verb{doi}
@@ -13035,6 +13282,7 @@
       \field{journaltitle}{Chem. Commun.}
       \field{title}{{Organic selenocyanates as strong and directional chalcogen bond donors for crystal engineering}}
       \field{year}{2017}
+      \field{dateera}{ce}
       \field{pages}{8467\bibrangedash 8469}
       \range{pages}{3}
       \verb{doi}
@@ -13081,6 +13329,7 @@
       \field{title}{{A world beyond hydrogen bonds? - Chalcogen-chalcogen interactions yielding tubular structures}}
       \field{volume}{9}
       \field{year}{2003}
+      \field{dateera}{ce}
       \field{pages}{2676\bibrangedash 2683}
       \range{pages}{8}
       \verb{doi}
@@ -13141,6 +13390,7 @@
       \field{title}{{Dual Chalcogen-Chalcogen Bonding Catalysis}}
       \field{volume}{142}
       \field{year}{2020}
+      \field{dateera}{ce}
       \field{pages}{3117\bibrangedash 3124}
       \range{pages}{8}
       \verb{doi}
@@ -13180,6 +13430,7 @@
       \field{title}{{Halogen-bonded cocrystals of 4-(N,N-dimethylamino)pyridine with fluorinated iodobenzenes}}
       \field{volume}{9}
       \field{year}{2009}
+      \field{dateera}{ce}
       \field{pages}{5319\bibrangedash 5326}
       \range{pages}{8}
       \verb{doi}
@@ -13229,6 +13480,7 @@
       \field{title}{{Thermodynamics of Halogen Bonding in Solution: Sub, Structural, and Solvent Effects}}
       \field{volume}{132}
       \field{year}{2010}
+      \field{dateera}{ce}
       \field{pages}{1646\bibrangedash 1653}
       \range{pages}{8}
       \verb{doi}
@@ -13279,6 +13531,7 @@
       \field{title}{{Halogen bonding in solution: Thermodynamics and applications}}
       \field{volume}{42}
       \field{year}{2013}
+      \field{dateera}{ce}
       \field{pages}{1667\bibrangedash 1680}
       \range{pages}{14}
       \verb{doi}
@@ -13318,6 +13571,7 @@
       \field{title}{{Establishing a hierarchy of halogen bonding by engineering crystals without disorder}}
       \field{volume}{13}
       \field{year}{2013}
+      \field{dateera}{ce}
       \field{pages}{4145\bibrangedash 4150}
       \range{pages}{6}
       \verb{doi}
@@ -13362,6 +13616,7 @@
       \field{title}{{Unprecedented Size of the {$\sigma$}-Holes on 1,3,5-Triiodo-2,4,6-trinitrobenzene Begets Unprecedented Intermolecular Interactions}}
       \field{volume}{16}
       \field{year}{2016}
+      \field{dateera}{ce}
       \field{pages}{1765\bibrangedash 1771}
       \range{pages}{7}
       \verb{doi}
@@ -13391,6 +13646,7 @@
       \field{title}{{Are halogen bonded structures electrostatically driven?}}
       \field{volume}{135}
       \field{year}{2013}
+      \field{dateera}{ce}
       \field{pages}{7005\bibrangedash 7009}
       \range{pages}{5}
       \verb{doi}
@@ -13428,6 +13684,7 @@
       \field{title}{{New insights into chalcogen bonding provided by co-crystal structures of benzisoselenazolinone derivatives and nitrogen bases}}
       \field{volume}{21}
       \field{year}{2019}
+      \field{dateera}{ce}
       \field{pages}{1539\bibrangedash 1542}
       \range{pages}{4}
       \verb{doi}
@@ -13477,6 +13734,7 @@
       \field{title}{{The Origin of Chalcogen-Bonding Interactions}}
       \field{volume}{139}
       \field{year}{2017}
+      \field{dateera}{ce}
       \field{pages}{15160\bibrangedash 15167}
       \range{pages}{8}
       \verb{doi}
@@ -13518,6 +13776,7 @@
       \field{title}{{Basic-substituted 2,6-bisbenzimidazole derivates, a novel class of substances with chemotherapeutic activity}}
       \field{volume}{24}
       \field{year}{1974}
+      \field{dateera}{ce}
       \field{pages}{1927\bibrangedash 1933}
       \range{pages}{7}
     \endentry
@@ -13554,6 +13813,7 @@
       \field{title}{{BINDING OF HOECHST-33258 TO THE MINOR GROOVE OF B-DNA}}
       \field{volume}{197}
       \field{year}{1987}
+      \field{dateera}{ce}
       \field{pages}{257\bibrangedash 271}
       \range{pages}{15}
       \verb{doi}
@@ -13633,6 +13893,7 @@
       \field{title}{{In Vitro Studies with Methylproamine: A Potent New Radioprotector}}
       \field{volume}{64}
       \field{year}{2004}
+      \field{dateera}{ce}
       \field{pages}{1067\bibrangedash 1070}
       \range{pages}{4}
       \verb{doi}
@@ -13668,6 +13929,7 @@
       \field{title}{{Über selenhaltige aromatische Verbindungen (VI)}}
       \field{volume}{57}
       \field{year}{1924}
+      \field{dateera}{ce}
       \field{pages}{1077\bibrangedash 1082}
       \range{pages}{6}
       \verb{doi}
@@ -13718,6 +13980,7 @@
       \field{title}{{Unusually short chalcogen bonds involving organoselenium: Insights into the SE-N bond cleavage mechanism of the antioxidant ebselen and analogues}}
       \field{volume}{21}
       \field{year}{2015}
+      \field{dateera}{ce}
       \field{pages}{6793\bibrangedash 6800}
       \range{pages}{8}
       \verb{doi}
@@ -13754,6 +14017,7 @@
       \field{title}{{Synthesis, characterization, and antioxidant activity of some ebselen analogues}}
       \field{volume}{13}
       \field{year}{2007}
+      \field{dateera}{ce}
       \field{pages}{4594\bibrangedash 4601}
       \range{pages}{8}
       \verb{doi}
@@ -13803,6 +14067,7 @@
       \field{title}{{2-Methyl-2H-1,2-benzisoselenazol-3-one}}
       \field{volume}{51}
       \field{year}{1995}
+      \field{dateera}{ce}
       \field{pages}{298\bibrangedash 301}
       \range{pages}{4}
       \verb{doi}
@@ -13890,6 +14155,7 @@
       \field{title}{{MX1: A bending-magnet crystallography beamline serving both chemical and macromolecular crystallography communities at the Australian Synchrotron}}
       \field{volume}{22}
       \field{year}{2015}
+      \field{dateera}{ce}
       \field{pages}{187\bibrangedash 190}
       \range{pages}{4}
       \verb{doi}
@@ -13923,6 +14189,7 @@
       \field{title}{{Crystal structure refinement with SHELXL}}
       \field{volume}{71}
       \field{year}{2015}
+      \field{dateera}{ce}
       \field{pages}{3\bibrangedash 8}
       \range{pages}{6}
       \verb{doi}
@@ -13998,6 +14265,7 @@
       \field{title}{{Mercury CSD 2.0 - New features for the visualization and investigation of crystal structures}}
       \field{volume}{41}
       \field{year}{2008}
+      \field{dateera}{ce}
       \field{pages}{466\bibrangedash 470}
       \range{pages}{5}
       \verb{doi}
@@ -14028,6 +14296,7 @@
       \field{title}{{WinGX suite for small-molecule single-crystal crystallography}}
       \field{volume}{32}
       \field{year}{1999}
+      \field{dateera}{ce}
       \field{pages}{837\bibrangedash 838}
       \range{pages}{2}
       \verb{doi}
@@ -14058,6 +14327,7 @@
       \field{labeltitlesource}{title}
       \field{title}{{3303.0 - Causes of Death, Australia, 2015}}
       \field{year}{2016}
+      \field{dateera}{ce}
       \verb{urlraw}
       \verb http://www.abs.gov.au/ausstats/abs@.nsf/Lookup/by Subject/3303.0~2015~Main Features~Australia%27s leading causes of death, 2015~3
       \endverb
@@ -14085,6 +14355,7 @@
       \field{labeltitlesource}{title}
       \field{title}{{New report analyses costs of cancer in Australia}}
       \field{year}{1998}
+      \field{dateera}{ce}
       \verb{urlraw}
       \verb http://www.aihw.gov.au/media-release-detail/?id=6442464280
       \endverb
@@ -14114,6 +14385,7 @@
       \field{month}{6}
       \field{title}{{Cancer breakthroughs trigger big pharma interest in drugs and deals}}
       \field{year}{2015}
+      \field{dateera}{ce}
     \endentry
     \entry{Hanahan2011}{article}{}
       \name{author}{2}{}{%
@@ -14146,6 +14418,7 @@
       \field{title}{{Hallmarks of Cancer: The Next Generation}}
       \field{volume}{144}
       \field{year}{2011}
+      \field{dateera}{ce}
       \field{pages}{646\bibrangedash 674}
       \range{pages}{29}
       \verb{doi}
@@ -14185,6 +14458,7 @@
       \field{title}{{The complexity of DNA damage: relevance to biological consequences.}}
       \field{volume}{66}
       \field{year}{1994}
+      \field{dateera}{ce}
       \field{pages}{427\bibrangedash 32}
       \range{pages}{6}
       \verb{doi}
@@ -14219,6 +14493,7 @@
       \field{booktitle}{Progress in Nucleic Acid Research and Molecular Biology}
       \field{title}{{DNA Damage Produced by Ionizing Radiation in Mammalian Cells: Identities, Mechanisms of Formation, and Reparability}}
       \field{year}{1988}
+      \field{dateera}{ce}
       \field{pages}{95\bibrangedash 125}
       \range{pages}{31}
       \verb{doi}
@@ -14262,6 +14537,7 @@
       \field{title}{{Factors contributing to the outcome of oxidative damage to nucleic acids}}
       \field{volume}{26}
       \field{year}{2004}
+      \field{dateera}{ce}
       \field{pages}{533\bibrangedash 542}
       \range{pages}{10}
       \verb{doi}
@@ -14294,6 +14570,7 @@
       \field{title}{{Biological basis of radiation therapy for cancer}}
       \field{volume}{339}
       \field{year}{1992}
+      \field{dateera}{ce}
       \field{pages}{156\bibrangedash 159}
       \range{pages}{4}
       \verb{doi}
@@ -14342,6 +14619,7 @@
       \field{title}{{Amifostine: The First Selective-Target and Broad-Spectrum Radioprotector}}
       \field{volume}{12}
       \field{year}{2007}
+      \field{dateera}{ce}
       \field{pages}{738\bibrangedash 747}
       \range{pages}{10}
       \verb{doi}
@@ -14388,6 +14666,7 @@
       \field{title}{{Helical Structure and Circular Dichroism Spectra of DNA: A Theoretical Study}}
       \field{volume}{117}
       \field{year}{2012}
+      \field{dateera}{ce}
       \field{pages}{42\bibrangedash 55}
       \range{pages}{14}
       \verb{doi}
@@ -14438,6 +14717,7 @@
       \field{title}{{THE MOLECULAR-STRUCTURE OF THE COMPLEX OF HOECHST-33258 AND THE DNA DODECAMER D(CGCGAATTCGCG)}}
       \field{volume}{16}
       \field{year}{1988}
+      \field{dateera}{ce}
       \field{pages}{2671\bibrangedash 2690}
       \range{pages}{20}
       \verb{doi}
@@ -14472,6 +14752,7 @@
       \field{title}{{Long-distance electron transfer through DNA.}}
       \field{volume}{71}
       \field{year}{2002}
+      \field{dateera}{ce}
       \field{pages}{51\bibrangedash 70}
       \range{pages}{20}
       \verb{doi}
@@ -14509,6 +14790,7 @@
       \field{title}{{QSAR studies on the mechanism of radioprotection by Hoechst 33258 analogues}}
       \field{volume}{714}
       \field{year}{2005}
+      \field{dateera}{ce}
       \field{pages}{35\bibrangedash 42}
       \range{pages}{8}
       \verb{doi}
@@ -14559,6 +14841,7 @@
       \field{title}{{A Survey of the Role of Noncovalent Sulfur Interactions in Drug Design}}
       \field{volume}{58}
       \field{year}{2015}
+      \field{dateera}{ce}
       \field{pages}{4383\bibrangedash 4438}
       \range{pages}{56}
       \verb{doi}
@@ -14605,6 +14888,7 @@
       \field{title}{{Cu-Catalyzed Efficient Synthetic Methodology for Ebselen and Related Se−N Heterocycles}}
       \field{volume}{12}
       \field{year}{2010}
+      \field{dateera}{ce}
       \field{pages}{5394\bibrangedash 5397}
       \range{pages}{4}
       \verb{doi}
@@ -14651,6 +14935,7 @@
       \field{title}{{New insights into chalcogen bonding provided by co-crystal structures of benzisoselenazolinone derivatives and nitrogen bases}}
       \field{volume}{21}
       \field{year}{2019}
+      \field{dateera}{ce}
       \field{pages}{1539\bibrangedash 1542}
       \range{pages}{4}
       \verb{doi}
@@ -14696,6 +14981,7 @@
       \field{title}{{A general and efficient copper catalyst for the amidation of aryl halides}}
       \field{volume}{124}
       \field{year}{2002}
+      \field{dateera}{ce}
       \field{pages}{7421\bibrangedash 7428}
       \range{pages}{8}
       \verb{doi}
@@ -14730,6 +15016,7 @@
       \field{title}{{Cu-catalyzed goldberg and ullmann reactions of aryl halides using chelating n- and o-based ligands}}
       \field{volume}{2}
       \field{year}{2007}
+      \field{dateera}{ce}
       \field{pages}{2474\bibrangedash 2478}
       \range{pages}{5}
       \verb{doi}
@@ -14792,6 +15079,7 @@
       \field{journaltitle}{Chem. Sci.}
       \field{title}{{Origins of High Catalyst Loading in Copper(I)-Catalysed Ullmann-Goldberg C-N Coupling Reactions}}
       \field{year}{2017}
+      \field{dateera}{ce}
       \field{pages}{7203\bibrangedash 7210}
       \range{pages}{8}
       \verb{doi}
