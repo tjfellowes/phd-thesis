@@ -9046,6 +9046,111 @@
 
 \refsection{4}
   \datalist[entry]{none/global//global/global}
+    \entry{Laurence1983}{article}{}
+      \name{author}{3}{}{%
+        {{hash=46dd9e0db38c1ab84fca30b90a0fa8e5}{%
+           family={Laurence},
+           familyi={L\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=21486c3799ffb7772129192e75dcd405}{%
+           family={Queignec-Cabanetos},
+           familyi={Q\bibinithyphendelim C\bibinitperiod},
+           given={Michèle},
+           giveni={M\bibinitperiod}}}%
+        {{hash=29512559a2d478e5fbe1c9b63d3cb097}{%
+           family={Wojtkowiak},
+           familyi={W\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{eaef00da6bda8cd3619dbc72c3127cdf}
+      \strng{fullhash}{6b5e086c4b9083838e33f1a121d0cf9e}
+      \strng{bibnamehash}{6b5e086c4b9083838e33f1a121d0cf9e}
+      \strng{authorbibnamehash}{6b5e086c4b9083838e33f1a121d0cf9e}
+      \strng{authornamehash}{eaef00da6bda8cd3619dbc72c3127cdf}
+      \strng{authorfullhash}{6b5e086c4b9083838e33f1a121d0cf9e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0008-4042}
+      \field{journaltitle}{Canadian Journal of Chemistry}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{{1-Iodoacétylènes. IV. Relations structure–réactivité pour la complexation des 1-iodoacétylènes substitués avec des bases de Lewis}}
+      \field{volume}{61}
+      \field{year}{1983}
+      \field{pages}{135\bibrangedash 138}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1139/v83-024
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/tfell/Documents/Mendeley Desktop/v83-024.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.nrcresearchpress.com/doi/10.1139/v83-024
+      \endverb
+      \verb{url}
+      \verb http://www.nrcresearchpress.com/doi/10.1139/v83-024
+      \endverb
+    \endentry
+    \entry{Sarwar2010}{article}{}
+      \name{author}{5}{}{%
+        {{hash=93b04e0bfde74a5948a5e086e9149481}{%
+           family={Sarwar},
+           familyi={S\bibinitperiod},
+           given={M\bibnamedelima G},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=9f86a7cc8a23ff4b8173945957cdc354}{%
+           family={Dragisic},
+           familyi={D\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+        {{hash=025fe844a679269b85b8310477b4c8f5}{%
+           family={Salsberg},
+           familyi={S\bibinitperiod},
+           given={L\bibnamedelima J},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=df240b8366e9286fc67827f36c35b1e3}{%
+           family={Gouliaras},
+           familyi={G\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=86f9f0eb2a6f3c2afb4dda9f67d6ebee}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={Mark\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{f02d606c7bd8dde4210bd8d6e284795a}
+      \strng{fullhash}{cdbdbe807604191c892685277bc50c7f}
+      \strng{bibnamehash}{cdbdbe807604191c892685277bc50c7f}
+      \strng{authorbibnamehash}{cdbdbe807604191c892685277bc50c7f}
+      \strng{authornamehash}{f02d606c7bd8dde4210bd8d6e284795a}
+      \strng{authorfullhash}{cdbdbe807604191c892685277bc50c7f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the American Chemical Society}
+      \field{number}{5}
+      \field{title}{{Thermodynamics of Halogen Bonding in Solution: Sub, Structural, and Solvent Effects}}
+      \field{volume}{132}
+      \field{year}{2010}
+      \field{pages}{1646\bibrangedash 1653}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1021/ja9086352
+      \endverb
+      \verb{urlraw}
+      \verb http://pubs.acs.org/doi/abs/10.1021/ja9086352
+      \endverb
+      \verb{url}
+      \verb http://pubs.acs.org/doi/abs/10.1021/ja9086352
+      \endverb
+    \endentry
     \entry{Berthelot1998}{article}{}
       \name{author}{4}{}{%
         {{hash=80e1820653e2f6221e0676e12a69e947}{%
@@ -9075,8 +9180,8 @@
       \strng{authorbibnamehash}{3c119bf5add1afb25202b87922b3d36d}
       \strng{authornamehash}{ce1c315f886041825c20d3faf4929185}
       \strng{authorfullhash}{3c119bf5add1afb25202b87922b3d36d}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of the Chemical Society, Perkin Transactions 2}
@@ -9129,8 +9234,8 @@
       \strng{authorbibnamehash}{7e859fe39e04364d82e532668006d8e2}
       \strng{authornamehash}{b1f5c8c9991896a60f4893acd21252da}
       \strng{authorfullhash}{7e859fe39e04364d82e532668006d8e2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Angewandte Chemie International Edition}
@@ -9241,8 +9346,8 @@
       \strng{authorbibnamehash}{ab522915628113b37f4fc3dffb163bef}
       \strng{authornamehash}{ab522915628113b37f4fc3dffb163bef}
       \strng{authorfullhash}{13b290269c9a5ce32aa5ed976f9f4b82}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2041-6520}
@@ -9264,6 +9369,128 @@
       \endverb
       \verb{url}
       \verb http://xlink.rsc.org/?DOI=D0SC05526C
+      \endverb
+    \endentry
+    \entry{Hansch1991}{article}{}
+      \name{author}{3}{}{%
+        {{hash=12b7fb42e12959db15f687c93cb7bb46}{%
+           family={Hansch},
+           familyi={H\bibinitperiod},
+           given={Corwin},
+           giveni={C\bibinitperiod}}}%
+        {{hash=678dd528e0e781cf9fb02e5100baf393}{%
+           family={Leo},
+           familyi={L\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=94f496347ac63478615a06111ebb5027}{%
+           family={Taft},
+           familyi={T\bibinitperiod},
+           given={R.\bibnamedelimi W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{feb14ab8c61ca96603d7bbddef7d81fe}
+      \strng{fullhash}{b4a728be7410df8e29d23ff3802d4f13}
+      \strng{bibnamehash}{b4a728be7410df8e29d23ff3802d4f13}
+      \strng{authorbibnamehash}{b4a728be7410df8e29d23ff3802d4f13}
+      \strng{authornamehash}{feb14ab8c61ca96603d7bbddef7d81fe}
+      \strng{authorfullhash}{b4a728be7410df8e29d23ff3802d4f13}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{15206890}
+      \field{journaltitle}{Chemical Reviews}
+      \field{number}{2}
+      \field{title}{{A Survey of Hammett Substituent Constants and Resonance and Field Parameters}}
+      \field{volume}{91}
+      \field{year}{1991}
+      \field{pages}{165\bibrangedash 195}
+      \range{pages}{31}
+      \verb{doi}
+      \verb 10.1021/cr00002a004
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/tfell/Documents/Mendeley Desktop/cr00002a004.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Reynolds1980}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ad9dd084269a05ec4dbd2f92c49e6b2d}{%
+           family={Reynolds},
+           familyi={R\bibinitperiod},
+           given={William\bibnamedelima F.},
+           giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{ad9dd084269a05ec4dbd2f92c49e6b2d}
+      \strng{fullhash}{ad9dd084269a05ec4dbd2f92c49e6b2d}
+      \strng{bibnamehash}{ad9dd084269a05ec4dbd2f92c49e6b2d}
+      \strng{authorbibnamehash}{ad9dd084269a05ec4dbd2f92c49e6b2d}
+      \strng{authornamehash}{ad9dd084269a05ec4dbd2f92c49e6b2d}
+      \strng{authorfullhash}{ad9dd084269a05ec4dbd2f92c49e6b2d}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1472779X}
+      \field{journaltitle}{Journal of the Chemical Society, Perkin Transactions 2}
+      \field{number}{7}
+      \field{title}{{An approach for assessing the relative importance of field and $\sigma$ inductive contributions to polar substituent effects based on the nonproportionality of field and $\sigma$ inductive substituent constants}}
+      \field{year}{1980}
+      \field{pages}{985\bibrangedash 991}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1039/P29800000985
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/tfell/Documents/Mendeley Desktop/p29800000985.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://xlink.rsc.org/?DOI=p29800000985
+      \endverb
+      \verb{url}
+      \verb http://xlink.rsc.org/?DOI=p29800000985
+      \endverb
+    \endentry
+    \entry{Jaffe1953}{article}{}
+      \name{author}{1}{}{%
+        {{hash=399c69c14e59050b26601dcd403611d1}{%
+           family={Jaffé},
+           familyi={J\bibinitperiod},
+           given={H.\bibnamedelimi H.},
+           giveni={H\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{399c69c14e59050b26601dcd403611d1}
+      \strng{fullhash}{399c69c14e59050b26601dcd403611d1}
+      \strng{bibnamehash}{399c69c14e59050b26601dcd403611d1}
+      \strng{authorbibnamehash}{399c69c14e59050b26601dcd403611d1}
+      \strng{authornamehash}{399c69c14e59050b26601dcd403611d1}
+      \strng{authorfullhash}{399c69c14e59050b26601dcd403611d1}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780521299701}
+      \field{issn}{0009-2665}
+      \field{journaltitle}{Chemical Reviews}
+      \field{month}{10}
+      \field{number}{2}
+      \field{title}{{A Reëxamination of the Hammett Equation.}}
+      \field{volume}{53}
+      \field{year}{1953}
+      \field{pages}{191\bibrangedash 261}
+      \range{pages}{71}
+      \verb{doi}
+      \verb 10.1021/cr60165a003
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/tfell/Documents/Mendeley Desktop/cr60165a003.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pubs.acs.org/doi/abs/10.1021/cr60165a003
+      \endverb
+      \verb{url}
+      \verb https://pubs.acs.org/doi/abs/10.1021/cr60165a003
       \endverb
     \endentry
     \entry{Dunitz1988}{misc}{}
@@ -9290,8 +9517,8 @@
       \strng{authorbibnamehash}{e6106cd61ae80d3b37c018c054f3bb8a}
       \strng{authornamehash}{0c7946d00652476275a0198b0491e5fb}
       \strng{authorfullhash}{e6106cd61ae80d3b37c018c054f3bb8a}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Angewandte Chemie International Edition in English}
@@ -9332,8 +9559,8 @@
       \strng{authorbibnamehash}{a96ed38f2949baa84d59c0576b2be9e3}
       \strng{authornamehash}{a96ed38f2949baa84d59c0576b2be9e3}
       \strng{authorfullhash}{a96ed38f2949baa84d59c0576b2be9e3}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{10907807}
@@ -9372,8 +9599,8 @@
       \strng{authornamehash}{442f3334da377bea97e3d1fea01f871e}
       \strng{authorfullhash}{442f3334da377bea97e3d1fea01f871e}
       \field{extraname}{1}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Journal of Physical Chemistry}
@@ -9414,8 +9641,8 @@
       \strng{authornamehash}{442f3334da377bea97e3d1fea01f871e}
       \strng{authorfullhash}{442f3334da377bea97e3d1fea01f871e}
       \field{extraname}{2}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Quantum Chemistry}
@@ -9450,8 +9677,8 @@
       \strng{authorbibnamehash}{29b5f781aea33a6be5fd183b2723ee35}
       \strng{authornamehash}{29b5f781aea33a6be5fd183b2723ee35}
       \strng{authorfullhash}{29b5f781aea33a6be5fd183b2723ee35}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Prog. Nucl. Magn. Reson. Spectrosc.}
@@ -9475,25 +9702,134 @@
       \verb https://linkinghub.elsevier.com/retrieve/pii/007965659400005F
       \endverb
     \endentry
-    \entry{???}{article}{}
-      \name{author}{1}{}{%
-        {{hash=d50234dd6877d81620249b82ff9ee58f}{%
-           family={Pedia},
-           familyi={P\bibinitperiod},
-           given={Wiki},
-           giveni={W\bibinitperiod}}}%
+    \entry{Foyle2020}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ebff40e47c85d3d8c15fd61387b7c7a2}{%
+           family={Foyle},
+           familyi={F\bibinitperiod},
+           given={Émer\bibnamedelima M.},
+           giveni={É\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=47f02280ea5e6285f0c73c9d5fed6e00}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={Nicholas\bibnamedelima G.},
+           giveni={N\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
       }
-      \strng{namehash}{d50234dd6877d81620249b82ff9ee58f}
-      \strng{fullhash}{d50234dd6877d81620249b82ff9ee58f}
-      \strng{bibnamehash}{d50234dd6877d81620249b82ff9ee58f}
-      \strng{authorbibnamehash}{d50234dd6877d81620249b82ff9ee58f}
-      \strng{authornamehash}{d50234dd6877d81620249b82ff9ee58f}
-      \strng{authorfullhash}{d50234dd6877d81620249b82ff9ee58f}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \list{publisher}{1}{%
+        {Royal Society of Chemistry}%
+      }
+      \strng{namehash}{185e1a164df23bfb38ad81b282e8491c}
+      \strng{fullhash}{185e1a164df23bfb38ad81b282e8491c}
+      \strng{bibnamehash}{185e1a164df23bfb38ad81b282e8491c}
+      \strng{authorbibnamehash}{185e1a164df23bfb38ad81b282e8491c}
+      \strng{authornamehash}{185e1a164df23bfb38ad81b282e8491c}
+      \strng{authorfullhash}{185e1a164df23bfb38ad81b282e8491c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{{CITATION NEEDED}}
+      \field{issn}{14668033}
+      \field{journaltitle}{CrystEngComm}
+      \field{number}{14}
+      \field{title}{{Anion templated crystal engineering of halogen bonding tripodal tris(halopyridinium) compounds}}
+      \field{volume}{22}
+      \field{year}{2020}
+      \field{pages}{2526\bibrangedash 2536}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1039/d0ce00241k
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/tfell/Documents/Mendeley Desktop/Foyle, White - 2020 - Anion templated crystal engineering of halogen bonding tripodal tris(halopyridinium) compounds.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Gilday2013}{article}{}
+      \name{author}{3}{}{%
+        {{hash=6695323635243ce266255f7802ae5ecf}{%
+           family={Gilday},
+           familyi={G\bibinitperiod},
+           given={Lydia\bibnamedelima C.},
+           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=47f02280ea5e6285f0c73c9d5fed6e00}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={Nicholas\bibnamedelima G.},
+           giveni={N\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=d0867d6f81d825fe866f7f9da7a8450e}{%
+           family={Beer},
+           familyi={B\bibinitperiod},
+           given={Paul\bibnamedelima D.},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{2b1981c3b4bb7f479f691380b5a445ea}
+      \strng{fullhash}{37f59fff92714257be7784dcc71163a9}
+      \strng{bibnamehash}{37f59fff92714257be7784dcc71163a9}
+      \strng{authorbibnamehash}{37f59fff92714257be7784dcc71163a9}
+      \strng{authornamehash}{2b1981c3b4bb7f479f691380b5a445ea}
+      \strng{authorfullhash}{37f59fff92714257be7784dcc71163a9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Dalton Transactions}
+      \field{number}{44}
+      \field{title}{{Halogen- and hydrogen-bonding triazole-functionalised porphyrin-based receptors for anion recognition}}
+      \field{volume}{42}
+      \field{year}{2013}
+      \field{pages}{15766\bibrangedash 15773}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1039/c3dt52093e
+      \endverb
+    \endentry
+    \entry{Garrett2015a}{article}{}
+      \name{author}{5}{}{%
+        {{hash=43d0c5d4eac6b93b061708cb97b8a39f}{%
+           family={Garrett},
+           familyi={G\bibinitperiod},
+           given={Graham\bibnamedelima E.},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=eaef5a90e7a3d3ca9f0ead508a58c583}{%
+           family={Gibson},
+           familyi={G\bibinitperiod},
+           given={Gregory\bibnamedelima L.},
+           giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=98316c56c195b29fd7c713d90d849aa4}{%
+           family={Straus},
+           familyi={S\bibinitperiod},
+           given={Rita\bibnamedelima N.},
+           giveni={R\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=7dee4ce2e59584bfc15ff773c3fcc2fa}{%
+           family={Seferos},
+           familyi={S\bibinitperiod},
+           given={Dwight\bibnamedelima S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=86f9f0eb2a6f3c2afb4dda9f67d6ebee}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={Mark\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b0da625b9e944b41f8b1740b4a8d036f}
+      \strng{fullhash}{99245da8f2887567ed354809878c5607}
+      \strng{bibnamehash}{99245da8f2887567ed354809878c5607}
+      \strng{authorbibnamehash}{99245da8f2887567ed354809878c5607}
+      \strng{authornamehash}{b0da625b9e944b41f8b1740b4a8d036f}
+      \strng{authorfullhash}{99245da8f2887567ed354809878c5607}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the American Chemical Society}
+      \field{number}{12}
+      \field{title}{{Chalcogen bonding in solution: Interactions of benzotelluradiazoles with anionic and uncharged Lewis bases}}
+      \field{volume}{137}
+      \field{year}{2015}
+      \field{pages}{4126\bibrangedash 4133}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1021/ja512183e
+      \endverb
     \endentry
     \entry{Thordarson2011}{article}{}
       \name{author}{1}{}{%
@@ -9509,8 +9845,8 @@
       \strng{authorbibnamehash}{be16284ec0f8dbafaa64106c3797a532}
       \strng{authornamehash}{be16284ec0f8dbafaa64106c3797a532}
       \strng{authorfullhash}{be16284ec0f8dbafaa64106c3797a532}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Chem. Soc. Rev.}
@@ -9793,8 +10129,8 @@
       \strng{authorbibnamehash}{6622dc8e632cc7d9c84e608a60880a7b}
       \strng{authornamehash}{c87ab471633ab0c34534406fe09a8b1b}
       \strng{authorfullhash}{6622dc8e632cc7d9c84e608a60880a7b}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Acta Crystallographica Section C Crystal Structure Communications}

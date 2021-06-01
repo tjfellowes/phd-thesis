@@ -97,7 +97,7 @@
 \ExplSyntaxOn
 \cs_new:Npn \chem_int_to_hammett:n #1
 {
-    \int_to_symbols:nnn {#1} { 9 }
+    \int_to_symbols:nnn {#1} { 10 }
     {
         { 1 } { \ce{NO2} }
         { 2 } { \ce{CN} }
@@ -108,6 +108,7 @@
         { 7 } { \ce{OMe} }
         { 8 } { \ce{OEt} }
         { 9 } { \ce{CO2H} }
+        {10 } { ??? }
     }
 }
 
