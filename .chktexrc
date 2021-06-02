@@ -26,4 +26,5 @@ Silent
     \keywords  
     \mainmatter	
     \backmatter
+    \FloatBarrier
 }

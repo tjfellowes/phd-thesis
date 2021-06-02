@@ -70,6 +70,10 @@
 \MakePerPage{footnote}
 
 \usepackage{cleveref}
+\usepackage{doi}
+\renewcommand{\doitext}{DOI:\ }
+
+
 \crefname{scheme}{scheme}{schemes}
 
 \newcommand{\cmpdrow}[2]{\refcmpd{#1} & \texttt{#1} & \vspace{0.4cm}\parbox[c]{4cm}{\centering\includegraphics[scale=0.6]{Figures/loc/#2}}}
@@ -129,11 +133,8 @@
 
 \DeclareFieldFormat{doi}{%
   \newline
-  \mkbibacro{DOI}\addcolon\space
-    \ifhyperref
-      {\href{http://dx.doi.org/#1}{\footnotesize\nolinkurl{#1}}}
-      {\footnotesize\nolinkurl{#1}}}
-
+  \footnotesize\doi{#1}
+}
 %% ----------------------------------------------------------------
 \begin{document}
 
@@ -226,7 +227,7 @@
 %\lhead{\emph{List of Compounds}} 
 \listofcompounds{ccc}  % Include a list of Abbreviations (a table of two columns)
 {
-\textbf{Compound number} & \textbf{Compound code} & \textbf{Structure} \\
+\textbf{\#} & \textbf{Compound code} & \textbf{Structure} \\
 \cmpdrow{ebs}{ebs.eps} \\
 \refcmpd{ebs}\textbf{R} & \texttt{ebs.4R} & \vspace{0.4cm}\parbox[c]{4cm}{\centering\includegraphics[scale=0.6]{Figures/loc/ebs_r.eps}} \\
 \cmpdrow{ebs.bn}{ebs_bn.eps} \\

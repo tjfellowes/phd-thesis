@@ -714,21 +714,25 @@
       \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{issn}{1359-7345}
       \field{journaltitle}{Chemical Communications}
+      \field{number}{16}
       \field{title}{{Neutral iodotriazole foldamers as tetradentate halogen bonding anion receptors}}
-      \field{volume}{00}
+      \field{volume}{53}
       \field{year}{2017}
-      \field{dateera}{ce}
-      \field{pages}{1\bibrangedash 3}
-      \range{pages}{3}
+      \field{pages}{2483\bibrangedash 2486}
+      \range{pages}{4}
       \verb{doi}
-      \verb 10.1039/x0xx00000x
+      \verb 10.1039/C7CC00727B
+      \endverb
+      \verb{file}
+      \verb :Users/tfellowes/Library/Application Support/Mendeley Desktop/Downloaded/Borissov et al. - 2017 - Neutral iodotriazole foldamers as tetradentate halogen bonding anion receptors.pdf:pdf
       \endverb
       \verb{urlraw}
-      \verb http://dx.doi.org/10.1039/C7CC00727B
+      \verb http://dx.doi.org/10.1039/C7CC00727B http://xlink.rsc.org/?DOI=C7CC00727B
       \endverb
       \verb{url}
-      \verb http://dx.doi.org/10.1039/C7CC00727B
+      \verb http://dx.doi.org/10.1039/C7CC00727B%20http://xlink.rsc.org/?DOI=C7CC00727B
       \endverb
     \endentry
     \entry{Murray2007}{article}{}
