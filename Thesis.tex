@@ -70,9 +70,12 @@
 \MakePerPage{footnote}
 
 \usepackage{cleveref}
-\usepackage{doi}
-\renewcommand{\doitext}{DOI:\ }
-
+\ifpdf
+  \usepackage{doi}
+  \renewcommand{\doitext}{DOI:\ }
+\else
+  \newcommand{\doi}{\gobble{#1}}
+\fi
 
 \crefname{scheme}{scheme}{schemes}
 

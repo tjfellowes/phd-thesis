@@ -601,7 +601,29 @@ As the base gets stronger, the Ch-bond length varies less with the electron dema
 This can be rationalised as the potential energy surface for the Ch-bond stretching becomes steeper as the base gets stronger, meaning the distance is less affected by the electronics of the donor.
 Incidentally, we believe this is also why the more electron poor systems do not display the same variation in bond lengths that we see in the electron rich systems (see \cref{sec:z2} for further details).
 
-Hammett plots can also be constructed using the electron density parameters at the bond critical point ($\rho_\text{BCP}$ and $\nabla^2\rho_{\text{BCP}}$) of the Ch bond (\cref{fig:hammett-qtaim-dmap,fig:hammett-qtaim-pyrrol,fig:hammett-qtaim-morph}).
+\begin{figure}
+  \begin{subfigure}[t]{0.45\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{Figures/ebs-dmap-rho.png}
+    \caption{Electron density in the plane of the benzisoselenazolinone system.}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[t]{0.45\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{Figures/ebs-dmap-lapl.png}
+    \caption{Laplacian in the plane of the benzisoselenazolinone system. Positive values are shown in blue, and negative in red. BCPs are shown as black circles}
+  \end{subfigure}
+  \caption{QTAIM plots of \refcmpd{ebs}$\cdot$DMAP.}\label{fig:ebs-dmap-qtaim}
+\end{figure}
+
+Analysis of the electron density within the QTAIM framework affords plots such as those shown in \cref{fig:ebs-dmap-qtaim}.
+The electron density can be see to be somewhat concentrated in the covalent \ce{C-C} bonds, but less so in the Ch-bond.
+The Laplacian at the Ch-bond BCP can also be seen to be positive, in contrast to the covalent bonds.
+Interestingly the endocyclic \ce{Se-N} bond has similar values for $\nabla^{2}\rho(\textbf{r})$ and $\rho(\textbf{r})$, suggesting that this bond is mostly electrostatic as well.
+Superficially identical plots are obtained for other derivatives, which are not shown in the interests of brevity.
+The resulting parameters are, however, tabulated in \cref{tab:bondlengths2}.
+
+Hammett plots can also be constructed using these parameters ($\rho_\text{BCP}$ and $\nabla^2\rho_{\text{BCP}}$) of the Ch bond (\cref{fig:hammett-qtaim-dmap,fig:hammett-qtaim-pyrrol,fig:hammett-qtaim-morph}).
 The electron density $\rho_\text{BCP}$ shows a similar trend to the bond distance ($\rho_{\text{BCP}} = (0.379(16) + 0.105(37) \times \sigma_\text{p})$~e/\AA\textsuperscript{3}~($R^2=0.3783$)), while the Laplacian $\nabla^2\rho_{\text{BCP}}$ is more or less independent of the Hammett constant ($\nabla^2\rho_{\text{BCP}} = (2.74(13) + 0.05(29) \times \sigma_\text{p})$~e/\AA\textsuperscript{5}~($R^2=0.002$)).
 This reinforces the significance of the Laplacian not as an indicator of the strength of an interaction, but as a measure of its ionic or covalent character, which does not appear to change significantly across the range of electron demand.
 
