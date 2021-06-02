@@ -74,7 +74,7 @@
   \usepackage{doi}
   \renewcommand{\doitext}{DOI:\ }
 \else
-  \newcommand{\doi}{\gobble{#1}}
+  \newcommand{\doi}[1]{#1}
 \fi
 
 \crefname{scheme}{scheme}{schemes}
@@ -302,13 +302,25 @@ $\sigma$ & estimated standard deviation\\
 % Include the chapters of the thesis, as separate files
 % Just uncomment the lines as you write the chapters
 
-\input{Chapters/Chapter1}
+\input{Chapters/intro}
 
-\input{Chapters/Chapter2}
+\part{The strength and nature of chalcogen bonding}
 
-\input{Chapters/Chapter3}
+\input{Chapters/co-crystal-structures}
 
-\input{Chapters/Chapter4}
+\input{Chapters/hammett-studies}
+
+\part{Chalcogen bonding at oxygen}
+
+\input{Chapters/o-ch-bonding}
+
+\part{Applications of Ch-bonding}
+
+\input{Chapters/thermal-conversion}
+
+\input{Chapters/dna-binder}
+
+\input{Chapters/ebs-param}
 
 \input{Chapters/Conclusion}
 
