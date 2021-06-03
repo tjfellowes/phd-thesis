@@ -6972,6 +6972,52 @@
       \verb 10.1021/jo00384a013
       \endverb
     \endentry
+    \entry{McAdoo1993}{article}{}
+      \name{author}{2}{}{%
+        {{hash=afb956523cd00ae59f048b53f92ae3c6}{%
+           family={McAdoo},
+           familyi={M\bibinitperiod},
+           given={David\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=d50f974642bfb7b3d1061ac1f9fd43e8}{%
+           family={Morton},
+           familyi={M\bibinitperiod},
+           given={Thomas\bibnamedelima Hellman},
+           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{1546c80414dbb9d17f9d16cc1c07254f}
+      \strng{fullhash}{1546c80414dbb9d17f9d16cc1c07254f}
+      \strng{bibnamehash}{1546c80414dbb9d17f9d16cc1c07254f}
+      \strng{authorbibnamehash}{1546c80414dbb9d17f9d16cc1c07254f}
+      \strng{authornamehash}{1546c80414dbb9d17f9d16cc1c07254f}
+      \strng{authorfullhash}{1546c80414dbb9d17f9d16cc1c07254f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{5101280321}
+      \field{issn}{0001-4842}
+      \field{journaltitle}{Accounts of Chemical Research}
+      \field{month}{6}
+      \field{number}{6}
+      \field{title}{{Gas-phase analogs of cage effects}}
+      \field{volume}{26}
+      \field{year}{1993}
+      \field{pages}{295\bibrangedash 302}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1021/ar00030a001
+      \endverb
+      \verb{file}
+      \verb :Users/tfellowes/Documents/Mendeley Desktop/McAdoo, Morton - 1993 - Gas-phase analogs of cage effects.pdf:pdf;:Users/tfellowes/Documents/Mendeley Desktop/McAdoo, Morton - 1993 - Gas-phase analogs of cage effects.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pubs.acs.org/doi/abs/10.1021/ar00030a001
+      \endverb
+      \verb{url}
+      \verb https://pubs.acs.org/doi/abs/10.1021/ar00030a001
+      \endverb
+    \endentry
     \entry{Emsley1980}{article}{}
       \name{author}{1}{}{%
         {{hash=1c3f1ecab449b66209f630f03e32ec2d}{%
@@ -7129,8 +7175,8 @@
       \strng{authorbibnamehash}{8fe742421e800f0b51832a12edd7d1e3}
       \strng{authornamehash}{8fe742421e800f0b51832a12edd7d1e3}
       \strng{authorfullhash}{8fe742421e800f0b51832a12edd7d1e3}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Acta Crystallographica Section C: Structural Chemistry}
