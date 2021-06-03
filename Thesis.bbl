@@ -6932,6 +6932,70 @@
       \verb https://www.r-project.org/
       \endverb
     \endentry
+    \entry{Daolio2020}{article}{}
+      \name{author}{6}{}{%
+        {{hash=67dd5d4a3209efe3825f715fe3c13316}{%
+           family={Daolio},
+           familyi={D\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1419a51ecb87a071842abe139cce98fb}{%
+           family={Scilabra},
+           familyi={S\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+        {{hash=52aeb4d46efa0271c1751731825f5066}{%
+           family={{Di Pietro}},
+           familyi={D\bibinitperiod},
+           given={Maria\bibnamedelima Enrica},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=1ef250f15aa8ec538b02c83330984315}{%
+           family={Resnati},
+           familyi={R\bibinitperiod},
+           given={Chiara},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e052cb7830d416d82d5eab8754a2a803}{%
+           family={Rissanen},
+           familyi={R\bibinitperiod},
+           given={Kari},
+           giveni={K\bibinitperiod}}}%
+        {{hash=a39b84423cfd1d0395af89144c948c23}{%
+           family={Resnati},
+           familyi={R\bibinitperiod},
+           given={Giuseppe},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Royal Society of Chemistry}%
+      }
+      \strng{namehash}{6966fa46eff8167f6b675fddc6d3c2df}
+      \strng{fullhash}{180bce73506dac43a284079966134cfb}
+      \strng{bibnamehash}{180bce73506dac43a284079966134cfb}
+      \strng{authorbibnamehash}{180bce73506dac43a284079966134cfb}
+      \strng{authornamehash}{6966fa46eff8167f6b675fddc6d3c2df}
+      \strng{authorfullhash}{180bce73506dac43a284079966134cfb}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Ebselen, a compound active against SARS-CoV-2, forms a bifurcated supramolecular synthon thanks to chalcogen bond and hydrogen bond cooperation.}
+      \field{issn}{1144-0546}
+      \field{journaltitle}{New Journal of Chemistry}
+      \field{title}{{Binding motif of ebselen in solution: chalcogen and hydrogen bonds team up}}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.1039/D0NJ04647G
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/tfell/Documents/Mendeley Desktop/Daolio et al. - 2020 - Binding motif of ebselen in solution chalcogen and hydrogen bonds team up.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://xlink.rsc.org/?DOI=D0NJ04647G
+      \endverb
+      \verb{url}
+      \verb http://xlink.rsc.org/?DOI=D0NJ04647G
+      \endverb
+    \endentry
     \entry{Blackstock1987}{article}{}
       \name{author}{3}{}{%
         {{hash=75c120744eb78f4eb3b8eb444907668b}{%
@@ -6991,8 +7055,8 @@
       \strng{authorbibnamehash}{1546c80414dbb9d17f9d16cc1c07254f}
       \strng{authornamehash}{1546c80414dbb9d17f9d16cc1c07254f}
       \strng{authorfullhash}{1546c80414dbb9d17f9d16cc1c07254f}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{5101280321}
@@ -7032,8 +7096,8 @@
       \strng{authorbibnamehash}{1c3f1ecab449b66209f630f03e32ec2d}
       \strng{authornamehash}{1c3f1ecab449b66209f630f03e32ec2d}
       \strng{authorfullhash}{1c3f1ecab449b66209f630f03e32ec2d}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Chemical Society Reviews}
@@ -7068,8 +7132,8 @@
       \strng{authorbibnamehash}{466b624a8c89dc81865e366368cefa0d}
       \strng{authornamehash}{466b624a8c89dc81865e366368cefa0d}
       \strng{authorfullhash}{466b624a8c89dc81865e366368cefa0d}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Modern Mass Spectrometry}
@@ -7102,8 +7166,8 @@
       \strng{authorbibnamehash}{8dc94f74cdd744037531af7d7d340be9}
       \strng{authornamehash}{8dc94f74cdd744037531af7d7d340be9}
       \strng{authorfullhash}{8dc94f74cdd744037531af7d7d340be9}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Mass Spectrometry Reviews}
@@ -7142,8 +7206,8 @@
       \strng{authorbibnamehash}{812d436b6a831102757782bd152ef0e6}
       \strng{authornamehash}{d18cb0800e8564f370ef6ee7ff56ffd5}
       \strng{authorfullhash}{812d436b6a831102757782bd152ef0e6}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Physical Chemistry A}
