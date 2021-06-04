@@ -38,10 +38,10 @@ The drawbacks are that MM relies on having an extensive parameter set (a ``force
 
 Both of these issues are encountered when attempting to model ebselen using MM.\@
 Firstly, parameters to describe selenium-containing small molecules are simply not available in most popular force fields, including GAFF, Gromos, and CGenFF.\@
-This has been substantially addressed in the work of Torsello et al., where extensive parametrization of a series of diaryl diselenides and diaryl ditellurides was performed, and they provided a methodology to extend this to general chalcogen-containing molecules.\autocite{Torsello2016}
+This has been substantially addressed in the work of \citeauthor{Torsello2016}, where extensive parametrization of a series of diaryl diselenides and diaryl ditellurides was performed, and they provided a methodology to extend this to general chalcogen-containing molecules.\autocite{Torsello2016}
 They did not, however, address the second issue of quantum effects, which is reasonable given that they do not play a large role in diselenides.
 The chemistry of ebselen, on the other hand, is dominated by the $ \sigma $-hole, which is a quantum effect.\autocite{Thomas2015}
-The $ \sigma $-hole is a region of positive electrostatic potential situated opposite to the\ce{Se-N} bond, caused by a strongly anisotropic electron distribution around the selenium atom.
+The $ \sigma $-hole is a region of positive electrostatic potential situated opposite to the \ce{Se-N} bond, caused by a strongly anisotropic electron distribution around the selenium atom.
 This causes the selenium to adopt a highly directional electrophilic character, which can lead to the formation of ``chalcogen-bonds'' with electron pair donors (named by analogy to the ubiquitous hydrogen bond).\autocite{Murray2009}
 
 The presence of a $ \sigma $-hole is not a new problem in MM, nor are they exclusive to chalcogens, as they are also found on the heavier halogens, where they give rise to halogen bonding.\autocite{Clark2007}
@@ -59,7 +59,7 @@ Furthermore, recent high-profile work has highlighted the need for an accurate f
 In this work we develop a parameter set for the selenium atom in ebselen, including a pseudoatom to simulate the $ \sigma $-hole.
 We have based the force field on GAFF, due to its popularity and ability to describe most drug like molecules in a way which is compatible with biomolecular force fields.
 Although GAFF is designed to work in the AMBER molecular dynamics system, we used GROMACS to develop the parameters, as it natively supports massless pseudoatoms which were critical for the description of the $ \sigma $-hole.
-In principle, the work could be translated to any program that supports massless points, or the pseudoatom could even be given a mass and associated harmonic parameters which would enable some level of polarisability.
+In principle, this work could be translated to any program that supports massless points, or the pseudoatom could even be given a mass and associated harmonic parameters which would enable some level of polarisability.
 However we have simply provided the GROMACS parameters with the massless point for its numerical stability and speed.
 Using these parameters, we show that this model accurately reproduces experimental geometries and energies, and compares favourably to \emph{ab initio} calculations.
 This force field will prove useful in understanding the interactions between ebselen and current targets, and possibly lead to the discovery of new targets.

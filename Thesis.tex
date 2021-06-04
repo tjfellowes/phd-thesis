@@ -138,6 +138,19 @@
   \newline
   \footnotesize\doi{#1}
 }
+
+\renewbibmacro*{name:andothers}{
+  \ifboolexpr{
+    test {\ifnumequal{\value{listcount}}{\value{liststop}}}
+    and
+    test \ifmorenames
+  }
+    {\ifnumgreater{\value{liststop}}{1}
+       {\finalandcomma}
+       {}%
+     \andothersdelim\bibstring[\emph]{andothers}}
+    {}}
+
 %% ----------------------------------------------------------------
 \begin{document}
 
@@ -302,27 +315,31 @@ $\sigma$ & estimated standard deviation\\
 % Include the chapters of the thesis, as separate files
 % Just uncomment the lines as you write the chapters
 
-\input{Chapters/intro}
+\part{Background}
+
+\input{Chapters/1-intro}
+
+\input{Chapters/2-methods}
 
 \part{The strength and nature of chalcogen bonding}
 
-\input{Chapters/co-crystal-structures}
+\input{Chapters/3-co-crystal-structures}
 
-\input{Chapters/hammett-studies}
+\input{Chapters/4-hammett-studies}
 
 \part{Chalcogen bonding at oxygen}
 
-\input{Chapters/o-ch-bonding}
+\input{5-Chapters/o-ch-bonding}
 
 \part{Applications of Ch-bonding}
 
-\input{Chapters/thermal-conversion}
+\input{7-Chapters/thermal-conversion}
 
-\input{Chapters/dna-binder}
+\input{8-Chapters/dna-binder}
 
-\input{Chapters/ebs-param}
+\input{9-Chapters/ebs-param}
 
-\input{Chapters/Conclusion}
+\input{10-Chapters/Conclusion}
 
 %% ----------------------------------------------------------------
 % Now begin the Appendices, including them as separate files

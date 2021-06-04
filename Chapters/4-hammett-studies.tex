@@ -7,7 +7,7 @@ In the previous chapter, we established that Ch-bonding is not only present in e
 In this chapter, we extend our investigation to a wider range of derivatives with systematically varied electronic properties.
 
 Linear free energy relationships (LFERs) relate the rate of a chemical reaction with some electronic property of the substrate molecule(s).
-Although the single crystal structures presented here are \emph{static} snapshots of reality, we can think of them as representative of the transition state of the breaking of the endocyclic \ce{Se-N} bond (\cref{fig:bond-breaking}).
+Although the single crystal structures presented here are \emph{static} snapshots of reality, we can think of them as representative of progress toward the transition state for a particular reaction, in this case the formation of a \ce{N_{base} \cdots Se} bond and the concomitant breaking of the endocyclic \ce{Se-N} bond (\cref{fig:bond-breaking}).
 The lower the transition state energy, the shorter will be the \ce{Se\dots N} Ch-bond distance, and this is clearly influenced by the electronic properties of both the Ch-bond donor and acceptor.
 They have been used previously to explain trends in X-bonding.\autocite{Laurence1983,Sarwar2010}
 
@@ -65,9 +65,9 @@ All derivatives except \cmpd{ebs.4no2} were isolated in acceptable yield at room
 Due to the strongly electron-withdrawing nature of the nitro substituent, the parent aniline of \cmpd{ebs.4no2} was not sufficiently nucleophilic to react under the same conditions.
 We therefore first deprotonated the aniline using \ce{NaH} (60\% suspension in mineral oil) in anhydrous THF before adding the selenyl chloride, which afforded the benzisoselenazolinone in excellent yield.
 
-We also note the solubility trends of the products as the electron demand of the substituent increases.
-The electron rich derivatives \cmpd[merge=false,compress=false]{ebs.4ome,ebs.4oet,ebs.4me} were highly soluble even in relatively poor solvents (\ce{Et2O}, \ce{EtOAc}), while the electron poor derivatives \cmpd{ebs.4no2,ebs.4cn} were insoluble in all but the strongest solvents (DMSO).
-This likely reflects the varying strength of the crystal packing due to the \ce{Se\cdots O=C} Ch-bond.
+%We also note the solubility trends of the products as the electron demand of the substituent increases.
+%The electron rich derivatives \cmpd[merge=false,compress=false]{ebs.4ome,ebs.4oet,ebs.4me} were highly soluble even in relatively poor solvents (\ce{Et2O}, \ce{EtOAc}), while the electron poor derivatives \cmpd{ebs.4no2,ebs.4cn} were insoluble in all but the strongest solvents (DMSO).
+%This likely reflects the varying strength of the crystal packing due to the \ce{Se\cdots O=C} Ch-bond.
 
 Co-crystals of the benzisoselenazolinones and pyridines were grown by vapour diffusion from an equimolar solution in dichloromethane/pentane.
 Relevant structural parameters are given in \cref{tab:bondlengths2}.
@@ -314,7 +314,7 @@ This reinforces the significance of the Laplacian not as an indicator of the str
 \subsubsection{Co-crystals where \texorpdfstring{$Z^\prime=2$}{Z'=2}}\label{sec:z2}
 DFT calculations show that the vibrational mode associated with Ch-bond stretching is found at very low energy.
 The force constant is 5--10~$\mu$dyne$ \cdot $\AA$^{-1}$, which means that the energetic penalty associated with a 0.18~\AA\ deformation (the difference between the shortest and longest Ch-bond length in \cmpd{ebs.4ome}$ \cdot $DMAP) is only 0.02--0.03~kcal$ \cdot $mol$^{-1}$.
-Crystal packing forces (the sum of weak interactions such as \ce{C-H}/$\pi$, $\pi /\pi$ and \ce{C-H}/O interactions) are commonly accepted to be in the range of 1--2~kcal$ \cdot $mol$^{-1}$, so it is perhaps not surprising that the Ch-bond is deformed by the crystal environment.\autocite{Dunitz1988}
+Crystal packing forces (the sum of weak interactions such as \ce{C-H}/$\pi$, $\pi /\pi$ and \ce{C-H}/O interactions) are commonly accepted to be in the range of 1--2~kcal$ \cdot $mol$^{-1}$, so it is perhaps not surprising that the Ch-bond is readily deformed by the crystal environment.\autocite{Dunitz1988}
 
 That said, there are no obvious differences between the two Ch-bond environments in any of the crystals that display this effect.
 We performed a solid state IR experiment to probe the crystalline environment surrounding the carbonyl, which is dependent on the Ch-bond environment due to conjugation through the amidic nitrogen (\cref{fig:ebs-4oet-dmap-ir}).
@@ -327,7 +327,7 @@ We performed a solid state IR experiment to probe the crystalline environment su
 
 In the pure compound the carbonyl peak is found at approximately 1590~cm$^{-1}$ and is relatively sharp and well defined.
 In the co-crystal, we observe the carbonyl peak at higher wave number (1610~cm$^{-1}$), due to the increased double bond character, as the $\pi$ system and oxygen lone pair are no longer involved in the Ch-bond.
-This effect ostensibly outweighs the \emph{decreased} double bond character caused by the shortened Ch-bond formed between the pyridyl nitrogen and selenium (see \cref{fig:bond-breaking} for a depiction of the decreased carbonyl double bond character).
+This effect ostensibly outweighs the \emph{decreased} double bond character expected to be caused by the shortened Ch-bond formed between the pyridyl nitrogen and selenium (see \cref{fig:bond-breaking} for a depiction of the decreased carbonyl double bond character).
 
 \begin{comment}
 \begin{figure}
@@ -338,13 +338,14 @@ This effect ostensibly outweighs the \emph{decreased} double bond character caus
 \end{figure}
 \end{comment}
 
-If there are truly two Ch-bonded environments, we would expect to see splitting or at least broadening of the carbonyl signal in the IR spectrum of the co-crystal.
-This is not the case, meaning that either the difference is too small to be seen in the spectrum, or the two environments are actually the same, and the measured differences are a crystallographic artefact, either a manifestation of missed symmetry, disorder, or a doubled cell.
+If there are truly two Ch-bonded environments, we might expect to see splitting or at least broadening of the carbonyl signal in the IR spectrum of the co-crystal.
+This is not the case, meaning that either the difference is too small to be seen in the spectrum, or the two environments are actually the same, and the measured differences are a crystallographic artefact, either a manifestation of missed symmetry, or a doubled cell.
 
 However, we do not believe this is likely, for two reasons.
 Firstly, the data was of extremely high quality, and no alerts were raised in the ADDSYM routine of PLATON.\@
 Secondly, a refinement was conducted with a tight SADI restraint on the Ch-bonds ($\sigma=0.0001$), which forced them to adopt the same length of approximately 1.949~\AA.\@
 This increased the R-factor by 1.2\%, and significant residual density was visible where the pyridyl nitrogen had been displaced.
+%Figure here
 Furthermore, removal of the restraint recovered the original model, ruling out the possibility of a false minimum.
 
 Solid state NMR of the co-crystal was also used to investigate the crystalline environment.
@@ -391,6 +392,7 @@ The aromatic region of the solid state \ce{^{13}C} spectrum is shown in \cref{fi
 Good agreement is observed for all signals, with some interesting phenomena visible in the solid state spectrum.
 Firstly, the signal at 138.62~ppm corresponding to C8 is split into a 1:1:1 triplet, possibly due to coupling to the spin 1 \ce{^{14}N} nucleus adjacent.
 However this is not observed for the C7 signal, nor any signals in the pyridyl ring.
+The origin of the splitting is not clear at this stage.
 Secondly, shoulders can be seen on the C15/C19 and C16/C18 signals.
 This indicates that the crystalline environment surrounding each DMAP is different, which provides further evidence that there are indeed two systems in the asymmetric unit.
 The relatively poor resolution of the solid state \ce{^{13}C} NMR spectrum limits further analysis, particularly of the C1 signal which is obscured by several other signals.
@@ -431,7 +433,7 @@ This can be seen in the latter two principal values of the chemical shift tensor
   \begin{subfigure}{\linewidth}
     \centering
     \includegraphics[height=0.28\textheight]{Figures/ebs-4ome-dmap-cpmas-77se.pdf}
-    \caption{\ce{^{77}Se} CPMAS NMR spectrum of \refcmpd{ebs.4ome}$ \cdot $DMAP.}
+    \caption{\ce{^{77}Se} CPMAS NMR spectrum of \refcmpd{ebs.4ome}$ \cdot $DMAP. The two anisotropic chemical shifts...}
   \end{subfigure}
   \begin{subfigure}{\linewidth}
     \centering
@@ -466,7 +468,7 @@ In order to verify our results, we also \emph{calculated} the chemical shielding
 These calculations were conducted at the $ \omega $B97X-D/def2-TZVP level, using the GIAO method of calculating shielding tensors.\autocite{Schreckenbach1995CalculationTheory,Schreckenbach1996TheApproximation}
 The Gauge Independent Atomic Orbital (GIAO) overcomes the so-called gauge problem in evaluating perturbations in the wave function due to a magnetic field.
 For an atomic orbital described by a finite basis set, the perturbation is proportional to $B_{z}\hat{l}_{z}$, where $\hat{l}_{z}$ is the z component of the angular momentum operator which is dependent on the distance to the origin of the coordinate system.
-This is obviously unphysical, and typical basis sets are not large enough to accommodate these non-atom centred perturbations.
+This is obviously non-physical, and typical basis sets are not large enough to accommodate these non-atom centred perturbations.
 The gauge problem is overcome in GIAO by transforming the atomic orbitals using a complex gauge factor which is dependent on the magnetic field and the location of the basis function relative to the origin.
 This affords chemical shielding tensors using reasonably sized basis sets.
 In order to convert these chemical shielding tensors $ \sigma $ into chemical shifts $ \delta $, we must reference them to a standard $\sigma_{\textrm{ref}}$.
@@ -661,7 +663,7 @@ This verifies that the tensor is oriented correctly in the crystal, and that the
 
 To briefly summarise, Ch-bonding induces enormous chemical shift anisotropy at the selenium, which is highly sensitive to the approach of the Lewis base and can be measured using both powder and single crystal SS-NMR.\@
 While the technique is perhaps not as sensitive as diffraction based methods, the great advantage lies in the fact that SS-NMR does not require crystallinity, even at the nano scale.
-This means that amorphous species such as polymers may be studies, as long as they contain an NMR active nucleus.
+This means that amorphous species such as polymers may be studied, as long as they contain an NMR active nucleus.
 
 \subsection{Solution-phase studies}
 While the above crystallographic analysis gives a useful qualitative understanding of the strength of the Ch-bond, we sought an experimental method that could accurately determine bond energies, so that we could easily compare our Ch-bonded complexes with those dominated by other interactions.
