@@ -9780,6 +9780,49 @@
       \verb http://xlink.rsc.org/?DOI=D0CE00270D
       \endverb
     \endentry
+    \entry{Farrugia2006}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a0519d41efbc2122e8552b4696799387}{%
+           family={Farrugia},
+           familyi={F\bibinitperiod},
+           given={Louis\bibnamedelima J.},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=c9b612ada2aec3d0bf9674c3ee17a54c}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={Cameron},
+           giveni={C\bibinitperiod}}}%
+        {{hash=b0f876358bb3ddf163580544a1ac6e4b}{%
+           family={Tegel},
+           familyi={T\bibinitperiod},
+           given={Marcus},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{df3f8a883f574e4c7264559e64cc4924}
+      \strng{fullhash}{d8a101932c4562f8a8f9dd9e72a74995}
+      \strng{bibnamehash}{d8a101932c4562f8a8f9dd9e72a74995}
+      \strng{authorbibnamehash}{d8a101932c4562f8a8f9dd9e72a74995}
+      \strng{authornamehash}{df3f8a883f574e4c7264559e64cc4924}
+      \strng{authorfullhash}{d8a101932c4562f8a8f9dd9e72a74995}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{10895639}
+      \field{journaltitle}{Journal of Physical Chemistry A}
+      \field{number}{25}
+      \field{title}{{Chemical bonds without "chemical bonding"? A combined experimental and theoretical charge density study on an iron trimethylenemethane complex}}
+      \field{volume}{110}
+      \field{year}{2006}
+      \field{pages}{7952\bibrangedash 7961}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1021/jp061846d
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/tfell/Documents/Mendeley Desktop/Farrugia, Evans, Tegel - 2006 - Chemical bonds without chemical bonding A combined experimental and theoretical charge density study on.pdf:pdf
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 
