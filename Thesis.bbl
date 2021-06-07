@@ -9624,6 +9624,167 @@
 
 \refsection{6}
   \datalist[entry]{none/global//global/global}
+    \entry{Gilardi2005}{article}{}
+      \name{author}{6}{}{%
+        {{hash=8f0899eaa07f9b866bcfd8d37a5a5378}{%
+           family={Sitzmann},
+           familyi={S\bibinitperiod},
+           given={Michael\bibnamedelima E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=06406139768ee4ab5361ea7952e24bf1}{%
+           family={Bichay},
+           familyi={B\bibinitperiod},
+           given={Magdy},
+           giveni={M\bibinitperiod}}}%
+        {{hash=83bf76619008dabfad98ae49c7897c06}{%
+           family={Fronabarger},
+           familyi={F\bibinitperiod},
+           given={John\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=04d387c497c1117b3b4ff64469cf5e87}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Michael\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=ae84ce497e399581f5b89180f8e7f6bf}{%
+           family={Sanborn},
+           familyi={S\bibinitperiod},
+           given={William\bibnamedelima B.},
+           giveni={W\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=379fe02f2a689ab2660a7e64ff593a9d}{%
+           family={Gilardi},
+           familyi={G\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{1fd4b2a0dfa73b7d05aa46459b9e33aa}
+      \strng{fullhash}{d17e187651acf1e5bbb55ec48b79431e}
+      \strng{bibnamehash}{d17e187651acf1e5bbb55ec48b79431e}
+      \strng{authorbibnamehash}{d17e187651acf1e5bbb55ec48b79431e}
+      \strng{authornamehash}{1fd4b2a0dfa73b7d05aa46459b9e33aa}
+      \strng{authorfullhash}{d17e187651acf1e5bbb55ec48b79431e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022152X}
+      \field{journaltitle}{Journal of Heterocyclic Chemistry}
+      \field{number}{6}
+      \field{title}{{Hydroxynitrobenzodifuroxan and its salts}}
+      \field{volume}{42}
+      \field{year}{2005}
+      \field{pages}{1117\bibrangedash 1125}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1002/jhet.5570420613
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/tfell/Documents/Mendeley Desktop/Sitzmann et al. - 2005 - Hydroxynitrobenzodifuroxan and its salts(2).pdf:pdf
+      \endverb
+    \endentry
+    \entry{Malpezzi1987}{article}{}
+      \name{author}{5}{}{%
+        {{hash=ff0b1c475cc678f90af5452a10fe632d}{%
+           family={Forni},
+           familyi={F\bibinitperiod},
+           given={Arrigo},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2463757ebd2f23e458f3b95558f9aa58}{%
+           family={Moretti},
+           familyi={M\bibinitperiod},
+           given={Irene},
+           giveni={I\bibinitperiod}}}%
+        {{hash=a27d01aa8c1368fad08db5ff232d2733}{%
+           family={Torre},
+           familyi={T\bibinitperiod},
+           given={Giovanni},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ccaad32893f8158ad44f55f91957ca74}{%
+           family={Brückner},
+           familyi={B\bibinitperiod},
+           given={Sergio},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5f62dddd11f0902b9203db1a1e459e8a}{%
+           family={Malpezzi},
+           familyi={M\bibinitperiod},
+           given={Luciana},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{cd52ebe80c76a88c51cb9dccbe2b17c0}
+      \strng{fullhash}{9101cdaab2d4d0f3db082a37eccbc07d}
+      \strng{bibnamehash}{9101cdaab2d4d0f3db082a37eccbc07d}
+      \strng{authorbibnamehash}{9101cdaab2d4d0f3db082a37eccbc07d}
+      \strng{authornamehash}{cd52ebe80c76a88c51cb9dccbe2b17c0}
+      \strng{authorfullhash}{9101cdaab2d4d0f3db082a37eccbc07d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9788578110796}
+      \field{issn}{0300-9580}
+      \field{journaltitle}{J. Chem. Soc., Perkin Trans. 2}
+      \field{number}{6}
+      \field{title}{{X-Ray structure and stereochemical properties of (S,S)-(–)-2-methylsulphonyl-3-phenyloxaziridine and of (S,S)-(–)-2-methylsulphonyl-3-(2-chloro-5-nitrophenyl)oxaziridine}}
+      \field{volume}{53}
+      \field{year}{1987}
+      \field{pages}{699\bibrangedash 704}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1039/P29870000699
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/tfell/Documents/Mendeley Desktop/Forni et al. - 1987 - X-Ray structure and stereochemical properties of (S,S)-(–)-2-methylsulphonyl-3-phenyloxaziridine and of (S,S)-(–)-.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://xlink.rsc.org/?DOI=P29870000699
+      \endverb
+      \verb{url}
+      \verb http://xlink.rsc.org/?DOI=P29870000699
+      \endverb
+    \endentry
+    \entry{Taylor2020}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7ada76107de74683b4b7f0aea9bcca9c}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={Robin},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Royal Society of Chemistry}%
+      }
+      \strng{namehash}{7ada76107de74683b4b7f0aea9bcca9c}
+      \strng{fullhash}{7ada76107de74683b4b7f0aea9bcca9c}
+      \strng{bibnamehash}{7ada76107de74683b4b7f0aea9bcca9c}
+      \strng{authorbibnamehash}{7ada76107de74683b4b7f0aea9bcca9c}
+      \strng{authornamehash}{7ada76107de74683b4b7f0aea9bcca9c}
+      \strng{authorfullhash}{7ada76107de74683b4b7f0aea9bcca9c}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1466-8033}
+      \field{journaltitle}{CrystEngComm}
+      \field{title}{{Identifying intermolecular atom⋯atom interactions that are not just bonding but also competitive}}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.1039/D0CE00270D
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/tfell/Documents/Mendeley Desktop/Taylor - 2020 - Identifying intermolecular atom⋯atom interactions that are not just bonding but also competitive.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://xlink.rsc.org/?DOI=D0CE00270D
+      \endverb
+      \verb{url}
+      \verb http://xlink.rsc.org/?DOI=D0CE00270D
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{7}
+  \datalist[entry]{none/global//global/global}
     \entry{Fellowes2020a}{article}{}
       \name{author}{3}{}{%
         {{hash=564e06eff41b32e844b885db3f92a191}{%
@@ -11511,7 +11672,7 @@
   \enddatalist
 \endrefsection
 
-\refsection{7}
+\refsection{8}
   \datalist[entry]{none/global//global/global}
     \entry{abs2015}{misc}{}
       \name{author}{1}{}{%
@@ -12299,7 +12460,7 @@
   \enddatalist
 \endrefsection
 
-\refsection{8}
+\refsection{9}
   \datalist[entry]{none/global//global/global}
     \entry{Fellowes2020chemrxiv}{article}{}
       \name{author}{2}{}{%

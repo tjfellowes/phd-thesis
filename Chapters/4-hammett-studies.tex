@@ -84,6 +84,11 @@ The second ``hybrid'' strategy has the advantage of being able to capture electr
 The low-angle data, however, does need to be free from faults, so this strategy may still not be appropriate for all data sets.
 For the second and third strategies, the densities and scattering factors were calculated using NoSphereA2 incorporated in Olex2.\autocite{Kleemiss2021}
 
+\begin{figure}
+  \includegraphics[width=0.6\linewidth]{Figures/rho-agreement.eps}
+  \caption[Experimental vs calculated electron density.]{Experimental vs calculated electron density. The line $\rho_\text{BCP, exp} = \rho_\text{BCP, calc}$ is shown.}\label{fig:qtaim-calc-exp}
+\end{figure}
+
 In order to ensure that we were not introducing errors in the electron density parameters by using data from several sources (experimental vs calculated), we calculated the electron density for \emph{all} complexes and compared the QTAIM parameters to the experimental ones where possible.
 Fortunately, excellent agreement was obtained (\cref{fig:qtaim-calc-exp}).
 
@@ -132,7 +137,7 @@ Fortunately, excellent agreement was obtained (\cref{fig:qtaim-calc-exp}).
     \cmpd{ebs.4no2}$ \cdot $\cmpd{py.pyrrol}   & --- \\
     \cmpd{ebs.4cn}$ \cdot $\cmpd{py.pyrrol}    & 2.289(1) & 2.000(1) & 1.902(1) & 1.363(2) & 174.77(5) & 175.06(7) & 0.4914 & 3.4270\footnote{\label{fn:hybrid}Hybrid density used} \\
     \cmpd{ebs.4cf3}$ \cdot $\cmpd{py.pyrrol}   & --- \\
-    \cmpd{ebs.4br}$ \cdot $\cmpd{py.pyrrol}    & 2.319(2) & 1.981(2) & 1.895(1) & 1.362(2) & 174.57(6) & 174.60(8) & 0.3617 & 3.7020\textsuperscript{\ref{fn:fullmultipole}}\\
+    \cmpd{ebs.4br}$ \cdot $\cmpd{py.pyrrol}    & 2.319(2) & 1.981(2) & 1.895(1) & 1.362(2) & 174.57(6) & 174.60(8) & 0.4106 & 2.4504\textsuperscript{\ref{fn:dftdens}}\\
     \cmpd{ebs.4co2et}$ \cdot $\cmpd{py.pyrrol} & 2.337(3) & 1.982(3) & 1.906(4) & 1.374(5) & 173.5(1) & 170.1(2) & 0.4014 & 2.4107\textsuperscript{\ref{fn:dftdens}}\\
     \cmpd{ebs.4me}$ \cdot $\cmpd{py.pyrrol}    & 2.272(1) & 1.986(1) & 1.905(1) & 1.351(2) & 172.66(5) & 173.51(6) & 0.4545 & 2.5279\textsuperscript{\ref{fn:dftdens}}\\
     \cmpd{ebs.4ome}$ \cdot $\cmpd{py.pyrrol}   & --- \\
@@ -144,7 +149,7 @@ Fortunately, excellent agreement was obtained (\cref{fig:qtaim-calc-exp}).
     \cmpd{ebs.4no2}$ \cdot $\cmpd{py.morph}   & --- \\
     \cmpd{ebs.4cn}$ \cdot $\cmpd{py.morph}\textsuperscript{\ref{fn:solvate}}    & 2.301(1) & 1.993(1) & 1.907(1) & 1.368(2) & 173.08(5) & 164.75(6) & 0.4306 & 2.4546\textsuperscript{\ref{fn:hybrid}} \\
     \cmpd{ebs.4cf3}$ \cdot $\cmpd{py.morph}   & --- \\
-    \cmpd{ebs.4br}$ \cdot $\cmpd{py.morph}    & 2.381(2) & 1.975(2) & 1.905(2) & 1.367(2) & 173.84(6) & 174.97(8) & 0.3536 & 3.4890\textsuperscript{\ref{fn:fullmultipole}}\\
+    \cmpd{ebs.4br}$ \cdot $\cmpd{py.morph}    & 2.381(2) & 1.975(2) & 1.905(2) & 1.367(2) & 173.84(6) & 174.97(8) & 0.3620 & 2.3519\textsuperscript{\ref{fn:dftdens}}\\
     \cmpd{ebs.4co2et}$ \cdot $\cmpd{py.morph} & 2.337(3) & 1.982(3) & 1.906(4) & 1.374(5) & 173.5(1) & 170.1(2) & 0.4286 & 2.4674\textsuperscript{\ref{fn:dftdens}}\\
     \cmpd{ebs.4me}$ \cdot $\cmpd{py.morph}    & 2.412(5) & 1.977(5) & 1.908(5) & 1.360(7) & 174.4(2) & 178.9(2) & 0.3456 & 2.2774\textsuperscript{\ref{fn:dftdens}}\\
     \cmpd{ebs.4ome}$ \cdot $\cmpd{py.morph}   & --- \\
@@ -813,7 +818,7 @@ Mass can also be lost as neutral molecules or radicals, which are not detected i
 
 The Ch-bonded complex is a weakly bound ion neutral complex (INC), which is held together by the Ch-bond ``leash''.\autocite{McAdoo1993}
 It is important to note that the complex is fluxional, and does not exclusively occupy the potential energy minimum which can be calculated.
-Furthermore, the ionisation process generates a population of INCs with a distribution of potential energies.
+Furthermore, the ionisation process generates a population of INCs with a distribution of energies.
 We will therefore not see a sharp transition in product ion intensities as a function of CID energy, as the higher energy INCs will fragment first, while the lower energy ones remain bound.
 
 We initially injected an equimolar mixture of DMAP and ebselen \cmpd{ebs} in methanol, and isolated an ion of m/z 398.08 a.m.u.
@@ -822,6 +827,10 @@ CID of this ion exclusively gave an ion of m/z 123.09 a.m.u., corresponding to p
 We interpreted this as evidence that we had formed the H-bonded complex, as migration of the proton on the timescale of a collision is unlikely, and the proton is most likely to remain with the more basic species in the H-bond.
 Furthermore, \ce{N+ -H\cdots O} hydrogen bonds are very strong (in excess of 15~kcal/mol)\autocite{Emsley1980}, which is likely to out compete Ch-bonding, with estimated bond enthalpies of <~10~kcal/mol in the gas phase.
 
+%H-bond -3412.197023
+
+%Ch-bond -3414.722675
+
 \begin{figure}
     \centering
     \includegraphics[scale=0.74]{Figures/pos-esi-ms.eps}
@@ -829,9 +838,14 @@ Furthermore, \ce{N+ -H\cdots O} hydrogen bonds are very strong (in excess of 15~
 \end{figure}
 
 To circumvent this preferential formation of an H-bonded complex, we devised a system with no possibility of H-bonding.
-The isonicotinate ion was used as the Lewis base, and the complex isolated in the negative ion mode with m/z 397.01 a.m.u.
+The isonicotinate ion was used as the Lewis base, and the complex isolated in the negative ion mode with m/z 397.01~a.m.u.
 CID of this ion exclusively gave a species of m/z 122.02 a.m.u., corresponding to isonicotinate (\cref{fig:neg-esi-ms}).
 This provides strong evidence that a Ch-bonded complex is able to be formed in the gas phase.
+Note that the Ch-bond could be formed either through the pyridyl nitrogen or through the carboxylate oxygen.
+As it happens, DFT calculations indicate that the Ch-bond through the oxygen is some 8.7~kcal/mol more stable than through the nitrogen, however this does not invalidate our experiment.
+
+%O = -3468.501515 -2,176,484.7006625 kcal/mol
+%N = -3468.487708 -2,176,476.03677 kcal/mol
 
 \begin{figure}
     \centering
