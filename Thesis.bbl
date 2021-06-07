@@ -12457,6 +12457,130 @@
       \verb http://pubs.rsc.org/en/Content/ArticleLanding/2017/SC/C7SC02859H
       \endverb
     \endentry
+    \entry{Antony2011}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9935cefbc182fbc0de217d2a12285368}{%
+           family={Antony},
+           familyi={A\bibinitperiod},
+           given={Sonia},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c439dcc755c9cb54f42fb7c956d5cd0e}{%
+           family={Bayse},
+           familyi={B\bibinitperiod},
+           given={Craig\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{eaac2a03ae4102aa8eeefc58fe79df8d}
+      \strng{fullhash}{eaac2a03ae4102aa8eeefc58fe79df8d}
+      \strng{bibnamehash}{eaac2a03ae4102aa8eeefc58fe79df8d}
+      \strng{authorbibnamehash}{eaac2a03ae4102aa8eeefc58fe79df8d}
+      \strng{authornamehash}{eaac2a03ae4102aa8eeefc58fe79df8d}
+      \strng{authorfullhash}{eaac2a03ae4102aa8eeefc58fe79df8d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Inorganic Chemistry}
+      \field{number}{23}
+      \field{title}{{Modeling the mechanism of the glutathione peroxidase mimic ebselen}}
+      \field{volume}{50}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{12075\bibrangedash 12084}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1021/ic201603v
+      \endverb
+    \endentry
+    \entry{Capper2018}{article}{}
+      \name{author}{11}{}{%
+        {{hash=58b7de119c398c443879903515cd3436}{%
+           family={Capper},
+           familyi={C\bibinitperiod},
+           given={Michael\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=b655c8026d5ff508084920955872cbb5}{%
+           family={Wright},
+           familyi={W\bibinitperiod},
+           given={Gareth\bibnamedelima S.A.},
+           giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=beaaafa554a98080650d4d7e84533f5f}{%
+           family={Barbieri},
+           familyi={B\bibinitperiod},
+           given={Letizia},
+           giveni={L\bibinitperiod}}}%
+        {{hash=a09220beafe518fdf6fc949b7f9601cf}{%
+           family={Luchinat},
+           familyi={L\bibinitperiod},
+           given={Enrico},
+           giveni={E\bibinitperiod}}}%
+        {{hash=e19d7de7034f2fa234cc731ffdb2426a}{%
+           family={Mercatelli},
+           familyi={M\bibinitperiod},
+           given={Eleonora},
+           giveni={E\bibinitperiod}}}%
+        {{hash=87f79e9dd28174442f24c28ddd532729}{%
+           family={McAlary},
+           familyi={M\bibinitperiod},
+           given={Luke},
+           giveni={L\bibinitperiod}}}%
+        {{hash=91a9f10ec76397b0bc75f09773ceb7cd}{%
+           family={Yerbury},
+           familyi={Y\bibinitperiod},
+           given={Justin\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=9e5fc8b24dd3021eef53b062f7c0c481}{%
+           family={O'Neill},
+           familyi={O\bibinitperiod},
+           given={Paul\bibnamedelima M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=d9c9705adf3ba2d62ec859442c222c42}{%
+           family={Antonyuk},
+           familyi={A\bibinitperiod},
+           given={Svetlana\bibnamedelima V.},
+           giveni={S\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=1347a41a2b388fe11d66009da42182e5}{%
+           family={Banci},
+           familyi={B\bibinitperiod},
+           given={Lucia},
+           giveni={L\bibinitperiod}}}%
+        {{hash=b986a95f5f274d8a16222b998d512cbf}{%
+           family={Hasnain},
+           familyi={H\bibinitperiod},
+           given={S.\bibnamedelimi Samar},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer US}%
+      }
+      \strng{namehash}{b0eeafe2daa2f9ea95c6c63bfec92d18}
+      \strng{fullhash}{32bc58ac2826adc0821f0330b574344b}
+      \strng{bibnamehash}{32bc58ac2826adc0821f0330b574344b}
+      \strng{authorbibnamehash}{32bc58ac2826adc0821f0330b574344b}
+      \strng{authornamehash}{b0eeafe2daa2f9ea95c6c63bfec92d18}
+      \strng{authorfullhash}{32bc58ac2826adc0821f0330b574344b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Communications}
+      \field{number}{1}
+      \field{title}{{The cysteine-reactive small molecule ebselen facilitates effective SOD1 maturation}}
+      \field{volume}{9}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 9}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1038/s41467-018-04114-x
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1038/s41467-018-04114-x
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1038/s41467-018-04114-x
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 
