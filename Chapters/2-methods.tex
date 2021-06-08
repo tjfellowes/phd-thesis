@@ -172,19 +172,19 @@ A full discussion of the mathematics of diffraction is outside the scope of this
 Fundamental to the technique of x-ray structure determination is the process of refinement, by which parameters of the model (typically the molecular geometry) are optimised to reproduce the observed intensity data as well as possible.
 Mathematically, this is performed as a least-squares optimisation, where the function
 \begin{equation}
-    \sum^{m}_{r=1} w_{r} {\left(I_{\mathrm{obs}, r} - I_{\mathrm{calc}, r} \right)} ^{2}
+    \sum^{m}_{r=1} w_{r} {\left(F^2_{\mathrm{obs}, r} - F^2_{\mathrm{calc}, r} \right)} ^{2}
 \end{equation}
-is minimised, where $ I_{\mathrm{obs}, r} $ corresponds to the observed intensity, and $ I_{\mathrm{calc}, r} $ corresponds to the intensity calculated from the model by Fourier transform.
+is minimised, where $ F^2_{\mathrm{obs}, r} $ corresponds to the observed intensity, and $ F^2_{\mathrm{calc}, r} $ corresponds to the intensity calculated from the model by Fourier transform.
 $ w_{r} $ is a weighting function used to reflect the confidence in any given observed data point.
 
 Assuming the measured intensities are free of any error,\footnote{This is practically never the case, but careful measurement and modern corrections can approach this limit.} this function could theoretically be minimised to zero i.e.\ the model is a complete and true representation of the crystal.
-The question then becomes, how do we determine $ f_{\mathrm{calc}, r} $ from our model?
+The question then becomes, how do we determine $ F^2_{\mathrm{calc}, r} $ from our model?
 To answer this, we must consider what our model actually \emph{is}.
 
 The simplest refinement model consists of atomic coordinates for each atom, plus an overall scale factor (for now we will neglect the anisotropic displacement parameters and chemical occupancies).
-However, in order to calculate $ f_{\mathrm{calc}, r} $ by Fourier transform, we must introduce some description of what the atoms which we are locating ``look like''.
+However, in order to calculate $ F^2_{\mathrm{calc}, r} $ by Fourier transform, we must introduce some description of what the atoms which we are locating ``look like''.
 This forms a hidden, but still crucially important, part of the model.
-Typically, atoms are described in reciprocal space as spherically symmetric functions whose contribution to $ f_{\mathrm{calc}, r} $ is only dependent on $ (\sin\theta)/\lambda $ (\cref{fig:scatterf}).
+Typically, atoms are described in reciprocal space as spherically symmetric functions whose contribution to $ F^2_{\mathrm{calc}, r} $ is only dependent on $ (\sin\theta)/\lambda $ (\cref{fig:scatterf}).
 This is a consequence of the fact that x-rays are scattered by the \emph{electron cloud} of the atom.\footnote{X-rays have much less energy than the mass-energy of subatomic particles, and so are scattered in the low energy limit of Compton scattering, known as Thompson scattering.
 The scattering power of a particle is inversely proportional to the square of its mass, so the massive nuclei contribute negligibly to scattering compared to electrons.}
 At $ (\sin\theta)/\lambda = 0 $ the scattering factor is equal to the number of electrons in the atom.
