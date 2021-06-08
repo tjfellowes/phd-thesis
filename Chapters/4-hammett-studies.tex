@@ -91,6 +91,9 @@ For the second and third strategies, the densities and scattering factors were c
 
 In order to ensure that we were not introducing errors in the electron density parameters by using data from several sources (experimental vs calculated), we calculated the electron density for \emph{all} complexes and compared the QTAIM parameters to the experimental ones where possible.
 Fortunately, excellent agreement was obtained (\cref{fig:qtaim-calc-exp}).
+There does appear to be a slight bias towards scatter above the line, indicating that the calculation underestimates the electron density.
+Although the $\omega$B97XD functional is very good at describing non-bonded complexes in terms of energy, electron density is not a typical benchmarking criterion, so it is perhaps not surprising that it is not in full agreement with experimental measurements.
+
 
 \begin{figure}
   \includegraphics[width=0.7\linewidth]{Figures/ebs-dmap-bondlengths.pdf}
@@ -167,6 +170,7 @@ Although originally used to explain reaction kinetics with an associated reactio
 Within the context of Ch-bonding, this can be rationalised by considering the approach of the Lewis base to form the Ch-bond as an incipient nucleophilic substitution at the selenium, and invoking the Hammond postulate to relate the transition state geometry to the ground state (\cref{fig:bond-breaking}).
 
 Closely linked to the substituent constant $ \sigma_\text{p} $ are the values of $\sigma_\text{p}^{+}$ and $\sigma_\text{p}^{-}$, which can be used when mesomeric effects have a strong influence on the property being studied.
+The substituent constant $ \sigma_\text{m} $ is used when the functional group is \textit{meta} to the position of interest.
 Hammett substituent parameters are particularly convenient as they have been determined for a wide variety of substituents.
 Parameters for the following analysis were obtained from reference~\cite{Hansch1991}.
 
@@ -308,24 +312,27 @@ The electron density $\rho_\text{BCP}$ shows a similar trend to the bond distanc
 This reinforces the significance of the Laplacian not as an indicator of the strength of an interaction, but as a measure of its ionic or covalent character, which does not appear to change significantly across the range of electron demand.
 
 \begin{figure}
+\centering
+\begin{subfigure}{\linewidth}
   \centering
   \includegraphics[width=0.45\linewidth]{Figures/hammett-rho-dmap-p.eps}
   \includegraphics[width=0.45\linewidth]{Figures/hammett-lapl-dmap-p.eps}
   \caption[Hammett plots of QTAIM parameters $\rho_\text{BCP}$ and $\nabla^2\rho_{\text{BCP}}$ of ebselen derivatives complexed with DMAP.]{Hammett plots of QTAIM parameters $\rho_\text{BCP}$ and $\nabla^2\rho_{\text{BCP}}$ of ebselen derivatives complexed with DMAP.\@ The line is described by the equation $\rho_{\text{BCP}} = (0.379(16) + 0.105(37) \times \sigma_\text{p})$~e/\AA\textsuperscript{3}~($R^2=0.3783$) and $\nabla^2\rho_{\text{BCP}} = (2.74(13) + 0.05(29) \times \sigma_\text{p})$~e/\AA\textsuperscript{5}~($R^2=0.002$)}\label{fig:hammett-qtaim-dmap}
-\end{figure}
+\end{subfigure}
 
-\begin{figure}
+\begin{subfigure}{\linewidth}
   \centering
   \includegraphics[width=0.45\linewidth]{Figures/hammett-rho-pyrrol-p.eps}
   \includegraphics[width=0.45\linewidth]{Figures/hammett-lapl-pyrrol-p.eps}
   \caption[Hammett plots of QTAIM parameters $\rho_\text{BCP}$ and $\nabla^2\rho_{\text{BCP}}$ of ebselen derivatives complexed with \refcmpd{py.pyrrol}.]{Hammett plots of QTAIM parameters $\rho_\text{BCP}$ and $\nabla^2\rho_{\text{BCP}}$ of ebselen derivatives complexed with \refcmpd{py.pyrrol}. The line is described by the equation $\rho_{\text{BCP}} = (0.380(32) + 0.08(9) \times \sigma_\text{p})$~e/\AA\textsuperscript{3}~($R^2=0.123$) and $\nabla^2\rho_{\text{BCP}} = (3.13(49) + 0.6(1.4) \times \sigma_\text{p})$~e/\AA\textsuperscript{5}~($R^2=0.0299$)}\label{fig:hammett-qtaim-pyrrol}
-\end{figure}
+\end{subfigure}
 
-\begin{figure}
+\begin{subfigure}{\linewidth}
   \centering
   \includegraphics[width=0.45\linewidth]{Figures/hammett-rho-morph-p.eps}
   \includegraphics[width=0.45\linewidth]{Figures/hammett-lapl-morph-p.eps}
   \caption[Hammett plots of QTAIM parameters $\rho_\text{BCP}$ and $\nabla^2\rho_{\text{BCP}}$ of ebselen derivatives complexed with \refcmpd{py.morph}.]{Hammett plots of QTAIM parameters $\rho_\text{BCP}$ and $\nabla^2\rho_{\text{BCP}}$ of ebselen derivatives complexed with \refcmpd{py.morph}. The line is described by the equation $\rho_{\text{BCP}} = (0.344(16) + 0.12(5) \times \sigma_\text{p})$~e/\AA\textsuperscript{3}~($R^2=0.5013$) and $\nabla^2\rho_{\text{BCP}} = (2.59(21) + 0.3(6) \times \sigma_\text{p})$~e/\AA\textsuperscript{5}~($R^2=0.0400$)}\label{fig:hammett-qtaim-morph}
+\end{subfigure}
 \end{figure}
 
 \FloatBarrier
@@ -360,11 +367,16 @@ This effect ostensibly outweighs the \emph{decreased} double bond character expe
 If there are truly two Ch-bonded environments, we might expect to see splitting or at least broadening of the carbonyl signal in the IR spectrum of the co-crystal.
 This is not the case, meaning that either the difference is too small to be seen in the spectrum, or the two environments are actually the same, and the measured differences are a crystallographic artefact, either a manifestation of missed symmetry or a doubled cell.
 
+\begin{figure}
+  \centering
+  \includegraphics[width=0.7\linewidth]{Figures/residual-dens.png}
+  \caption{Residual electron density from SADI refinement of \refcmpd{ebs.4ome}\texorpdfstring{$ \cdot $}{.}DMAP.}\label{fig:residual-dens}
+\end{figure}
+
 However, we do not believe this is likely, for two reasons.
 Firstly, the data was of extremely high quality, and no alerts were raised in the ADDSYM routine of PLATON.\@
 Secondly, a refinement was conducted with a tight SADI restraint on the Ch-bonds ($\sigma=0.0001$), which forced them to adopt the same length of approximately 1.949~\AA.\@
-This increased the R-factor by 1.2\%, and significant residual density was visible where the pyridyl nitrogen had been displaced.
-%Figure here
+This increased the R-factor by 1.2\%, and significant residual density was visible where the pyridyl nitrogen had been displaced (\cref{fig:residual-dens}).
 Furthermore, removal of the restraint recovered the original model, ruling out the possibility of a false minimum.
 
 Solid state NMR of the co-crystal was also used to investigate the crystalline environment.
