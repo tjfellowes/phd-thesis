@@ -82,7 +82,7 @@ Depending on the quality of the data we were able to obtain for each crystal, we
 
 The second ``hybrid'' strategy has the advantage of being able to capture electron density effects not fully described by DFT, while not requiring a large amount of weak high-angle (or neutron) data for the reliable determination of atomic coordinates.
 The low-angle data, however, does need to be free from faults, so this strategy may still not be appropriate for all data sets.
-For the second and third strategies, the densities and scattering factors were calculated using NoSphereA2 incorporated in Olex2.\autocite{Kleemiss2021}
+For the second and third strategies, the densities and scattering factors were calculated using NoSpherA2 incorporated in Olex2.\autocite{Kleemiss2021}
 
 \begin{figure}
   \includegraphics[width=0.6\linewidth]{Figures/rho-agreement.eps}
@@ -380,13 +380,15 @@ This increased the R-factor by 1.2\%, and significant residual density was visib
 Furthermore, removal of the restraint recovered the original model, ruling out the possibility of a false minimum.
 
 Solid state NMR of the co-crystal was also used to investigate the crystalline environment.
-A sample of \cmpd{ebs.4ome}$ \cdot $DMAP was first characterised by single crystal x-ray diffraction, which confirmed the polymorph and structural parameters (\cref{fig:ebs-4ome-dmap-xray}).
+A sample of \cmpd{ebs.4ome}$ \cdot $DMAP was first characterised by single crystal x-ray diffraction, which confirmed the polymorph and structural parameters.
 
+\begin{comment}
 \begin{figure}
   \centering
   \includegraphics[width=0.8\linewidth]{Figures/ebs-4ome-dmap-xray.pdf}
   \caption[Single crystal x-ray structure of \refcmpd{ebs.4ome}\texorpdfstring{$ \cdot $}{.}DMAP.]{Single crystal x-ray structure of \refcmpd{ebs.4ome}$ \cdot $DMAP, displaying the two systems in the asymmetric unit.}\label{fig:ebs-4ome-dmap-xray}
 \end{figure}
+\end{comment}
 
 The bulk material was then crushed and homogenised, and characterised by powder x-ray diffraction.
 The measured powder pattern was in excellent agreement with the pattern calculated from the single crystal data (\cref{fig:ebs-4ome-dmap-pdx}), indicating good phase purity.
@@ -1041,8 +1043,12 @@ Light brown crystals, dec.\textsuperscript{\ref{fn:decompose}}, yield 67\%.
 
 
 \subsection{Crystallographic Data}
-Intensity data was collected on a Rigaku XtalLAB Synergy at the specified temperature. The temperature was maintained using an Oxford Cryostream cooling device. The structures were solved by direct methods and difference Fourier synthesis.\autocite{Sheldrick2015}
-
+Intensity data was collected on a Rigaku XtalLAB Synergy using either Cu-K$\alpha$ or Mo-K$\alpha$ radiation at the specified temperature. 
+The temperature was maintained using an Oxford Cryostream cooling device. 
+The structures were solved by direct methods and difference Fourier synthesis.\autocite{Sheldrick2015}
+Independent atom models were refined by least-squares against $F^{2}$ using SHELXL integrated within Olex2.\autocite{Sheldrick2008,Dolomanov2009}
+Aspherical atom refinement was performed using NoSpherA2, using densities calculated at the PBE0/def2-TZVP level in ORCA.\autocite{Kleemiss2021,Neese2012}
+Multipole refinement was performed using MoPro.\autocite{Jelsch2005}
 
 \subsubsection{Crystal data for \texorpdfstring{\refcmpd{ebs}}{C13 H9 N O Se}}
 $\alpha$ and $\beta$ polymorphs have previously been reported (CSD codes \textbf{SENGOH} and \textbf{SENGOH1}, respectively).\autocite{Dupont1990StructuresII}
