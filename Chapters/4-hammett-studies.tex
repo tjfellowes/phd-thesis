@@ -33,10 +33,19 @@ Our previous work had shown that electron-rich pyridines (specifically DMAP) for
 This is roughly consistent with the hydrogen bond basicity (pK\textsubscript{HB}) of the bases (\cref{tab:pkhb}).
 The planar geometry and aromatic character of DMAP may also facilitate crystallisation, as opposed to the relatively bulky and flexible aliphatic bases which may not pack as efficiently.
 For these reasons, we restricted the bases used in this study to other electron-rich pyridines.
+
+\begin{figure}
+  \centering
+  \replacecmpd{py.morph}
+  \replacecmpd{py.pyrrol}
+  \includegraphics[scale=0.74]{Figures/bases.eps}
+  \caption[Lewis bases used in this work.]{Lewis bases used in this work in order of increasing basicity.}\label{fig:bases}
+\end{figure}
+
 Although DMAP is already a very strong base, the basicity can be increased by incorporating the aniline nitrogen in another ring.
 This reduces the energetic penalty associated with the delocalisation of the lone pair into the pyridine ring, by forcing a more planar geometry upon the nitrogen.\autocite{Berthelot1998,Heinrich2003EnhancingFixation}
 %Compounds \cmpd{py.pyrrol,py.morph} were therefore synthesised by treating 4-chloropyridine hydrochloride with 2 equivalents of the appropriate base (\cref{sch:base-synthesis}).
-We therefore prepared co-crystals with \cmpd{py.pyrrol,py.morph}, which are slightly stronger and weaker bases than DMAP respectively.
+We therefore prepared co-crystals with \cmpd{py.pyrrol,py.morph}, which are slightly stronger and weaker bases than DMAP respectively (\cref{fig:bases}).
 
 \begin{scheme}
   \centering
@@ -82,7 +91,7 @@ Depending on the quality of the data we were able to obtain for each crystal, we
 
 The second ``hybrid'' strategy has the advantage of being able to capture electron density effects not fully described by DFT, while not requiring a large amount of weak high-angle (or neutron) data for the reliable determination of atomic coordinates.
 The low-angle data, however, does need to be free from faults, so this strategy may still not be appropriate for all data sets.
-For the second and third strategies, the densities and scattering factors were calculated using NoSpherA2 incorporated in Olex2.\autocite{Kleemiss2021}
+For the second and third strategies, the densities and scattering factors were calculated using NoSpherA2 incorporated in Olex2.3.\autocite{Kleemiss2021}
 
 \begin{figure}
   \includegraphics[width=0.6\linewidth]{Figures/rho-agreement.eps}
@@ -233,12 +242,12 @@ Fortunately, inspecting the same bond length in co-crystals of ebselen derivativ
 This is because the Ch-bond acceptor ability is now independent of the electronic properties of the Ch-bond donor, so the \ce{Se-N} bond length is determined solely by the latter.
 An inverse correlation can be seen in the \ce{Se\cdots N} Ch-bond length.
 The results are tabulated in \cref{tab:hammett-results-para}.
-Moderately good correlation is obtained, as measured by the $R^2$ values, although there is clearly some deviation on the left hand side of the plots.
+Moderately good correlation is obtained, as measured by the $R^2$ values, although there is clearly some deviation on the left hand side of the plots where the strongly electron donating substituents are found.
 While the more strongly Ch-bonded systems (with electron withdrawing substituents) are generally very well described by the model, the electron rich derivatives \cmpd{ebs.4ome,ebs.4oet} vary significantly in their bond lengths.
 Indeed, in the case of DMAP complexes, omitting these data points improves the correlation coefficient to 0.8148 while the gradient and intercept are almost unchanged at $-0.156(28)$~\AA~and $2.386(15)$~\AA~respectively, suggesting that the model is appropriate, and that there is some other effect occurring in electron rich systems.
 For a further discussion of this phenomenon, see \cref{sec:z2}.
 
-It has been found that phenomena that are dominated by inductive or field effects (as opposed to mesomeric effects) are better described by the \textit{meta} substituent constant $\sigma_\text{m}$.\autocite{Reynolds1980,Sarwar2010}
+It has been found that phenomena that are dominated by inductive or field effects are better described by the \textit{meta} substituent constant $\sigma_\text{m}$.\autocite{Reynolds1980,Sarwar2010}
 We therefore constructed Hammett plots using this parameter as well, which are shown in \cref{fig:hammett-dmap-meta,fig:hammett-pyrrol-meta,fig:hammett-morph-meta}, and the results tabulated in \cref{tab:hammett-results-meta}.
 
 \begin{figure}
@@ -276,7 +285,7 @@ We therefore constructed Hammett plots using this parameter as well, which are s
   \end{tabular}}\label{tab:hammett-results-meta}
 \end{table}
 
-We obtain a slightly poorer fit when using $\sigma_\text{m}$ compared to $\sigma_\text{p}$, which suggests that mesomeric effects may play a significant role.
+We obtain a slightly poorer fit when using $\sigma_\text{m}$ compared to $\sigma_\text{p}$.
 We note, however, that the correlation is well below what would be accepted as ``good'' for a Hammett plot ($R^2 < 0.95$)\autocite{Jaffe1953}, which we attribute to scatter caused by crystal packing forces.
 The difference between the $\sigma_\text{m}$ and $\sigma_\text{p}$ correlations are therefore probably not significant.
 
@@ -301,7 +310,7 @@ Incidentally, we believe this is also why the more electron poor systems do not 
 \end{figure}
 
 Analysis of the electron density within the QTAIM framework affords plots such as those shown in \cref{fig:ebs-dmap-qtaim}.
-The electron density can be see to be somewhat concentrated in the covalent \ce{C-C} bonds, but less so in the Ch-bond.
+The electron density can be seen to be somewhat concentrated in the covalent \ce{C-C} bonds, but less so in the Ch-bond.
 The Laplacian at the Ch-bond BCP can also be seen to be positive, in contrast to the covalent bonds.
 Interestingly the endocyclic \ce{Se-N} bond has similar values for $\nabla^{2}\rho(\textbf{r})$ and $\rho(\textbf{r})$, suggesting that this bond is mostly electrostatic as well.
 Superficially identical plots are obtained for other derivatives, which are not shown in the interests of brevity.
@@ -309,7 +318,7 @@ The resulting parameters are, however, tabulated in \cref{tab:bondlengths2}.
 
 Hammett plots can also be constructed using these parameters ($\rho_\text{BCP}$ and $\nabla^2\rho_{\text{BCP}}$) of the Ch bond (\cref{fig:hammett-qtaim-dmap,fig:hammett-qtaim-pyrrol,fig:hammett-qtaim-morph}).
 The electron density $\rho_\text{BCP}$ shows a similar trend to the bond distance ($\rho_{\text{BCP}} = (0.379(16) + 0.105(37) \times \sigma_\text{p})$~e/\AA\textsuperscript{3}~($R^2=0.3783$)), while the Laplacian $\nabla^2\rho_{\text{BCP}}$ is more or less independent of the Hammett constant ($\nabla^2\rho_{\text{BCP}} = (2.74(13) + 0.05(29) \times \sigma_\text{p})$~e/\AA\textsuperscript{5}~($R^2=0.002$)).
-This reinforces the significance of the Laplacian not as an indicator of the strength of an interaction, but as a measure of its ionic or covalent character, which does not appear to change significantly across the range of electron demand.
+This reinforces the significance of the Laplacian not as an indicator of the strength of an interaction, but as a measure of its ionic or covalent character, which does not appear to change significantly across the range of electron demand studied.
 
 \begin{figure}
 \centering
@@ -684,7 +693,7 @@ We can calculate the chemical shift tensor using the diagonal components from th
   \delta = \begin{bmatrix} 1578.72 & -86.12 & 195.26 \\ -86.12 & 567.29 & 65.55 \\ 195.26 & 65.55 & 447.56 \end{bmatrix}
 \end{equation}
 
-This can be plotted within the unit cell of the crystal, where we observe an excellent qualitative agreement with the calculated tensor (\cref{fig:expt-tensor-ebs-dmap}).
+This can be plotted within the unit cell of the crystal, where we observe good agreement with the calculated tensor (\cref{fig:expt-tensor-ebs-dmap}).
 The most deshielded axis is aligned with the \ce{Se-C} bond, and the most shielded axis is aligned with the Ch-bond, as in the calculated tensor.
 This verifies that the tensor is oriented correctly in the crystal, and that the observed shielding is due to the approach of the lone pair into the $ \sigma $-hole.
 
@@ -1046,7 +1055,7 @@ Light brown crystals, dec.\textsuperscript{\ref{fn:decompose}}, yield 67\%.
 Intensity data was collected on a Rigaku XtalLAB Synergy using either Cu-K$\alpha$ or Mo-K$\alpha$ radiation at the specified temperature. 
 The temperature was maintained using an Oxford Cryostream cooling device. 
 The structures were solved by direct methods and difference Fourier synthesis.\autocite{Sheldrick2015}
-Independent atom models were refined by least-squares against $F^{2}$ using SHELXL integrated within Olex2.\autocite{Sheldrick2008,Dolomanov2009}
+Independent atom models were refined by least-squares against $F^{2}$ using SHELXL integrated within Olex2.3.\autocite{Sheldrick2008,Dolomanov2009}
 Aspherical atom refinement was performed using NoSpherA2, using densities calculated at the PBE0/def2-TZVP level in ORCA.\autocite{Kleemiss2021,Neese2012}
 Multipole refinement was performed using MoPro.\autocite{Jelsch2005}
 
