@@ -44,10 +44,10 @@ Although the coplanar geometry of the oxime and nitro groups is expected on the 
 \begin{tabular}{llllll}\toprule
 	Compound & r(\ce{O1}$\cdots$\ce{O2}) & r(\ce{N1O1}) & r(\ce{N2O2}) & $\angle$(\ce{O2}$\cdots$\ce{O1N1}) & $\theta$(\ce{C1C2N2O2})\\
 	& \AA\ & \AA\ & \AA\ & \degree\ & \degree\  \\\midrule
-	\cmpd{dimethylcyclohexanone-oxime-dnp} 	& 2.619(2)	& 1.489(2)	& 1.208(2)	& 161.80(8)	& -3.5(2)	\\
-	\cmpd{cyclohexanone-oxime-dnp}a & 2.5423(8) & 1.4556(7) & 1.2264(9) & 160.56(5) & -0.7(1)	\\
-	\cmpd{cyclohexanone-oxime-dnp}b & 2.5522(8) & 1.4522(7) & 1.223(1) 	& 160.29(4) & -0.2(1)	\\
-	\cmpd{acetone-oxime-dnp} 	& 2.6390(8) & 1.4480(7) & 1.2266(8) & 148.60(4) & -30.94(8)	\\\bottomrule
+	\cmpd{dimethylcyclohexanone-oxime-dnp} 	& 2.619(2)	& 1.489(2)	& 1.208(2)	& 161.80(8)	& $-3.5(2)$	\\
+	\cmpd{cyclohexanone-oxime-dnp}a & 2.5423(8) & 1.4556(7) & 1.2264(9) & 160.56(5) & $-0.7(1)$	\\
+	\cmpd{cyclohexanone-oxime-dnp}b & 2.5522(8) & 1.4522(7) & 1.223(1) 	& 160.29(4) & $-0.2(1)$	\\
+	\cmpd{acetone-oxime-dnp} 	& 2.6390(8) & 1.4480(7) & 1.2266(8) & 148.60(4) & $-30.94(8)$	\\\bottomrule
 \end{tabular}
 \end{table}
 
@@ -55,14 +55,14 @@ Firstly, bond lengths measured from the crystal structure deviate somewhat from 
 The \ce{O \cdots O} Ch-bond distance was measured to be 2.619(2)~\AA, which is well within the van der Waals radii of two oxygen atoms (3.04~\AA).\autocite{Bondi1964}
 The \ce{O-N} bond of the oxime is also lengthened appreciably.
 Comparisons with other O-aryl oximes are convoluted by the significant effect of the electronic properties of the phenyl ring on the oxime bond length.
-However, an expected value can be calculated using the acidity of the corresponding 2,4-dinitro phenol (p$K_{\mathrm{a}}$ = 5.91) and the structural correlation given in \cref{eqn:scp}.\autocite{Yeoh2012,Socrates1970}
+However, an expected value can be calculated using the acidity of the corresponding 2,4-dinitro phenol (pK\textsubscript{a} = 5.91) and the structural correlation given in \cref{eqn:scp}.\autocite{Yeoh2012,Socrates1970}
 
 \begin{equation}
-	r_{\mathrm{N-OR}} (\text{\AA}) = 1.467 - (3.20\times10^{-3}) \times \mathrm{p}K_{\mathrm{a}}(\mathrm{ROH})
+	r_{\mathrm{N-OR}} (\text{\AA}) = 1.467 - (3.20\times10^{-3}) \times \mathrm{pK}_{\mathrm{a}}(\mathrm{ROH})
 	\label{eqn:scp}
 \end{equation}
 
-This gives an expected bond length of 1.448~\AA~versus the measured bond length 1.489(2)~\AA\ ($\Delta = 0.041$~\AA~$= 13.7\sigma$).
+This gives an expected bond length of 1.448~\AA~versus the measured bond length 1.489(2)~\AA\ ($\Delta = 0.041$~\AA{}; 13.7$\sigma$).
 
 This is consistent with the charge transfer model of Ch-bonding, as the lone pair of the nitro oxygen donor is delocalised into the $\sigma^{\star}$\ce{(O-N)} anti bonding orbital, leading to a weakening and lengthening of this bond.\autocite{Reed1988}
 
@@ -91,11 +91,11 @@ The value of $F(i,j)$ for the n(O)$\rightarrow \sigma^{\star}$(\ce{O-N}) orbital
 \subsection{QTAIM analysis of electron density}
 Bader's Quantum Theory of Atoms In Molecules (QTAIM) describes bonding in terms of the observable quantity of electron density and its topology.
 We analysed the DFT density of oxime \cmpd{dimethylcyclohexanone-oxime-dnp}, which revealed the presence of a bond path between the two oxygen atoms.
-Bond paths are associated with bond critical points (bcps), where the gradient vector of the electron density is zero.
+Bond paths are associated with bond critical points (BCPs), where the gradient vector of the electron density is zero.
 
-The values of both the electron density $\rho(r)$ and the Laplacian of the electron density $\nabla^{2}\rho(r)$ at the bcp are diagnostic of certain types of bonds.
-Bcps with a small $\rho(r)$ and positive $\nabla^{2}\rho(r)$ (indicating local depletion of electron density at the bcp) are characteristic of ionic bonds or purely electrostatic interactions.
-The values of $\rho(r)$ and $\nabla^{2}\rho(r)$ respectively are 0.0161 and +0.0790 (in a.u.), suggesting this is primarily a closed shell electrostatic interaction, and that the NBO delocalisation, although present, is secondary.
+The values of both the electron density $\rho(\mathbf{r})$ and the Laplacian of the electron density $\nabla^{2}\rho(\mathbf{r})$ at the BCP are diagnostic of certain types of bonds.
+BCPs with a small $\rho_\text{BCP}$ and positive $\nabla^{2}\rho_\text{BCP}$ (indicating local depletion of electron density at the BCP) are characteristic of ionic bonds or purely electrostatic interactions.
+The values of $\rho_\text{BCP}$ and $\nabla^{2}\rho_\text{BCP}$ respectively are 0.0161 and +0.0790 (in a.u.), suggesting this is primarily a closed shell electrostatic interaction, and that the NBO delocalisation, although present, is secondary.
 
 These observations piqued our interest in the potential for Ch-bonding at oxygen, so we decided to extend our investigation to verify that this interaction was not simply a quirk of the initial oxime.
 
@@ -112,10 +112,10 @@ These observations piqued our interest in the potential for Ch-bonding at oxygen
 \tablefit{\begin{tabular}{llllll}\toprule
 	Compound & r(\ce{O1}$\cdots$\ce{O2}) & r(\ce{N1-O1}) & r(\ce{N2-O2}) & $\angle$(\ce{O2}$\cdots$\ce{O1-N1}) & $\angle$(\ce{C1-C2-N2-O2})\\
 	& \AA\ & \AA\ & \AA\ & \degree\ & \degree\  \\\midrule
-	\textbf{HEPMEV} & 2.554(5)	& 1.426(4)& 1.222(4)	& 161.2(2)	& -15.4(6)	\\
+	\textbf{HEPMEV} & 2.554(5)	& 1.426(4)& 1.222(4)	& 161.2(2)	& $-15.4(6)$	\\
 	\textbf{HUGSUX} & 2.563(2) 	& 1.461(2) & 1.220(2) 	& 158.4(1) 	& 20.8(2)	\\
-	\textbf{QOLXOE}	& 2.557(4) 	& 1.419(4) & 1.216(5) 	& 158.7(2) 	& -10.9(6) 	\\
-	\textbf{IQADOT}a& 2.532(2) 	& 1.445(2) & 1.207(3) 	& 154.4(1) 	& -9.2(3) 	\\
+	\textbf{QOLXOE}	& 2.557(4) 	& 1.419(4) & 1.216(5) 	& 158.7(2) 	& $-10.9(6)$ 	\\
+	\textbf{IQADOT}a& 2.532(2) 	& 1.445(2) & 1.207(3) 	& 154.4(1) 	& $-9.2(3)$ 	\\
 	\textbf{IQADOT}b& ---	 	& 1.433(2) & ---		& ---		& ---	 	\\\bottomrule
 \end{tabular}}
 \end{table}
@@ -123,14 +123,14 @@ These observations piqued our interest in the potential for Ch-bonding at oxygen
 A search of the Cambridge Structural Database for \emph{o}-nitro-O-aryl oximes afforded several results.\autocite{CSD}
 Structures HEPMEV, HUGSUX, and QOLXOE all contained similar motifs to \cmpd{dimethylcyclohexanone-oxime-dnp}, with a nitro group approximately coplanar with an \emph{ortho} oxime or oxime-like group.\autocite{Saavedra2001,Kostyanovsky2002,Saavedra2006a}
 Structure IQADOT was particularly interesting, as it contains two electronically similar oximes, only one of which has an \emph{ortho} nitro group.\autocite{Renaudet2003}
-The difference in bond lengths between them is significant (1.445(2)~\AA~versus 1.433(2)~\AA, $\Delta = 0.012$~\AA~$= 6\sigma$), and the same trend is observed as in \cmpd{dimethylcyclohexanone-oxime-dnp}.
+The difference in bond lengths between them is significant (1.445(2)~\AA~versus 1.433(2)~\AA, $\Delta = 0.012$~\AA{}; 6$\sigma$), and the same trend is observed as in \cmpd{dimethylcyclohexanone-oxime-dnp}.
 Relevant structural parameters are given in \cref{tab:csd}.
 
 \subsection{Analysis of analogues and determination of experimental electron density}
 Two analogues of oxime \cmpd{dimethylcyclohexanone-oxime-dnp} (\cmpd{cyclohexanone-oxime-dnp} and \cmpd{acetone-oxime-dnp}, \cref{fig:analogues}) were prepared, forming crystals which gave data of sufficient quality for multipole refinement, allowing us to analyse the experimental electron density as opposed to the calculated DFT density.\autocite{Hansen1978}
 This refinement was performed using the MoProSuite software package.\autocite{Jelsch2005}
 \cmpd{cyclohexanone-oxime-dnp} crystallised in a similar coplanar geometry to \cmpd{dimethylcyclohexanone-oxime-dnp}, exhibiting a Ch-bond\footnote{The asymmetric unit contained two molecules, however both had similar geometries, and in the interests of simplicity values for only one molecule are presented.}, while \cmpd{acetone-oxime-dnp} displayed a torsion of the nitro group, disrupting the requisite geometry.
-This torsion can be attributed to crystal packing forces (taken to be worth 0.5--2~kcal/mol) disrupting this extremely weak interaction.\autocite{Dunitz2009}
+This torsion can be attributed to crystal packing forces (taken to be worth 0.5--2~kcal$\cdot$mol$^{-1}$) disrupting this extremely weak interaction.\autocite{Dunitz2009}
 
 \begin{figure}
 	\centering
@@ -142,11 +142,11 @@ This torsion can be attributed to crystal packing forces (taken to be worth 0.5-
 	\caption[Oxime \refcmpd{cyclohexanone-oxime-dnp} adopts a similar conformation to \refcmpd{dimethylcyclohexanone-oxime-dnp}.]{Oxime \refcmpd{cyclohexanone-oxime-dnp} adopts a similar conformation to \refcmpd{dimethylcyclohexanone-oxime-dnp}, while the nitro group of \refcmpd{acetone-oxime-dnp} is twisted, leading to poor alignment with the oxime.}\label{fig:analogues}
 \end{figure}
 
-The oxime bond lengths differ significantly between \cmpd{cyclohexanone-oxime-dnp} and \cmpd{acetone-oxime-dnp} (1.4556(7)--1.4522(7) versus 1.4480(7)~\AA, $\Delta = 0.0042~\text{\AA} = 6\sigma$), supporting the suggestion that the n(O)$\rightarrow \sigma^{\star}$(\ce{O-N}) orbital delocalisation plays a role in these Ch-bonds.
+The oxime bond lengths differ significantly between \cmpd{cyclohexanone-oxime-dnp} and \cmpd{acetone-oxime-dnp} (1.4556(7)--1.4522(7) versus 1.4480(7)~\AA, $\Delta = 0.0042$~\AA{}; 6$\sigma$), supporting the suggestion that the n(O)$\rightarrow \sigma^{\star}$(\ce{O-N}) orbital delocalisation plays a role in these Ch-bonds.
 NBO analysis of these geometries confirmed this, with $F(i,j)$ values of 0.026~a.u.\ for \cmpd{cyclohexanone-oxime-dnp}, and an absence of any delocalisation in \cmpd{acetone-oxime-dnp}.
 
-QTAIM analysis of the experimental density revealed the presence of a bond path and bcp in \cmpd{cyclohexanone-oxime-dnp} but not in \cmpd{acetone-oxime-dnp}, showing that there is indeed an interaction present when the geometry allows.
-In \cmpd{cyclohexanone-oxime-dnp}, the values of $\rho(r)$ and $\nabla^{2}\rho(r)$ respectively are 0.018 and +0.094 (in a.u.), which agree well with the DFT values calculated for \cmpd{dimethylcyclohexanone-oxime-dnp}, and are consistent with a closed-shell origin for the interaction (\cref{fig:lapl}).
+QTAIM analysis of the experimental density revealed the presence of a bond path and BCP in \cmpd{cyclohexanone-oxime-dnp} but not in \cmpd{acetone-oxime-dnp}, showing that there is indeed an interaction present when the geometry allows.
+In \cmpd{cyclohexanone-oxime-dnp}, the values of $\rho_\text{BCP}$ and $\nabla^{2}\rho_\text{BCP}$ respectively are 0.018 and +0.094 (in a.u.), which agree well with the DFT values calculated for \cmpd{dimethylcyclohexanone-oxime-dnp}, and are consistent with a closed-shell origin for the interaction (\cref{fig:lapl}).
 
 \begin{figure}
 	\centering
@@ -154,7 +154,7 @@ In \cmpd{cyclohexanone-oxime-dnp}, the values of $\rho(r)$ and $\nabla^{2}\rho(r
 
 	\includegraphics[width=0.45\columnwidth]{Figures/cyclohexanone-oxime-dnp-defdens.pdf}
 	\includegraphics[width=0.45\columnwidth]{Figures/cyclohexanone-oxime-dnp-lapl.pdf}
-	\caption[Deformation and Laplacian maps of the electron density for \refcmpd{cyclohexanone-oxime-dnp}.]{Deformation and Laplacian maps of the experimental electron density for \refcmpd{cyclohexanone-oxime-dnp}. Negative values depicted by red contours, and positive by blue. Above is shown the bond path and bcp in orange.}\label{fig:lapl}
+	\caption[Deformation and Laplacian maps of the electron density for \refcmpd{cyclohexanone-oxime-dnp}.]{Deformation and Laplacian maps of the experimental electron density for \refcmpd{cyclohexanone-oxime-dnp}. Negative values depicted by red contours, and positive by blue. Above is shown the bond path and BCP in orange.}\label{fig:lapl}
 \end{figure}
 
 The NCI (non-covalent interaction) index is an extension of QTAIM, which characterises interactions based on the reduced density gradient and the second eigenvalue of the electron density Hessian.\autocite{Johnson2010a}
@@ -165,7 +165,7 @@ NCI maps were computed for \cmpd{cyclohexanone-oxime-dnp} and \cmpd{acetone-oxim
 	\centering
 	\includegraphics[angle=90,width=0.35\columnwidth]{Figures/cyclohexanone-oxime-dnp-nci.pdf}
 	\includegraphics[angle=90,width=0.35\columnwidth]{Figures/acetone-oxime-dnp-nci.pdf}
-	\caption[NCI maps for \refcmpd{cyclohexanone-oxime-dnp} and \refcmpd{acetone-oxime-dnp}.]{NCI maps for \refcmpd{cyclohexanone-oxime-dnp} and \refcmpd{acetone-oxime-dnp}. Positive values (non-bonding) are shown in red, and negative values (attractive) are shown in blue.}\label{fig:NCI}
+	\caption[NCI maps for \refcmpd{cyclohexanone-oxime-dnp} and \refcmpd{acetone-oxime-dnp}.]{NCI maps for \refcmpd{cyclohexanone-oxime-dnp} and \refcmpd{acetone-oxime-dnp}. Positive values (non-bonding) are shown in red, and negative values (attractive) are shown in green.}\label{fig:NCI}
 \end{figure}
 
 To provide further evidence for the interaction, we took advantage of the fact that derivative \cmpd{acetone-oxime-dnp} does not display a Ch-bond, and searched for a $\sigma$-hole in the experimental electron density.
@@ -193,7 +193,7 @@ We therefore challenge the consensus that Ch-bonding can only occur at highly ac
 \subsection{Synthesis}
 
 \subsubsection[Preparation of \refcmpd{cyclohexanone-oxime-dnp,acetone-oxime-dnp}]{Preparation of \emph{O}-(2,4-dinitrophenyl) oximes \refcmpd{cyclohexanone-oxime-dnp,acetone-oxime-dnp}}
-Cyclohexanone oxime (556.8~mg, 4.920~mmol) and sodium hydride (60\% in mineral oil, 249.5~mg, 6.237~mmol) were dissolved in anhydrous THF (10~mL) and stirred for 5 minutes. This was then added to a solution of 2,4-dinitro-1-fluorobenzene (950.6~mg, 5.108~mmol) in a further 10~mL anhydrous THF.\@ This was stirred for 1~h at room temperature, then diluted with water (100~mL) and extracted with ethyl acetate (2$\times$30~mL). The combined organic phases were washed with brine (30~mL), dried (\ce{MgSO4}) and evaporated to afford \cmpd{cyclohexanone-oxime-dnp} as a waxy pale yellow solid (895.1~mg, 65\%, m.p. 100.2--100.9\degree~C).
+Cyclohexanone oxime (556.8~mg, 4.920~mmol) and sodium hydride (60\% in mineral oil, 249.5~mg, 6.237~mmol) were dissolved in anhydrous THF (10~mL) and stirred for 5 minutes. This was then added to a solution of 2,4-dinitro-1-fluorobenzene (950.6~mg, 5.108~mmol) in a further 10~mL anhydrous THF.\@ This was stirred for 1~h at room temperature, then diluted with water (100~mL) and extracted with ethyl acetate ($2\times30$~mL). The combined organic phases were washed with brine (30~mL), dried (\ce{MgSO4}) and evaporated to afford \cmpd{cyclohexanone-oxime-dnp} as a waxy pale yellow solid (895.1~mg, 65\%, m.p. 100.2--100.9\degree~C).
 
 \ce{^{1}H}-NMR (600~MHz, \ce{CDCl3}) $\delta$ ppm 8.83 (1H, d, \textit{J} = 2.27~Hz), 8.37 (1H, dd, \textit{J}\textsubscript{1} = 2.33~Hz, \textit{J}\textsubscript{2} = 9.36~Hz), 7.94 (1H, d, \textit{J} = 9.39~Hz), 2.73 (2H, t, \textit{J} = 6.42~Hz), 2.38 (2H, t, \textit{J} = 6.31~Hz), 1.83--1.7 (4H, m), 1.68--1.63 (2H, m).
 

@@ -75,7 +75,7 @@ This was chosen for consistency with existing AMBER force fields.
 
 \subsection{Classical bonding parameters}
 Bond and angle force constants were derived by conducting a relaxed potential energy surface scan over a range of $ \pm0.3 $~\AA~for bonds and $ \pm10 $\degree~for angles.
-The resulting data was truncated to within 5~kcal/mol of the equilibrium energy (at larger distances the surfaces were appreciably anharmonic), and this surface was fitted with a classical harmonic oscillator model (\cref{eqn:cho}) using the \texttt{nls} function in the R software package.\autocite{R}
+The resulting data was truncated to within 5~kcal$\cdot$mol$^{-1}$ of the equilibrium energy (at larger distances the surfaces were appreciably anharmonic), and this surface was fitted with a classical harmonic oscillator model (\cref{eqn:cho}) using the \texttt{nls} function in the R software package.\autocite{R}
 The equilibrium distance/angle $ x_0 $ was fixed to the value from the optimized geometry.
 The resulting potential energy surfaces and harmonic approximations are shown in \cref{fig:pes}.
 Torsion angles were similarly scanned at the DFT and MM (with the torsion term set to zero) levels, and the difference between these surfaces was fitted using a periodic series (\cref{eqn:dihe}).
@@ -103,7 +103,7 @@ The resulting parameters are presented in \cref{tab:cho-params,tab:dihe-params}.
             $ \angle $(\ce{C-C-Se}) & 119.4 & 329.2 \\
             \bottomrule
     \end{tabular}
-    \caption[Classical bonding parameters for ebselen.]{Classical bonding parameters for ebselen. Bond lengths are given in \AA, and angles in degrees. Force constants for bonds and angles are given in kcal/mol$ \cdot $\AA{}$ ^2 $ and kcal/mol$ \cdot $rad$ ^2 $ respectively.}\label{tab:cho-params}
+    \caption[Classical bonding parameters for ebselen.]{Classical bonding parameters for ebselen. Bond lengths are given in \AA, and angles in degrees. Force constants for bonds and angles are given in kcal$\cdot$mol$^{-1}$$ \cdot $\AA{}$ ^2 $ and kcal$\cdot$mol$^{-1}$$ \cdot $rad$ ^2 $ respectively.}\label{tab:cho-params}
 \end{table}
 
 \begin{table}
@@ -111,7 +111,7 @@ The resulting parameters are presented in \cref{tab:cho-params,tab:dihe-params}.
     \footnotesize
     \begin{tabular}{lllll}\toprule
             Parameter & $ V_{\max ,1} $ & $ V_{\max ,2} $ & $ \gamma_1 $ & $ \gamma_2 $ \\
-            & kcal/mol & kcal/mol & \degree\ & \degree\  \\\midrule
+            & kcal$\cdot$mol$^{-1}$ & kcal$\cdot$mol$^{-1}$ & \degree\ & \degree\  \\\midrule
             $ \phi $(\ce{C_{ar}-C_{ar}-N-Se}) & $ -0.9653 $ & $ 0.5108 $ & 180 & 180 \\
         \bottomrule
     \end{tabular}
@@ -200,7 +200,7 @@ SAPT(DFT) analyses were conducted using the Psi4 software package on geometries 
 \begin{figure}
     \centering
     \includegraphics[width=0.75\linewidth]{Figures/sapt-eda.pdf}
-    \caption[SAPT(DFT) analysis of complexes with four Lewis bases.]{SAPT(DFT) analysis of complexes with four Lewis bases. All energies are given in kcal/mol.}\label{fig:eda}
+    \caption[SAPT(DFT) analysis of complexes with four Lewis bases.]{SAPT(DFT) analysis of complexes with four Lewis bases. All energies are given in kcal$\cdot$mol$^{-1}$.}\label{fig:eda}
 \end{figure}
 
 The SAPT results indicate that the majority (around 80\%) of the interaction can be described by electrostatics and dispersion.
@@ -213,7 +213,7 @@ In GROMACS this is assigned the type \texttt{2fd}, which is described by only on
 This is very computationally efficient, although it is an approximation to reality, as the center of the $ \sigma $-hole is actually slightly offset (see \cref{fig:ebs-esp}).
 A more accurate description would be the three-center \texttt{3fd} or \texttt{3fad} type, however this would introduce a performance penalty.
 
-The distance parameter for the pseudoatom was set to 1.189\AA\ which places the point charge on the VdW surface of the selenium atom.
+The distance parameter for the pseudoatom was set to 1.189~\AA\ which places the point charge on the VdW surface of the selenium atom.
 A number of approaches have been suggested to determine this distance, however it is important for numerical stability of the simulation that the charge lies on or within the VdW surface.\autocite{Hobza2012}
 The charge of the pseudoatom was calculated using the RESP procedure, which fits a pre-calculated electrostatic potential to atom- (or pseudoatom-) centred point charges while enforcing symmetry restraints.
 The ESP was calculated at the HF/6-31G* level using Gaussian16, in order to be consistent with existing force field parameters.
@@ -250,7 +250,6 @@ We therefore did not attempt to model it, although it could be modelled in the s
 
 \subsection{Validation against DFT geometries}
 A preliminary verification of our model was conducted by comparing the geometries and energies calculated in the SAPT(DFT) analysis with the respective MM values.
-The Lewis bases chosen for the SAPT(DFT) analysis were constructed in AMBER.\@
 GAFF was used for all atoms, and an extra point was added to simulate the lone pair(s) of the Lewis bases per the method of Dixon and Kollman.\autocite{Dixon1997}
 Geometries were assessed by minimizing the ebselen-Lewis base structure, and energies calculated relative to the unbound minimized monomers.
 The results are shown in \cref{tab:ebs-geom}.
@@ -259,11 +258,11 @@ The results are shown in \cref{tab:ebs-geom}.
     %DONE
     \centering
     \begin{tabular}{lllll}\toprule
-        Complex & r(\ce{Se\cdots B}) & $ \angle $(\ce{N-Se\cdots B}) & $ \angle $(lone pair) & Energy \\ & \AA\ & \degree\ & \degree\ & (kcal/mol)\\\midrule
-        \cmpd{ebs}$ \cdot $py & 2.879~\AA~(2.775~\AA) & 174.9\degree~(176.2\degree) & 171.1\degree~(165.7\degree) & -7.548 (-7.093) \\%DONE
-        \cmpd{ebs}$ \cdot $DMAc & 2.741~\AA~(2.786~\AA) & 174.7\degree~(172.4\degree) & 129.1\degree~(117.9\degree) & -7.068 (-7.551) \\%DONE
-        \cmpd{ebs}$ \cdot $TMA & 2.928~\AA~(2.857~\AA) & 170.1\degree~(177.4\degree) & 107.2\degree~(113.6\degree) & -5.447 (-6.627) \\%DONE
-        \cmpd{ebs}$ \cdot $DMS & 3.253~\AA~(3.265~\AA) & 160.4\degree~(177.4\degree) & 81.2\degree~(89.8\degree) & -2.510 (-5.646) \\%DONE
+        Complex & r(\ce{Se\cdots B}) & $ \angle $(\ce{N-Se\cdots B}) & $ \angle $(lone pair) & Energy \\ & \AA\ & \degree\ & \degree\ & (kcal$\cdot$mol$^{-1}$)\\\midrule
+        \cmpd{ebs}$ \cdot $py & 2.879~\AA~(2.775~\AA) & 174.9\degree~(176.2\degree) & 171.1\degree~(165.7\degree) & $-7.548$ $(-7.093)$ \\%DONE
+        \cmpd{ebs}$ \cdot $DMAc & 2.741~\AA~(2.786~\AA) & 174.7\degree~(172.4\degree) & 129.1\degree~(117.9\degree) & $-7.068$ $(-7.551)$ \\%DONE
+        \cmpd{ebs}$ \cdot $TMA & 2.928~\AA~(2.857~\AA) & 170.1\degree~(177.4\degree) & 107.2\degree~(113.6\degree) & $-5.447$ $(-6.627)$ \\%DONE
+        \cmpd{ebs}$ \cdot $DMS & 3.253~\AA~(3.265~\AA) & 160.4\degree~(177.4\degree) & 81.2\degree~(89.8\degree) & $-2.510$ $(-5.646)$ \\%DONE
         \bottomrule
     \end{tabular}
     \caption[Median geometric parameters for complexes with \refcmpd{ebs}.]{Median geometric parameters for complexes with \refcmpd{ebs}. DFT equilibrium values are given in brackets for comparison. DFT energies are derived from SAPT(DFT).}\label{tab:ebs-geom}
