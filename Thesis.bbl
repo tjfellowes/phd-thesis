@@ -17,6 +17,184 @@
 \endgroup
 
 
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Fellowes2019}{article}{}
+      \name{author}{2}{}{%
+        {{hash=564e06eff41b32e844b885db3f92a191}{%
+           family={Fellowes},
+           familyi={F\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=72c1d1a0dac7c627dd20e517d8075172}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={Jonathan\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Royal Society of Chemistry}%
+      }
+      \strng{namehash}{2e34db65687084132d8c36ee9a21967a}
+      \strng{fullhash}{2e34db65687084132d8c36ee9a21967a}
+      \strng{bibnamehash}{2e34db65687084132d8c36ee9a21967a}
+      \strng{authorbibnamehash}{2e34db65687084132d8c36ee9a21967a}
+      \strng{authornamehash}{2e34db65687084132d8c36ee9a21967a}
+      \strng{authorfullhash}{2e34db65687084132d8c36ee9a21967a}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{CrystEngComm}
+      \field{number}{10}
+      \field{title}{{New insights into chalcogen bonding provided by co-crystal structures of benzisoselenazolinone derivatives and nitrogen bases}}
+      \field{volume}{21}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{1539\bibrangedash 1542}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1039/C8CE01853G
+      \endverb
+      \verb{urlraw}
+      \verb http://xlink.rsc.org/?DOI=C8CE01853G
+      \endverb
+      \verb{url}
+      \verb http://xlink.rsc.org/?DOI=C8CE01853G
+      \endverb
+    \endentry
+    \entry{Fellowes2020}{article}{}
+      \name{author}{3}{}{%
+        {{hash=de8cf22f7612a147e0099201e3329390}{%
+           family={Fellowes},
+           familyi={F\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=f25e7f320d9d7f6cac52f13269610e27}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={B.L.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=91fea14b6beb76488799225fac19b0b2}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={J.M.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Royal Society of Chemistry}%
+      }
+      \strng{namehash}{5367ac8d207ce02893eac51955f9ccff}
+      \strng{fullhash}{f6752943c0b4754ce53ef6a2fa7df0e0}
+      \strng{bibnamehash}{f6752943c0b4754ce53ef6a2fa7df0e0}
+      \strng{authorbibnamehash}{f6752943c0b4754ce53ef6a2fa7df0e0}
+      \strng{authornamehash}{5367ac8d207ce02893eac51955f9ccff}
+      \strng{authorfullhash}{f6752943c0b4754ce53ef6a2fa7df0e0}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chemical Communications}
+      \field{month}{3}
+      \field{number}{22}
+      \field{title}{{Experimental evidence of chalcogen bonding at oxygen}}
+      \field{volume}{56}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{pages}{3313\bibrangedash 3316}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1039/c9cc09896h
+      \endverb
+    \endentry
+    \entry{Fellowes2020a}{article}{}
+      \name{author}{3}{}{%
+        {{hash=564e06eff41b32e844b885db3f92a191}{%
+           family={Fellowes},
+           familyi={F\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=a4e28a9be172edf46832529452694de8}{%
+           family={Van\bibnamedelima Koeverden},
+           familyi={V\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={M.P.\bibnamedelimi Martin\bibnamedelima P.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=1fc494c392bb59ebf6c61b504bca2418}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={J.M.\bibnamedelimi Jonathan\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Royal Society of Chemistry}%
+      }
+      \strng{namehash}{c9d07e2b2857cde3dbe5d039d49de062}
+      \strng{fullhash}{f76a120d5cc636e04a5100ea1108e7a9}
+      \strng{bibnamehash}{f76a120d5cc636e04a5100ea1108e7a9}
+      \strng{authorbibnamehash}{f76a120d5cc636e04a5100ea1108e7a9}
+      \strng{authornamehash}{c9d07e2b2857cde3dbe5d039d49de062}
+      \strng{authorfullhash}{f76a120d5cc636e04a5100ea1108e7a9}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{CrystEngComm}
+      \field{month}{6}
+      \field{number}{23}
+      \field{title}{{Thermal conversion of a pyridine solvate to a de-solvate facilitated by rearrangement of chalcogen bonds. The solvate and non-solvate structures ofN-(2-nitro-4-(3-oxobenzo[d][1,2]selenazol-2(3H)-yl)phenyl)picolinamide}}
+      \field{volume}{22}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{pages}{4023\bibrangedash 4029}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1039/d0ce00662a
+      \endverb
+    \endentry
+    \entry{Fellowes2020chemrxiv}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=564e06eff41b32e844b885db3f92a191}{%
+           family={Fellowes},
+           familyi={F\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=2b213fedc61fe7c68f02e9dc5a371aec}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{de478c9385c04c464e78729bfe915f44}
+      \strng{fullhash}{de478c9385c04c464e78729bfe915f44}
+      \strng{bibnamehash}{de478c9385c04c464e78729bfe915f44}
+      \strng{authorbibnamehash}{de478c9385c04c464e78729bfe915f44}
+      \strng{authornamehash}{de478c9385c04c464e78729bfe915f44}
+      \strng{authorfullhash}{de478c9385c04c464e78729bfe915f44}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{chemRxiv}
+      \field{title}{{Simulating Chalcogen Bonding Using Molecular Mechanics: A Pseudoatom Approach to Model Ebselen.}}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.26434/chemrxiv.12345434.v1
+      \endverb
+      \verb{urlraw}
+      \verb https://chemrxiv.org/articles/preprint/Simulating_Chalcogen_Bonding_Using_Molecular_Mechanics_A_Pseudoatom_Approach_to_Model_Ebselen_/12345434
+      \endverb
+      \verb{url}
+      \verb https://chemrxiv.org/articles/preprint/Simulating_Chalcogen_Bonding_Using_Molecular_Mechanics_A_Pseudoatom_Approach_to_Model_Ebselen_/12345434
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+
 \refsection{1}
   \datalist[entry]{none/global//global/global}
     \entry{Benesi1949}{article}{}
@@ -13233,7 +13411,7 @@
 
 \refsection{9}
   \datalist[entry]{none/global//global/global}
-    \entry{Fellowes2020chemrxiv}{article}{}
+    \entry{Fellowes2020chemrxiv}{misc}{}
       \name{author}{2}{}{%
         {{hash=564e06eff41b32e844b885db3f92a191}{%
            family={Fellowes},
@@ -13257,9 +13435,10 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{chemRxiv}
       \field{title}{{Simulating Chalcogen Bonding Using Molecular Mechanics: A Pseudoatom Approach to Model Ebselen.}}
       \field{year}{2020}
-      \field{dateera}{ce}
       \verb{doi}
       \verb 10.26434/chemrxiv.12345434.v1
       \endverb
