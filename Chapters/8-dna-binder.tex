@@ -155,8 +155,8 @@ We focussed on the synthesis of benzisoselenazolinone-benzimidazole \cmpd{ebs-rh
 A number of routes to this compound were envisaged, via various intermediates.
 Firstly, we were inspired by the Ullmann-type chemistry exploited by \citeauthor{Bhabak2010} in their selenocyclisation, and by the observation that the amidic proton in \cmpd{ebs.h} goes on to react further to furnish the tetracyclic compound \cmpd{tetracycle} (see \cref{ch:crystengcomm1})\autocite{Bhabak2010,Fellowes2019}.
 We supposed that the intermediate \cmpd{ebs.h}, which can be prepared by reaction of the dichloride \cmpd{dichloride} with aqueous ammonia (\cref{sch:ebs-h-synthesis}) would be a suitable substrate for an Ullmann coupling with an aryl halide.
-A number of test reactions were performed using the benzisothiazolinone \cmpd{ebs.h}$\cdot$\textbf{S}, which is commercially available and inexpensive.
-Typical Ullmann conditions were used (high temperature, DMF solvent, high \ce{CuI} catalyst loading) to initially couple \cmpd{ebs.h}$\cdot$\textbf{S} with bromobenzene to afford \cmpd{ebs}$\cdot$\textbf{S} in moderate yield (\cref{sch:ebs-thio-ph-synthesis}).
+A number of test reactions were performed using the benzisothiazolinone \cmpd{ebs.h-thio}, which is commercially available and inexpensive.
+Typical Ullmann conditions were used (high temperature, DMF solvent, high \ce{CuI} catalyst loading) to initially couple \cmpd{ebs.h-thio} with bromobenzene to afford \cmpd{ebs.thio} in moderate yield (\cref{sch:ebs-thio-ph-synthesis}).
 We were also able to prepare ebselen \cmpd{ebs} via this route in similar yield.
 Optimisation of the reaction was considered to be outside the scope of this work, so we proceeded with the synthesis of the bromo-benzimidazole coupling partner \cmpd{rhs-bromo-2py}.
 
@@ -168,10 +168,10 @@ Optimisation of the reaction was considered to be outside the scope of this work
 \end{scheme}
 
 \begin{scheme}
-    \replacecmpd{ebs.h}
-    \replacecmpd{ebs}
+    \replacecmpd{ebs.h,ebs.h-thio}
+    \replacecmpd{ebs,ebs.thio}
     \includegraphics[scale=0.74]{Figures/ebs-thio-ph-synthesis.eps}
-    \caption{Synthesis of \refcmpd{ebs}.}\label{sch:ebs-thio-ph-synthesis}
+    \caption{Synthesis of \refcmpd{ebs} and \refcmpd{ebs.thio}.}\label{sch:ebs-thio-ph-synthesis}
 \end{scheme}
 
 4-bromo-2-nitroaniline was reduced to the diamine \cmpd{bromodiamine} using tin (II) chloride, then reacted with 2-pyridyl carboximidate hydrochloride \cmpd{2py-carboximidate} (prepared from 2-pyridyl carbonitrile) to afford the benzimidazole \cmpd{rhs-bromo-2py} in excellent yield.
@@ -198,22 +198,23 @@ Although this does not necessarily preclude the coupling reaction, it does remov
 We attempted a ligand-free reaction to no avail, and thus concluded that the coordination environment of the copper is inappropriate for the reaction, and we would have to use another substrate.
 
 We therefore prepared the phenyl derivative \cmpd{rhs-bromo-ph} via a metabisulfite coupling with benzaldehyde, and protected it similarly to give both isomers of \cmpd[sub-counter-format=pg]{rhs-bromo-ph.pmb}.
-This gave the desired coupling product \cmpd[sub-counter-format=pg]{ebs-rhs-ph.pmb}$\cdot$\textbf{S} as a mixture of isomers, from one of which we obtained a single crystal structure (\cref{sch:ebs-thio-rhs-synthesis} and \cref{fig:ebs-thio-rhs-pmb-xray}).
+This gave the desired coupling product \cmpd*[sub-counter-format=pg]{ebs-rhs-ph.pmb}\cmpd[sub-counter-format=pg]{ebs-rhs-ph.thio-pmb} as a mixture of isomers, from one of which we obtained a single crystal structure (\cref{sch:ebs-thio-rhs-synthesis} and \cref{fig:ebs-thio-rhs-pmb-xray}).
 Unfortunately, all efforts to deprotect the benzimidazole nitrogen failed.
 A number of other protecting groups were trialled, including trityl, triphenylsilyl, \emph{t}-butyl and ethyl carbamates, however all either failed to give any protected product, or were too labile to survive the Ullmann reaction conditions.
 We therefore abandoned this synthetic route.
 
+
 \begin{scheme}
-    \replacecmpd{ebs.h}
+    \replacecmpd{ebs.h-thio}
     \replacecmpd{rhs-bromo-ph.pmb}
-    \replacecmpd{ebs-rhs-ph.pmb}
+    \replacecmpd{ebs-rhs-ph.thio-pmb}
     \includegraphics[scale=0.74]{Figures/ebs-thio-rhs-synthesis.eps}
-    \caption{Synthesis of \refcmpd{ebs-rhs-ph.pmb}.}\label{sch:ebs-thio-rhs-synthesis}
+    \caption{Synthesis of \refcmpd{ebs-rhs-ph.thio-pmb}.}\label{sch:ebs-thio-rhs-synthesis}
 \end{scheme}
 
 \begin{figure}
     \includegraphics[width = 0.8\linewidth]{Figures/ebs-thio-rhs-pmb-xray.pdf}
-    \caption{X-ray crystal structure of one isomer of \refcmpd{ebs-rhs-ph.pmb}$\cdot$\textbf{S}.}\label{fig:ebs-thio-rhs-pmb-xray}
+    \caption{X-ray crystal structure of one isomer of \refcmpd{ebs-rhs-ph.thio-pmb}.}\label{fig:ebs-thio-rhs-pmb-xray}
 \end{figure}
 
 \subsubsection{Method 2: Benzisoselenazolinone-first route}\label{sec:reduction}
@@ -535,7 +536,7 @@ The following solutions were prepared:
 
 Selenium was purified by refluxing in 32\% hydrochloric acid for 2~h, then washing with deionised water, methanol, then ether.
 
-\subsubsection{Preparation of \refcmpd{ebs.h}.}
+\subsubsection{Preparation of \refcmpd{ebs.h}}
 %TF-7-1B
 Aqueous ammonia (30\% w/w, 637~$\mu$L, 10~mmol) was dissolved in anhydrous acetonitrile (5~mL), and to this was added a solution of dichloride \cmpd{dichloride} in acetonitrile (10~mL, 0.5~mmol/mL).
 The solution was stirred at room temperature for 10~min, then the solvent was evaporated to give a cream powder which was used without further purification (858.4~mg, 87\%).
@@ -553,9 +554,9 @@ MS (ESI +ve) m/z 199.9609 (\ce{MH+}) \ce{C7H6NOSe+} requires 199.9609 ($\Delta=0
     \caption{X-ray crystal structure of \refcmpd{ebs.h}.}
 \end{figure}
 
-\subsubsection{Preparation of \refcmpd{ebs}\texorpdfstring{$\cdot$\textbf{S}}{.S}.}
+\subsubsection{Preparation of \refcmpd{ebs.thio}}
 %TF-7-12
-To a sealed tube containing 4~\AA\ molecular sieves (740.7~mg) was added copper (I) iodide (34.3~mg, 0.180~mmol), DMEDA (27.6~mg, 31.3~mmol), potassium carbonate (305.3~mg, 2.209~mmol), benzisothiazolinone \cmpd{ebs}$\cdot$\textbf{S}, bromobenzene (190.6~mg, 1.213~mmol), and dioxane (3~mL).
+To a sealed tube containing 4~\AA\ molecular sieves (740.7~mg) was added copper (I) iodide (34.3~mg, 0.180~mmol), DMEDA (27.6~mg, 31.3~mmol), potassium carbonate (305.3~mg, 2.209~mmol), benzisothiazolinone \cmpd{ebs.thio}, bromobenzene (190.6~mg, 1.213~mmol), and dioxane (3~mL).
 The tube was capped and heated to 120\degree{}C for 18~h, then cooled and the mixture tipped into water (30~mL). The resulting blue suspension was centrifuged, and the blue supernatant discarded. The residue was dissolved in 1:1 DCM/methanol, and decanted off from the sieves.
 The solvent was evaporated to afford a greenish solid, which was chromatographed to give the product as colourless needles (105.0~mg, 45\%).
 
@@ -563,7 +564,7 @@ The solvent was evaporated to afford a greenish solid, which was chromatographed
 
 MS (ESI +ve) m/z 228.0476 (\ce{MH+}) \ce{C13H10NOS+} requires 228.0478 ($\Delta=0.88$~ppm).
 
-\subsubsection{Preparation of \refcmpd{bromodiamine}.}
+\subsubsection{Preparation of \refcmpd{bromodiamine}}
 The nitrobenzene (4.9982~g, 23.031~mmol) was dissolved in ethanol (35~mL), and to this was added tin (II) chloride dihydrate (26.022~g, 115.25~mmol, 5~eq).
 The mixture was refluxed for 8~h, then cooled, concentrated, and diluted with water to a volume of 300~mL.
 The thick white suspension was basified to pH 12, cooled again, and extracted with diethyl ether ($2\times200$~mL).
@@ -610,17 +611,17 @@ The resulting precipitate was filtered off, washed with water ($2\times25$~mL), 
 
 \ce{^{1}H}-NMR (499~MHz, \ce{\emph{d}6}-DMSO + \textit{d}-TFA) $\delta$ ppm 8.18 (2H, d, \emph{J} = 6.89~Hz), 7.83 (1H, s), 7.64--7.52 (4H, m), 7.41 (1H, dd, \emph{J}\textsubscript{1} = 1.51~Hz, \emph{J}\textsubscript{2} = 8.52~Hz).
 
-\subsubsection{Preparation of \texorpdfstring{\refcmpd{ebs-rhs-ph.pmb}$\cdot$\textbf{S}}{\refcmpd{ebs-rhs-ph.pmb}.S}.}
-Benzisothiazolinone \cmpd{ebs.h}$\cdot$\textbf{S} (173.1~mg, 1.142~mmol), aryl bromide \cmpd{rhs-bromo-ph.pmb} (401.9~mg, 1.022~mmol), 4~\AA\ molecular sieves (607.1~mg), DMEDA (32.7~mg, 0.371~mmol), potassium carbonate (283.8~mg, 2.053~mmol), and dioxane (3~mL) were combined in a sealed tube under a nitrogen atmosphere, and heated at 120\degree{}C for 24~h.
+\subsubsection{Preparation of \refcmpd{ebs-rhs-ph.thio-pmb}}
+Benzisothiazolinone \cmpd{ebs.h-thio} (173.1~mg, 1.142~mmol), aryl bromide \cmpd{rhs-bromo-ph.pmb} (401.9~mg, 1.022~mmol), 4~\AA\ molecular sieves (607.1~mg), DMEDA (32.7~mg, 0.371~mmol), potassium carbonate (283.8~mg, 2.053~mmol), and dioxane (3~mL) were combined in a sealed tube under a nitrogen atmosphere, and heated at 120\degree{}C for 24~h.
 The mixture was then cooled to room temperature and tipped into water (40~mL).
 The suspension was centrifuged, and the supernatant discarded, then the residue redissolved in methanol ($2\times40$~mL).
 This was filtered, and the filtrate evaporated to give a light brown oil, which was applied to a SNAP 25~g silica cartridge and eluted with an ethyl acetate/petroleum ether gradient to give two fractions:
 \begin{enumerate}
     \item 160.9~mg, aryl bromide \cmpd{rhs-bromo-ph.pmb},
-    \item 231.2~mg, 48\%, benzisothiazolinone-benzimidazole \cmpd{ebs-rhs-ph.pmb}$\cdot$\textbf{S}.
+    \item 231.2~mg, 48\%, benzisothiazolinone-benzimidazole \cmpd{ebs-rhs-ph.thio-pmb}.
 \end{enumerate}
 
-\cmpd{ebs-rhs-ph.pmb}$\cdot$\textbf{S} crystallised in two distinct polymorphs:
+\cmpd{ebs-rhs-ph.thio-pmb} crystallised in two distinct polymorphs:
 \begin{enumerate}
     \item P$\bar{1}$, m.p. 101.0--104.2\degree{}C
     \item P$2_1$/n, m.p. 134.1--138.4\degree{}C

@@ -2028,10 +2028,10 @@
 % resets only the subcompound numbering for a given compound to an optional integer
 \cs_new_protected:Npn \chemnum_reset_subcompounds:nn #1 #2
   { 
-    \int_set:cn {g__chemnum_compound_#1_subcompound_int} {#2}
+    \int_set:cn {g__chemnum_compound_#1_subcompound_int} {\int_eval:n { #2 - 1 } }
   }
 
-\NewDocumentCommand \resetsubcmpd {mO{0}}
+\NewDocumentCommand \resetsubcmpd {mO{1}}
   { \chemnum_reset_subcompounds:nn {#1} {#2} }
 
 

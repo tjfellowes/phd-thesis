@@ -81,7 +81,7 @@
 
 \crefname{scheme}{scheme}{schemes}
 
-\newcommand{\cmpdrow}[2]{\cmpd{#1} & \texttt{#1} & \vspace{0.4cm}\parbox[l]{4cm}{\centering\includegraphics[scale=0.6]{Figures/loc/#2}}}
+\newcommand{\cmpdrow}[2]{\refcmpd{#1} & \texttt{#1} & \vspace{0.4cm}\parbox[l]{4cm}{\centering\includegraphics[scale=0.6]{Figures/loc/#2}}}
 
 \newcommand{\tablefit}[1]{\resizebox{\linewidth}{!}{#1}}
 \newcommand{\tablefitlandscape}[2]{\resizebox{#1\paperwidth}{!}{#2}}
@@ -124,11 +124,23 @@
 
 \newcmpdcounterformat{hammett}{\chem_int_to_hammett:n}
 
+\cs_new:Npn \chem_int_to_other:n #1
+{
+    \int_to_symbols:nnn {#1} { 2 }
+    {
+        { 1 } { \ce{\cdot S} }
+        { 2 } { b\ce{\cdot S} }
+    }
+}
+
+\newcmpdcounterformat{other}{\chem_int_to_other:n}
+
 \cs_new:Npn \chem_int_to_pg:n #1
 {
-    \int_to_symbols:nnn {#1} { 1 }
+    \int_to_symbols:nnn {#1} { 2 }
     {
         { 1 } { \ce{\cdot PMB} }
+        { 2 } { \ce{\cdot S \cdot PMB} }
     }
 }
 
@@ -158,6 +170,9 @@
 
 \labelcmpd[sub-counter-format=hammett]{ebs.4no2,ebs.4cn,ebs.4cf3,ebs.4br,ebs.4co2et,ebs.4me,ebs.4ome,ebs.4oet,ebs.4co2h}
 
+\resetsubcmpd{ebs}
+
+\labelcmpd[sub-counter-format=other]{ebs.thio,ebs.h-thio}
 \resetsubcmpd{ebs}
 
 \labelcmpd{amide,amide.bn,amide.h}
@@ -249,6 +264,7 @@
 \refcmpd{ebs}\textbf{R} & \texttt{ebs.4R} & \vspace{0.4cm}\parbox[l]{4cm}{\centering\includegraphics[scale=0.6]{Figures/loc/ebs_r.eps}} \\
 \cmpdrow{ebs.bn}{ebs_bn.eps} \\
 \cmpdrow{ebs.h}{ebs_h.eps} \\
+\refcmpd{ebs}$\cdot$\textbf{S} & \texttt{ebs.thio} & \vspace{0.4cm}\parbox[l]{4cm}{\centering\includegraphics[scale=0.6]{Figures/loc/ebs_thio.eps}} \\
 \cmpdrow{amide}{amide.eps} \\
 \cmpdrow{amide.bn}{amide_bn.eps} \\
 \cmpdrow{amide.h}{amide_h.eps} \\
@@ -272,7 +288,9 @@
 \cmpdrow{bromodiamine}{bromodiamine.eps} \\
 \cmpdrow{2py-carboximidate}{2py-carboximidate.eps} \\
 \cmpdrow{rhs-bromo-ph}{rhs-bromo-ph.eps} \\
+\cmpdrow{rhs-bromo-ph.pmb}{rhs-bromo-ph_pmb.eps} \\
 \cmpdrow{ebs-rhs-ph}{ebs-rhs-ph.eps} \\
+\refcmpd{ebs-rhs-ph.pmb}$\cdot$\textbf{S} & \texttt{ebs-rhs-ph.thio-pmb} & \vspace{0.4cm}\parbox[l]{4cm}{\centering\includegraphics[scale=0.6]{Figures/loc/ebs-rhs-ph_thio-pmb.eps}} \\
 \cmpdrow{ebs-rhs-2py-diselenide}{ebs-rhs-2py-diselenide.eps} \\
 \cmpdrow{rhs-nitro-amide}{rhs-nitro-amide.eps} \\
 \cmpdrow{rhs-nitro}{rhs-nitro.eps} \\
