@@ -66,12 +66,12 @@ These results also suggest that dispersion plays only a minor role, for similar 
     \caption[``Molecular balances'' for the measurement of Ch-bond energies.]{``Molecular balances'' designed by \citeauthor{Pascoe2017} for the measurement of Ch-bond energies.\autocite{Pascoe2017}}\label{fig:cockroft-balances}
 \end{figure}
 
-DFT was used to further probe the dispersion contribution.
+In the same study, DFT was used to further probe the dispersion contribution.
 Free energies were calculated using functionals which both did, and did not include dispersion corrections, and the values compared to the experimental results.
-The non-dispersion corrected B3LYP functional gave superior correlation with experiment than did either M06-2X and $ \omega $B97-D, both of which include dispersion.
+The non-dispersion corrected B3LYP functional gave superior correlation with experiment than did either M06-2X and $ \omega $B97X-D, both of which include dispersion (either via parametrization or as an empirical correction).
 This provided additional evidence that, in the systems studied, the major contributor to the interaction is orbital overlap and charge transfer.
 
-Although current evidence points towards these interactions being primarily orbital related, the electrostatic ``$ \sigma $-hole'' terminology of Politzer and Murray has stuck, and the term is now used to encompass the whole gamut of X-, Ch-, Pn-, and T-bonding interactions.
+Although current evidence points towards these interactions being primarily orbital related, the electrostatic ``$ \sigma $-hole'' terminology of Politzer and Murray has stuck, and the term is now used to encompass the whole gamut of X-, Ch-, Pn- (pnictogen), and T- (tetrel) bonding interactions.
 
 \section{Applications of Ch-Bonding}
 Ch-bonding, and by extension, all $ \sigma $-hole interactions can theoretically be applied to any formal Lewis acid-base system.
@@ -95,7 +95,7 @@ The group of Stefan Matile has further explored anion transport, and has publish
 \begin{figure}
     \centering
     \includegraphics[width=0.4\linewidth]{Figures/matile-anion-binder.pdf}
-    \caption[Anion binding through anion-$ \pi $ interactions and X-bonding.]{Anion binding through anion-$ \pi $ interactions and X-bonding.\autocite{VargasJentzsch2013}}\label{fig:matile-anion-binder}
+    \caption[Anion binding through anion-$ \pi $ interactions and X-bonding.]{Anion binding through anion-$ \pi $ interactions and X-bonding.\autocite{VargasJentzsch2013} The red spheres represent anions and the blue spheres represent cations.}\label{fig:matile-anion-binder}
 \end{figure}
 
 Ch-bonding, too, has been investigated with respect to materials chemistry.
@@ -189,9 +189,9 @@ While we usually think of the tertiary structure of proteins as being dominated 
 This is not unexpected, as sulfur, a component of both cysteine and methionine, is known to form Ch-bonds in small molecules.
 In the early days of Ch-bonding interactions (2001, before the name had come into common use) \citeauthor{Iwaoka2001} published an analysis of 604 protein structures in the Protein Data Bank (PDB).\autocite{Iwaoka2001}
 
-A remarkable number of close contacts (sum of Van der Waals radii plus 0.5~\AA) between sulfur and Lewis basic (X) atoms were identified in the structures, with 33\% of cysteine residues and 22\% of methionine residues showing a close contact.
-Furthermore, the geometric parameters of these contacts were studied, with more than half of all contacts having a \ce{S-S-X} (X = O, N) of 150--180\degree.
-The observed contacts were ascribed to a $ \pi $(\ce{C=O}) $ \rightarrow \sigma^{\star} $(\ce{S-S}) interaction, in contrast to the n(X)$ \rightarrow \sigma^{\star} $(\ce{S-X}) interaction which dominates in small molecules.
+A remarkable number of close contacts (sum of Van der Waals radii plus 0.5~\AA) between sulfur and Lewis basic (LB) atoms were identified in the structures, with 33\% of cysteine residues and 22\% of methionine residues showing a close contact.
+Furthermore, the geometric parameters of these contacts were studied, with more than half of all contacts having a \ce{S-S-LB} (LB = O, N) of 150--180\degree.
+The observed contacts were ascribed to a $ \pi $(\ce{C=O}) $ \rightarrow \sigma^{\star} $(\ce{S-S}) interaction, in contrast to the n(LB)$ \rightarrow \sigma^{\star} $(\ce{S-X}) interaction which dominates in small molecules, where X is an electronegative atom.
 Also contrary to the case of small molecules, the authors suggested that the orbital component of the interaction is small, though important for establishing the directionality of the interaction.
 Dispersion appears to be the major stabilising force, as optimization using a non-dispersion corrected level of theory gave unrealistically large distances between the two interacting groups.
 
@@ -264,22 +264,22 @@ To date, there have not been any drugs which target nucleic acids through Ch-bon
 In this thesis, we examine some of the fundamental aspects of Ch-bonding in real-world systems, motivated by the end goal of developing a Ch-bonding DNA binder.
 We identify the drug ebselen as a relevant molecule, and its benzisoselenazolinone core as a potent Ch-bond donor, and we begin with a crystallographic study of a series of co-crystals of ebselen derivatives and a variety of Lewis bases.
 We show that benzisoselenazolinone derivatives reproducibly form Ch-bonded co-crystals, and extend this to a more comprehensive study in which the electronic properties of the donor are systematically varied.
-Using this structural data, we show that there is a degree of covalency to Ch-bonding in these systems.
+Using this structural data, we show that there is a degree of covalency to Ch-bonding in these systems (\cref{ch:crystengcomm1}).
 We also analyse the experimental electron density from high-quality diffraction measurements within the QTAIM framework (see \cref{sec:qtaim}), which suggests that these Ch-bonds are actually predominantly closed-shell in origin.
-As part of our investigation into model Ch-bonded complexes, we use the unique NMR properties of the \ce{^{77}Se} nucleus to probe the electron density around the selenium atom, which shows promise as a method for characterising these compounds.
+As part of our investigation into model Ch-bonded complexes, we use the unique NMR properties of the \ce{^{77}Se} nucleus to probe the electron density around the selenium atom, which shows promise as a method for characterising these compounds (\cref{ch:hammett}).
 
-In a departure from selenium chemistry, we sought to answer the question of whether oxygen can act as a Ch-bond donor.
+In a departure from selenium chemistry, we sought to answer the question of whether oxygen can act as a Ch-bond donor in \cref{ch:o-ch-bonding}.
 Preliminary computational studies suggested that highly reactive oxygen fluorides could act as Ch-bond donors\autocite{Varadwaj2019a}, but we demonstrate that an \textit{o}-nitro-O-aryl oxime displays characteristics consistent with an intramolecular \ce{O \cdots O} Ch-bond.
 We prepare a number of analogues, and characterise the nature of the \ce{O \cdots O} interaction both crystallographically and computationally.
-In a supplementary investigation, we manipulate the electronic properties of the Ch-bond donor and acceptor in a number of analogues, and show that the Ch-bond does indeed behave as one would expect.
+In a supplementary investigation, we manipulate the electronic properties of the Ch-bond donor and acceptor in a number of analogues, and show that the Ch-bond does indeed behave as one would expect (\cref{ch:o-ch-bonding-further}).
 
-Using the information from these fundamental studies into the nature of Ch-bonds, we prepare a Ch-bonding analogue of a Hoechst DNA binder and characterise its interaction with DNA.\@
+Using the information from these fundamental studies into the nature of Ch-bonds, we prepare a Ch-bonding analogue of a Hoechst DNA binder and characterise its interaction with DNA (\cref{ch:dna-binder}).\@
 An intermediate compound in this synthesis showed interesting crystal packing when recrystallised from different solvents.
 Pyridine, a strong Lewis base, is incorporated into the crystal lattice in one dimensional channels, but is lost upon heating to around 80\degree{}C.
-This loss is accompanied by a change in crystal packing and rearrangement of Ch-bonds, to the form which could be recrystallised from dimethylformamide.
+This loss is accompanied by a change in crystal packing and rearrangement of Ch-bonds, to the form which could be recrystallised from dimethylformamide (\cref{ch:thermal-conversion}).
 
 Due to the global pandemic in 2020, lab work was unfeasible for a significant period.
-During this time, we turned to studying Ch-bonding computationally.
+During this time, we turned to studying Ch-bonding computationally, the results of which are detailed in \cref{ch:ebs-param}.
 Early on in the pandemic, ebselen was identified as an inhibitor of the SARS-CoV2 M\textsuperscript{pro} main protease, which plays a crucial role in viral replication.\autocite{Jin2020}
 In light of this, there were a number of computational studies in which ebselen was ``docked'' to the protein target using a molecular mechanics force field.
 However, typical force fields are not able to describe Ch-bonding, which we (and others) had identified as central to the chemistry of ebselen.

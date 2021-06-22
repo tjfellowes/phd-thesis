@@ -46,6 +46,7 @@ Although DMAP is already a very strong base, the basicity can be increased by in
 This reduces the energetic penalty associated with the delocalisation of the lone pair into the pyridine ring, by forcing a more planar geometry upon the nitrogen.\autocite{Berthelot1998,Heinrich2003EnhancingFixation}
 %Compounds \cmpd{py.pyrrol,py.morph} were therefore synthesised by treating 4-chloropyridine hydrochloride with 2 equivalents of the appropriate base (\cref{sch:base-synthesis}).
 We therefore prepared co-crystals with \cmpd{py.pyrrol,py.morph}, which are slightly stronger and weaker bases than DMAP respectively (\cref{fig:bases}).
+\cmpd{py.pyrrol} is a stronger base due to the imposed planarity of the aniline nitrogen, while \cmpd{py.morph} is weaker due to the larger ring and electron withdrawing oxygen atom.
 
 \begin{scheme}
   \centering
@@ -95,7 +96,7 @@ For the second and third strategies, the densities and scattering factors were c
 
 \begin{figure}
   \includegraphics[width=0.6\linewidth]{Figures/rho-agreement.eps}
-  \caption[Experimental vs calculated electron density.]{Experimental vs calculated electron density. The dotted line represents $\rho_\text{BCP, exp} = \rho_\text{BCP, calc}$.}\label{fig:qtaim-calc-exp}
+  \caption[Experimental vs calculated electron density.]{Experimental vs calculated electron density. The dotted line represents $\rho_\text{BCP, exp} = \rho_\text{BCP, calc}$. $R^2 = 0.8660$}\label{fig:qtaim-calc-exp}
 \end{figure}
 
 In order to ensure that we were not introducing errors in the electron density parameters by using data from several sources (experimental vs calculated), we calculated the electron density for \emph{all} complexes and compared the QTAIM parameters to the experimental ones where possible.
@@ -116,7 +117,7 @@ Although the $\omega$B97X-D functional is very good at describing non-bonded com
   \small
   \tablefit{\begin{tabular}{lllllllll}
     \toprule
-    Complex & r(\ce{N \cdots Se}) & r(\ce{Se-N_{1}}) & r(Se--C\textsubscript{1}) & r(N\textsubscript{1}--C(O)) & $ \angle $(N$ \cdots $\ce{Se-N_{1}}) & $ \angle $(C\textsubscript{para}$ \cdots $\ce{N \cdots Se}) & $\rho_{\mathrm{BCP}}$(\ce{Se\cdots N}) & $\nabla^{2}(\rho_{\mathrm{BCP}})$(\ce{Se\cdots N}) \\
+    Complex & r(\ce{N \cdots Se}) & r(\ce{Se-N_{1}}) & r(Se--C\textsubscript{1}) & r(N\textsubscript{1}--C(O)) & $ \angle $(N$ \cdots $\ce{Se-N_{1}}) & $ \angle $(C\textsubscript{para}$ \cdots $\ce{N \cdots Se}) & $\rho_{\text{BCP}}$(\ce{Se\cdots N}) & $\nabla^{2}(\rho_{\text{BCP}})$(\ce{Se\cdots N}) \\
       & \AA\ & \AA\ & \AA\ & \AA\ & \degree\ & \degree\ & e/\AA$^3$ & e/\AA$^5$ \\ \midrule
     \cmpd{ebs}                       & --- & 1.896(3) & 1.892(4) & 1.359(5) & --- & --- & --- & --- \\
     \cmpd{ebs.4no2}                     & --- \\
@@ -155,7 +156,7 @@ Although the $\omega$B97X-D functional is very good at describing non-bonded com
     \cmpd{ebs.4me}$ \cdot $\cmpd{py.morph}    & 2.412(5) & 1.977(5) & 1.908(5) & 1.360(7) & 174.4(2) & 178.9(2) & 0.3456 & 2.2774\textsuperscript{\ref{fn:dftdens}}\\
     \cmpd{ebs.4ome}$ \cdot $\cmpd{py.morph}   & --- \\
     \cmpd{ebs.4oet}$ \cdot $\cmpd{py.morph}\textsuperscript{\ref{fn:enva}}    & 2.398(4) & 1.958(4) & 1.894(6) & 1.367(6) & 174.6(2) & 174.1(2) & 0.3553 & 2.3309\textsuperscript{\ref{fn:dftdens}}\\
-    \cmpd{ebs.4oet}$ \cdot $\cmpd{py.morph}\textsuperscript{\ref{fn:envb}}    & 2.448(6) & 1.951(4) & 1.901(5) & 1.367(5) & 175.5(2) & 170.5(3) & 0.3239 & 2.2095\textsuperscript{\ref{fn:dftdens}}\\
+    \cmpd{ebs.4oet}$ \cdot $\cmpd{py.morph}\textsuperscript{\ref{fn:envb}}    & 2.448(6) & 1.951(4) & 1.901(5) & 1.367(5) & 175.5(2) & 170.5(3) & 0.3239 & 2.2095\textsuperscript{\ref{fn:dftdens}}\\ \\
 
     \cmpd{ebs}$ \cdot $\cmpd{py.pyrrol}     & 2.350(1) & 1.9830(9) & 1.8985(7) & 1.3616(8) & 174.20(3) & 176.46(4) & 0.3867 & 2.4117\textsuperscript{\ref{fn:dftdens}}\\
     \cmpd{ebs.4no2}$ \cdot $\cmpd{py.pyrrol}   & --- \\
@@ -222,7 +223,7 @@ These opposing effects appear to be approximately equal in magnitude, so cancel 
 \includegraphics[width=\linewidth]{Figures/hammett-pyrrol-p.eps}
 \caption{Ebselen derivatives complexed with \refcmpd{py.pyrrol}. The lines are described by the equations $\mathrm{r}(\ce{Se-N}) = (1.9761(28) + 0.029(8) \times \sigma_\text{p})$~\AA~($R^2=0.7828$) and $\mathrm{r}(\ce{Se\cdots N}) = (2.347(7) - 0.071(17) \times \sigma_\text{p})$~\AA~($R^2=0.8005$)}\label{fig:hammett-pyrrol-para}
 \end{subfigure}
-\caption[Hammett plots of endocyclic \ce{Se-N} bond length and \ce{Se\cdots N} Ch-bond length of ebselen derivatives complexed with various Lewis bases ($\sigma_\text{p}$).]{In all Hammett plots, the upper line represents the \ce{Se\cdots N} Ch-bond distance, and the lower line represents the endocyclic \ce{Se-N} bond length.}
+\caption[Hammett plots of endocyclic \ce{Se-N} bond length and \ce{Se\cdots N} Ch-bond length of ebselen derivatives complexed with various Lewis bases ($\sigma_\text{p}$).]{Hammett plots of endocyclic \ce{Se-N} bond length and \ce{Se\cdots N} Ch-bond length of ebselen derivatives complexed with various Lewis bases ($\sigma_\text{p}$). In all Hammett plots, the upper line represents the \ce{Se\cdots N} Ch-bond distance, and the lower line represents the endocyclic \ce{Se-N} bond length.}
 \end{figure}
 
 \begin{table}
@@ -269,7 +270,7 @@ We therefore constructed Hammett plots using this parameter as well, which are s
 \includegraphics[width=\linewidth]{Figures/hammett-pyrrol-m.eps}
 \caption{Ebselen derivatives complexed with \refcmpd{py.pyrrol}. The lines are described by the equations $\mathrm{r}(\ce{Se-N}) = (1.970(6) + 0.04(2) \times \sigma_\text{m})$~\AA~($R^2=0.5098$) and $\mathrm{r}(\ce{Se\cdots N}) = (2.368(10) - 0.12(3) \times \sigma_\text{m})$~\AA~($R^2=0.7892$)}\label{fig:hammett-pyrrol-meta}
 \end{subfigure}
-\caption[Hammett plots of endocyclic \ce{Se-N} bond length and \ce{Se\cdots N} Ch-bond length of ebselen derivatives complexed with various Lewis bases ($\sigma_\text{m}$).]{In all Hammett plots, the upper line represents the \ce{Se\cdots N} Ch-bond distance, and the lower line represents the endocyclic \ce{Se-N} bond length.}
+\caption[Hammett plots of endocyclic \ce{Se-N} bond length and \ce{Se\cdots N} Ch-bond length of ebselen derivatives complexed with various Lewis bases ($\sigma_\text{m}$).]{Hammett plots of endocyclic \ce{Se-N} bond length and \ce{Se\cdots N} Ch-bond length of ebselen derivatives complexed with various Lewis bases ($\sigma_\text{m}$). In all Hammett plots, the upper line represents the \ce{Se\cdots N} Ch-bond distance, and the lower line represents the endocyclic \ce{Se-N} bond length.}
 \end{figure}
 
 \begin{table}
@@ -316,37 +317,35 @@ Interestingly the endocyclic \ce{Se-N} bond has similar values for $\nabla^2\rho
 Superficially identical plots are obtained for other derivatives, which are not shown in the interests of brevity.
 The resulting parameters are, however, tabulated in \cref{tab:bondlengths2}.
 
+\begin{figure}
+  \centering
+  \begin{subfigure}{\linewidth}
+    \centering
+    \includegraphics[width=0.45\linewidth]{Figures/hammett-rho-dmap-p.eps}
+    \includegraphics[width=0.45\linewidth]{Figures/hammett-lapl-dmap-p.eps}
+    \caption[Hammett plots of QTAIM parameters $\rho_\text{BCP}$ and $\nabla^2\rho_{\text{BCP}}$ of ebselen derivatives complexed with DMAP.]{Hammett plots of QTAIM parameters $\rho_\text{BCP}$ and $\nabla^2\rho_{\text{BCP}}$ of ebselen derivatives complexed with DMAP.\@ The line is described by the equation $\rho_{\text{BCP}} = (0.379(16) + 0.105(37) \times \sigma_\text{p})$~e/\AA\textsuperscript{3}~($R^2=0.3783$) and $\nabla^2\rho_{\text{BCP}} = (2.74(13) + 0.05(29) \times \sigma_\text{p})$~e/\AA\textsuperscript{5}~($R^2=0.002$)}\label{fig:hammett-qtaim-dmap}
+  \end{subfigure}
+  
+  \begin{subfigure}{\linewidth}
+    \centering
+    \includegraphics[width=0.45\linewidth]{Figures/hammett-rho-morph-p.eps}
+    \includegraphics[width=0.45\linewidth]{Figures/hammett-lapl-morph-p.eps}
+    \caption[Hammett plots of QTAIM parameters $\rho_\text{BCP}$ and $\nabla^2\rho_{\text{BCP}}$ of ebselen derivatives complexed with \refcmpd{py.morph}.]{Hammett plots of QTAIM parameters $\rho_\text{BCP}$ and $\nabla^2\rho_{\text{BCP}}$ of ebselen derivatives complexed with \refcmpd{py.morph}. The line is described by the equation $\rho_{\text{BCP}} = (0.344(16) + 0.12(5) \times \sigma_\text{p})$~e/\AA\textsuperscript{3}~($R^2=0.5013$) and $\nabla^2\rho_{\text{BCP}} = (2.59(21) + 0.3(6) \times \sigma_\text{p})$~e/\AA\textsuperscript{5}~($R^2=0.0400$)}\label{fig:hammett-qtaim-morph}
+  \end{subfigure}
+  
+  \begin{subfigure}{\linewidth}
+    \centering
+    \includegraphics[width=0.45\linewidth]{Figures/hammett-rho-pyrrol-p.eps}
+    \includegraphics[width=0.45\linewidth]{Figures/hammett-lapl-pyrrol-p.eps}
+    \caption[Hammett plots of QTAIM parameters $\rho_\text{BCP}$ and $\nabla^2\rho_{\text{BCP}}$ of ebselen derivatives complexed with \refcmpd{py.pyrrol}.]{Hammett plots of QTAIM parameters $\rho_\text{BCP}$ and $\nabla^2\rho_{\text{BCP}}$ of ebselen derivatives complexed with \refcmpd{py.pyrrol}. The line is described by the equation $\rho_{\text{BCP}} = (0.380(32) + 0.08(9) \times \sigma_\text{p})$~e/\AA\textsuperscript{3}~($R^2=0.123$) and $\nabla^2\rho_{\text{BCP}} = (3.13(49) + 0.6(1.4) \times \sigma_\text{p})$~e/\AA\textsuperscript{5}~($R^2=0.0299$)}\label{fig:hammett-qtaim-pyrrol}
+  \end{subfigure}
+  
+  \caption[Hammett plots of QTAIM parameters for ebselen derivatives complexed with various Lewis bases.]{}
+  \end{figure}
+
 Hammett plots can also be constructed using these parameters ($\rho_\text{BCP}$ and $\nabla^2\rho_{\text{BCP}}$) of the Ch bond (\cref{fig:hammett-qtaim-dmap,fig:hammett-qtaim-pyrrol,fig:hammett-qtaim-morph}).
 The electron density $\rho_\text{BCP}$ shows a similar trend to the bond distance ($\rho_{\text{BCP}} = (0.379(16) + 0.105(37) \times \sigma_\text{p})$~e/\AA\textsuperscript{3}~($R^2=0.3783$)), while the Laplacian $\nabla^2\rho_{\text{BCP}}$ is more or less independent of the Hammett constant ($\nabla^2\rho_{\text{BCP}} = (2.74(13) + 0.05(29) \times \sigma_\text{p})$~e/\AA\textsuperscript{5}~($R^2=0.002$)).
 This reinforces the significance of the Laplacian not as an indicator of the strength of an interaction, but as a measure of its ionic or covalent character, which does not appear to change significantly across the range of electron demand studied.
-
-\begin{figure}
-\centering
-\begin{subfigure}{\linewidth}
-  \centering
-  \includegraphics[width=0.45\linewidth]{Figures/hammett-rho-dmap-p.eps}
-  \includegraphics[width=0.45\linewidth]{Figures/hammett-lapl-dmap-p.eps}
-  \caption[Hammett plots of QTAIM parameters $\rho_\text{BCP}$ and $\nabla^2\rho_{\text{BCP}}$ of ebselen derivatives complexed with DMAP.]{Hammett plots of QTAIM parameters $\rho_\text{BCP}$ and $\nabla^2\rho_{\text{BCP}}$ of ebselen derivatives complexed with DMAP.\@ The line is described by the equation $\rho_{\text{BCP}} = (0.379(16) + 0.105(37) \times \sigma_\text{p})$~e/\AA\textsuperscript{3}~($R^2=0.3783$) and $\nabla^2\rho_{\text{BCP}} = (2.74(13) + 0.05(29) \times \sigma_\text{p})$~e/\AA\textsuperscript{5}~($R^2=0.002$)}\label{fig:hammett-qtaim-dmap}
-\end{subfigure}
-
-\begin{subfigure}{\linewidth}
-  \centering
-  \includegraphics[width=0.45\linewidth]{Figures/hammett-rho-morph-p.eps}
-  \includegraphics[width=0.45\linewidth]{Figures/hammett-lapl-morph-p.eps}
-  \caption[Hammett plots of QTAIM parameters $\rho_\text{BCP}$ and $\nabla^2\rho_{\text{BCP}}$ of ebselen derivatives complexed with \refcmpd{py.morph}.]{Hammett plots of QTAIM parameters $\rho_\text{BCP}$ and $\nabla^2\rho_{\text{BCP}}$ of ebselen derivatives complexed with \refcmpd{py.morph}. The line is described by the equation $\rho_{\text{BCP}} = (0.344(16) + 0.12(5) \times \sigma_\text{p})$~e/\AA\textsuperscript{3}~($R^2=0.5013$) and $\nabla^2\rho_{\text{BCP}} = (2.59(21) + 0.3(6) \times \sigma_\text{p})$~e/\AA\textsuperscript{5}~($R^2=0.0400$)}\label{fig:hammett-qtaim-morph}
-\end{subfigure}
-
-\begin{subfigure}{\linewidth}
-  \centering
-  \includegraphics[width=0.45\linewidth]{Figures/hammett-rho-pyrrol-p.eps}
-  \includegraphics[width=0.45\linewidth]{Figures/hammett-lapl-pyrrol-p.eps}
-  \caption[Hammett plots of QTAIM parameters $\rho_\text{BCP}$ and $\nabla^2\rho_{\text{BCP}}$ of ebselen derivatives complexed with \refcmpd{py.pyrrol}.]{Hammett plots of QTAIM parameters $\rho_\text{BCP}$ and $\nabla^2\rho_{\text{BCP}}$ of ebselen derivatives complexed with \refcmpd{py.pyrrol}. The line is described by the equation $\rho_{\text{BCP}} = (0.380(32) + 0.08(9) \times \sigma_\text{p})$~e/\AA\textsuperscript{3}~($R^2=0.123$) and $\nabla^2\rho_{\text{BCP}} = (3.13(49) + 0.6(1.4) \times \sigma_\text{p})$~e/\AA\textsuperscript{5}~($R^2=0.0299$)}\label{fig:hammett-qtaim-pyrrol}
-\end{subfigure}
-
-\caption[Hammett plots of QTAIM parameters for ebselen derivatives complexed with various Lewis bases.]{}
-\end{figure}
-
-\FloatBarrier
 
 \subsubsection{Co-crystals where \texorpdfstring{$Z^\prime=2$}{Z'=2}}\label{sec:z2}
 DFT calculations show that the vibrational mode associated with Ch-bond stretching is found at very low energy.
@@ -359,7 +358,7 @@ We performed a solid state IR experiment to probe the crystalline environment su
 \begin{figure}
     \centering
     \includegraphics[width=0.9\linewidth]{Figures/ebs-4oet-dmap-ir.eps}
-    \caption[Solid state IR spectrum of \refcmpd{ebs.4oet}$ \cdot $DMAP.]{Solid state IR spectrum of \refcmpd{ebs.4oet}$ \cdot $DMAP in gray. The spectrum of the pure \refcmpd{ebs.4oet} is shown in black, which contains only one molecule in the asymmetric unit.}\label{fig:ebs-4oet-dmap-ir}
+    \caption[Solid state IR spectrum of \refcmpd{ebs.4oet}$ \cdot $DMAP.]{Solid state IR spectrum of \refcmpd{ebs.4oet}$ \cdot $DMAP in black. The spectrum of the pure \refcmpd{ebs.4oet} is shown in blue, which contains only one molecule in the asymmetric unit.}\label{fig:ebs-4oet-dmap-ir}
 \end{figure}
 
 In the pure compound the carbonyl peak is found at approximately 1590~cm$^{-1}$ and is relatively sharp and well defined.
@@ -442,11 +441,11 @@ The \ce{^1H} and \ce{^1H}--\ce{^{13}C} HSQC spectra (\cref{fig:ebs-4ome-dmap-sol
 
 The aromatic region of the solid state \ce{^{13}C} spectrum is shown in \cref{fig:cpmas-sol-13c}, overlaid with the corresponding solution spectrum\footnote{The \ce{^{13}C} spectrum was referenced to adamantane at $ \delta $\ce{CH} $= 29.45$~ppm and $ \delta $\ce{CH2} $= 38.48$~ppm.\autocite{Morcombe2003}}.
 Good agreement is observed for all signals, with some interesting phenomena visible in the solid state spectrum.
-Firstly, the signal at 138.62~ppm corresponding to C8 is split into a 1:1:1 triplet, possibly due to coupling to the spin 1 \ce{^{14}N} nucleus adjacent.
-However this is not observed for the C7 signal, nor any signals in the pyridyl ring.
-The origin of the splitting is not clear at this stage.
+Firstly, the signal at 114.41~ppm corresponding to C10/C12 appears to be split into much weaker signals at around 118 and 110~ppm.
+This is because the phenyl ring is not free to rotate in the solid state, so the C10 and C12 carbons are no longer equivalent.
+The C9/C13 signal is also likely split, but this is not as apparent as there are many overlapping peaks in the vicinity of these signals.
 Secondly, shoulders can be seen on the C15/C19 and C16/C18 signals.
-This indicates that the crystalline environment surrounding each DMAP is different, which provides further evidence that there are indeed two systems in the asymmetric unit.
+This indicates that the crystalline environment surrounding each DMAP is different, which may be due to loss of symmetry as above, or may indicate that there are indeed two systems in the asymmetric unit.
 The relatively poor resolution of the solid state \ce{^{13}C}-NMR spectrum limits further analysis, particularly of the C1 signal which is obscured by several other signals.
 
 \begin{figure}
@@ -712,7 +711,7 @@ This means that amorphous species such as polymers may be studied, as long as th
 \subsection{Solution-phase studies}
 While the above crystallographic analysis gives a useful qualitative understanding of the strength of the Ch-bond, we sought an experimental method that could accurately determine bond energies, so that we could easily compare our Ch-bonded complexes with those dominated by other interactions.
 
-\subsubsection{NMR titration experiments}
+\subsubsection{NMR titration experiments}\label{sec:nmr-titration}
 NMR titrations are a useful tool for the determination of binding affinities in supra\-molecular and host-guest chemistry.\autocite{Foyle2020,Gilday2013,Garrett2015a,Sarwar2010}
 \ce{^{1}H} and \ce{^{19}F}-NMR have both been used to study halogen bonded systems, however we decided to take advantage of the unique NMR characteristics of the \ce{^{77}Se} nucleus to probe the Ch-bond in our systems for the following reasons:
 
@@ -854,12 +853,12 @@ It is important to note that the complex is fluxional, and does not exclusively 
 Furthermore, the ionisation process generates a population of INCs with a distribution of energies.
 We will therefore not see a sharp transition in product ion intensities as a function of CID energy, as the higher energy INCs will fragment first, while the lower energy ones remain bound.
 
-All experiments were performed by ionising the sample in methanol via ESI into a Thermo Scientific linear ion trap quadrupole (LTQ) spectrometer, at a concentration of 1~m\textsc{M} and a rate of 5~$\mu\text{L}\cdot\text{min}^{-1}$ using a syringe pump.
+All experiments were performed by ionising the sample in methanol via ESI into a Thermo Scientific linear ion trap quadrupole (LTQ) spectrometer, at a concentration of 1~$\mu$M and a rate of 5~$\mu\text{L}\cdot\text{min}^{-1}$ using a syringe pump.
 An ESI voltage of 4.5~kV was used, and the sheath gas and lenses were tuned to optimise the signal of the precursor ion.
 
-We initially injected an equimolar mixture of DMAP and ebselen \cmpd{ebs}, and isolated an ion of m/z 398.08~a.m.u.
+We initially injected an equimolar mixture of DMAP and ebselen \cmpd{ebs}, and isolated an ion of \textit{m/z} 398.08~a.m.u.
 However, this could be assigned to either the desired Ch-bonded complex, protonated at the carbonyl oxygen, or to a H-bonded complex.
-CID of this ion exclusively gave an ion of m/z 123.09, corresponding to protonated DMAP (\cref{fig:pos-esi-ms}).
+CID of this ion exclusively gave an ion of \textit{m/z} 123.09, corresponding to protonated DMAP (\cref{fig:pos-esi-ms}).
 We interpreted this as evidence that we had formed the H-bonded complex, as the proton is most likely to remain with the more basic species in the H-bond.
 Furthermore, \ce{N+ -H\cdots O} hydrogen bonds are very strong (in excess of 15~kcal$\cdot$mol$^{-1}$)\autocite{Emsley1980}, which is likely to out compete Ch-bonding, with estimated bond enthalpies of <~10~kcal$\cdot$mol$^{-1}$ in the gas phase.
 In this case, DFT calculations indicated that the H-bonded complex is 18.4~kcal$\cdot$mol$^{-1}$ more stable than the Ch-bonded complex.
@@ -874,8 +873,8 @@ In this case, DFT calculations indicated that the H-bonded complex is 18.4~kcal$
 \end{figure}
 
 To circumvent this preferential formation of an H-bonded complex, we devised a system with no possibility of H-bonding.
-The isonicotinate ion was used as the Lewis base, and the complex isolated in the negative ion mode with m/z 397.01.
-CID of this ion exclusively gave a species of m/z 122.02, corresponding to isonicotinate (\cref{fig:neg-esi-ms}).
+The isonicotinate ion was used as the Lewis base, and the complex isolated in the negative ion mode with \textit{m/z} 397.01.
+CID of this ion exclusively gave a species of \textit{m/z} 122.02, corresponding to isonicotinate (\cref{fig:neg-esi-ms}).
 This provides strong evidence that a Ch-bonded complex is able to be formed in the gas phase.
 Note that the Ch-bond could be formed either through the pyridyl nitrogen or through the carboxylate oxygen.
 As it happens, DFT calculations indicate that the Ch-bond through the oxygen is some 8.7~kcal$\cdot$mol$^{-1}$ more stable than through the nitrogen, however this does not invalidate our experiment.
@@ -885,8 +884,10 @@ As it happens, DFT calculations indicate that the Ch-bond through the oxygen is 
 
 \begin{figure}
     \centering
+    \replacecmpd{ebs}
+    \replacecmpd{ebs.bn}
     \includegraphics[scale=0.74]{Figures/neg-esi-ms.eps}
-    \caption[Negative mode ESI of \refcmpd{ebs}$ \cdot $isonicotinate.]{Dissociation of the complex \refcmpd{ebs}$ \cdot $isonicotinate under CID.}\label{fig:neg-esi-ms}
+    \caption[Negative mode ESI of isonicotinate complexes.]{Dissociation of isonicotinate complexes under CID.}\label{fig:neg-esi-ms}
 \end{figure}
 
 Using the technique of CID, one could imagine an experiment where such a Ch-bonded complex is fragmented with gradually increasing energy, and the yield of the product ion measured.
@@ -909,8 +910,10 @@ However, we present here a proof of concept experiment, which shows the decrease
   \caption[TCID experiment of \refcmpd{ebs.bn}$ \cdot $isonicotinate.]{Rudimentary TCID experiment of \refcmpd{ebs.bn}$ \cdot $isonicotinate. The CID energies are given in arbitrary units.}\label{fig:ebs-bn-tcid}
 \end{figure}
 
-The ion corresponding to the \cmpd{ebs}$ \cdot $isonicotinate/\cmpd{ebs.bn}$ \cdot $isonicotinate was first isolated directly from the ESI source in the negative ion mode, then this was subjected to increasing CID energies, recording spectra when the product isonicotinate ion at m/z 122 was first detected.
+The ion corresponding to the \cmpd{ebs}$ \cdot $isonicotinate/\cmpd{ebs.bn}$ \cdot $isonicotinate was first isolated directly from the ESI source in the negative ion mode, then this was subjected to increasing CID energies, recording spectra when the product isonicotinate ion at \textit{m/z} 122 was first detected.
 Qualitatively, the \cmpd{ebs}$ \cdot $isonicotinate Ch-bond can be seen to be stronger than the \cmpd{ebs.bn}$ \cdot $isonicotinate Ch-bond, as a higher CID energy is needed to begin breaking the bond (7 arbitrary units \emph{versus} 6 units), and the parent ion persists until 12 units as opposed to 10 units.
+This is consistent with out NMR titration experiments (\cref{sec:nmr-titration}), which show that the complex \cmpd{ebs}$ \cdot $DMAP is stronger than \cmpd{ebs.bn}$ \cdot $DMAP by 0.95~kcal$\cdot$mol$^{-1}$, at least in solution.
+DFT calculations (\cref{sec:dft-crystengcomm}) suggest that the difference is less in the absence of solvation, but there is still a difference of 0.51~kcal$\cdot$mol$^{-1}$.
 
 \section{Conclusion}
 To conclude, we have shown that ebselen derivatives reliably form Ch-bonded complexes in the solid, solution, and gas phases, and have introduced a number of techniques by which the complexes can be studied.
@@ -928,11 +931,11 @@ Low energy CID of this complex recovered the ion of the Lewis base, providing st
 \subsubsection[Preparation of \refcmpd{diselenide}]{Preparation of bis(2-carboxyphenyl)diselenide \refcmpd{diselenide}}\label{sec:diselenide_prep}
 %TF-7-3
 %KNOWN
-Anthranilic acid (3.460~g, 25.33~mmol) was dissolved in 1~\textsc{m} hydrochloric acid (80~mL) and cooled to 0\degree{}C.
+Anthranilic acid (3.460~g, 25.33~mmol) was dissolved in 1~M hydrochloric acid (80~mL) and cooled to 0\degree{}C.
 Sodium nitrite (1.751~g, 25.37~mmol) in water (40~mL) was then added drop-wise with stirring.
 The mixture was kept at 0\degree{}C.
 
-Selenium (2.080~g, 26.34~mmol) was suspended in 1~\textsc{m} sodium hydroxide (120~mL) and degassed by repeatedly evacuating the flask until the solvent began to boil, then backfilling with \ce{N2}.
+Selenium (2.080~g, 26.34~mmol) was suspended in 1~M sodium hydroxide (120~mL) and degassed by repeatedly evacuating the flask until the solvent began to boil, then backfilling with \ce{N2}.
 One grain of sodium borohydride was added under \ce{N2} counter flow, followed by hydrazine hydrate (1.3~mL, 26~mmol).
 The mixture was heated until a red colour appeared, then cooled to 0\degree{}C.
 
@@ -956,14 +959,14 @@ Evaporation of the solvent afforded \cmpd{dichloride} as yellow crystals (1.870~
 The appropriate amine (2.5~mmol) was dissolved in anhydrous acetonitrile (5~mL) and cooled to 0\degree{}C.
 To this was added triethylamine (1~mL, distilled from \ce{CaH2}), followed by \cmpd{dichloride} (2.5~mmol) in a further 5~mL anhydrous acetonitrile.
 The mixture was stirred at room temperature for 2~h, then the solvent was removed under vacuum.
-The solid residue was triturated with water (5~mL) and 1~\textsc{m} hydrochloric acid to afford a friable solid, which was purified by recrystallisation from ethyl acetate at $-20$\degree{}C to afford the pure benzisoselenazolinone derivative.
+The solid residue was triturated with water (5~mL) and 1~M hydrochloric acid to afford a friable solid, which was purified by recrystallisation from ethyl acetate at $-20$\degree{}C to afford the pure benzisoselenazolinone derivative.
 
 \subsubsection[General procedure B]{Procedure for the preparation of benzisoselenazolinone derivative \refcmpd{ebs.4no2} (procedure B).}
 Sodium hydride (60\% suspension in mineral oil, 125.0~mg, 3.125~mmol) was suspended in anhydrous THF (5~mL) and cooled to 0\degree{}C.
 4-Nitroaniline (treated with charcoal and crystallised from aqueous ethanol, 277~mg, 2.01~mmol) was then added and the resulting dark red suspension stirred for 5 minutes at 0\degree{}C.
 DMAP (16.3~mg, 0.133~mmol) was then added, followed by a solution of the dichloride \cmpd{dichloride} (2.00~mmol) in a further 5~mL anhydrous THF.\@
 The mixture was then warmed to room temperature, and stirred for 18~h to give a light yellow suspension, which was quenched with methanol (5~mL), then suspended in water (50~mL).
-The resulting solid was filtered off, washed with 1~\textsc{m} \ce{HCl} and water, then dried to give a light yellow powder (336.0~mg, 52\%).
+The resulting solid was filtered off, washed with 1~M \ce{HCl} and water, then dried to give a light yellow powder (336.0~mg, 52\%).
 
 \subsubsection[General procedure C]{Procedure for the preparation of benzisoselenazolinone derivative \refcmpd{ebs} (procedure C).}
 Copper iodide (98.4~mg, 0.517~mmol) and 1,10-phenanthroline (83.1~mg, 0.461~mmol) were stirred in anhydrous DMF (3~mL) for 15 mins at r.t., then 2-iodo-N-phenylbenz\-amide (653.2~mg, 2.021~mmol), selenium (196.9~mg, 2.495~mmol) and potassium carbonate (627.3~mg, 4.539~mmol) were added sequentially under a flow of argon.
