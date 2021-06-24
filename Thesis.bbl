@@ -4565,6 +4565,426 @@
       \verb 10.1063/1.440136
       \endverb
     \endentry
+    \entry{Cowieson2015}{article}{}
+      \name{author}{12}{}{%
+        {{hash=476af16a80c6d1e2d213b5b8713d8ca6}{%
+           family={Cowieson},
+           familyi={C\bibinitperiod},
+           given={Nathan\bibnamedelima Philip},
+           giveni={N\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=e654f849a5693057f8a8e74ec97b740a}{%
+           family={Aragao},
+           familyi={A\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=48ca7baad0c8f48c464edb2d50d2bef6}{%
+           family={Clift},
+           familyi={C\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2fbbdbc23a8c1c04866174587c56e4c0}{%
+           family={Ericsson},
+           familyi={E\bibinitperiod},
+           given={Daniel\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=aca5d5152cce7f30730a97030798ef4e}{%
+           family={Gee},
+           familyi={G\bibinitperiod},
+           given={Christine},
+           giveni={C\bibinitperiod}}}%
+        {{hash=7bd12fe1bdc248992f1953fd5f733b64}{%
+           family={Harrop},
+           familyi={H\bibinitperiod},
+           given={Stephen\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=d922d5a980d9c995f0abf0bfc465a92b}{%
+           family={Mudie},
+           familyi={M\bibinitperiod},
+           given={Nathan},
+           giveni={N\bibinitperiod}}}%
+        {{hash=62f52daba829f61209c44116095bb43e}{%
+           family={Panjikar},
+           familyi={P\bibinitperiod},
+           given={Santosh},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2ec46354722b120a17e79fd19df1736e}{%
+           family={Price},
+           familyi={P\bibinitperiod},
+           given={Jason\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=dfe7657ed48d46c69a20c7b4504ed192}{%
+           family={Riboldi-Tunnicliffe},
+           familyi={R\bibinithyphendelim T\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod}}}%
+        {{hash=409dff4bf2ab12b5de425f19fd10eefa}{%
+           family={Williamson},
+           familyi={W\bibinitperiod},
+           given={Rachel},
+           giveni={R\bibinitperiod}}}%
+        {{hash=51a0fef7e4663887c037562c9b1d217f}{%
+           family={Caradoc-Davies},
+           familyi={C\bibinithyphendelim D\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {International Union of Crystallography}%
+      }
+      \strng{namehash}{1e81f58e457e4564a18c09ad8536dc47}
+      \strng{fullhash}{fcb05cffd307ae90a0b323bfb450940d}
+      \strng{bibnamehash}{fcb05cffd307ae90a0b323bfb450940d}
+      \strng{authorbibnamehash}{fcb05cffd307ae90a0b323bfb450940d}
+      \strng{authornamehash}{1e81f58e457e4564a18c09ad8536dc47}
+      \strng{authorfullhash}{fcb05cffd307ae90a0b323bfb450940d}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Synchrotron Radiation}
+      \field{number}{1}
+      \field{title}{{MX1: A bending-magnet crystallography beamline serving both chemical and macromolecular crystallography communities at the Australian Synchrotron}}
+      \field{volume}{22}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{pages}{187\bibrangedash 190}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1107/S1600577514021717
+      \endverb
+      \keyw{beamline,bending magnet,crystallography}
+    \endentry
+    \entry{Sheldrick2015}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8fe742421e800f0b51832a12edd7d1e3}{%
+           family={Sheldrick},
+           familyi={S\bibinitperiod},
+           given={George\bibnamedelima M.},
+           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {International Union of Crystallography}%
+      }
+      \strng{namehash}{8fe742421e800f0b51832a12edd7d1e3}
+      \strng{fullhash}{8fe742421e800f0b51832a12edd7d1e3}
+      \strng{bibnamehash}{8fe742421e800f0b51832a12edd7d1e3}
+      \strng{authorbibnamehash}{8fe742421e800f0b51832a12edd7d1e3}
+      \strng{authornamehash}{8fe742421e800f0b51832a12edd7d1e3}
+      \strng{authorfullhash}{8fe742421e800f0b51832a12edd7d1e3}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Acta Crystallographica Section C: Structural Chemistry}
+      \field{number}{Md}
+      \field{title}{{Crystal structure refinement with SHELXL}}
+      \field{volume}{71}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{pages}{3\bibrangedash 8}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1107/S2053229614024218
+      \endverb
+      \keyw{SHELXL,SHREDCIF,X-ray and neutron diffraction,crystal structure refinement}
+    \endentry
+    \entry{Sheldrick2008}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8fe742421e800f0b51832a12edd7d1e3}{%
+           family={Sheldrick},
+           familyi={S\bibinitperiod},
+           given={George\bibnamedelima M.},
+           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{8fe742421e800f0b51832a12edd7d1e3}
+      \strng{fullhash}{8fe742421e800f0b51832a12edd7d1e3}
+      \strng{bibnamehash}{8fe742421e800f0b51832a12edd7d1e3}
+      \strng{authorbibnamehash}{8fe742421e800f0b51832a12edd7d1e3}
+      \strng{authornamehash}{8fe742421e800f0b51832a12edd7d1e3}
+      \strng{authorfullhash}{8fe742421e800f0b51832a12edd7d1e3}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0108-7673}
+      \field{journaltitle}{Acta Crystallographica Section A Foundations of Crystallography}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{{A short history of SHELX}}
+      \field{volume}{64}
+      \field{year}{2008}
+      \field{pages}{112\bibrangedash 122}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1107/S0108767307043930
+      \endverb
+      \verb{file}
+      \verb :Users/tfellowes/Documents/Mendeley Desktop/Sheldrick - 2008 - A short history of SHELX.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://scripts.iucr.org/cgi-bin/paper?S0108767307043930
+      \endverb
+      \verb{url}
+      \verb http://scripts.iucr.org/cgi-bin/paper?S0108767307043930
+      \endverb
+      \keyw{Computer programs,Crystal structure determination,Phasing,SHELX,Structure refinement}
+    \endentry
+    \entry{Dolomanov2009}{article}{}
+      \name{author}{5}{}{%
+        {{hash=65bc7762ed24ee48877c195c69326a5f}{%
+           family={Dolomanov},
+           familyi={D\bibinitperiod},
+           given={Oleg\bibnamedelima V.},
+           giveni={O\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=3bdcb12bbd22e9074d0d28c43dc0d950}{%
+           family={Bourhis},
+           familyi={B\bibinitperiod},
+           given={Luc\bibnamedelima J.},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=43ad59b252b96208c94c70b7e4282d45}{%
+           family={Gildea},
+           familyi={G\bibinitperiod},
+           given={Richard\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=9ffd8dc854986ecdc17e7f2bc52198d2}{%
+           family={Howard},
+           familyi={H\bibinitperiod},
+           given={Judith\bibnamedelima A.K.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=506a048075f4269691196f333c56bdce}{%
+           family={Puschmann},
+           familyi={P\bibinitperiod},
+           given={Horst},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{a089e405613d89b4ee112349daf36f9b}
+      \strng{fullhash}{d062f9d2970254b1cab07f54df6437c4}
+      \strng{bibnamehash}{d062f9d2970254b1cab07f54df6437c4}
+      \strng{authorbibnamehash}{d062f9d2970254b1cab07f54df6437c4}
+      \strng{authornamehash}{a089e405613d89b4ee112349daf36f9b}
+      \strng{authorfullhash}{d062f9d2970254b1cab07f54df6437c4}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00218898}
+      \field{journaltitle}{Journal of Applied Crystallography}
+      \field{number}{2}
+      \field{title}{{OLEX2: A complete structure solution, refinement and analysis program}}
+      \field{volume}{42}
+      \field{year}{2009}
+      \field{pages}{339\bibrangedash 341}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1107/S0021889808042726
+      \endverb
+      \verb{file}
+      \verb :Users/tfellowes/Documents/Mendeley Desktop/Dolomanov et al. - 2009 - OLEX2 A complete structure solution, refinement and analysis program.pdf:pdf
+      \endverb
+      \keyw{Computer programs,Data harvesting,Graphical user interfaces,Metadata,OLEX2,Visualization and analysis}
+    \endentry
+    \entry{Kleemiss2021}{article}{}
+      \name{author}{16}{}{%
+        {{hash=0913f0dc95cb602328be515d2c800c42}{%
+           family={Kleemiss},
+           familyi={K\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=65bc7762ed24ee48877c195c69326a5f}{%
+           family={Dolomanov},
+           familyi={D\bibinitperiod},
+           given={Oleg\bibnamedelima V.},
+           giveni={O\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=2f20120a3eb89738892adc5c1d17c7a0}{%
+           family={Bodensteiner},
+           familyi={B\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5defa11ae0dc6bec8721a6866704562a}{%
+           family={Peyerimhoff},
+           familyi={P\bibinitperiod},
+           given={Norbert},
+           giveni={N\bibinitperiod}}}%
+        {{hash=e9141e61fd3acadb9aa08092e083198e}{%
+           family={Midgley},
+           familyi={M\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod}}}%
+        {{hash=3bdcb12bbd22e9074d0d28c43dc0d950}{%
+           family={Bourhis},
+           familyi={B\bibinitperiod},
+           given={Luc\bibnamedelima J.},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=e6a2b1702c7885502e3cb6b717da5d83}{%
+           family={Genoni},
+           familyi={G\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ab8cf20dbd157e1c4a4a30ef7eb2eac0}{%
+           family={Malaspina},
+           familyi={M\bibinitperiod},
+           given={Lorraine\bibnamedelima A.},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=8704f9c378c79194437c62dd0429d789}{%
+           family={Jayatilaka},
+           familyi={J\bibinitperiod},
+           given={Dylan},
+           giveni={D\bibinitperiod}}}%
+        {{hash=4ae9aa234a666508151f7b41db9cc1ef}{%
+           family={Spencer},
+           familyi={S\bibinitperiod},
+           given={John\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=1852337f7825d16798cffc6835151267}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={Fraser},
+           giveni={F\bibinitperiod}}}%
+        {{hash=446eaa65b211e81f436262f4d1f4428b}{%
+           family={Grundkötter-Stock},
+           familyi={G\bibinithyphendelim S\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod}}}%
+        {{hash=e7ce146c2eb0ee30789cc6848c0a1836}{%
+           family={Steinhauer},
+           familyi={S\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=857520d986223333543511fed9f2a1c1}{%
+           family={Lentz},
+           familyi={L\bibinitperiod},
+           given={Dieter},
+           giveni={D\bibinitperiod}}}%
+        {{hash=506a048075f4269691196f333c56bdce}{%
+           family={Puschmann},
+           familyi={P\bibinitperiod},
+           given={Horst},
+           giveni={H\bibinitperiod}}}%
+        {{hash=4fcead74c5eadb544f018a79a01c338c}{%
+           family={Grabowsky},
+           familyi={G\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{ab522915628113b37f4fc3dffb163bef}
+      \strng{fullhash}{13b290269c9a5ce32aa5ed976f9f4b82}
+      \strng{bibnamehash}{ab522915628113b37f4fc3dffb163bef}
+      \strng{authorbibnamehash}{ab522915628113b37f4fc3dffb163bef}
+      \strng{authornamehash}{ab522915628113b37f4fc3dffb163bef}
+      \strng{authorfullhash}{13b290269c9a5ce32aa5ed976f9f4b82}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2041-6520}
+      \field{journaltitle}{Chem. Sci.}
+      \field{number}{5}
+      \field{title}{{Accurate crystal structures and chemical properties from NoSpherA2}}
+      \field{volume}{12}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{pages}{1675\bibrangedash 1692}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1039/D0SC05526C
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/tfell/Documents/Mendeley Desktop/d0sc05526c.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://xlink.rsc.org/?DOI=D0SC05526C
+      \endverb
+      \verb{url}
+      \verb http://xlink.rsc.org/?DOI=D0SC05526C
+      \endverb
+    \endentry
+    \entry{Neese2012}{article}{}
+      \name{author}{1}{}{%
+        {{hash=fff80c744c5a0bff437149b6520d03a2}{%
+           family={Neese},
+           familyi={N\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{fff80c744c5a0bff437149b6520d03a2}
+      \strng{fullhash}{fff80c744c5a0bff437149b6520d03a2}
+      \strng{bibnamehash}{fff80c744c5a0bff437149b6520d03a2}
+      \strng{authorbibnamehash}{fff80c744c5a0bff437149b6520d03a2}
+      \strng{authornamehash}{fff80c744c5a0bff437149b6520d03a2}
+      \strng{authorfullhash}{fff80c744c5a0bff437149b6520d03a2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1759-0876}
+      \field{journaltitle}{WIREs Computational Molecular Science}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{{The ORCA program system}}
+      \field{volume}{2}
+      \field{year}{2012}
+      \field{pages}{73\bibrangedash 78}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1002/wcms.81
+      \endverb
+      \verb{file}
+      \verb :Users/tfellowes/Downloads/wcms.81.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/10.1002/wcms.81
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/10.1002/wcms.81
+      \endverb
+    \endentry
+    \entry{Jelsch2005}{article}{}
+      \name{author}{4}{}{%
+        {{hash=1698ee00b3c3de56e21e0fe1eaf008bd}{%
+           family={Jelsch},
+           familyi={J\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=abf67bdb97ae6e74272d000457c3c84f}{%
+           family={Guillot},
+           familyi={G\bibinitperiod},
+           given={Benoit},
+           giveni={B\bibinitperiod}}}%
+        {{hash=b86767b8e049a2b680ecbf6c9b8fb4cf}{%
+           family={Lagoutte},
+           familyi={L\bibinitperiod},
+           given={Angelique},
+           giveni={A\bibinitperiod}}}%
+        {{hash=166dd1759b9eb3761595c10db36b8e09}{%
+           family={Lecomte},
+           familyi={L\bibinitperiod},
+           given={Claude},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{dcf89934b84ecd75d71f3a0f4e2c7998}
+      \strng{fullhash}{15d46a035b0f786765b26b3029ee0eb5}
+      \strng{bibnamehash}{15d46a035b0f786765b26b3029ee0eb5}
+      \strng{authorbibnamehash}{15d46a035b0f786765b26b3029ee0eb5}
+      \strng{authornamehash}{dcf89934b84ecd75d71f3a0f4e2c7998}
+      \strng{authorfullhash}{15d46a035b0f786765b26b3029ee0eb5}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Applied Crystallography}
+      \field{number}{1}
+      \field{title}{{Advances in protein and small-molecule charge-density refinement methods using MoPro}}
+      \field{volume}{38}
+      \field{year}{2005}
+      \field{dateera}{ce}
+      \field{pages}{38\bibrangedash 54}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1107/S0021889804025518
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 
@@ -6469,193 +6889,6 @@
       \endverb
       \keyw{basicity,hydrogen bonding,p k hb scale,tertiary amines}
     \endentry
-    \entry{Cowieson2015}{article}{}
-      \name{author}{12}{}{%
-        {{hash=476af16a80c6d1e2d213b5b8713d8ca6}{%
-           family={Cowieson},
-           familyi={C\bibinitperiod},
-           given={Nathan\bibnamedelima Philip},
-           giveni={N\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=e654f849a5693057f8a8e74ec97b740a}{%
-           family={Aragao},
-           familyi={A\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod}}}%
-        {{hash=48ca7baad0c8f48c464edb2d50d2bef6}{%
-           family={Clift},
-           familyi={C\bibinitperiod},
-           given={Mark},
-           giveni={M\bibinitperiod}}}%
-        {{hash=2fbbdbc23a8c1c04866174587c56e4c0}{%
-           family={Ericsson},
-           familyi={E\bibinitperiod},
-           given={Daniel\bibnamedelima J.},
-           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=aca5d5152cce7f30730a97030798ef4e}{%
-           family={Gee},
-           familyi={G\bibinitperiod},
-           given={Christine},
-           giveni={C\bibinitperiod}}}%
-        {{hash=7bd12fe1bdc248992f1953fd5f733b64}{%
-           family={Harrop},
-           familyi={H\bibinitperiod},
-           given={Stephen\bibnamedelima J.},
-           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=d922d5a980d9c995f0abf0bfc465a92b}{%
-           family={Mudie},
-           familyi={M\bibinitperiod},
-           given={Nathan},
-           giveni={N\bibinitperiod}}}%
-        {{hash=62f52daba829f61209c44116095bb43e}{%
-           family={Panjikar},
-           familyi={P\bibinitperiod},
-           given={Santosh},
-           giveni={S\bibinitperiod}}}%
-        {{hash=2ec46354722b120a17e79fd19df1736e}{%
-           family={Price},
-           familyi={P\bibinitperiod},
-           given={Jason\bibnamedelima R.},
-           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=dfe7657ed48d46c69a20c7b4504ed192}{%
-           family={Riboldi-Tunnicliffe},
-           familyi={R\bibinithyphendelim T\bibinitperiod},
-           given={Alan},
-           giveni={A\bibinitperiod}}}%
-        {{hash=409dff4bf2ab12b5de425f19fd10eefa}{%
-           family={Williamson},
-           familyi={W\bibinitperiod},
-           given={Rachel},
-           giveni={R\bibinitperiod}}}%
-        {{hash=51a0fef7e4663887c037562c9b1d217f}{%
-           family={Caradoc-Davies},
-           familyi={C\bibinithyphendelim D\bibinitperiod},
-           given={Tom},
-           giveni={T\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {International Union of Crystallography}%
-      }
-      \strng{namehash}{1e81f58e457e4564a18c09ad8536dc47}
-      \strng{fullhash}{fcb05cffd307ae90a0b323bfb450940d}
-      \strng{bibnamehash}{fcb05cffd307ae90a0b323bfb450940d}
-      \strng{authorbibnamehash}{fcb05cffd307ae90a0b323bfb450940d}
-      \strng{authornamehash}{1e81f58e457e4564a18c09ad8536dc47}
-      \strng{authorfullhash}{fcb05cffd307ae90a0b323bfb450940d}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Synchrotron Radiation}
-      \field{number}{1}
-      \field{title}{{MX1: A bending-magnet crystallography beamline serving both chemical and macromolecular crystallography communities at the Australian Synchrotron}}
-      \field{volume}{22}
-      \field{year}{2015}
-      \field{dateera}{ce}
-      \field{pages}{187\bibrangedash 190}
-      \range{pages}{4}
-      \verb{doi}
-      \verb 10.1107/S1600577514021717
-      \endverb
-      \keyw{beamline,bending magnet,crystallography}
-    \endentry
-    \entry{Sheldrick2015}{article}{}
-      \name{author}{1}{}{%
-        {{hash=8fe742421e800f0b51832a12edd7d1e3}{%
-           family={Sheldrick},
-           familyi={S\bibinitperiod},
-           given={George\bibnamedelima M.},
-           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {International Union of Crystallography}%
-      }
-      \strng{namehash}{8fe742421e800f0b51832a12edd7d1e3}
-      \strng{fullhash}{8fe742421e800f0b51832a12edd7d1e3}
-      \strng{bibnamehash}{8fe742421e800f0b51832a12edd7d1e3}
-      \strng{authorbibnamehash}{8fe742421e800f0b51832a12edd7d1e3}
-      \strng{authornamehash}{8fe742421e800f0b51832a12edd7d1e3}
-      \strng{authorfullhash}{8fe742421e800f0b51832a12edd7d1e3}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Acta Crystallographica Section C: Structural Chemistry}
-      \field{number}{Md}
-      \field{title}{{Crystal structure refinement with SHELXL}}
-      \field{volume}{71}
-      \field{year}{2015}
-      \field{dateera}{ce}
-      \field{pages}{3\bibrangedash 8}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1107/S2053229614024218
-      \endverb
-      \keyw{SHELXL,SHREDCIF,X-ray and neutron diffraction,crystal structure refinement}
-    \endentry
-    \entry{Farrugia1997}{article}{}
-      \name{author}{1}{}{%
-        {{hash=a0519d41efbc2122e8552b4696799387}{%
-           family={Farrugia},
-           familyi={F\bibinitperiod},
-           given={Louis\bibnamedelima J.},
-           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \strng{namehash}{a0519d41efbc2122e8552b4696799387}
-      \strng{fullhash}{a0519d41efbc2122e8552b4696799387}
-      \strng{bibnamehash}{a0519d41efbc2122e8552b4696799387}
-      \strng{authorbibnamehash}{a0519d41efbc2122e8552b4696799387}
-      \strng{authornamehash}{a0519d41efbc2122e8552b4696799387}
-      \strng{authorfullhash}{a0519d41efbc2122e8552b4696799387}
-      \field{extraname}{1}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Applied Crystallography}
-      \field{number}{5}
-      \field{title}{{ORTEP-3 for windows - A version of ORTEP-III with a graphical user interface (GUI)}}
-      \field{volume}{30}
-      \field{year}{1997}
-      \field{dateera}{ce}
-      \field{pages}{565}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1107/S0021889897003117
-      \endverb
-      \keyw{MS-Windows,ORTEP,PC,Thermal ellipsoids}
-    \endentry
-    \entry{Farrugia1999}{article}{}
-      \name{author}{1}{}{%
-        {{hash=a0519d41efbc2122e8552b4696799387}{%
-           family={Farrugia},
-           familyi={F\bibinitperiod},
-           given={Louis\bibnamedelima J.},
-           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \strng{namehash}{a0519d41efbc2122e8552b4696799387}
-      \strng{fullhash}{a0519d41efbc2122e8552b4696799387}
-      \strng{bibnamehash}{a0519d41efbc2122e8552b4696799387}
-      \strng{authorbibnamehash}{a0519d41efbc2122e8552b4696799387}
-      \strng{authornamehash}{a0519d41efbc2122e8552b4696799387}
-      \strng{authorfullhash}{a0519d41efbc2122e8552b4696799387}
-      \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Applied Crystallography}
-      \field{number}{4}
-      \field{title}{{WinGX suite for small-molecule single-crystal crystallography}}
-      \field{volume}{32}
-      \field{year}{1999}
-      \field{dateera}{ce}
-      \field{pages}{837\bibrangedash 838}
-      \range{pages}{2}
-      \verb{doi}
-      \verb 10.1107/S0021889899006020
-      \endverb
-      \keyw{Microsoft Windows™,PC,Program package,Single crystal}
-    \endentry
   \enddatalist
 \endrefsection
 
@@ -7818,222 +8051,6 @@
       \range{pages}{8}
       \verb{doi}
       \verb 10.1021/jp072092l
-      \endverb
-    \endentry
-    \entry{Sheldrick2015}{article}{}
-      \name{author}{1}{}{%
-        {{hash=8fe742421e800f0b51832a12edd7d1e3}{%
-           family={Sheldrick},
-           familyi={S\bibinitperiod},
-           given={George\bibnamedelima M.},
-           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {International Union of Crystallography}%
-      }
-      \strng{namehash}{8fe742421e800f0b51832a12edd7d1e3}
-      \strng{fullhash}{8fe742421e800f0b51832a12edd7d1e3}
-      \strng{bibnamehash}{8fe742421e800f0b51832a12edd7d1e3}
-      \strng{authorbibnamehash}{8fe742421e800f0b51832a12edd7d1e3}
-      \strng{authornamehash}{8fe742421e800f0b51832a12edd7d1e3}
-      \strng{authorfullhash}{8fe742421e800f0b51832a12edd7d1e3}
-      \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Acta Crystallographica Section C: Structural Chemistry}
-      \field{number}{Md}
-      \field{title}{{Crystal structure refinement with SHELXL}}
-      \field{volume}{71}
-      \field{year}{2015}
-      \field{dateera}{ce}
-      \field{pages}{3\bibrangedash 8}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1107/S2053229614024218
-      \endverb
-      \keyw{SHELXL,SHREDCIF,X-ray and neutron diffraction,crystal structure refinement}
-    \endentry
-    \entry{Sheldrick2008}{article}{}
-      \name{author}{1}{}{%
-        {{hash=8fe742421e800f0b51832a12edd7d1e3}{%
-           family={Sheldrick},
-           familyi={S\bibinitperiod},
-           given={George\bibnamedelima M.},
-           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \strng{namehash}{8fe742421e800f0b51832a12edd7d1e3}
-      \strng{fullhash}{8fe742421e800f0b51832a12edd7d1e3}
-      \strng{bibnamehash}{8fe742421e800f0b51832a12edd7d1e3}
-      \strng{authorbibnamehash}{8fe742421e800f0b51832a12edd7d1e3}
-      \strng{authornamehash}{8fe742421e800f0b51832a12edd7d1e3}
-      \strng{authorfullhash}{8fe742421e800f0b51832a12edd7d1e3}
-      \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0108-7673}
-      \field{journaltitle}{Acta Crystallographica Section A Foundations of Crystallography}
-      \field{month}{1}
-      \field{number}{1}
-      \field{title}{{A short history of SHELX}}
-      \field{volume}{64}
-      \field{year}{2008}
-      \field{pages}{112\bibrangedash 122}
-      \range{pages}{11}
-      \verb{doi}
-      \verb 10.1107/S0108767307043930
-      \endverb
-      \verb{file}
-      \verb :Users/tfellowes/Documents/Mendeley Desktop/Sheldrick - 2008 - A short history of SHELX.pdf:pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://scripts.iucr.org/cgi-bin/paper?S0108767307043930
-      \endverb
-      \verb{url}
-      \verb http://scripts.iucr.org/cgi-bin/paper?S0108767307043930
-      \endverb
-      \keyw{Computer programs,Crystal structure determination,Phasing,SHELX,Structure refinement}
-    \endentry
-    \entry{Dolomanov2009}{article}{}
-      \name{author}{5}{}{%
-        {{hash=65bc7762ed24ee48877c195c69326a5f}{%
-           family={Dolomanov},
-           familyi={D\bibinitperiod},
-           given={Oleg\bibnamedelima V.},
-           giveni={O\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
-        {{hash=3bdcb12bbd22e9074d0d28c43dc0d950}{%
-           family={Bourhis},
-           familyi={B\bibinitperiod},
-           given={Luc\bibnamedelima J.},
-           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=43ad59b252b96208c94c70b7e4282d45}{%
-           family={Gildea},
-           familyi={G\bibinitperiod},
-           given={Richard\bibnamedelima J.},
-           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=9ffd8dc854986ecdc17e7f2bc52198d2}{%
-           family={Howard},
-           familyi={H\bibinitperiod},
-           given={Judith\bibnamedelima A.K.},
-           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=506a048075f4269691196f333c56bdce}{%
-           family={Puschmann},
-           familyi={P\bibinitperiod},
-           given={Horst},
-           giveni={H\bibinitperiod}}}%
-      }
-      \strng{namehash}{a089e405613d89b4ee112349daf36f9b}
-      \strng{fullhash}{d062f9d2970254b1cab07f54df6437c4}
-      \strng{bibnamehash}{d062f9d2970254b1cab07f54df6437c4}
-      \strng{authorbibnamehash}{d062f9d2970254b1cab07f54df6437c4}
-      \strng{authornamehash}{a089e405613d89b4ee112349daf36f9b}
-      \strng{authorfullhash}{d062f9d2970254b1cab07f54df6437c4}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{00218898}
-      \field{journaltitle}{Journal of Applied Crystallography}
-      \field{number}{2}
-      \field{title}{{OLEX2: A complete structure solution, refinement and analysis program}}
-      \field{volume}{42}
-      \field{year}{2009}
-      \field{pages}{339\bibrangedash 341}
-      \range{pages}{3}
-      \verb{doi}
-      \verb 10.1107/S0021889808042726
-      \endverb
-      \verb{file}
-      \verb :Users/tfellowes/Documents/Mendeley Desktop/Dolomanov et al. - 2009 - OLEX2 A complete structure solution, refinement and analysis program.pdf:pdf
-      \endverb
-      \keyw{Computer programs,Data harvesting,Graphical user interfaces,Metadata,OLEX2,Visualization and analysis}
-    \endentry
-    \entry{Neese2012}{article}{}
-      \name{author}{1}{}{%
-        {{hash=fff80c744c5a0bff437149b6520d03a2}{%
-           family={Neese},
-           familyi={N\bibinitperiod},
-           given={Frank},
-           giveni={F\bibinitperiod}}}%
-      }
-      \strng{namehash}{fff80c744c5a0bff437149b6520d03a2}
-      \strng{fullhash}{fff80c744c5a0bff437149b6520d03a2}
-      \strng{bibnamehash}{fff80c744c5a0bff437149b6520d03a2}
-      \strng{authorbibnamehash}{fff80c744c5a0bff437149b6520d03a2}
-      \strng{authornamehash}{fff80c744c5a0bff437149b6520d03a2}
-      \strng{authorfullhash}{fff80c744c5a0bff437149b6520d03a2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1759-0876}
-      \field{journaltitle}{WIREs Computational Molecular Science}
-      \field{month}{1}
-      \field{number}{1}
-      \field{title}{{The ORCA program system}}
-      \field{volume}{2}
-      \field{year}{2012}
-      \field{pages}{73\bibrangedash 78}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1002/wcms.81
-      \endverb
-      \verb{file}
-      \verb :Users/tfellowes/Downloads/wcms.81.pdf:pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://onlinelibrary.wiley.com/doi/10.1002/wcms.81
-      \endverb
-      \verb{url}
-      \verb https://onlinelibrary.wiley.com/doi/10.1002/wcms.81
-      \endverb
-    \endentry
-    \entry{Jelsch2005}{article}{}
-      \name{author}{4}{}{%
-        {{hash=1698ee00b3c3de56e21e0fe1eaf008bd}{%
-           family={Jelsch},
-           familyi={J\bibinitperiod},
-           given={Christian},
-           giveni={C\bibinitperiod}}}%
-        {{hash=abf67bdb97ae6e74272d000457c3c84f}{%
-           family={Guillot},
-           familyi={G\bibinitperiod},
-           given={Benoit},
-           giveni={B\bibinitperiod}}}%
-        {{hash=b86767b8e049a2b680ecbf6c9b8fb4cf}{%
-           family={Lagoutte},
-           familyi={L\bibinitperiod},
-           given={Angelique},
-           giveni={A\bibinitperiod}}}%
-        {{hash=166dd1759b9eb3761595c10db36b8e09}{%
-           family={Lecomte},
-           familyi={L\bibinitperiod},
-           given={Claude},
-           giveni={C\bibinitperiod}}}%
-      }
-      \strng{namehash}{dcf89934b84ecd75d71f3a0f4e2c7998}
-      \strng{fullhash}{15d46a035b0f786765b26b3029ee0eb5}
-      \strng{bibnamehash}{15d46a035b0f786765b26b3029ee0eb5}
-      \strng{authorbibnamehash}{15d46a035b0f786765b26b3029ee0eb5}
-      \strng{authornamehash}{dcf89934b84ecd75d71f3a0f4e2c7998}
-      \strng{authorfullhash}{15d46a035b0f786765b26b3029ee0eb5}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Applied Crystallography}
-      \field{number}{1}
-      \field{title}{{Advances in protein and small-molecule charge-density refinement methods using MoPro}}
-      \field{volume}{38}
-      \field{year}{2005}
-      \field{dateera}{ce}
-      \field{pages}{38\bibrangedash 54}
-      \range{pages}{17}
-      \verb{doi}
-      \verb 10.1107/S0021889804025518
       \endverb
     \endentry
     \entry{Dupont1990StructuresII}{article}{}
@@ -10152,137 +10169,6 @@
       \endverb
       \keyw{Bader theory,Bond theory,Density functional calculations,Endohedral confinement,Energy decomposition analysis}
     \endentry
-    \entry{Sheldrick2015}{article}{}
-      \name{author}{1}{}{%
-        {{hash=8fe742421e800f0b51832a12edd7d1e3}{%
-           family={Sheldrick},
-           familyi={S\bibinitperiod},
-           given={George\bibnamedelima M.},
-           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {International Union of Crystallography}%
-      }
-      \strng{namehash}{8fe742421e800f0b51832a12edd7d1e3}
-      \strng{fullhash}{8fe742421e800f0b51832a12edd7d1e3}
-      \strng{bibnamehash}{8fe742421e800f0b51832a12edd7d1e3}
-      \strng{authorbibnamehash}{8fe742421e800f0b51832a12edd7d1e3}
-      \strng{authornamehash}{8fe742421e800f0b51832a12edd7d1e3}
-      \strng{authorfullhash}{8fe742421e800f0b51832a12edd7d1e3}
-      \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Acta Crystallographica Section C: Structural Chemistry}
-      \field{number}{Md}
-      \field{title}{{Crystal structure refinement with SHELXL}}
-      \field{volume}{71}
-      \field{year}{2015}
-      \field{dateera}{ce}
-      \field{pages}{3\bibrangedash 8}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1107/S2053229614024218
-      \endverb
-      \keyw{SHELXL,SHREDCIF,X-ray and neutron diffraction,crystal structure refinement}
-    \endentry
-    \entry{Sheldrick2008}{article}{}
-      \name{author}{1}{}{%
-        {{hash=8fe742421e800f0b51832a12edd7d1e3}{%
-           family={Sheldrick},
-           familyi={S\bibinitperiod},
-           given={George\bibnamedelima M.},
-           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \strng{namehash}{8fe742421e800f0b51832a12edd7d1e3}
-      \strng{fullhash}{8fe742421e800f0b51832a12edd7d1e3}
-      \strng{bibnamehash}{8fe742421e800f0b51832a12edd7d1e3}
-      \strng{authorbibnamehash}{8fe742421e800f0b51832a12edd7d1e3}
-      \strng{authornamehash}{8fe742421e800f0b51832a12edd7d1e3}
-      \strng{authorfullhash}{8fe742421e800f0b51832a12edd7d1e3}
-      \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0108-7673}
-      \field{journaltitle}{Acta Crystallographica Section A Foundations of Crystallography}
-      \field{month}{1}
-      \field{number}{1}
-      \field{title}{{A short history of SHELX}}
-      \field{volume}{64}
-      \field{year}{2008}
-      \field{pages}{112\bibrangedash 122}
-      \range{pages}{11}
-      \verb{doi}
-      \verb 10.1107/S0108767307043930
-      \endverb
-      \verb{file}
-      \verb :Users/tfellowes/Documents/Mendeley Desktop/Sheldrick - 2008 - A short history of SHELX.pdf:pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://scripts.iucr.org/cgi-bin/paper?S0108767307043930
-      \endverb
-      \verb{url}
-      \verb http://scripts.iucr.org/cgi-bin/paper?S0108767307043930
-      \endverb
-      \keyw{Computer programs,Crystal structure determination,Phasing,SHELX,Structure refinement}
-    \endentry
-    \entry{Dolomanov2009}{article}{}
-      \name{author}{5}{}{%
-        {{hash=65bc7762ed24ee48877c195c69326a5f}{%
-           family={Dolomanov},
-           familyi={D\bibinitperiod},
-           given={Oleg\bibnamedelima V.},
-           giveni={O\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
-        {{hash=3bdcb12bbd22e9074d0d28c43dc0d950}{%
-           family={Bourhis},
-           familyi={B\bibinitperiod},
-           given={Luc\bibnamedelima J.},
-           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=43ad59b252b96208c94c70b7e4282d45}{%
-           family={Gildea},
-           familyi={G\bibinitperiod},
-           given={Richard\bibnamedelima J.},
-           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=9ffd8dc854986ecdc17e7f2bc52198d2}{%
-           family={Howard},
-           familyi={H\bibinitperiod},
-           given={Judith\bibnamedelima A.K.},
-           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=506a048075f4269691196f333c56bdce}{%
-           family={Puschmann},
-           familyi={P\bibinitperiod},
-           given={Horst},
-           giveni={H\bibinitperiod}}}%
-      }
-      \strng{namehash}{a089e405613d89b4ee112349daf36f9b}
-      \strng{fullhash}{d062f9d2970254b1cab07f54df6437c4}
-      \strng{bibnamehash}{d062f9d2970254b1cab07f54df6437c4}
-      \strng{authorbibnamehash}{d062f9d2970254b1cab07f54df6437c4}
-      \strng{authornamehash}{a089e405613d89b4ee112349daf36f9b}
-      \strng{authorfullhash}{d062f9d2970254b1cab07f54df6437c4}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{00218898}
-      \field{journaltitle}{Journal of Applied Crystallography}
-      \field{number}{2}
-      \field{title}{{OLEX2: A complete structure solution, refinement and analysis program}}
-      \field{volume}{42}
-      \field{year}{2009}
-      \field{pages}{339\bibrangedash 341}
-      \range{pages}{3}
-      \verb{doi}
-      \verb 10.1107/S0021889808042726
-      \endverb
-      \verb{file}
-      \verb :Users/tfellowes/Documents/Mendeley Desktop/Dolomanov et al. - 2009 - OLEX2 A complete structure solution, refinement and analysis program.pdf:pdf
-      \endverb
-      \keyw{Computer programs,Data harvesting,Graphical user interfaces,Metadata,OLEX2,Visualization and analysis}
-    \endentry
   \enddatalist
 \endrefsection
 
@@ -12263,236 +12149,6 @@
       \verb{doi}
       \verb 10.1107/s0108270193012983
       \endverb
-    \endentry
-    \entry{Cowieson2015}{article}{}
-      \name{author}{12}{}{%
-        {{hash=476af16a80c6d1e2d213b5b8713d8ca6}{%
-           family={Cowieson},
-           familyi={C\bibinitperiod},
-           given={Nathan\bibnamedelima Philip},
-           giveni={N\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=e654f849a5693057f8a8e74ec97b740a}{%
-           family={Aragao},
-           familyi={A\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod}}}%
-        {{hash=48ca7baad0c8f48c464edb2d50d2bef6}{%
-           family={Clift},
-           familyi={C\bibinitperiod},
-           given={Mark},
-           giveni={M\bibinitperiod}}}%
-        {{hash=2fbbdbc23a8c1c04866174587c56e4c0}{%
-           family={Ericsson},
-           familyi={E\bibinitperiod},
-           given={Daniel\bibnamedelima J.},
-           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=aca5d5152cce7f30730a97030798ef4e}{%
-           family={Gee},
-           familyi={G\bibinitperiod},
-           given={Christine},
-           giveni={C\bibinitperiod}}}%
-        {{hash=7bd12fe1bdc248992f1953fd5f733b64}{%
-           family={Harrop},
-           familyi={H\bibinitperiod},
-           given={Stephen\bibnamedelima J.},
-           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=d922d5a980d9c995f0abf0bfc465a92b}{%
-           family={Mudie},
-           familyi={M\bibinitperiod},
-           given={Nathan},
-           giveni={N\bibinitperiod}}}%
-        {{hash=62f52daba829f61209c44116095bb43e}{%
-           family={Panjikar},
-           familyi={P\bibinitperiod},
-           given={Santosh},
-           giveni={S\bibinitperiod}}}%
-        {{hash=2ec46354722b120a17e79fd19df1736e}{%
-           family={Price},
-           familyi={P\bibinitperiod},
-           given={Jason\bibnamedelima R.},
-           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=dfe7657ed48d46c69a20c7b4504ed192}{%
-           family={Riboldi-Tunnicliffe},
-           familyi={R\bibinithyphendelim T\bibinitperiod},
-           given={Alan},
-           giveni={A\bibinitperiod}}}%
-        {{hash=409dff4bf2ab12b5de425f19fd10eefa}{%
-           family={Williamson},
-           familyi={W\bibinitperiod},
-           given={Rachel},
-           giveni={R\bibinitperiod}}}%
-        {{hash=51a0fef7e4663887c037562c9b1d217f}{%
-           family={Caradoc-Davies},
-           familyi={C\bibinithyphendelim D\bibinitperiod},
-           given={Tom},
-           giveni={T\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {International Union of Crystallography}%
-      }
-      \strng{namehash}{1e81f58e457e4564a18c09ad8536dc47}
-      \strng{fullhash}{fcb05cffd307ae90a0b323bfb450940d}
-      \strng{bibnamehash}{fcb05cffd307ae90a0b323bfb450940d}
-      \strng{authorbibnamehash}{fcb05cffd307ae90a0b323bfb450940d}
-      \strng{authornamehash}{1e81f58e457e4564a18c09ad8536dc47}
-      \strng{authorfullhash}{fcb05cffd307ae90a0b323bfb450940d}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Synchrotron Radiation}
-      \field{number}{1}
-      \field{title}{{MX1: A bending-magnet crystallography beamline serving both chemical and macromolecular crystallography communities at the Australian Synchrotron}}
-      \field{volume}{22}
-      \field{year}{2015}
-      \field{dateera}{ce}
-      \field{pages}{187\bibrangedash 190}
-      \range{pages}{4}
-      \verb{doi}
-      \verb 10.1107/S1600577514021717
-      \endverb
-      \keyw{beamline,bending magnet,crystallography}
-    \endentry
-    \entry{Sheldrick2015}{article}{}
-      \name{author}{1}{}{%
-        {{hash=8fe742421e800f0b51832a12edd7d1e3}{%
-           family={Sheldrick},
-           familyi={S\bibinitperiod},
-           given={George\bibnamedelima M.},
-           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {International Union of Crystallography}%
-      }
-      \strng{namehash}{8fe742421e800f0b51832a12edd7d1e3}
-      \strng{fullhash}{8fe742421e800f0b51832a12edd7d1e3}
-      \strng{bibnamehash}{8fe742421e800f0b51832a12edd7d1e3}
-      \strng{authorbibnamehash}{8fe742421e800f0b51832a12edd7d1e3}
-      \strng{authornamehash}{8fe742421e800f0b51832a12edd7d1e3}
-      \strng{authorfullhash}{8fe742421e800f0b51832a12edd7d1e3}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Acta Crystallographica Section C: Structural Chemistry}
-      \field{number}{Md}
-      \field{title}{{Crystal structure refinement with SHELXL}}
-      \field{volume}{71}
-      \field{year}{2015}
-      \field{dateera}{ce}
-      \field{pages}{3\bibrangedash 8}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1107/S2053229614024218
-      \endverb
-      \keyw{SHELXL,SHREDCIF,X-ray and neutron diffraction,crystal structure refinement}
-    \endentry
-    \entry{Macrae2008}{article}{}
-      \name{author}{10}{}{%
-        {{hash=8300c01fba0c76a12819b04009496f13}{%
-           family={Macrae},
-           familyi={M\bibinitperiod},
-           given={Clare\bibnamedelima F.},
-           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
-        {{hash=c21639f70cd2ce860c53351b3184e890}{%
-           family={Bruno},
-           familyi={B\bibinitperiod},
-           given={Ian\bibnamedelima J.},
-           giveni={I\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=e910ec8397776ce01020f00d580df6bd}{%
-           family={Chisholm},
-           familyi={C\bibinitperiod},
-           given={James\bibnamedelima A.},
-           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=d47227820ddcfa5b866ca22f2461f6f6}{%
-           family={Edgington},
-           familyi={E\bibinitperiod},
-           given={Paul\bibnamedelima R.},
-           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=5d72eaa2200bd5787a7a9f9f24239071}{%
-           family={McCabe},
-           familyi={M\bibinitperiod},
-           given={Patrick},
-           giveni={P\bibinitperiod}}}%
-        {{hash=f452fae4a55b7da212832e285b59eecd}{%
-           family={Pidcock},
-           familyi={P\bibinitperiod},
-           given={Elna},
-           giveni={E\bibinitperiod}}}%
-        {{hash=0a270de59c20de1142f19d53f919880f}{%
-           family={Rodriguez-Monge},
-           familyi={R\bibinithyphendelim M\bibinitperiod},
-           given={Lucia},
-           giveni={L\bibinitperiod}}}%
-        {{hash=7ada76107de74683b4b7f0aea9bcca9c}{%
-           family={Taylor},
-           familyi={T\bibinitperiod},
-           given={Robin},
-           giveni={R\bibinitperiod}}}%
-        {{hash=c855cad54908a8106b449a8c28707e56}{%
-           family={Van\bibnamedelimb De\bibnamedelima Streek},
-           familyi={V\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim S\bibinitperiod},
-           given={Jacco},
-           giveni={J\bibinitperiod}}}%
-        {{hash=9f25dfa2c1f43a4083e96fcdfed63089}{%
-           family={Wood},
-           familyi={W\bibinitperiod},
-           given={Peter\bibnamedelima A.},
-           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-      }
-      \strng{namehash}{9dd371298d22e1b45f02588fe183da11}
-      \strng{fullhash}{49f705148361a5b0db17c4df252d133d}
-      \strng{bibnamehash}{49f705148361a5b0db17c4df252d133d}
-      \strng{authorbibnamehash}{49f705148361a5b0db17c4df252d133d}
-      \strng{authornamehash}{9dd371298d22e1b45f02588fe183da11}
-      \strng{authorfullhash}{49f705148361a5b0db17c4df252d133d}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Applied Crystallography}
-      \field{number}{2}
-      \field{title}{{Mercury CSD 2.0 - New features for the visualization and investigation of crystal structures}}
-      \field{volume}{41}
-      \field{year}{2008}
-      \field{dateera}{ce}
-      \field{pages}{466\bibrangedash 470}
-      \range{pages}{5}
-      \verb{doi}
-      \verb 10.1107/S0021889807067908
-      \endverb
-      \keyw{Computer programs,Crystal packing,Crystal structure visualization,Mercury,Structure comparison}
-    \endentry
-    \entry{Farrugia1999}{article}{}
-      \name{author}{1}{}{%
-        {{hash=a0519d41efbc2122e8552b4696799387}{%
-           family={Farrugia},
-           familyi={F\bibinitperiod},
-           given={Louis\bibnamedelima J.},
-           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \strng{namehash}{a0519d41efbc2122e8552b4696799387}
-      \strng{fullhash}{a0519d41efbc2122e8552b4696799387}
-      \strng{bibnamehash}{a0519d41efbc2122e8552b4696799387}
-      \strng{authorbibnamehash}{a0519d41efbc2122e8552b4696799387}
-      \strng{authornamehash}{a0519d41efbc2122e8552b4696799387}
-      \strng{authorfullhash}{a0519d41efbc2122e8552b4696799387}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Applied Crystallography}
-      \field{number}{4}
-      \field{title}{{WinGX suite for small-molecule single-crystal crystallography}}
-      \field{volume}{32}
-      \field{year}{1999}
-      \field{dateera}{ce}
-      \field{pages}{837\bibrangedash 838}
-      \range{pages}{2}
-      \verb{doi}
-      \verb 10.1107/S0021889899006020
-      \endverb
-      \keyw{Microsoft Windows™,PC,Program package,Single crystal}
     \endentry
   \enddatalist
 \endrefsection
