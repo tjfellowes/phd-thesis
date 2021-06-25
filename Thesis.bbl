@@ -8053,6 +8053,236 @@
       \verb 10.1021/jp072092l
       \endverb
     \endentry
+    \entry{Bhabak2010}{article}{}
+      \name{author}{4}{}{%
+        {{hash=0c5a814d09e33938c2af911bbc1304d3}{%
+           family={Balkrishna},
+           familyi={B\bibinitperiod},
+           given={Shah\bibnamedelima Jaimin},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=8aa21a5ea7231b71368d666e2add2676}{%
+           family={Bhakuni},
+           familyi={B\bibinitperiod},
+           given={Bhagat\bibnamedelima Singh},
+           giveni={B\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=8f1a00fc216868031ec679b3f361bf49}{%
+           family={Chopra},
+           familyi={C\bibinitperiod},
+           given={Deepak},
+           giveni={D\bibinitperiod}}}%
+        {{hash=6b94c5dde2162384bccb2a1453e40e1a}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Sangit},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{a3e5e478711dcccd47d269a221950edf}
+      \strng{fullhash}{b5002d197ae1ec509bcf2f0d3b825e6d}
+      \strng{bibnamehash}{b5002d197ae1ec509bcf2f0d3b825e6d}
+      \strng{authorbibnamehash}{b5002d197ae1ec509bcf2f0d3b825e6d}
+      \strng{authornamehash}{a3e5e478711dcccd47d269a221950edf}
+      \strng{authorfullhash}{b5002d197ae1ec509bcf2f0d3b825e6d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1523-7060}
+      \field{journaltitle}{Organic Letters}
+      \field{month}{12}
+      \field{number}{23}
+      \field{title}{{Cu-Catalyzed Efficient Synthetic Methodology for Ebselen and Related Se−N Heterocycles}}
+      \field{volume}{12}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{pages}{5394\bibrangedash 5397}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1021/ol102027j
+      \endverb
+      \verb{file}
+      \verb :Users/tfellowes/Library/Application Support/Mendeley Desktop/Downloaded/Balkrishna et al. - 2010 - Cu-Catalyzed Efficient Synthetic Methodology for Ebselen and Related Se-N Heterocycles.pdf:pdf;:Users/tfellowes/Library/Application Support/Mendeley Desktop/Downloaded/Balkrishna et al. - 2010 - Cu-Catalyzed Efficient Synthetic Methodology for Ebselen and Related Se-N Heterocycles(2).pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pubs.acs.org/doi/10.1021/ol102027j
+      \endverb
+      \verb{url}
+      \verb https://pubs.acs.org/doi/10.1021/ol102027j
+      \endverb
+    \endentry
+    \entry{Pacua2014}{article}{}
+      \name{author}{3}{}{%
+        {{hash=9273f1b9ac9afa3872f45d7c84e585bd}{%
+           family={Pacu{ł}a},
+           familyi={P\bibinitperiod},
+           given={Agata\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=e684eaba5246d33c8aaa4c0740220af8}{%
+           family={Ścianowski},
+           familyi={Ś\bibinitperiod},
+           given={Jacek},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a86584f5f531f08cd9712c31f14cee1b}{%
+           family={Aleksandrzak},
+           familyi={A\bibinitperiod},
+           given={Krzysztof\bibnamedelima B.},
+           giveni={K\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{6ecbbc9f2bde68c0901826731de6b659}
+      \strng{fullhash}{6f0dc3ad3d506032cfb5a36ce28225d0}
+      \strng{bibnamehash}{6f0dc3ad3d506032cfb5a36ce28225d0}
+      \strng{authorbibnamehash}{6f0dc3ad3d506032cfb5a36ce28225d0}
+      \strng{authornamehash}{6ecbbc9f2bde68c0901826731de6b659}
+      \strng{authorfullhash}{6f0dc3ad3d506032cfb5a36ce28225d0}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2046-2069}
+      \field{journaltitle}{RSC Adv.}
+      \field{month}{9}
+      \field{number}{90}
+      \field{title}{{Highly efficient synthesis and antioxidant capacity of N-substituted benzisoselenazol-3(2H)-ones}}
+      \field{volume}{4}
+      \field{year}{2014}
+      \field{pages}{48959\bibrangedash 48962}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1039/C4RA08631G
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/tfell/Documents/Mendeley Desktop/c4ra08631g.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://xlink.rsc.org/?DOI=C4RA08631G
+      \endverb
+      \verb{url}
+      \verb http://xlink.rsc.org/?DOI=C4RA08631G
+      \endverb
+    \endentry
+    \entry{Wan2021}{misc}{}
+      \name{author}{8}{}{%
+        {{hash=0be4ed83e9240395c9db653cd4c7017e}{%
+           family={Wan},
+           familyi={W\bibinitperiod},
+           given={Jian},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2faaea9356941e0918eba557107ccdff}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={Yanliang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=07c85a1fe14961067978324ffb077330}{%
+           family={Wen},
+           familyi={W\bibinitperiod},
+           given={Wuqiang},
+           giveni={W\bibinitperiod}}}%
+        {{hash=a3b8c5f31f482e84f712e8ff8b089562}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Yunyuan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=29788f048681bf2d4e9a4fc92816ae05}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Lin},
+           giveni={L\bibinitperiod}}}%
+        {{hash=79b6109906c641d59662240a97228225}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Hongxuan},
+           giveni={H\bibinitperiod}}}%
+        {{hash=5a4bb9ef18a0a182a5ce9d0e26812b10}{%
+           family={Rao},
+           familyi={R\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod}}}%
+        {{hash=1b5450b35897f48e91c588be1acc54c3}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Lingling.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Central China Normal University, Peop. Rep. China .}%
+      }
+      \strng{namehash}{72a34aaedd6b761715ddb1c171e8fe2d}
+      \strng{fullhash}{de224d9fac000eaaa049d4a366069094}
+      \strng{bibnamehash}{de224d9fac000eaaa049d4a366069094}
+      \strng{authorbibnamehash}{de224d9fac000eaaa049d4a366069094}
+      \strng{authornamehash}{72a34aaedd6b761715ddb1c171e8fe2d}
+      \strng{authorfullhash}{de224d9fac000eaaa049d4a366069094}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{CAPLUS AN 2021:107760(Patent)}
+      \field{booktitle}{Faming Zhuanli Shenqing}
+      \field{month}{1}
+      \field{number}{CN112209899A}
+      \field{title}{{Benzo[d][1,2]selenazol-3(2H)-one compound, its application in inhibiting fructose-1,6-bisphosphate aldolase and fluconazole-resistant Candida albicans, and fungicide containing the same.}}
+      \field{year}{2021}
+      \field{pages}{22pp.}
+      \range{pages}{-1}
+      \keyw{selenazol compd inhibiting fructose bisphosphate a}
+    \endentry
+    \entry{Weglarz-Tomczak2016}{article}{}
+      \name{author}{4}{}{%
+        {{hash=2ead788f8e9bd676dc03e10e6e55593f}{%
+           family={Wȩglarz-Tomczak},
+           familyi={W\bibinithyphendelim T\bibinitperiod},
+           given={Ewelina},
+           giveni={E\bibinitperiod}}}%
+        {{hash=70f41f550784ec9ca21d5d9452cc46aa}{%
+           family={Burda-Grabowska},
+           familyi={B\bibinithyphendelim G\bibinitperiod},
+           given={Ma{ł}gorzata},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4c073d315f49f6e7b63aabba97ff74dc}{%
+           family={Giurg},
+           familyi={G\bibinitperiod},
+           given={Miros{ł}aw},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a0bd223b38afbdf01b013b34659aa25c}{%
+           family={Mucha},
+           familyi={M\bibinitperiod},
+           given={Artur},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Ltd}%
+      }
+      \strng{namehash}{531b4a42a97170282380028b6e797fab}
+      \strng{fullhash}{26fd7afc150b97225316267a715267eb}
+      \strng{bibnamehash}{26fd7afc150b97225316267a715267eb}
+      \strng{authorbibnamehash}{26fd7afc150b97225316267a715267eb}
+      \strng{authornamehash}{531b4a42a97170282380028b6e797fab}
+      \strng{authorfullhash}{26fd7afc150b97225316267a715267eb}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{14643405}
+      \field{journaltitle}{Bioorganic and Medicinal Chemistry Letters}
+      \field{number}{21}
+      \field{title}{{Identification of methionine aminopeptidase 2 as a molecular target of the organoselenium drug ebselen and its derivatives/analogues: Synthesis, inhibitory activity and molecular modeling study}}
+      \field{volume}{26}
+      \field{year}{2016}
+      \field{pages}{5254\bibrangedash 5259}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1016/j.bmcl.2016.09.050
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/tfell/Documents/Mendeley Desktop/W{\c{e}}glarz-Tomczak et al. - 2016 - Identification of methionine aminopeptidase 2 as a molecular target of the organoselenium drug ebselen a.pdf:pdf;:C\:/Users/tfell/Documents/Mendeley Desktop//W{\c{e}}glarz-Tomczak et al. - 2016 - Identification of methionine aminopeptidase 2 as a molecular target of the organoselenium drug ebsele(2).pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.bmcl.2016.09.050
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.bmcl.2016.09.050
+      \endverb
+      \keyw{Angiogenesis,Binding mode,Metalloaminopeptidases,Organoselenium compounds,Structure–activity relationship}
+    \endentry
     \entry{Dupont1990StructuresII}{article}{}
       \name{author}{3}{}{%
         {{hash=b61d1bfdfbdb2c0fd0ef1954245763ad}{%
@@ -8077,8 +8307,8 @@
       \strng{authorbibnamehash}{6622dc8e632cc7d9c84e608a60880a7b}
       \strng{authornamehash}{c87ab471633ab0c34534406fe09a8b1b}
       \strng{authorfullhash}{6622dc8e632cc7d9c84e608a60880a7b}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Acta Crystallographica Section C Crystal Structure Communications}
@@ -13060,6 +13290,404 @@
       \endverb
       \verb{url}
       \verb http://dx.doi.org/10.1038/s41467-018-04114-x
+      \endverb
+    \endentry
+    \entry{Weber1976}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0b044ffeabdc1c02c136594048f5086a}{%
+           family={Weber},
+           familyi={W\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=e1de035407ef28c044be8805b92eca06}{%
+           family={Renson},
+           familyi={R\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{7f54df338e6fde1cd8419807955638ea}
+      \strng{fullhash}{7f54df338e6fde1cd8419807955638ea}
+      \strng{bibnamehash}{7f54df338e6fde1cd8419807955638ea}
+      \strng{authorbibnamehash}{7f54df338e6fde1cd8419807955638ea}
+      \strng{authornamehash}{7f54df338e6fde1cd8419807955638ea}
+      \strng{authorfullhash}{7f54df338e6fde1cd8419807955638ea}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bulletin de la Societe Chimique de France}
+      \field{number}{7-8}
+      \field{title}{{3-​Chloro-​1,​2-​benzisoselenazolium chlorides: synthesis, hydrolysis, thiolation, ammonolysis}}
+      \field{year}{1976}
+      \field{dateera}{ce}
+      \field{pages}{1124\bibrangedash 6}
+      \range{pages}{3}
+    \endentry
+    \entry{Dahl2011}{article}{}
+      \name{author}{17}{}{%
+        {{hash=ee4383189ec8b011983be5c9c679f726}{%
+           family={Dahl},
+           familyi={D\bibinitperiod},
+           given={Russell},
+           giveni={R\bibinitperiod}}}%
+        {{hash=beef90c9715da97fd0e0663a0f009a53}{%
+           family={Bravo},
+           familyi={B\bibinitperiod},
+           given={Yalda},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=2bcd5668342d267e3389012ec7fb12b0}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Vandana},
+           giveni={V\bibinitperiod}}}%
+        {{hash=9793fbe30d476415d1f6f60490f97c51}{%
+           family={Ichikawa},
+           familyi={I\bibinitperiod},
+           given={Mie},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bb4df511b709db336b16c72bc15f5952}{%
+           family={Dhanya},
+           familyi={D\bibinitperiod},
+           given={Raveendra\bibnamedelima Panickar},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=25affdcd5d78f27a3b825870def624fc}{%
+           family={Hedrick},
+           familyi={H\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0e7bf8801b7ddc7a679a4b371b059607}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Brock},
+           giveni={B\bibinitperiod}}}%
+        {{hash=9244a389a0f06d6f250e99050d95c310}{%
+           family={Rascon},
+           familyi={R\bibinitperiod},
+           given={Justin},
+           giveni={J\bibinitperiod}}}%
+        {{hash=787f8246d1b8bac411865b69a2da7372}{%
+           family={Vicchiarelli},
+           familyi={V\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b79a1abff379be79fd125d9e12b5050f}{%
+           family={Mangravita-Novo},
+           familyi={M\bibinithyphendelim N\bibinitperiod},
+           given={Arianna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7f8a6256a19361714c6f6a011671f17d}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod}}}%
+        {{hash=453bf77e0d64d053a0c7c67216133c24}{%
+           family={Stonich},
+           familyi={S\bibinitperiod},
+           given={Derek},
+           giveni={D\bibinitperiod}}}%
+        {{hash=67896ea763770e31ba9c700f3ef8a360}{%
+           family={Su},
+           familyi={S\bibinitperiod},
+           given={Ying},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=db85fb90edd66142475406d75abb255a}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Layton\bibnamedelima H.},
+           giveni={L\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=dc054d19777064b0445b8bd351bfc360}{%
+           family={Sergienko},
+           familyi={S\bibinitperiod},
+           given={Eduard},
+           giveni={E\bibinitperiod}}}%
+        {{hash=af839b54a5b2066cf06c89e6ca18ee69}{%
+           family={Freeze},
+           familyi={F\bibinitperiod},
+           given={Hudson\bibnamedelima H.},
+           giveni={H\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=0c47247c7732674f9588a10c89b66ffd}{%
+           family={Cosford},
+           familyi={C\bibinitperiod},
+           given={Nicholas\bibnamedelima D.P.},
+           giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{0741d1c62b264f3d77b1ef8ca094bfdc}
+      \strng{fullhash}{d651db687c87d4d96344e597c230fba5}
+      \strng{bibnamehash}{0741d1c62b264f3d77b1ef8ca094bfdc}
+      \strng{authorbibnamehash}{0741d1c62b264f3d77b1ef8ca094bfdc}
+      \strng{authornamehash}{0741d1c62b264f3d77b1ef8ca094bfdc}
+      \strng{authorfullhash}{d651db687c87d4d96344e597c230fba5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00222623}
+      \field{journaltitle}{Journal of Medicinal Chemistry}
+      \field{number}{10}
+      \field{title}{{Potent, selective, and orally available benzoisothiazolone phosphomannose isomerase inhibitors as probes for congenital disorder of glycosylation Ia}}
+      \field{volume}{54}
+      \field{year}{2011}
+      \field{pages}{3661\bibrangedash 3668}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1021/jm101401a
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/tfell/Documents/Mendeley Desktop/dahl2011.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Urban2011}{article}{}
+      \name{author}{3}{}{%
+        {{hash=4805cc328cfaaa6fa36d085342a97185}{%
+           family={Urban},
+           familyi={U\bibinitperiod},
+           given={Slawomir},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9ebae0514e7bdb700eecb28dff89ceed}{%
+           family={Ortega},
+           familyi={O\bibinitperiod},
+           given={Nuria},
+           giveni={N\bibinitperiod}}}%
+        {{hash=0aa49275ba68f111d53ca7d559b1cf88}{%
+           family={Glorius},
+           familyi={G\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{f28630a1a0646114316d50617c6b8536}
+      \strng{fullhash}{371c2312eeb19b00c78c1ba050afb401}
+      \strng{bibnamehash}{371c2312eeb19b00c78c1ba050afb401}
+      \strng{authorbibnamehash}{371c2312eeb19b00c78c1ba050afb401}
+      \strng{authornamehash}{f28630a1a0646114316d50617c6b8536}
+      \strng{authorfullhash}{371c2312eeb19b00c78c1ba050afb401}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{14337851}
+      \field{journaltitle}{Angewandte Chemie International Edition}
+      \field{month}{4}
+      \field{number}{16}
+      \field{title}{{Ligand-Controlled Highly Regioselective and Asymmetric Hydrogenation of Quinoxalines Catalyzed by Ruthenium N-Heterocyclic Carbene Complexes}}
+      \field{volume}{50}
+      \field{year}{2011}
+      \field{pages}{3803\bibrangedash 3806}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1002/anie.201100008
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/tfell/Documents/Mendeley Desktop/urban2011.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://doi.wiley.com/10.1002/anie.201100008
+      \endverb
+      \verb{url}
+      \verb http://doi.wiley.com/10.1002/anie.201100008
+      \endverb
+      \keyw{Asymmetric hydrogenation,Enantioselective catalysis,N-heterocyclic carbenes,Quinoxalines,Ruthenium}
+    \endentry
+    \entry{Conn2011}{misc}{}
+      \name{author}{6}{}{%
+        {{hash=9d840d89e56d28ccbab1c1ae7a8ad75e}{%
+           family={Conn},
+           familyi={C\bibinitperiod},
+           given={P\bibnamedelima Jeffrey},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=9ea39e29ce1578f0be51f7ec26983f1c}{%
+           family={Lindsley},
+           familyi={L\bibinitperiod},
+           given={Craig\bibnamedelima W},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=70054ede97f5abe5dcec64c08d5b6316}{%
+           family={Hopkins},
+           familyi={H\bibinitperiod},
+           given={Corey\bibnamedelima R},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=648e0d5f1acfa25f7659dddb2f392e76}{%
+           family={Weaver},
+           familyi={W\bibinitperiod},
+           given={Charles\bibnamedelima David},
+           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=0be2c8cc6d0315853561d34d4e933573}{%
+           family={Niswender},
+           familyi={N\bibinitperiod},
+           given={Colleen\bibnamedelima M},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=85b0c774b476e388d22e8831d2440133}{%
+           family={Cheung},
+           familyi={C\bibinitperiod},
+           given={Yiu-Yin.},
+           giveni={Y\bibinithyphendelim Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Vanderbilt University, USA .}%
+      }
+      \strng{namehash}{198b0e55411949517491189584e0cad7}
+      \strng{fullhash}{4f62dcd447e5db2a97481bec9bbaf21f}
+      \strng{bibnamehash}{4f62dcd447e5db2a97481bec9bbaf21f}
+      \strng{authorbibnamehash}{4f62dcd447e5db2a97481bec9bbaf21f}
+      \strng{authornamehash}{198b0e55411949517491189584e0cad7}
+      \strng{authorfullhash}{4f62dcd447e5db2a97481bec9bbaf21f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{CAPLUS AN 2011:589324(Patent)}
+      \field{booktitle}{PCT Int. Appl.}
+      \field{month}{5}
+      \field{number}{WO2011057208A2}
+      \field{title}{{Aryl and heteroaryl sulfones as mGluR4 allosteric potentiators, compositions, and methods of treating neurological dysfunction.}}
+      \field{year}{2011}
+      \field{pages}{106pp.}
+      \range{pages}{-1}
+      \keyw{aryl sulfone prepn mGluR4 receptor potentiator neurol psychiatric disease}
+    \endentry
+    \entry{Kim2011}{article}{}
+      \name{author}{5}{}{%
+        {{hash=05256499e056fde9e927ab0444eaf3e8}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Jaeho},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2ceb2b63efb1530093daefb640b4146b}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Jihye},
+           giveni={J\bibinitperiod}}}%
+        {{hash=92e74acbba9db1335f021bbd65d37e68}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Hyunseung},
+           giveni={H\bibinitperiod}}}%
+        {{hash=8c431d389ce0e7b4c49b72d95c72d3b8}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Byung\bibnamedelima Min},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=9fc3c7516776fc3b11921705e1043e15}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Byeong\bibnamedelima Hyo},
+           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Ltd}%
+      }
+      \strng{namehash}{9cb9b653eb42a58953afec3a896eec64}
+      \strng{fullhash}{8e99430b9fc60b8d7e389cce1424fd40}
+      \strng{bibnamehash}{8e99430b9fc60b8d7e389cce1424fd40}
+      \strng{authorbibnamehash}{8e99430b9fc60b8d7e389cce1424fd40}
+      \strng{authornamehash}{9cb9b653eb42a58953afec3a896eec64}
+      \strng{authorfullhash}{8e99430b9fc60b8d7e389cce1424fd40}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00404020}
+      \field{journaltitle}{Tetrahedron}
+      \field{number}{41}
+      \field{title}{{Indium-mediated one-pot benzimidazole synthesis from 2-nitroanilines or 1,2-dinitroarenes with orthoesters}}
+      \field{volume}{67}
+      \field{year}{2011}
+      \field{pages}{8027\bibrangedash 8033}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1016/j.tet.2011.08.017
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/tfell/Documents/Mendeley Desktop/1-s2.0-S0040402011011859-main.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.tet.2011.08.017
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.tet.2011.08.017
+      \endverb
+    \endentry
+    \entry{Patrick2017}{article}{}
+      \name{author}{10}{}{%
+        {{hash=1bae872520758b2951a758b19737e206}{%
+           family={Patrick},
+           familyi={P\bibinitperiod},
+           given={Donald\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=e2a383cf843de7162e30e3f4b1fd94ff}{%
+           family={Gillespie},
+           familyi={G\bibinitperiod},
+           given={J.\bibnamedelimi Robert},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=ce41d7349c61a9f9ec08904df5b438fa}{%
+           family={McQueen},
+           familyi={M\bibinitperiod},
+           given={Joshua},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a1beee07a0b5047b15e24dbe49be79a3}{%
+           family={Hulverson},
+           familyi={H\bibinitperiod},
+           given={Matthew\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=a496f49ee225c23ea29b5941222b04f8}{%
+           family={Ranade},
+           familyi={R\bibinitperiod},
+           given={Ranae\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=2523e2d035ec4c2a7a53d79cb8e04255}{%
+           family={Creason},
+           familyi={C\bibinitperiod},
+           given={Sharon\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=d122dcf4f8a4ee2a4d0a1295fd98ef3a}{%
+           family={Herbst},
+           familyi={H\bibinitperiod},
+           given={Zackary\bibnamedelima M.},
+           giveni={Z\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=17568ca622ec12f94acc8c0e6f51d953}{%
+           family={Gelb},
+           familyi={G\bibinitperiod},
+           given={Michael\bibnamedelima H.},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=2c3d3d0ac29e40b77fc3757b592d7429}{%
+           family={Buckner},
+           familyi={B\bibinitperiod},
+           given={Frederick\bibnamedelima S.},
+           giveni={F\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=164adb9de57c58fb691ecb5f5c1ad491}{%
+           family={Tidwell},
+           familyi={T\bibinitperiod},
+           given={Richard\bibnamedelima R.},
+           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{e85dfbfe21bf56077ab8bc5165aa7ef2}
+      \strng{fullhash}{4b65414c414bcbf2f1479685d05473c9}
+      \strng{bibnamehash}{4b65414c414bcbf2f1479685d05473c9}
+      \strng{authorbibnamehash}{4b65414c414bcbf2f1479685d05473c9}
+      \strng{authornamehash}{e85dfbfe21bf56077ab8bc5165aa7ef2}
+      \strng{authorfullhash}{4b65414c414bcbf2f1479685d05473c9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022-2623}
+      \field{journaltitle}{Journal of Medicinal Chemistry}
+      \field{month}{2}
+      \field{number}{3}
+      \field{title}{{Urea Derivatives of 2-Aryl-benzothiazol-5-amines: A New Class of Potential Drugs for Human African Trypanosomiasis}}
+      \field{volume}{60}
+      \field{year}{2017}
+      \field{pages}{957\bibrangedash 971}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1021/acs.jmedchem.6b01163
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/tfell/Documents/Mendeley Desktop/Patrick et al. - 2017 - Urea Derivatives of 2-Aryl-benzothiazol-5-amines A New Class of Potential Drugs for Human African Trypanosomiasi.pdf:pdf;:C\:/Users/tfell/Documents/Mendeley Desktop/Patrick et al. - 2017 - Urea Derivatives of 2-Aryl-benzothiazol-5-amines A New Class of Potential Drugs for Human African Trypanosomi(2).pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pubs.acs.org/doi/10.1021/acs.jmedchem.6b01163
+      \endverb
+      \verb{url}
+      \verb https://pubs.acs.org/doi/10.1021/acs.jmedchem.6b01163
       \endverb
     \endentry
   \enddatalist
