@@ -1,7 +1,7 @@
 %!PS-Adobe-2.0
-%%Creator: dvips(k) 2021.1 Copyright 2021 Radical Eye Software
+%%Creator: dvips(k) 2020.1 Copyright 2020 Radical Eye Software
 %%Title: Thesis.dvi
-%%CreationDate: Tue Jul  6 00:21:26 2021
+%%CreationDate: Tue Jul 06 03:00:59 2021
 %%Pages: 84
 %%PageOrder: Ascend
 %%BoundingBox: 0 0 596 842
@@ -12,9 +12,10 @@
 %%DocumentPaperSizes: a4
 %%EndComments
 %DVIPSWebPage: (www.radicaleye.com)
-%DVIPSCommandLine: dvips Thesis.dvi -o Thesis-pics.ps
+%DVIPSCommandLine: C:\texlive\2020\bin\win32\dvips.exe Thesis.dvi -o
+%+ Thesis-pics.ps
 %DVIPSParameters: dpi=600
-%DVIPSSource:  TeX output 2021.07.06:1020
+%DVIPSSource:  TeX output 2021.07.06:1259
 %%BeginProcSet: tex.pro 0 0
 %!
 /TeXDict 300 dict def TeXDict begin/N{def}def/B{bind def}N/S{exch}N/X{S
@@ -64,10 +65,10 @@ B/g{0 M}B/h{1 M}B/i{2 M}B/j{3 M}B/k{4 M}B/w{0 rmoveto}B/l{p -4 w}B/m{p
 
 %%EndProcSet
 %%BeginProcSet: pstricks.pro 0 0
-% $Id: pstricks.pro 1055 2019-05-16 11:59:06Z herbert $
+% $Id: pstricks.pro 23 2020-09-18 06:29:04Z herbert $
 %
 %% PostScript prologue for pstricks.tex.
-%% Version 1.34, 2021/03/30
+%% Version 1.32, 2020/09/18
 %%
 %% This program can be redistributed and/or modified under the terms
 %% of the LaTeX Project Public License Distributed from CTAN archives
@@ -79,17 +80,24 @@ B/g{0 M}B/h{1 M}B/i{2 M}B/j{3 M}B/k{4 M}B/w{0 rmoveto}B/l{p -4 w}B/m{p
 
 revision 952 gt 
 {
+  systemdict /.setalphaisshape known not
+  {
+    (\n\n%%%% WARNING: Transparency operations ignored - need to use -dALLOWPSTRANSPARENCY\n\n) print flush
+    /.pushpdf14devicefilter {pop} bind def
+    /.begintransparencygroup {pop pop pop pop pop} bind def
+    /.endtransparencygroup {} bind def
+    /.poppdf14devicefilter {} bind def
+    /.setfillconstantalpha {pop} bind def
+    /.setstrokeconstantalpha {pop} bind def
+    /PageUsesTransparency false def
+  }
+  {
     systemdict /.setopacityalpha known not 
-      { 
-         (\n\n%%%% WARNING: Transparency operations ignored - need to use -dALLOWPSTRANSPARENCY\n\n) print flush
-         /.setopacityalpha { pop } bind def 
-         /.setshapealpha { pop } bind def 
-      }
-      {
-        /.setopacityalpha /.setfillconstantalpha load def 
-        /.setblendmode { pop } def 
-        /.setshapealpha {dup .setfillconstantalpha .setstrokeconstantalpha true .setalphaisshape } def  
-      } ifelse
+      { systemdict /.setfillconstantalpha known { /.setopacityalpha /.setfillconstantalpha load def } { /.setopacityalpha { pop } def } ifelse } if
+    systemdict /.setblendmode known not { /.setblendmode { pop } def } if
+    systemdict /.setshapealpha known not 
+      { systemdict /.setstrokeconstantalpha known { /.setshapealpha {dup .setfillconstantalpha .setstrokeconstantalpha true .setalphaisshape } def } { /.setshapealpha { pop } def } ifelse } if
+  } ifelse
 }
 {
   systemdict /.setopacityalpha known not 
@@ -29493,17 +29501,17 @@ showpage
  @endspecial eop end
 %%Page: 26 26
 TeXDict begin 26 25 bop
--32891 -32891 32891 32891 1736656 0 4617926
- 0 0 a @beginspecial 90 @llx 109
-@lly 207 @urx 153 @ury 702 @rwi @setspecial
-%%BeginDocument: Figures/loc/rhs-bromo-2py.eps
+-32891 -32891 32891 32891 3591720 0 4617926
+ 0 0 a @beginspecial 44 @llx 74
+@lly 161 @urx 165 @ury 702 @rwi @setspecial
+%%BeginDocument: Figures/loc/rhs-bromo-2py_pmb.eps
 %!PS-Adobe-2.0 EPSF-1.2
 %%Creator: ChemDraw Ultra(tm) 11.0d1
-%%Title: rhs-bromo-2py.eps
-%%CreationDate: 31/05/2021 3:45 PM
+%%Title: rhs-bromo-2py_pmb.eps
+%%CreationDate: 6/07/2021 12:59 PM
 %%DocumentSuppliedProcSets: chemdict30 24 13
 %%DocumentFonts: Helvetica
-%%BoundingBox: 90 109 207 153
+%%BoundingBox: 44 74 161 165
 %%EndComments
 %%BeginProcSet: chemdict30 24 13
 % ChemDraw Laser Prep
@@ -29856,13 +29864,13 @@ chemdict30 begin
 /lW 12 def
 /hS 50 def
 /sh true def
-262 SPe[
+239 SPe[
 /Helvetica
 fD]/ft x
-1800 2180 M
-4140 2180 l
-4140 3060 l
-1800 3060 l
+880 1480 M
+3220 1480 l
+3220 3300 l
+880 3300 l
 cp
 clip
 np
@@ -29874,12 +29882,12 @@ gs
 50 /hS x
 0 0 0 C
 np
-2287 2851 M
-2275 
-2857 l
-2275 2569 l
-2281 2566 l
-2287 2569 l
+1369 3094 M
+1357 
+3101 l
+1357 2813 l
+1363 2810 l
+1369 2813 l
 cp
 f
 gr
@@ -29891,10 +29899,10 @@ gs
 50 /hS x
 0 0 0 C
 np
-2338 2824 M
-2326 2824 l
-2326 2596 l
-2338 2596 l
+1421 3068 M
+1409 3068 l
+1409 2839 l
+1421 2839 l
 cp
 f
 gr
@@ -29906,10 +29914,10 @@ gs
 0 0 
 0 C
 np
-2530 2991 M
-2530 3005 l
-2275 2857 l
-2287 2851 l
+1612 3235 M
+1612 3248 l
+1357 3101 l
+1369 3094 l
 cp
 f
 gr
@@ -29921,12 +29929,12 @@ D sl/lW x
 50 /hS x
 0 0 0 C
 np
-2773 2851 M
-2779 2854 
+1856 3094 M
+1862 3098 
 l
-2780 2861 l
-2530 3005 l
-2530 2991 l
+1862 3104 l
+1612 3248 l
+1612 3235 l
 cp
 f
 gr
@@ -29938,10 +29946,10 @@ gs
 50 /hS x
 0 0 0 C
 np
-2725 2819 M
-2731 2829 l
-2533 2943 l
-2527 2933 l
+1807 3062 M
+1813 3073 l
+1615 3187 l
+1609 3176 l
 cp
 f
 gr
@@ -29953,13 +29961,13 @@ gs
 0 0 
 0 C
 np
-2773 2569 M
-2779 2566 l
-2785 2570 l
-2785 2850 l
-2779 2854 l
-2773 
-2851 l
+1856 2813 M
+1862 2810 l
+1868 2814 l
+1868 3093 l
+1862 3098 l
+1856 
+3094 l
 cp
 f
 gr
@@ -29970,11 +29978,11 @@ gs
 50 /hS x
 0 0 0 C
 np
-2530 2429 M
-2530 2415 l
-2780 2559 l
-2779 2566 l
-2773 2569 l
+1612 2672 M
+1612 2659 l
+1862 2803 l
+1862 2810 l
+1856 2813 l
 cp
 f
 gr
@@ -29985,11 +29993,11 @@ gs
 50 /hS x
 0 0 0 C
 np
-2527 2487 M
-2533 
-2477 l
-2731 2591 l
-2725 2601 l
+1609 2731 M
+1615 
+2720 l
+1813 2834 l
+1807 2845 l
 cp
 f
 gr
@@ -30001,27 +30009,23 @@ gs
 50 /hS x
 0 0 0 C
 np
-2287 2569 M
-2281 2566 l
-2281 2559 l
-2530 
-2415 l
-2530 2429 l
+1369 2813 M
+1363 2810 l
+1363 2803 l
+1612 
+2659 l
+1612 2672 l
 cp
 f
 gr
-0 2981 3014 ts
+0 2064 3258 ts
 0 0 0 C
 0 10 0 tx
 0 0 0 C
 (N)show
 gr
-0 2981 2382 ts
+0 2064 2792 ts
 0 0 0 C
-0 10 0 tx
-0 0 0 C
-(H)show
-166.833 nl
 0 10 0 tx
 0 0 0 C
 (N)show
@@ -30033,12 +30037,12 @@ gs
 50 /hS x
 0 0 0 C
 np
-2956 
-2905 M
-2953 2917 l
-2780 2861 l
-2779 2854 l
-2785 2850 l
+2039 
+3149 M
+2035 3160 l
+1862 3104 l
+1862 3098 l
+1868 3093 l
 cp
 f
 gr
@@ -30050,12 +30054,12 @@ D sl/lW x
 50 /hS x
 0 0 0 C
 np
-3215 2710 M
-3223 2710 
+2297 2954 M
+2305 2954 
 l
-3226 2716 l
-3129 2848 l
-3120 2841 l
+2308 2960 l
+2212 3092 l
+2202 3085 l
 cp
 f
 gr
@@ -30067,10 +30071,10 @@ gs
 50 /hS x
 0 0 0 C
 np
-3154 2706 M
-3163 2714 l
-3087 2818 l
-3078 2811 l
+2236 2950 M
+2246 2957 l
+2170 3062 l
+2160 3054 l
 cp
 f
 gr
@@ -30082,11 +30086,11 @@ gs
 0 0 
 0 C
 np
-3121 2580 M
-3130 2573 l
-3226 2704 l
-3223 2710 l
-3215 2710 l
+2203 2824 M
+2213 2817 l
+2308 2948 l
+2305 2954 l
+2297 2954 l
 cp
 f
 gr
@@ -30097,11 +30101,11 @@ gs
 50 /hS x
 0 0 0 C
 np
-2785 2570 M
-2779 2566 l
-2780 2559 l
-2953 2503 l
-2956 2515 l
+1868 2814 M
+1862 2810 l
+1862 2803 l
+2034 2747 l
+2037 2759 l
 cp
 f
 gr
@@ -30113,18 +30117,18 @@ D sl/lW x
 50 /hS x
 0 0 0 C
 np
-3506 2704 M
-3510 2710 
+2588 2948 M
+2592 2954 
 l
-3506 2716 l
-3226 2716 l
-3223 2710 l
-3226 2704 l
+2588 2960 l
+2308 2960 l
+2305 2954 l
+2308 2948 l
 cp
 f
 gr
-0 3582 
-2532 ts
+0 2664 
+2776 ts
 0 0 0 C
 0 10 0 tx
 0 0 0 C
@@ -30137,12 +30141,12 @@ gs
 50 /hS x
 0 0 0 C
 np
-3657 
-2953 M
-3650 2965 l
-3506 2716 l
-3510 2710 l
-3517 2710 l
+2739 
+3197 M
+2732 3209 l
+2588 2960 l
+2592 2954 l
+2599 2954 l
 cp
 f
 gr
@@ -30154,11 +30158,11 @@ D sl/lW x
 50 /hS x
 0 0 0 C
 np
-3689 2905 M
-3678 2911 
+2771 3148 M
+2761 3154 
 l
-3564 2713 l
-3575 2707 l
+2647 2957 l
+2657 2951 l
 cp
 f
 gr
@@ -30169,10 +30173,10 @@ gs
 50 /hS x
 0 0 0 C
 np
-3938 2953 M
-3945 2965 l
-3650 2965 l
-3657 2953 l
+3020 3197 M
+3027 3209 l
+2732 3209 l
+2739 3197 l
 cp
 f
 gr
@@ -30183,11 +30187,11 @@ gs
 50 /hS x
 0 0 0 C
 np
-4079 
-2710 M
-4093 2710 l
-3945 2965 l
-3938 2953 l
+3161 
+2954 M
+3175 2954 l
+3027 3209 l
+3020 3197 l
 cp
 f
 gr
@@ -30199,10 +30203,10 @@ gs
 50 /hS x
 0 0 0 C
 np
-4021 2707 M
-4031 2713 l
-3917 2911 l
-3906 2905 l
+3103 2951 M
+3113 2957 l
+2999 3154 l
+2989 3148 l
 cp
 f
 gr
@@ -30214,10 +30218,10 @@ gs
 0 0 
 0 C
 np
-3938 2467 M
-3945 2455 l
-4093 2710 l
-4079 2710 l
+3020 2710 M
+3027 2698 l
+3175 2954 l
+3161 2954 l
 cp
 f
 gr
@@ -30229,11 +30233,11 @@ D sl/lW x
 50 /hS x
 0 0 0 C
 np
-3743 2467 M
-3743 2455 
+2825 2710 M
+2825 2698 
 l
-3945 2455 l
-3938 2467 l
+3027 2698 l
+3020 2710 l
 cp
 f
 gr
@@ -30244,10 +30248,10 @@ gs
 50 /hS x
 0 0 0 C
 np
-3743 2518 M
-3743 2506 l
-3912 2506 l
-3912 2518 l
+2825 2762 M
+2825 2750 l
+2994 2750 l
+2994 2762 l
 cp
 f
 gr
@@ -30258,17 +30262,17 @@ gs
 50 /hS x
 0 0 0 C
 np
-3517 
-2710 M
-3510 2710 l
-3506 2704 l
-3587 2564 l
-3597 2570 l
+2599 
+2954 M
+2592 2954 l
+2588 2948 l
+2669 2808 l
+2680 2814 l
 cp
 f
 gr
 0 
-2057 2494 ts
+1139 2738 ts
 0 0 0 C
 -202 0 M
 0 10 0 tx
@@ -30282,11 +30286,206 @@ gs
 50 /hS x
 0 0 0 C
 np
-2066 2449 M
-2072 2439 l
-2281 2559 l
-2281 2566 l
-2275 2569 l
+1149 2693 M
+1155 2682 l
+1363 2803 l
+1363 2810 l
+1357 2813 l
+cp
+f
+gr
+gs
+12 D sl/lW x
+32 /cW x
+40 /bW x
+50 /hS x
+0 0 0 C
+np
+2218 2449 M
+2231 
+2446 l
+2177 2612 l
+2166 2609 l
+cp
+f
+gr
+gs
+12 D sl/lW x
+32 /cW x
+40 
+/bW x
+50 /hS x
+0 0 0 C
+np
+2030 2241 M
+2032 2234 l
+2039 2233 l
+2231 
+2446 l
+2218 2449 l
+cp
+f
+gr
+gs
+12 D sl/lW x
+32 /cW x
+40 /bW x
+50 
+/hS x
+0 0 0 C
+np
+2114 1962 M
+2128 1959 l
+2039 2233 l
+2032 2234 l
+2028 
+2229 l
+cp
+f
+gr
+gs
+12 D sl/lW x
+32 /cW x
+40 /bW x
+50 /hS x
+0 0 0 C
+np
+2057 1971 M
+2068 1975 l
+1998 2192 l
+1986 2188 l
+cp
+f
+gr
+gs
+12 
+D sl/lW x
+32 /cW x
+40 /bW x
+50 /hS x
+0 0 0 C
+np
+1926 1753 M
+1931 1740 
+l
+2128 1959 l
+2114 1962 l
+cp
+f
+gr
+gs
+12 D sl/lW x
+32 /cW x
+40 /bW x
+50 /hS x
+0 0 0 C
+np
+1651 1811 M
+1647 1806 l
+1649 1800 l
+1931 1740 l
+1926 1753 l
+cp
+f
+gr
+gs
+12 D sl/lW x
+32 /cW x
+40 /bW x
+50 /hS x
+0 0 
+0 C
+np
+1688 1857 M
+1686 1845 l
+1909 1797 l
+1911 1809 l
+cp
+f
+gr
+gs
+12 
+D sl/lW x
+32 /cW x
+40 /bW x
+50 /hS x
+0 0 0 C
+np
+1565 2079 M
+1551 2082 
+l
+1640 1808 l
+1647 1806 l
+1651 1811 l
+cp
+f
+gr
+gs
+12 D sl/lW x
+32 
+/cW x
+40 /bW x
+50 /hS x
+0 0 0 C
+np
+1753 2288 M
+1748 2301 l
+1551 2082 l
+1565 2079 l
+cp
+f
+gr
+gs
+12 D sl/lW x
+32 /cW x
+40 /bW x
+50 /hS x
+0 0 
+0 C
+np
+1773 2233 M
+1765 2241 l
+1612 2072 l
+1621 2064 l
+cp
+f
+gr
+gs
+12 
+D sl/lW x
+32 /cW x
+40 /bW x
+50 /hS x
+0 0 0 C
+np
+2028 2229 M
+2032 2234 
+l
+2030 2241 l
+1748 2301 l
+1753 2288 l
+cp
+f
+gr
+0 1533 1665 ts
+0 0 0 C
+-432 0 M
+0 10 0 tx
+0 0 0 C
+(MeO)show
+gr
+gs
+12 D sl/lW x
+32 /cW x
+40 /bW x
+50 /hS x
+0 0 0 C
+np
+1523 1678 M
+1532 1669 l
+1649 1800 l
+1647 1806 l
+1640 1808 l
 cp
 f
 gr
