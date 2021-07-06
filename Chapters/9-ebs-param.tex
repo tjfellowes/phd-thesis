@@ -5,11 +5,11 @@
 This chapter was submitted to \textit{chemRxiv}, 21 Mar 2020.\autocite{Fellowes2020chemrxiv}
 
 \section{Abstract}
-The organoselenium compound ebselen has recently been investigated as a treatment for COVID-19, however efforts to model ebselen \emph{in silico} have been hampered by the lack of an efficient and accurate method to assess its binding to biological macromolecules. We present here a Generalized Amber Force Field modification which incorporates classical parameters for the selenium atom in ebselen, as well as a positively charged pseudoatom to simulate the $ \sigma $-hole, a quantum mechanical phenomenon that dominates the chemistry of ebselen. Our approach is justified using an energy decomposition analysis of a number of DFT optimized structures, which show that the $ \sigma $-hole interaction is primarily electrostatic in origin. Finally, our model is verified by conducting MD simulations on a number of simple complexes, as well as the clinically relevant enzyme SOD1, which is known to bind to ebselen.
+The organoselenium compound ebselen has recently been investigated as a treatment for COVID-19, however efforts to model ebselen \emph{in silico} have been hampered by the lack of an efficient and accurate method to assess its binding to biological macromolecules. We present here a Generalized Amber Force Field modification which incorporates classical parameters for the selenium atom in ebselen, as well as a positively charged pseudoatom to simulate the $ \sigma $-hole, a quantum mechanical phenomenon that dominates the chemistry of ebselen. Our approach is justified using an energy decomposition analysis of a number of DFT optimised structures, which show that the $ \sigma $-hole interaction is primarily electrostatic in origin. Finally, our model is verified by conducting MD simulations on a number of simple complexes, as well as the clinically relevant enzyme SOD1, which is known to bind to ebselen.
 
 \section{Introduction}
 Ebselen (\cmpd{ebs}) is a molecule that has piqued the interest of many medicinal chemists, in no small part due to its decidedly non-drug like appearance.
-First synthesized in 1924, its unusual properties went more or less uninvestigated for more than 50 years.\autocite{Lesser1924}
+First synthesised in 1924, its unusual properties went more or less uninvestigated for more than 50 years.\autocite{Lesser1924}
 Interest in ebselen boomed in the early 1980s, and since then it has been the subject of several studies into its synthesis, biological properties, and metabolism.\autocite{Weber1976,Renson1981,Muller1984,Wendel1984,Parnham1984,Engman1989,Schewe1995,Bhabak2010,Iwasaki2017}
 Its biological activity can be broadly attributed to its ability to neutralize reactive oxygen species (ROS), reducing the level of oxidative stress to which cells are subjected.\autocite{Mugesh2000}
 To this end, ebselen has been investigated for its neuroprotective, mood-stabilizing, anti-inflammatory, and anti-cancer properties.\autocite{Parnham1987,Kil2007,Singh2013,Azad2014,Parnham2000,Chantadul2020}
@@ -68,7 +68,7 @@ This force field will prove useful in understanding the interactions between ebs
 We began by deriving the classical bonding parameters involving selenium in ebselen, using the procedure of Torsello.\autocite{Torsello2016}
 All quantum calculations were performed using Gaussian16, unless otherwise specified.\autocite{gaussian16}
 Electrostatic potentials were calculated using the \texttt{cubegen} program in the Gaussian suite, or \texttt{mol2cub}.\autocite{mol2cub}
-The ground state geometry of ebselen was optimized at the $ \omega $B97M-V/def2-TZVP level, followed by vibrational analysis to confirm the structure was minimized.\autocite{Chai2008,Weigend2005,Weigend2006}
+The ground state geometry of ebselen was optimised at the $ \omega $B97M-V/def2-TZVP level, followed by vibrational analysis to confirm the structure was minimized.\autocite{Chai2008,Weigend2005,Weigend2006}
 The range-separated hybrid functional $ \omega $B97M-V has been shown to accurately describe Ch-bonding interactions at modest computational cost.\autocite{Mehta2021}
 Partial charges were assigned to the atoms using the RESP scheme, at the HF/6-31G* level.\autocite{Cornell1993}
 This was chosen for consistency with existing AMBER force fields.
@@ -76,7 +76,7 @@ This was chosen for consistency with existing AMBER force fields.
 \subsection{Classical bonding parameters}
 Bond and angle force constants were derived by conducting a relaxed potential energy surface scan over a range of $ \pm0.3 $~\AA~for bonds and $ \pm10 $\degree~for angles.
 The resulting data was truncated to within 5~kcal$\cdot$mol$^{-1}$ of the equilibrium energy (at larger distances the surfaces were appreciably anharmonic), and this surface was fitted with a classical harmonic oscillator model (\cref{eqn:cho}) using the \texttt{nls} function in the R software package.\autocite{R}
-The equilibrium distance/angle $ x_0 $ was fixed to the value from the optimized geometry.
+The equilibrium distance/angle $ x_0 $ was fixed to the value from the optimised geometry.
 The resulting potential energy surfaces and harmonic approximations are shown in \cref{fig:pes}.
 Torsion angles were similarly scanned at the DFT and MM (with the torsion term set to zero) levels, and the difference between these surfaces was fitted using a periodic series (\cref{eqn:dihe}).
 The resulting parameters are presented in \cref{tab:cho-params,tab:dihe-params}.
@@ -189,7 +189,7 @@ These attractive forces are balanced by a repulsive exchange component $ E_\math
 
 Four Lewis bases were chosen which are representative of those likely to be encountered in biological systems, and which span a wide range of basicity.
 Their structures are given in \cref{fig:complexes}.
-SAPT(DFT) analyses were conducted using the Psi4 software package on geometries optimized at the $ \omega $B97M-V/def2-TZVP level, and the results are shown in \cref{fig:eda}.\autocite{Parrish2017}
+SAPT(DFT) analyses were conducted using the Psi4 software package on geometries optimised at the $ \omega $B97M-V/def2-TZVP level, and the results are shown in \cref{fig:eda}.\autocite{Parrish2017}
 
 \begin{figure}
     \centering
@@ -207,7 +207,7 @@ The SAPT results indicate that the majority (around 80\%) of the interaction can
 This suggests that the explicit $ \sigma $-hole parametrization will be reliable, as electrostatics and dispersion are well described by MM.\@
 
 \subsection{Incorporation of pseudoatom}
-With classical parameters for ebselen in hand, as well as theoretical assurance that the system can be adequately described using electrostatics, we began to optimize parameters for the pseudoatom representing the $ \sigma $-hole.
+With classical parameters for ebselen in hand, as well as theoretical assurance that the system can be adequately described using electrostatics, we began to optimise parameters for the pseudoatom representing the $ \sigma $-hole.
 The pseudoatom was modelled as a virtual site riding on the selenium atom along the extension of the \ce{Se-N} bond.
 In GROMACS this is assigned the type \texttt{2fd}, which is described by only one parameter (the distance along the extension of the defining bond).
 This is very computationally efficient, although it is an approximation to reality, as the center of the $ \sigma $-hole is actually slightly offset (see \cref{fig:ebs-esp}).
