@@ -218,7 +218,7 @@ The fact that these deformations were incorporated into the anisotropic displace
 \end{figure}
 
 Evidence for aspherical atoms can even be traced back to seminal studies performed by \citeauthor{Bragg1920}, in which the famous 222 reflection of a diamond crystal was observed.
-The 222 reflection is a systematic extinction of the $ Fd\bar{3}m $ space group to which diamond belongs, but its absence is based on the assumption of spherical atoms.
+The 222 reflection is a systematic extinction of the $ \text{Fd}\bar{3}\text{m} $ space group to which diamond belongs, but its absence is based on the assumption of spherical atoms.
 In diamond, the carbon atoms are actually tetrahedral in form due to the bonding electron density, which lowers the space group symmetry and causes the 222 reflection to be present, though very weak.\autocite{Bragg1920}
 Though cutting edge for the time, Bragg's experiment was rather primitive, and multiple scattering likely contributed some intensity to the observed 222 reflection.
 The observation was nonetheless correct, and the tetrahedral nature of the carbon atoms in diamond has subsequently been proven time and time again.
@@ -234,11 +234,11 @@ Furthermore, as the scattering factors are pre-tabulated, there is little chemic
 
 An improved approach is to compute scattering factors on a case-by-case basis.
 This is the rationale behind Hirshfeld Atom Refinement (HARt), first developed by \citeauthor{Jayatilaka2008}.\autocite{Jayatilaka2008}
-HARt is an iterative procedure in which the atomic coordinates from a spherical atom refinement (perhaps after correcting \ce{C-H} bond distances) are used to variationally calculate a wave function, from which is calculated an electron density and thus scattering factors.
+HARt is an iterative procedure in which the atomic coordinates from a spherical atom refinement (after correcting \ce{C-H} bond distances) are used to variationally calculate a wave function, from which is calculated an electron density and thus scattering factors.
 These new scattering factors improve the model after refinement, from which is calculated a \emph{new} wave function, and so on until the cycles of least squares refinement and wave function calculations converge.
 Clearly this repeated calculation of a wave function is computationally expensive, with even relatively simple molecules taking minutes.
 Fortunately, however, even very inexpensive levels of theory tend to generate sensible densities for the ground state.
-An advantage over the database approach is that one can capture unusual effects in the electron density (such as various non-bonding interaction), provided that they are correctly modelled by the underlying quantum chemistry theory used to generate the wave function.
+An advantage over the database approach is that one can capture unusual effects in the electron density (such as various non-bonding interactions), provided that they are correctly modelled by the underlying quantum chemistry theory used to generate the wave function.
 However this raises a philosophical question: what exactly we are hoping to get out of this procedure?
 It can certainly provide improved refinement statistics, including anisotropic refinement of hydrogens in agreement with neutron data, but if we are seeking chemical information about the system, we might as well simply use a gas-phase optimised wave function and dispense with the crystallography.
 
@@ -370,13 +370,13 @@ Literature references are provided for known compounds in the relevant experimen
 
 \subsection{Nuclear Magnetic Resonance (NMR)}
 Nuclear magnetic resonance (NMR) spectra for \ce{^{1}H} and \ce{^{13}C} nuclei were recorded as solutions in the stated solvent at ambient temperature (25\degree{}C) using an Agilent 400-MR operating at 399.94~MHz and 100.58~MHz, an Agilent DD2 system operating at 499.62~MHz and 125.6~MHz, or a Bruker Avance III system operating at 599.57~MHz and 150.76~MHz. 
-\ce{^{1}H}-NMR spectra were referenced to residual solvent peaks; residual chloroform (7.26~ppm) in \textit{d}-chloroform or residual \textit{d}5-DMSO (2.50~ppm) in \textit{d}6-DMSO.\@
+\ce{^{1}H}-NMR spectra were referenced to residual solvent peaks; residual chloroform (7.26~ppm) in \textit{d}-chloroform or residual $d_5$-DMSO (2.50~ppm) in $d_6$-DMSO.\@
 
 The \ce{^{1}H}-NMR chemical shifts ($\delta$) are reported as parts per million (ppm), followed
 by (in brackets) integration, multiplicity (s: singlet, br s: broad singlet, d: doublet, dd: doublet of doublets, ddd: doublet of doublet of doublets, t: triplet, td: triplet of doublets, m: multiplet) and coupling constant(s) (\textit{J}) given in Hertz (Hz).
 
 Proton-decoupled \ce{^{13}C}-NMR chemical shifts are referenced on the centre peak of the
-solvents used: \textit{d}-chloroform (77.2~ppm), \textit{d}6-DMSO (39.5~ppm) and the signals are reported as chemical shift ($\delta$) in ppm.
+solvents used: \textit{d}-chloroform (77.2~ppm), $d_6$-DMSO (39.5~ppm) and the signals are reported as chemical shift ($\delta$) in ppm.
 
 \subsection{Analytical analysis}
 High-resolution mass measurements (HRMS:ESI) were performed by ionising the sample in methanol or dichloromethane via ESI using a Thermo NanoLC/Q Exactive Plus mass spectrometer.
