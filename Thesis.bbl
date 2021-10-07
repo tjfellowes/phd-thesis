@@ -1478,6 +1478,63 @@
       \verb 10.1021/jo00384a013
       \endverb
     \endentry
+    \entry{Amico1998}{article}{}
+      \name{author}{5}{}{%
+        {{hash=97d1a682c07d0c76403c9e2fea88a30a}{%
+           family={Amico},
+           familyi={A\bibinitperiod},
+           given={Vincenzo},
+           giveni={V\bibinitperiod}}}%
+        {{hash=cddd97b626e111fa8d6f2db29faf8dbf}{%
+           family={Meille},
+           familyi={M\bibinitperiod},
+           given={Stefano\bibnamedelima Valdo},
+           giveni={S\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=a3a91fcd7d0663581a4c2237a3b61424}{%
+           family={Corradi},
+           familyi={C\bibinitperiod},
+           given={Eleonora},
+           giveni={E\bibinitperiod}}}%
+        {{hash=3ad2b58ce60787ed6dc965be0e06b6d5}{%
+           family={Messina},
+           familyi={M\bibinitperiod},
+           given={Maria\bibnamedelima Teresa},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=a39b84423cfd1d0395af89144c948c23}{%
+           family={Resnati},
+           familyi={R\bibinitperiod},
+           given={Giuseppe},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{76f3a47c7ed87e2fe0fb53f93b64beb5}
+      \strng{fullhash}{99e813d9d49879af31f3b3cfbe8b71d1}
+      \strng{bibnamehash}{99e813d9d49879af31f3b3cfbe8b71d1}
+      \strng{authorbibnamehash}{99e813d9d49879af31f3b3cfbe8b71d1}
+      \strng{authornamehash}{76f3a47c7ed87e2fe0fb53f93b64beb5}
+      \strng{authorfullhash}{99e813d9d49879af31f3b3cfbe8b71d1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0002-7863}
+      \field{issue}{32}
+      \field{journaltitle}{Journal of the American Chemical Society}
+      \field{month}{8}
+      \field{title}{Perfluorocarbon−Hydrocarbon Self-Assembling. 1D Infinite Chain Formation Driven by Nitrogen···Iodine Interactions}
+      \field{volume}{120}
+      \field{year}{1998}
+      \field{pages}{8261\bibrangedash 8262}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1021/ja9810686
+      \endverb
+      \verb{urlraw}
+      \verb https://pubs.acs.org/doi/10.1021/ja9810686
+      \endverb
+      \verb{url}
+      \verb https://pubs.acs.org/doi/10.1021/ja9810686
+      \endverb
+    \endentry
     \entry{Yan2014}{article}{}
       \name{author}{4}{}{%
         {{hash=b7286412e82b46e2ca2ddadd34be676c}{%
@@ -1528,6 +1585,106 @@
       \endverb
       \verb{url}
       \verb http://apps.webofknowledge.com/full_record.do?product=UA&search_mode=GeneralSearch&qid=1&SID=1FreJs8EvUTtBEAnFq9&page=1&doc=10%20https://pubs.acs.org/doi/10.1021/jp4097869
+      \endverb
+    \endentry
+    \entry{Cabot2009}{article}{}
+      \name{author}{2}{}{%
+        {{hash=4cc60a9e30caa7a78721006eb8bf4011}{%
+           family={Cabot},
+           familyi={C\bibinitperiod},
+           given={Rafel},
+           giveni={R\bibinitperiod}}}%
+        {{hash=88f29ebb59ffcf5512fce0de93eb36f8}{%
+           family={Hunter},
+           familyi={H\bibinitperiod},
+           given={Christopher\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Royal Society of Chemistry}%
+      }
+      \strng{namehash}{3e77240e13f05152341570145004b48e}
+      \strng{fullhash}{3e77240e13f05152341570145004b48e}
+      \strng{bibnamehash}{3e77240e13f05152341570145004b48e}
+      \strng{authorbibnamehash}{3e77240e13f05152341570145004b48e}
+      \strng{authornamehash}{3e77240e13f05152341570145004b48e}
+      \strng{authorfullhash}{3e77240e13f05152341570145004b48e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Quantitative studies of the 1: 1 complexes formed between perfluorohexyl iodide and a variety of hydrogen-bond acceptors have been used to probe the relationship between halogen bonding, hydrogen bonding, desolvation and the electrostatics of non-covalent interactions. © 2009 The Royal Society of Chemistry.}
+      \field{issn}{1359-7345}
+      \field{issue}{15}
+      \field{journaltitle}{Chemical Communications}
+      \field{title}{Non-covalent interactions between iodo-perfluorocarbons and hydrogen bond acceptors}
+      \field{year}{2009}
+      \field{pages}{2005}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1039/b822284c
+      \endverb
+      \verb{urlraw}
+      \verb http://xlink.rsc.org/?DOI=b822284c
+      \endverb
+      \verb{url}
+      \verb http://xlink.rsc.org/?DOI=b822284c
+      \endverb
+    \endentry
+    \entry{Sarwar2010}{article}{}
+      \name{author}{5}{}{%
+        {{hash=93b04e0bfde74a5948a5e086e9149481}{%
+           family={Sarwar},
+           familyi={S\bibinitperiod},
+           given={M\bibnamedelima G},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=9f86a7cc8a23ff4b8173945957cdc354}{%
+           family={Dragisic},
+           familyi={D\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+        {{hash=025fe844a679269b85b8310477b4c8f5}{%
+           family={Salsberg},
+           familyi={S\bibinitperiod},
+           given={L\bibnamedelima J},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=df240b8366e9286fc67827f36c35b1e3}{%
+           family={Gouliaras},
+           familyi={G\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=86f9f0eb2a6f3c2afb4dda9f67d6ebee}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={Mark\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{f02d606c7bd8dde4210bd8d6e284795a}
+      \strng{fullhash}{cdbdbe807604191c892685277bc50c7f}
+      \strng{bibnamehash}{cdbdbe807604191c892685277bc50c7f}
+      \strng{authorbibnamehash}{cdbdbe807604191c892685277bc50c7f}
+      \strng{authornamehash}{f02d606c7bd8dde4210bd8d6e284795a}
+      \strng{authorfullhash}{cdbdbe807604191c892685277bc50c7f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the American Chemical Society}
+      \field{number}{5}
+      \field{title}{{Thermodynamics of Halogen Bonding in Solution: Sub, Structural, and Solvent Effects}}
+      \field{volume}{132}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{pages}{1646\bibrangedash 1653}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1021/ja9086352
+      \endverb
+      \verb{urlraw}
+      \verb http://pubs.acs.org/doi/abs/10.1021/ja9086352
+      \endverb
+      \verb{url}
+      \verb http://pubs.acs.org/doi/abs/10.1021/ja9086352
       \endverb
     \endentry
     \entry{Murray2008}{article}{}
@@ -1696,8 +1853,8 @@
       \strng{authorbibnamehash}{1065b8520710aefd9dec4275ecfb6ee2}
       \strng{authornamehash}{032b8cca8c0d1c590b50b5051bd79a7c}
       \strng{authorfullhash}{1065b8520710aefd9dec4275ecfb6ee2}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Chemical Communications}
@@ -2105,8 +2262,8 @@
       \strng{authornamehash}{dc6ff663ad6c243d7d1abceea50b8dd8}
       \strng{authorfullhash}{c50d5b6cbb4044d7f4cb39505ec6440d}
       \field{extraname}{2}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Angewandte Chemie International Edition}
@@ -2473,8 +2630,8 @@
       \strng{authorbibnamehash}{a5d51c26f19facc186e5ff2b59527570}
       \strng{authornamehash}{aad6d55c8776b6f504de1b1da682f670}
       \strng{authorfullhash}{a5d51c26f19facc186e5ff2b59527570}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{ChemMedChem}
@@ -2765,8 +2922,8 @@
       \strng{authorbibnamehash}{9c91339ed5cff55bdb4c7457203526b6}
       \strng{authornamehash}{028afbd36499e13051364326ff6a9faf}
       \strng{authorfullhash}{9c91339ed5cff55bdb4c7457203526b6}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of the American Chemical Society}
@@ -6069,8 +6226,8 @@
       \strng{authornamehash}{e5cc8dd04dd4973c70649f120c3d522b}
       \strng{authorfullhash}{e26bf340bcfe422f314420e3a0d4bcc9}
       \field{extraname}{2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Dalton Trans.}
@@ -6766,8 +6923,8 @@
       \strng{authorbibnamehash}{3f5f7ab22c042598a526c79885fb060c}
       \strng{authornamehash}{3f5f7ab22c042598a526c79885fb060c}
       \strng{authorfullhash}{3f5f7ab22c042598a526c79885fb060c}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Inorganic Materials}
@@ -15382,6 +15539,68 @@
       \verb 10.1002/jcc.1065
       \endverb
       \keyw{Lone pairs,Molecular mechanical models,cc-pVTZ basis set}
+    \endentry
+    \entry{Lim2017}{article}{}
+      \name{author}{6}{}{%
+        {{hash=29a5270e5a442c108299cf7d02ab0da1}{%
+           family={Lim},
+           familyi={L\bibinitperiod},
+           given={Jason\bibnamedelimb Y.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim Y\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=fef4eed8e5129f8706f6d170fdd0cf7e}{%
+           family={Marques},
+           familyi={M\bibinitperiod},
+           given={Igor},
+           giveni={I\bibinitperiod}}}%
+        {{hash=98512f8eea5ef84d1afb49abd7399d9d}{%
+           family={Thompson},
+           familyi={T\bibinitperiod},
+           given={Amber\bibnamedelima L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=597118a4c6518699fc7ff4cb3f34d0ce}{%
+           family={Christensen},
+           familyi={C\bibinitperiod},
+           given={Kirsten\bibnamedelima E.},
+           giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=ee2e1322f9b6545aabfef18599f84155}{%
+           family={Félix},
+           familyi={F\bibinitperiod},
+           given={Vítor},
+           giveni={V\bibinitperiod}}}%
+        {{hash=d0867d6f81d825fe866f7f9da7a8450e}{%
+           family={Beer},
+           familyi={B\bibinitperiod},
+           given={Paul\bibnamedelima D.},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{df53436c56b84d15555fbd58dc500497}
+      \strng{fullhash}{86c719feac75681afa1fb54429cb3e25}
+      \strng{bibnamehash}{86c719feac75681afa1fb54429cb3e25}
+      \strng{authorbibnamehash}{86c719feac75681afa1fb54429cb3e25}
+      \strng{authornamehash}{df53436c56b84d15555fbd58dc500497}
+      \strng{authorfullhash}{86c719feac75681afa1fb54429cb3e25}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the American Chemical Society}
+      \field{month}{3}
+      \field{number}{8}
+      \field{title}{{Chalcogen Bonding Macrocycles and [2]Rotaxanes for Anion Recognition}}
+      \field{volume}{139}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{pages}{3122\bibrangedash 3133}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1021/jacs.6b12745
+      \endverb
+      \verb{urlraw}
+      \verb http://pubs.acs.org/doi/10.1021/jacs.6b12745
+      \endverb
+      \verb{url}
+      \verb http://pubs.acs.org/doi/10.1021/jacs.6b12745
+      \endverb
     \endentry
     \entry{Cozzolino2011}{article}{}
       \name{author}{2}{}{%
