@@ -18,7 +18,7 @@ The SCF procedure, which is at the heart of almost all quantum chemistry calcula
     \label{eqn:schrodinger}
 \end{equation}
 
-Within Hartree-Fock theory, the wave function $ \Psi $ is approximated by a single Slater determinant, which is an combination of one electron wave functions $\chi_{n}(\mathbf{x}_{n})$.
+Within Hartree-Fock theory, the wave function $ \Psi $ is approximated by a single Slater determinant, which is a combination of one electron wave functions $\chi_{n}(\mathbf{x}_{n})$.
 Each one electron wave function, or molecular orbital (MO), describes the distribution of an electron in the field of the nuclear potentials, and is generally constructed from a Linear Combination of Atomic Orbitals (LCAO), that is, sums and differences of atom centred basis functions of various symmetries.
 The Pauli exclusion principle states that a (many-particle) wave function must be antisymmetric with respect to exchange of two fermionic particles such as electrons, and this requirement is satisfied by the use of a Slater determinant.
 This means that for every MO resulting from the sum of two atomic orbitals, there must be a corresponding MO resulting from the difference of the same two atomic orbitals, from which we obtain the familiar MO construction for simple diatomics (\cref{fig:h-orbital-diagram}).
@@ -332,7 +332,7 @@ The principal values of the tensor $ \delta_{11} $, $ \delta_{22} $ and $ \delta
 \begin{figure}
   \centering
   \includegraphics[width=0.45\linewidth]{Figures/ssnmr-tensor.pdf}
-  \caption[SS-NMR powder line shape.]{Characteristic solid-state NMR powder line shape for an asymmetric tensor e.g.\ in an alkene. The positions of the three principal values are shown.}\label{fig:ssnmr-tensor}
+  \caption[SS-NMR powder line shape.]{Characteristic solid-state NMR powder line shape for an asymmetric tensor. The positions of the three principal values are shown. Reproduced from  reference \cite{Nardelli2020}.}\label{fig:ssnmr-tensor}
 \end{figure}
 
 Spinning at the magic angle can improve the S/N ratio by partially averaging out the chemical shift anisotropy and dipolar relaxation.
@@ -394,7 +394,9 @@ Intensity data was collected on a Rigaku XtalLAB Synergy using either Cu-K$\alph
 The temperature was maintained using an Oxford Cryostream cooling device. 
 The structures were solved by direct methods and difference Fourier synthesis.\autocite{Sheldrick2015}
 Independent atom models were refined by least-squares against $F^{2}$ using SHELXL integrated within Olex2.3.\autocite{Sheldrick2008,Dolomanov2009}
+Hydrogen atoms were generally treated with a riding model using the HFIX command in SHELXL, except in the case of H-bond donors, where they were refined freely.
 Aspherical atom refinement was performed using NoSpherA2, using densities calculated at the PBE0/def2-TZVP level in ORCA.\autocite{Kleemiss2021,Neese2012}
+In this case hydrogen atoms were also refined freely and anisotropically, when data quality allowed.
 Multipole refinement was performed using MoPro.\autocite{Jelsch2005}
 
 \printbibliography[heading=subbibliography]

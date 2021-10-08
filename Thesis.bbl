@@ -1073,7 +1073,7 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Chem. Commun.}
+      \field{journaltitle}{Chemical Communications}
       \field{number}{64}
       \field{title}{{Anion recognition by a bidentate chalcogen bond donor}}
       \field{volume}{52}
@@ -1304,7 +1304,7 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Angewandte Chemie International Edition}
+      \field{journaltitle}{Angewandte Chemie - International Edition}
       \field{month}{1}
       \field{number}{3}
       \field{title}{{Catalysis with Chalcogen Bonds}}
@@ -1420,7 +1420,7 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Dalton Trans.}
+      \field{journaltitle}{Dalton Transactions}
       \field{number}{20}
       \field{title}{{Synthesis and structural characterisation of the aggregates of benzo-1,2-chalcogenazole 2-oxides}}
       \field{volume}{46}
@@ -2266,7 +2266,7 @@
       \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Angewandte Chemie International Edition}
+      \field{journaltitle}{Angewandte Chemie - International Edition}
       \field{month}{9}
       \field{number}{39}
       \field{title}{{Carbon-Halogen Bond Activation by Selenium-Based Chalcogen Bonding}}
@@ -4105,7 +4105,7 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Acta Crystallographica Section B Structural Crystallography and Crystal Chemistry}
+      \field{journaltitle}{Acta Crystallographica Section B: Structural Crystallography and Crystal Chemistry}
       \field{number}{9}
       \field{title}{{Evidence for systematic errors in X-ray temperature parameters resulting from bonding effects}}
       \field{volume}{24}
@@ -4239,7 +4239,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Acta Crystallographica Section A Foundations of Crystallography}
+      \field{journaltitle}{Acta Crystallographica Section A: Foundations of Crystallography}
       \field{month}{5}
       \field{number}{3}
       \field{title}{{X-ray structure refinement using aspherical atomic density functions obtained from quantum-mechanical calculations}}
@@ -4314,7 +4314,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{01928651}
-      \field{journaltitle}{J. Comput. Chem.}
+      \field{journaltitle}{Journal of Computational Chemistry}
       \field{number}{4}
       \field{title}{{Wave functions derived from experiment. V. Investigation of electron densities, electrostatic potentials, and electron localization functions for noncentrosymmetric crystals}}
       \field{volume}{24}
@@ -4475,7 +4475,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Acta Crystallographica Section A}
+      \field{journaltitle}{Acta Crystallographica Section A: Foundations of Crystallography}
       \field{number}{6}
       \field{title}{{Testing aspherical atom refinements on small‐molecule data sets}}
       \field{volume}{34}
@@ -4526,7 +4526,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00218898}
-      \field{journaltitle}{J. Appl. Crystallogr.}
+      \field{journaltitle}{Journal of Applied Crystallography}
       \field{month}{4}
       \field{number}{2}
       \field{title}{{Refinement of proteins at subatomic resolution with MOPRO}}
@@ -4686,6 +4686,73 @@
       \verb{doi}
       \verb 10.1021/ar00136a005
       \endverb
+    \endentry
+    \entry{Nardelli2020}{article}{}
+      \name{author}{6}{}{%
+        {{hash=533c90c5e0c9ddbcdf0d1b7e487a919a}{%
+           family={Nardelli},
+           familyi={N\bibinitperiod},
+           given={Francesca},
+           giveni={F\bibinitperiod}}}%
+        {{hash=4e6b8648934081cfc30d2efd25e53813}{%
+           family={Borsacchi},
+           familyi={B\bibinitperiod},
+           given={Silvia},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e422d9b774a98e85d12a93d30daf0720}{%
+           family={Calucci},
+           familyi={C\bibinitperiod},
+           given={Lucia},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e6646e578593d4f312d3990e77c14508}{%
+           family={Carignani},
+           familyi={C\bibinitperiod},
+           given={Elisa},
+           giveni={E\bibinitperiod}}}%
+        {{hash=1a357abd92960b527723426c25bdf5e7}{%
+           family={Martini},
+           familyi={M\bibinitperiod},
+           given={Francesca},
+           giveni={F\bibinitperiod}}}%
+        {{hash=6ea47be28731a057ee6fb74b138e8d63}{%
+           family={Geppi},
+           familyi={G\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media Deutschland GmbH}%
+      }
+      \strng{namehash}{7cc1a4f800b19b043350522765ccc2b8}
+      \strng{fullhash}{5cca19a65cedcee5d4008a0e7f119026}
+      \strng{bibnamehash}{5cca19a65cedcee5d4008a0e7f119026}
+      \strng{authorbibnamehash}{5cca19a65cedcee5d4008a0e7f119026}
+      \strng{authornamehash}{7cc1a4f800b19b043350522765ccc2b8}
+      \strng{authorfullhash}{5cca19a65cedcee5d4008a0e7f119026}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2037-4631}
+      \field{issue}{4}
+      \field{journaltitle}{Rendiconti Lincei. Scienze Fisiche e Naturali}
+      \field{month}{12}
+      \field{title}{Anisotropy and NMR spectroscopy}
+      \field{volume}{31}
+      \field{year}{2020}
+      \field{pages}{999\bibrangedash 1010}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1007/s12210-020-00945-3
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007/s12210-020-00945-3
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/s12210-020-00945-3
+      \endverb
+      \keyw{Chemical shift,Dipolar interaction,HPD,Line broadening,Line shape analysis,Liquid crystals,MAS,Quadrupolar interaction,Soft matter,Solid-state NMR}
     \endentry
     \entry{Herzfeld1980SidebandAngle}{article}{}
       \name{author}{2}{}{%
@@ -4866,7 +4933,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0108-7673}
-      \field{journaltitle}{Acta Crystallographica Section A Foundations of Crystallography}
+      \field{journaltitle}{Acta Crystallographica Section A: Foundations of Crystallography}
       \field{month}{1}
       \field{number}{1}
       \field{title}{{A short history of SHELX}}
@@ -5036,7 +5103,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2041-6520}
-      \field{journaltitle}{Chem. Sci.}
+      \field{journaltitle}{Chemical Science}
       \field{number}{5}
       \field{title}{{Accurate crystal structures and chemical properties from NoSpherA2}}
       \field{volume}{12}
@@ -5126,8 +5193,8 @@
       \strng{authorbibnamehash}{15d46a035b0f786765b26b3029ee0eb5}
       \strng{authornamehash}{dcf89934b84ecd75d71f3a0f4e2c7998}
       \strng{authorfullhash}{15d46a035b0f786765b26b3029ee0eb5}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Applied Crystallography}
@@ -5285,7 +5352,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Angewandte Chemie International Edition}
+      \field{journaltitle}{Angewandte Chemie - International Edition}
       \field{month}{9}
       \field{number}{39}
       \field{title}{{Carbon-Halogen Bond Activation by Selenium-Based Chalcogen Bonding}}
@@ -5408,7 +5475,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Angewandte Chemie International Edition}
+      \field{journaltitle}{Angewandte Chemie - International Edition}
       \field{month}{2}
       \field{number}{7}
       \field{title}{{Chalcogen Bonding: An Overview}}
@@ -5589,7 +5656,7 @@
       \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Chem. Commun.}
+      \field{journaltitle}{Chemical Communications}
       \field{title}{{Organic selenocyanates as strong and directional chalcogen bond donors for crystal engineering}}
       \field{year}{2017}
       \field{dateera}{ce}
@@ -5698,7 +5765,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{09476539}
-      \field{journaltitle}{Chem. - A Eur. J.}
+      \field{journaltitle}{Chemistry - A European Journal}
       \field{month}{9}
       \field{number}{54}
       \field{title}{{Thermodynamics of Anion Binding by Chalcogen Bonding Receptors}}
@@ -5757,7 +5824,7 @@
       \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Chem. Commun.}
+      \field{journaltitle}{Chemical Communications}
       \field{number}{64}
       \field{title}{{Anion recognition by a bidentate chalcogen bond donor}}
       \field{volume}{52}
@@ -5861,7 +5928,7 @@
       \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Angewandte Chemie International Edition}
+      \field{journaltitle}{Angewandte Chemie - International Edition}
       \field{month}{1}
       \field{number}{3}
       \field{title}{{Catalysis with Chalcogen Bonds}}
@@ -6230,7 +6297,7 @@
       \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Dalton Trans.}
+      \field{journaltitle}{Dalton Transactions}
       \field{number}{20}
       \field{title}{{Synthesis and structural characterisation of the aggregates of benzo-1,2-chalcogenazole 2-oxides}}
       \field{volume}{46}
@@ -7246,7 +7313,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Angewandte Chemie International Edition}
+      \field{journaltitle}{Angewandte Chemie - International Edition}
       \field{month}{10}
       \field{number}{39}
       \field{title}{{Enhancing the Catalytic Activity of 4-(Dialkylamino)pyridines by Conformational Fixation}}
@@ -7360,7 +7427,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2041-6520}
-      \field{journaltitle}{Chem. Sci.}
+      \field{journaltitle}{Chemical Science}
       \field{number}{5}
       \field{title}{{Accurate crystal structures and chemical properties from NoSpherA2}}
       \field{volume}{12}
@@ -7534,7 +7601,7 @@
       \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Angewandte Chemie International Edition in English}
+      \field{booktitle}{Angewandte Chemie - International Edition}
       \field{month}{7}
       \field{number}{7}
       \field{title}{{Atomic Motions in Molecular Crystals from Diffraction Measurements}}
@@ -7578,7 +7645,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{10907807}
-      \field{journaltitle}{J. Magn. Reson.}
+      \field{journaltitle}{Journal of Magnetic Resonance}
       \field{number}{2}
       \field{title}{{Chemical shift referencing in MAS solid state NMR}}
       \field{volume}{162}
@@ -7698,7 +7765,7 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Prog. Nucl. Magn. Reson. Spectrosc.}
+      \field{journaltitle}{Progress in Nuclear Magnetic Resonance Spectroscopy}
       \field{month}{1}
       \field{number}{1-3}
       \field{title}{{Selenium-77 nuclear magnetic resonance spectroscopy}}
@@ -7882,7 +7949,7 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Chem. Soc. Rev.}
+      \field{journaltitle}{Chemical Society Reviews}
       \field{number}{3}
       \field{title}{{Determining association constants from titration experiments in supramolecular chemistry}}
       \field{volume}{40}
@@ -8275,7 +8342,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2046-2069}
-      \field{journaltitle}{RSC Adv.}
+      \field{journaltitle}{RSC Advances}
       \field{month}{9}
       \field{number}{90}
       \field{title}{{Highly efficient synthesis and antioxidant capacity of N-substituted benzisoselenazol-3(2H)-ones}}
@@ -8448,7 +8515,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Acta Crystallographica Section C Crystal Structure Communications}
+      \field{journaltitle}{Acta Crystallographica Section C: Crystal Structure Communications}
       \field{number}{3}
       \field{title}{{Structures de l'ebselen (phényl-2 2H-benzisosélénazole-1,2 one-3) (I) et de l'acétonylséléno-2 benzanilide (II)}}
       \field{volume}{46}
@@ -8646,7 +8713,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Angewandte Chemie International Edition}
+      \field{journaltitle}{Angewandte Chemie - International Edition}
       \field{month}{11}
       \field{number}{47}
       \field{title}{{Back Cover: Chalcogen Bonding Catalysis of a Nitro-Michael Reaction (Angew. Chem. Int. Ed. 47/2019)}}
@@ -10199,7 +10266,7 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Acta Crystallographica Section A}
+      \field{journaltitle}{Acta Crystallographica Section A: Foundations of Crystallography}
       \field{number}{6}
       \field{title}{{Testing aspherical atom refinements on small‐molecule data sets}}
       \field{volume}{34}
@@ -10639,7 +10706,7 @@
       \field{labeltitlesource}{title}
       \field{isbn}{9788578110796}
       \field{issn}{0300-9580}
-      \field{journaltitle}{J. Chem. Soc., Perkin Trans. 2}
+      \field{journaltitle}{Journal of the Chemical Society, Perkin Transactions 2}
       \field{number}{6}
       \field{title}{{X-Ray structure and stereochemical properties of (S,S)-(–)-2-methylsulphonyl-3-phenyloxaziridine and of (S,S)-(–)-2-methylsulphonyl-3-(2-chloro-5-nitrophenyl)oxaziridine}}
       \field{volume}{53}
@@ -10935,7 +11002,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Angewandte Chemie International Edition}
+      \field{journaltitle}{Angewandte Chemie - International Edition}
       \field{month}{2}
       \field{number}{7}
       \field{title}{{Chalcogen Bonding: An Overview}}
@@ -11393,7 +11460,7 @@
       \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Chem. Commun.}
+      \field{journaltitle}{Chemical Communications}
       \field{number}{64}
       \field{title}{{Anion recognition by a bidentate chalcogen bond donor}}
       \field{volume}{52}
@@ -11722,7 +11789,7 @@
       \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Chem. Commun.}
+      \field{journaltitle}{Chemical Communications}
       \field{title}{{Organic selenocyanates as strong and directional chalcogen bond donors for crystal engineering}}
       \field{year}{2017}
       \field{dateera}{ce}
@@ -12623,7 +12690,6 @@
       \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The hallmarks of cancer comprise six biological capabilities acquired during the multistep development of human tumors. The hallmarks constitute an organizing principle for rationalizing the complexities of neoplastic disease. They include sustaining proliferative signaling, evading growth suppressors, resisting cell death, enabling replicative immortality, inducing angiogenesis, and activating invasion and metastasis. Underlying these hallmarks are genome instability, which generates the genetic diversity that expedites their acquisition, and inflammation, which fosters multiple hallmark functions. Conceptual progress in the last decade has added two emerging hallmarks of potential generality to this list - reprogramming of energy metabolism and evading immune destruction. In addition to cancer cells, tumors exhibit another dimension of complexity: they contain a repertoire of recruited, ostensibly normal cells that contribute to the acquisition of hallmark traits by creating the "tumor microenvironment." Recognition of the widespread applicability of these concepts will increasingly affect the development of new means to treat human cancer. {©} 2011 Elsevier Inc.}
       \field{issn}{00928674}
       \field{journaltitle}{Cell}
       \field{month}{3}
@@ -13289,7 +13355,7 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Chem. Sci.}
+      \field{journaltitle}{Chemical Science}
       \field{title}{{Origins of High Catalyst Loading in Copper(I)-Catalysed Ullmann-Goldberg C-N Coupling Reactions}}
       \field{year}{2017}
       \field{dateera}{ce}
@@ -13602,7 +13668,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{14337851}
-      \field{journaltitle}{Angewandte Chemie International Edition}
+      \field{journaltitle}{Angewandte Chemie - International Edition}
       \field{month}{4}
       \field{number}{16}
       \field{title}{{Ligand-Controlled Highly Regioselective and Asymmetric Hydrogenation of Quinoxalines Catalyzed by Ruthenium N-Heterocyclic Carbene Complexes}}
@@ -16890,7 +16956,7 @@
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Acta Crystallographica Section C Crystal Structure Communications}
+      \field{journaltitle}{Acta Crystallographica Section C: Crystal Structure Communications}
       \field{number}{3}
       \field{title}{{Structures de l'ebselen (phényl-2 2H-benzisosélénazole-1,2 one-3) (I) et de l'acétonylséléno-2 benzanilide (II)}}
       \field{volume}{46}
