@@ -3,13 +3,16 @@
 \chapter{Further investigations into Ch-bonded complexes}\label{ch:hammett}
 
 \section{Introduction}
-In the previous chapter, we established that Ch-bonding is not only present in ebselen derivatives, but dominates packing in crystals of the pure compound (through \ce{Se\cdots O} interactions) and in co-crystals with a variety of Lewis bases.
+In the previous chapter, we established that Ch-bonding is not only present in ebselen derivatives, but dominates packing in co-crystals with a variety of Lewis bases.
 In this chapter, we extend our investigation to a wider range of derivatives with systematically varied electronic properties.
 
 Linear free energy relationships (LFERs) relate the rate of a chemical reaction with some electronic property of the substrate molecule(s).
 Although the single crystal structures presented here are \emph{static} snapshots of reality, we can think of them as representative of progress toward the transition state for a particular reaction, in this case the formation of a \ce{N_{base} \cdots Se} bond and the concomitant breaking of the endocyclic \ce{Se-N} bond (\cref{fig:bond-breaking}).
 The lower the transition state energy, the shorter will be the \ce{Se\cdots N} Ch-bond distance, and this is clearly influenced by the electronic properties of both the Ch-bond donor and acceptor.
 They have been used previously to explain trends in X-bonding.\autocite{Laurence1983,Sarwar2010}
+We assume that the bond energy and distance are linearly related over the range studied, which may not be entirely accurate, as the anharmonic behaviour of bonding is well appreciated.
+However, the variations here are small ($\approx 10\%$ of the total bond distance) and fairly good linear fits are obtained.
+Noise due to crystal packing forces contributes significantly to the data, and any attempts to fit a nonlinear function (even if the form was known) would likely lead to overfitting.
 
 \begin{figure}
   \includegraphics[scale=0.74]{Figures/bond-breaking.eps}
@@ -69,7 +72,7 @@ We therefore prepared co-crystals with \cmpd{py.morph,py.pyrrol}, which are slig
   \caption[Synthesis of benzisoselenazolinone derivatives.]{Synthesis of benzisoselenazolinone derivatives.\@ (a) 1. \ce{NaNO2}, \ce{HCl}, 0~\degree{}C;\@ 2. \ce{Na2Se2}, \ce{NaOH}, rt, 1~h, 37\%; (b) 1. \ce{SOCl2}, cat. DMF, reflux, 1.5~h; 2. \ce{ArNH2}, TEA, MeCN, rt, 2~h, 14--67\%.}\label{sch:ebs-synthesis}
   \end{scheme}
 
-The benzisoselenazolinone derivatives \cmpd[merge=false,compress=false]{ebs,ebs.{4no2,4cn,4cf3,4br,4co2et,4me,4ome,4oet}} were prepared by the reaction of substituted anilines with the dichloride of \cmpd{diselenide}, which was ultimately derived from anthranilic acid (\cref{sch:ebs-synthesis}).
+The $4^{\prime}$-substituted benzisoselenazolinone derivatives \cmpd[merge=false,compress=false]{ebs,ebs.{4no2,4cn,4cf3,4br,4co2et,4me,4ome,4oet}} were prepared by the reaction of substituted anilines with the dichloride of \cmpd{diselenide}, which was ultimately derived from anthranilic acid (\cref{sch:ebs-synthesis}).
 The one-pot selenocyclisation reaction used in \cref{ch:crystengcomm1} often did not tolerate the various functional groups on the aryl ring, affording reduction, cross-coupling, or protodehalogenation byproducts.
 All derivatives except \cmpd{ebs.4no2} were isolated in acceptable yield at room temperature using acetonitrile as a solvent, and in the presence of a weak base (triethylamine).
 Due to the strongly electron-withdrawing nature of the nitro substituent, the parent aniline of \cmpd{ebs.4no2} was not sufficiently nucleophilic to react under the same conditions.
@@ -78,10 +81,10 @@ We therefore first deprotonated the aniline using \ce{NaH} (60\% suspension in m
 Co-crystals of the benzisoselenazolinones and pyridines were grown by vapour diffusion from an equimolar solution in dichloromethane/pentane.
 Relevant structural parameters are given in \cref{tab:bondlengths2}.
 In addition to the structural parameters, we characterised the various Ch-bonds using Bader's QTAIM framework.
-Depending on the quality of the data we were able to obtain for each crystal, we used:
+Depending on the quality of the data (determined by resolution, $\text{R}_\text{int}$, and residual electron density after refinement) we were able to obtain for each crystal, we used:
 
 \begin{itemize}
-    \item experimental electron density from a multipole refinement with atomic coordinates determined from high angle refinement ($d < 0.8$\AA),
+    \item experimental electron density from a multipole refinement with atomic coordinates determined from high angle refinement ($d < 0.8$~\AA{}),
     \item experimental electron density from a multipole refinement with atomic coordinates determined by refinement using aspherical scattering factors derived from the DFT electron density,
     \item density derived from a DFT calculation on the crystal geometry.
 \end{itemize}
@@ -727,40 +730,6 @@ It is important to note that even in the absence of a Lewis base, the organosele
 This is substantially weaker than a \ce{Se\cdots N} interaction, but non-negligible.
 We must therefore view these as \emph{competition} experiments, rather than an absolute measure of binding energy.
 
-For single site binding (a valid approximation for these systems, as the single $ \sigma $-hole is likely to out-compete all other interactions), the dissociation constant can be expressed as
-
-\begin{equation}
-    \label{eqn:equilibrium}
-    \mathrm{K_d} = \frac{[\mathrm{ebs}][\mathrm{base}]}{[\mathrm{ebs\cdot base}]}
-\end{equation}
-
-If the Ch-bond formation/breaking is slow on the NMR timescale, two distinct resonances will be observed that correspond to the ``free'' (Ch-bonded to a carbonyl oxygen) and ``bound'' (Ch-bonded to the Lewis base) selenium species, and their relative concentrations can be determined by integration of the signals.
-As it happens, this is not the case, and the process is fast relative to the NMR timescale.
-The observed chemical shift is therefore the mole fraction ($f_\mathrm{ebs} = [\mathrm{ebs}]/{[\mathrm{ebs}]}_0$ and $f_\mathrm{ebs\cdot base} = [\mathrm{ebs\cdot base}]/{[\mathrm{ebs}]}_0$) weighted average of the chemical shifts of the two species:
-\begin{equation}
-    \delta_{\mathrm{observed}} = \delta_{\mathrm{ebs}} f_\mathrm{ebs} + \delta_{\mathrm{ebs\cdot base}} f_{\mathrm{ebs\cdot base}}
-\end{equation}
-
-If we consider only the \emph{change} in chemical shift from the free species, this becomes simply:
-\begin{align}
-    \Delta(\delta_{\mathrm{observed}}) & = \Delta(\delta_{\mathrm{ebs\cdot base}}) f_{\mathrm{ebs\cdot base}} \\
-    & = \Delta(\delta_{\mathrm{ebs\cdot base}}) \left(\frac{[\mathrm{ebs\cdot base}]}{{[\mathrm{ebs}]}_0}\right)
-\end{align}
-
-From here we can rearrange the equilibrium expression (\cref{eqn:equilibrium}) and mass balance equation (${[\mathrm{ebs}]}_0 = [\mathrm{ebs}] + [\mathrm{ebs\cdot base}]$), and substitute them in to arrive at the generic binding isotherm equation:
-\begin{equation}
-    \Delta(\delta) = \frac{\Delta(\delta_{\mathrm{ebs\cdot base}})  \times [\mathrm{base}]}{\mathrm{K_{d}} + [\mathrm{base}]}
-\end{equation}
-
-This assumes that there is insignificant depletion of the base concentration due to complexation.\autocite{Thordarson2011}
-Such an assumption may not be entirely valid for this situation, which may explain the imperfect fitting.
-However, the analysis is considerably simplified, and adequate standard deviations are obtained using this method.
-
-The resulting K\textsubscript{d} values can be converted to free energies:
-\begin{equation}
-    \Delta G = -RT \ln{\mathrm{K_d}}
-\end{equation}
-
 A saturated solution of the organoselenium derivative in chloroform was used, due to the high solubility (to reduce acquisition time) and non-coordinating nature (to minimise Ch-bonding to the solvent).
 This was spiked with a small amount of deuterochloroform for the lock signal.
 Spectra were acquired on an Agilent DD2 500~MHz instrument, using a 60\degree~pulse and 1~s relaxation delay, until an unambiguous \ce{^{77}Se} resonance was observed.
@@ -770,52 +739,52 @@ These are shown in \cref{fig:nmr-titrations}.
 \begin{figure}
   \centering
   \begin{subfigure}{0.45\linewidth}
-    \includegraphics[width=\linewidth]{Figures/nmr-titration/bn-ebs-dmap.pdf}
+    \includegraphics[width=\linewidth]{Figures/nmr-titration/bn-ebs-dmap.eps}
     \caption{\refcmpd{ebs.bn}$ \cdot $DMAP}
   \end{subfigure}
   \begin{subfigure}{0.45\linewidth}
-    \includegraphics[width=\linewidth]{Figures/nmr-titration/4oet-ebs-dmap.pdf}
+    \includegraphics[width=\linewidth]{Figures/nmr-titration/4oet-ebs-dmap.eps}
     \caption{\refcmpd{ebs.4oet}$ \cdot $DMAP}
   \end{subfigure}
   \begin{subfigure}{0.45\linewidth}
-    \includegraphics[width=\linewidth]{Figures/nmr-titration/ph-ebs-dmap.pdf}
+    \includegraphics[width=\linewidth]{Figures/nmr-titration/ph-ebs-dmap.eps}
     \caption{\refcmpd{ebs}$ \cdot $DMAP}
   \end{subfigure}
   \begin{subfigure}{0.45\linewidth}
-    \includegraphics[width=\linewidth]{Figures/nmr-titration/4br-ebs-dmap.pdf}
+    \includegraphics[width=\linewidth]{Figures/nmr-titration/4br-ebs-dmap.eps}
     \caption{\refcmpd{ebs.4br}$ \cdot $DMAP}
   \end{subfigure}
   \begin{subfigure}{0.45\linewidth}
-    \includegraphics[width=\linewidth]{Figures/nmr-titration/4cn-ebs-dmap.pdf}
+    \includegraphics[width=\linewidth]{Figures/nmr-titration/4cn-ebs-dmap.eps}
     \caption{\refcmpd{ebs.4cn}$ \cdot $DMAP}
   \end{subfigure}
-  \caption[NMR titration binding isotherms.]{Binding isotherms for ebselen derivatives \refcmpd{ebs.bn,ebs.4oet,ebs,ebs.4br,ebs.4cn} with DMAP.\@ Scatchard plots are inset.}\label{fig:nmr-titrations}
+  \caption[NMR titration binding isotherms.]{Binding isotherms for ebselen derivatives \refcmpd{ebs.bn,ebs.4oet,ebs,ebs.4br,ebs.4cn} with DMAP.\@}\label{fig:nmr-titrations}
 \end{figure}
 
-Non-linear regression analysis was performed with the \texttt{nls} function in the R software package using the relationship derived above, and the calculated values are given in \cref{tab:nmr-titrations}.\autocite{R}
+Fitting of the resulting isotherms was conducted using the \texttt{bindfit} utility\autocite{bindfit,Thordarson2011} and the resulting parameters are given in \cref{tab:nmr-titrations}.
+A 1:1 binding model was used, as this gave the lowest residual error and made the most chemical sense.
 A similar experiment was conducted by \citeauthor{Daolio2020} using hexamethylphosphoramide (HMPA) as the Lewis base, and the binding energy was found to be 0.910~kcal$\cdot$mol$^{-1}$, which is in good agreement with our results.\autocite{Daolio2020}
 
 \begin{table}
     \centering
     \begin{tabular}{lll}\toprule
         Complex & Binding energy (kcal$\cdot$mol$^{-1}$) & $\Delta(\delta_{\mathrm{ebs\cdot base}})$ (ppm) \\\midrule
-        \cmpd{ebs.bn}$ \cdot $DMAP & 0.17(6) & 41.6 \\
-        \cmpd{ebs.4oet}$ \cdot $DMAP & 0.47(3) & 102.8 \\
-        \cmpd{ebs.4br}$ \cdot $DMAP & 0.87(5) & 104.2 \\
+        \cmpd{ebs.bn}$ \cdot $DMAP & 0.204(6) & 40.1 \\
+        \cmpd{ebs.4oet}$ \cdot $DMAP & 0.93(1) & 79.4 \\
         \cmpd{ebs}$ \cdot $HMPA\autocite{Daolio2020} & 0.910 & --- \\
-        \cmpd{ebs}$ \cdot $DMAP & 1.12(4) & 70.05 \\
-        \cmpd{ebs.4cn}$ \cdot $DMAP & 2.28(5) & 82.62 \\\bottomrule
+        \cmpd{ebs}$ \cdot $DMAP & 1.21(9) & 68.5 \\
+        \cmpd{ebs.4br}$ \cdot $DMAP & 1.66(5) & 79.8 \\
+        \cmpd{ebs.4cn}$ \cdot $DMAP & 2.9(4) & 78.74 \\\bottomrule
     \end{tabular}
-    \caption[NMR titration binding energies.]{Binding energies for complexes of \refcmpd{ebs.bn,ebs.4oet,ebs.4br,ebs,ebs.4cn} with DMAP, derived from \ce{^{77}Se}-NMR titration experiments.}\label{tab:nmr-titrations}
+    \caption[NMR titration binding energies.]{Binding energies for complexes of \refcmpd{ebs.bn,ebs.4oet,ebs,ebs.4br,ebs.4cn} with DMAP, derived from \ce{^{77}Se}-NMR titration experiments.}\label{tab:nmr-titrations}
 \end{table}
-
 
 Although there is insufficient data to derive clear trends from a Hammett relationship, we can nevertheless visualise the data in a plot, which shows that the Ch-bond gets appreciably stronger with more electron withdrawing substituents (\cref{fig:hammett-dmap-nmr}).
 
 \begin{figure}
     \centering
     \includegraphics[width=0.9\linewidth]{Figures/hammett-nmr-p.eps}
-    \caption[Hammett plot of binding energies between ebselen derivatives and DMAP.]{Hammett plot of binding energies between ebselen derivatives and DMAP, determined by \ce{^{77}Se}-NMR titration. The line is described by the equation $\Delta\mathrm{G} = (0.88(21) + 1.86(57) \times \sigma_\text{p})$~kcal$ \cdot $mol$^{-1}$ ($\mathrm{R}^2 = 0.8437$).}\label{fig:hammett-dmap-nmr}
+    \caption[Hammett plot of binding energies between ebselen derivatives and DMAP.]{Hammett plot of binding energies between ebselen derivatives and DMAP, determined by \ce{^{77}Se}-NMR titration. The line is described by the equation $\Delta\mathrm{G} = (1.30(3) + 1.55(13) \times \sigma_\text{p})$~kcal$ \cdot $mol$^{-1}$ ($\mathrm{R}^2 = 0.9868$).}\label{fig:hammett-dmap-nmr}
 \end{figure}
 
 \subsubsection{UV-Vis titration experiment}

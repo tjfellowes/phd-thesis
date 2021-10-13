@@ -38,7 +38,7 @@ The drawbacks are that MM relies on having an extensive parameter set (a ``force
 
 Both of these issues are encountered when attempting to model ebselen using MM.\@
 Firstly, parameters to describe selenium-containing small molecules are simply not available in most popular force fields, including GAFF, Gromos, and CGenFF.\@
-This has been substantially addressed in the work of \citeauthor{Torsello2016}, where extensive parametrization of a series of diaryl diselenides and diaryl ditellurides was performed, and they provided a methodology to extend this to general chalcogen-containing molecules.\autocite{Torsello2016}
+This has been substantially addressed in the work of Orian \textit{et al.}, where extensive parametrization of a series of diaryl diselenides and diaryl ditellurides was performed, and they provided a methodology to extend this to general chalcogen-containing molecules.\autocite{Torsello2016}
 They did not, however, address the second issue of quantum effects, which is reasonable given that they do not play a large role in diselenides.
 The chemistry of ebselen, on the other hand, is dominated by the $ \sigma $-hole, which is a quantum effect.\autocite{Thomas2015}
 The $ \sigma $-hole is a region of positive electrostatic potential situated opposite to the \ce{Se-N} bond, caused by a strongly anisotropic electron distribution around the selenium atom.
@@ -49,6 +49,7 @@ Perhaps due to the higher prevalence of halogens in drug-like molecules, a numbe
 The common theme in these methods is the inclusion of a pseudoatom with positive electrostatic potential attached to the halogen atom.
 This pseudoatom is variously called an extra point (EP), explicit $ \sigma $-hole (ESH), or virtual or off-atom centred point, and the approaches differ in the location of the pseudoatom and method used to derive its charge.\autocite{Renidine2011,Ibrahim2011,Hobza2012,Harder2016}
 Lone pairs can also be described using negatively charged pseudoatoms, and this approach has been used for some time.\autocite{Dixon1997,Cieplak2001,Harder2016}
+This method has been successfully used to model anion binding through a Ch-bond in work performed by Beer \textit{et al.}, however the approach does not seem to have gained traction in wider circles.\autocite{Lim2017}
 
 It is worth noting an alternative approach, used by Cozzolino and Vargas-Baca, which treats secondary bonding interactions as true bonds, with an explicitly parametrized potential.\autocite{Cozzolino2011}
 This was used to parametrize the supramolecular synthon 1,2,5-tellura\-dizaole, which is known to self assemble into a range of interesting structures.
@@ -166,8 +167,7 @@ Default GAFF values were used for all other atoms, and Lorentz/Berthelot mixing 
 \subsection{Energy decomposition analysis}
 While attempting to model the $ \sigma $-hole using molecular mechanics, we must remember that we are forcing a classical treatment onto an inherently quantum phenomenon.
 That said, some parts of the quantum phenomenon are easier than others to treat classically.
-There are thought to be three attractive energetic components which contribute to a $ \sigma $-hole interaction.
-Namely, electrostatics, induction, and dispersion.\autocite{Bleiholder2006,Bleiholder2007,Pascoe2017}
+There are thought to be three attractive energetic components which contribute to a $ \sigma $-hole interaction, namely, electrostatics, induction, and dispersion.\autocite{Bleiholder2006,Bleiholder2007,Pascoe2017}
 The magnitudes of each component of $ \sigma $-hole interactions has been the subject of heated debate in recent years.
 For many applications, these disagreements are fairly philosophical and of little consequence, however this is not the case when attempting to model $ \sigma $-hole interactions using MM.\@
 
@@ -205,13 +205,15 @@ SAPT(DFT) analyses were conducted using the Psi4 software package on geometries 
 
 The SAPT results indicate that the majority (around 80\%) of the interaction can be described by electrostatics and dispersion.
 This suggests that the explicit $ \sigma $-hole parametrization will be reliable, as electrostatics and dispersion are well described by MM.\@
+We note that this does not necessarily contradict our earlier work, in which we have experimentally demonstrated a charge-transfer component to the interaction, as we have made no claim as to its relative magnitude with respect to electrostatics, only its presence and structural effects.
 
 \subsection{Incorporation of pseudoatom}
 With classical parameters for ebselen in hand, as well as theoretical assurance that the system can be adequately described using electrostatics, we began to optimise parameters for the pseudoatom representing the $ \sigma $-hole.
 The pseudoatom was modelled as a virtual site riding on the selenium atom along the extension of the \ce{Se-N} bond.
 In GROMACS this is assigned the type \texttt{2fd}, which is described by only one parameter (the distance along the extension of the defining bond).
-This is very computationally efficient, although it is an approximation to reality, as the center of the $ \sigma $-hole is actually slightly offset (see \cref{fig:ebs-esp}).
-A more accurate description would be the three-center \texttt{3fd} or \texttt{3fad} type, however this would introduce a performance penalty.
+This is very computationally efficient, although it is an approximation to reality, as the center of the $ \sigma $-hole is actually slightly offset due to the potential from the aromatic ring ``spilling'' over onto the surface of the selenium (see \cref{fig:ebs-esp}).
+The angle $\angle $(\ce{N-Se\cdots B}) is also slightly less than 180\degree{}, although in the other direction to the true location of the $ \sigma $-hole, an observation which we attribute to sterics.
+A more accurate description of the $ \sigma $-hole would be the three-center \texttt{3fd} or \texttt{3fad} type, however this would introduce a performance penalty.
 
 The distance parameter for the pseudoatom was set to 1.189~\AA\ which places the point charge on the VdW surface of the selenium atom.
 A number of approaches have been suggested to determine this distance, however it is important for numerical stability of the simulation that the charge lies on or within the VdW surface.\autocite{Hobza2012}
@@ -288,7 +290,7 @@ In order to show the utility of our model in a biological context, we conducted 
 Superoxide dismutase-1 (SOD1) forms a covalent complex with ebselen through the Cys111 residue, which appears to support correct folding of the protein, inhibiting aggregation and associated toxicity.\autocite{Capper2018}
 Although formation of the covalent complex cannot be simulated using our model (as this is a bond-forming process), we are able to visualize the stabilized encounter complex which undergoes ring opening to form the final adduct.
 Indeed, the Ch-bond formed through the $ \sigma $-hole can be thought of as the early stages of a nucleophilic attack at the selenium.\autocite{Thomas2015}
-SOD1 (PDB \textbf{2C9V}) was chosen because of the availability of an atomic resolution structure, demonstrated evidence of ebselen binding, and it's relatively small size.\autocite{Capper2018,Strange2006}
+SOD1 (PDB \textbf{2C9V}) was chosen because of the availability of an atomic resolution structure, demonstrated evidence of ebselen binding, and its relatively small size.\autocite{Capper2018,Strange2006}
 The structure was prepared by removing disorder, then removing water and ions (the Cu and Zn ions were retained).
 The ff14SB force field was used for the protein.
 The ebselen residue was introduced within the binding groove approximately halfway between the two units.
