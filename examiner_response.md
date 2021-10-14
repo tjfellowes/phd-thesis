@@ -1,5 +1,5 @@
 # Response to examiner reports
-## Investigations into Chalocgen Bonding
+## Investigations into Chalcogen Bonding
 ### Thomas Fellowes
 
 ## Examiner 1
@@ -77,16 +77,16 @@ The synthesis of benzisoselenazolinone derivatives is detailed, although the dia
 > This has been done.
 
 These are literature compounds, apart from 3, which results from a dimerisation reaction. In my view this compound has not been adequately characterised for a new compound, with only 1H- and 77Se-NMR and a melting point taken. A 13C-NMR and mass spectrum result need to be included. 
-> These have been added to further support the characterisation of the compound. TODO
+> HRMS has been added to support the characterisation. Unfortunately a 13C-NMR spectrum was not able to be obtained as the compound had decomposed.
 
 It is also disappointing to see the lack of assignment of 1H-NMR spectra throughout the thesis, this is perhaps a feature of the publication in a crystallography journal (CrystEngComm) where this is not required. 
 > Perhaps also a philosophical choice. Assignment of spectra is necessarily subjective, and I think experimental methods should be restricted to fact.
 
 These molecules were co-crystallised with nitrogen atom containing Lewis bases, and their structures determined using single crystal X-ray diffraction. This data clearly shows the formation of Chalcogen bonding. The labels for the structural parameters in Table 1 are not clear, referring to the numbering scheme in the crystal structures – this is not shown anywhere in the Thesis. I note it was available in the supplementary information in the journal article.
-> This figure has been included. TODO
+> Numbering has been included in figure 3.1.
  
 The same is true of the powder patterns, these need to be included in the thesis. 
-> These are now shown with the characterisation data. TODO
+> These are now shown with the crystallographic data.
 
 Intriguingly there is a clear enhancement of the Chalcogen bonding arising from hydrogen bonding to an adjacent carbonyl. It should be made clear in the text how hydrogen atoms were treated in the refinements. 
 > A comment has been added in Chapter 2 regarding refinement of H atoms.
@@ -118,7 +118,7 @@ Is there really enough data available from a collection made with copper radiati
 > This is a good question. We believe there is, in the presence of extra information (i.e. from a wavefunction calculation). The valence electron density is contained in the low angle reflections, and the charge density parameters can be refined separately to preserve the data to parameter ratio.
 
 Chapter 5 continues the investigation of chalcogen bonding in a series of o-nitro oximes. This is very interesting, as Ch-bonding is not normally considered for oxygen, usually it is only observed for heavier atoms (S, Se, etc). These molecules have the potential to form intramolecular Ch-bonds, and this have been investigated structurally using X-ray crystallography. Due to this chapter being copied from a communication published in Chemical Communications, it has similar general problems as those described above. In Table 5.1 the atomic numbering used needs to be explicitly outlined. 
-> A diagram has been added to explain this. TODO
+> A diagram has been added to explain this (figure 5.2).
 
 Is there any effect of the Ch-bonding on the nitro group?
 > We didn't see any structural changes in the nitro group, however we noted the presence of sigma holes visible on the nitro oxygen atoms, which could potentially also participate in Ch-bonds.
@@ -141,7 +141,7 @@ Chapter 8 examines the potential for chalcogen bonding to aid minor-groove bindi
 
 
 Due to these issues a related molecule could be synthesised, and its behaviour with a representative DNA oligomer investigated. Unfortunately it proved impossible to co-crystallise the derivative with DNA, so UV-vis titrations were used to measure interaction. Arrows should be added to these curves it indicate the changes in absorption. 
-> This has been done. TODO
+> This has been done.
 
 Ultimately these studies showed that the derivative formed co-valent bonds to the DNA which negated their potential as radioprotective molecules.
 
