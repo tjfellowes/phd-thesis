@@ -28,7 +28,7 @@ Chapter 6: the torsional angle of the nitro group is analyzed to make inferences
 > This is an excellent point. Unfortunately I cannot see a method to effectively untangle this contribution from the overall geometry without resorting to quantum methods.
 
 Chapter 9: Important precedent for this chapter is not cited: https://pubs.acs.org/doi/pdf/10.1021/jacs.6b12745. At the minimum, a reference to this work should be included. Ideally, the thesis would include a discussion of any similarities/differences between the approach taken in Chapter 9 and that reported by Beer and co-workers (the details are included in the SI of the JACS paper).
-> Thank you for this reference, I was not aware of this work that had been already done. It has now been cited and discussed in the introduction (page 227).
+> Thank you for this reference, I was not aware of this work that had been done. It has now been cited and discussed in the introduction (page 227).
 .  
 Chapter 9: On page 225, the author mentions that the center of the sigma hole is slightly offset from the extension of the Se-N bond. This effect is also evident in the geometries of the complexes described in Chapter 3. Is there an explanation for this behaviour?
 > A brief note has been added to explain this (page 234).
@@ -81,6 +81,7 @@ These are literature compounds, apart from 3, which results from a dimerisation 
 
 It is also disappointing to see the lack of assignment of 1H-NMR spectra throughout the thesis, this is perhaps a feature of the publication in a crystallography journal (CrystEngComm) where this is not required. 
 > Perhaps also a philosophical choice. Assignment of spectra is necessarily subjective, and I think experimental methods should be restricted to fact.
+> However, spectra for novel compounds have been assigned in relatively unambiguous cases.
 
 These molecules were co-crystallised with nitrogen atom containing Lewis bases, and their structures determined using single crystal X-ray diffraction. This data clearly shows the formation of Chalcogen bonding. The labels for the structural parameters in Table 1 are not clear, referring to the numbering scheme in the crystal structures – this is not shown anywhere in the Thesis. I note it was available in the supplementary information in the journal article.
 > Numbering has been included in figure 3.1 (page 55). 
@@ -141,7 +142,6 @@ The synthesis of the derivative investigated is outlined, along with powder diff
 
 Chapter 8 examines the potential for chalcogen bonding to aid minor-groove binding to DNA, which can be useful in radioprotective therapies. Unfortunately the desired analogue proved troublesome to synthesise despite numerous different approaches. One interesting observation was the trouble found in forming the acid chloride of picolinic acid. This is a commercially available compound that is commonly used. What was the nature of its decomposition?
 > Treatment of picolinic acid with thionyl chloride led to the formation of a black tar. Perhaps an issue with our reagents? Or we possibly needed to pre-from the hydrochloride salt.
-
 
 Due to these issues a related molecule could be synthesised, and its behaviour with a representative DNA oligomer investigated. Unfortunately it proved impossible to co-crystallise the derivative with DNA, so UV-vis titrations were used to measure interaction. Arrows should be added to these curves it indicate the changes in absorption. 
 > This has been done (page 208).

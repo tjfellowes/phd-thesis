@@ -488,7 +488,7 @@ Of this, 6.8~mL was added to 2-pyridine carbonitrile (714.0~mg, 6.858~mmol) and 
 To this was then added a solution of the diamine \cmpd{bromodiamine} (1.0226~g, 5.467~mmol) in a further 20~mL anhydrous methanol, followed by glacial acetic acid (650~$\mu$L, 11.5~mmol), and the mixture gently refluxed for 18~h.
 Upon cooling, the mixture was concentrated to give a yellow oil which was triturated with 1~M aqueous ammonia to give a friable pale yellow solid, which was washed with water to give the product (1.3595~g, 91\%).\autocite{Conn2011}
 
-\ce{^{1}H}-NMR (400~MHz, \ce{\emph{d}6}-DMSO + \textit{d}-TFA vapour) $\delta$ ppm 8.72 (1H, d, \textit{J} = 4.2~Hz), 8.31 (1H, d, \textit{J} = 7.9~Hz), 8.01 (1H, t, \textit{J} = 7.7~Hz), 7.79 (1H, s), 7.63--7.49 (2H, m), 7.37 (1H, d, \textit{J} = 8.5~Hz). %ASSIGN
+\ce{^{1}H}-NMR (400~MHz, \ce{\emph{d}6}-DMSO + \textit{d}-TFA vapour) $\delta$ ppm 8.72 (1H, d, \textit{J} = 4.2~Hz, \ce{H^6}), 8.31 (1H, d, \textit{J} = 7.9~Hz, \ce{H^{5'}}), 8.01 (1H, t, \textit{J} = 7.7~Hz, \ce{H^4}), 7.79 (1H, s, \ce{H^{7'}}), 7.63--7.49 (2H, m, \ce{H^{5/4'}}), 7.37 (1H, d, \textit{J} = 8.5~Hz, \ce{H^{5'}}). 
 
 MS (ESI +ve) m/z 273.9975 (\ce{MH+}) \ce{C12H9BrN3+} requires 273.9974 ($\Delta=0.36$~ppm).
 
@@ -499,13 +499,34 @@ The combined organic phases were washed with brine, dried (\ce{MgSO4}) and evapo
 \begin{enumerate}
     \item 633~mg.
     
-    \ce{^{1}H}-NMR (599~MHz, \ce{CDCl3}) $\delta$ ppm 8.68 (1H, d, \textit{J} = 4.6~Hz), 8.4 (1H, d, \textit{J} = 8.0~Hz), 7.99 (1H, d, \textit{J} = 1.4~Hz), 7.86 (1H, dt, \textit{J}\textsubscript{1} = 1.4~Hz, \textit{J}\textsubscript{2} = 7.8~Hz), 7.4--7.33 (2H, m), 7.23 (1H, d, \textit{J} = 8.6~Hz), 7.11 (2H, d, \textit{J} = 8.6~Hz), 6.78 (2H, d, \textit{J} = 8.6~Hz), 6.1 (2H, s), 3.75 (3H, s). %ASSIGN
+    \ce{^{1}H}-NMR (599~MHz, \ce{CDCl3}) $\delta$ ppm 
+    8.68 (1H, d, \textit{J} = 4.6~Hz, \ce{H^{6}}), 
+    8.4 (1H, d, \textit{J} = 8.0~Hz, \ce{H^{5'}}), 
+    7.99 (1H, d, \textit{J} = 1.4~Hz, \ce{H^{7'}}), 
+    7.86 (1H, dt, \textit{J}\textsubscript{1} = 1.4~Hz, \textit{J}\textsubscript{2} = 7.8~Hz, \ce{H^{4'}}), 
+    7.4--7.33 (2H, m, \ce{H^{4/5}}), 
+    7.23 (1H, d, \textit{J} = 8.6~Hz, \ce{H^3}), 
+    7.11 (2H, d, \textit{J} = 8.6~Hz, \ce{H^{2''/6''}}), 
+    6.78 (2H, d, \textit{J} = 8.6~Hz, \ce{H^{3''/5''}}), 
+    6.1 (2H, s, \ce{CH2}), 
+    3.75 (3H, s, \ce{CH3}).
 
     \ce{^{13}C}-NMR (150~MHz, \ce{CDCl3}) $\delta$ ppm 159.0, 150.9, 150.2, 148.7, 144.0, 137.0, 135.7, 129.1, 128.2, 126.5, 124.9, 124.2, 122.9, 115.7, 114.0, 112.1, 55.2, 48.5.
 
     \item 591~mg.
     
-    \ce{^{1}H}-NMR (599~MHz, \ce{CDCl3}) $\delta$ ppm 8.66 (1H, dq, \textit{J}\textsubscript{1} = 0.9~Hz, \textit{J}\textsubscript{2} = 4.8~Hz), 8.41 (1H, dt, \textit{J}\textsubscript{1} = 1.1~Hz, \textit{J}\textsubscript{2} = 7.9~Hz), 7.85 (1H, td, \textit{J}\textsubscript{1} = 1.8~Hz, \textit{J}\textsubscript{2} = 7.8~Hz), 7.71 (1H, dd, \textit{J}\textsubscript{1} = 0.5~Hz, \textit{J}\textsubscript{2} = 8.6~Hz), 7.53 (1H, d, \textit{J} = 1.8~Hz), 7.42 (1H, dd, \textit{J}\textsubscript{1} = 1.8~Hz, \textit{J}\textsubscript{2} = 8.6~Hz), 7.35 (1H, ddd, \textit{J}\textsubscript{1} = 1.2~Hz, \textit{J}\textsubscript{2} = 4.8~Hz, \textit{J}\textsubscript{3} = 7.6~Hz), 7.13 (2H, d, \textit{J} = 8.9~Hz), 6.8 (2H, d, \textit{J} = 8.8~Hz), 6.07 (2H, s), 3.76 (3H, s). %ASSIGN
+    \ce{^{1}H}-NMR (599~MHz, \ce{CDCl3}) $\delta$ ppm 
+    8.66 (1H, dq, \textit{J}\textsubscript{1} = 0.9~Hz, \textit{J}\textsubscript{2} = 4.8~Hz, \ce{H^6}), 
+    8.41 (1H, dt, \textit{J}\textsubscript{1} = 1.1~Hz, \textit{J}\textsubscript{2} = 7.9~Hz, \ce{H^{5'}}), 
+    7.85 (1H, td, \textit{J}\textsubscript{1} = 1.8~Hz, \textit{J}\textsubscript{2} = 7.8~Hz, \ce{H^{4'}}), 
+    7.71 (1H, dd, \textit{J}\textsubscript{1} = 0.5~Hz, \textit{J}\textsubscript{2} = 8.6~Hz, \ce{H^3}), 
+    7.53 (1H, d, \textit{J} = 1.8~Hz, \ce{H^{7'}}), 
+    7.42 (1H, dd, \textit{J}\textsubscript{1} = 1.8~Hz, \textit{J}\textsubscript{2} = 8.6~Hz, \ce{H^4}), 
+    7.35 (1H, ddd, \textit{J}\textsubscript{1} = 1.2~Hz, \textit{J}\textsubscript{2} = 4.8~Hz, \textit{J}\textsubscript{3} = 7.6~Hz, \ce{H^5}), 
+    7.13 (2H, d, \textit{J} = 8.9~Hz, \ce{H^{2''/6''}}), 
+    6.8 (2H, d, \textit{J} = 8.8~Hz, \ce{H^{3''/5''}}), 
+    6.07 (2H, s, \ce{CH2}), 
+    3.76 (3H, s, \ce{CH3}).
 
     \ce{^{13}C}-NMR (150~MHz, \ce{CDCl3}) $\delta$ ppm 159.0, 150.6, 150.2, 148.7, 141.7, 137.9, 137.0, 129.0, 128.2, 126.2, 124.8, 124.1, 121.4, 116.8, 114.1, 113.8, 55.2, 48.5.
     
@@ -526,7 +547,11 @@ This was stirred at room temperature for 1~h, then a solution of the diamine \cm
 The solvent was removed by rotary evaporator, and the residue triturated with 1~M aqueous ammonia (50~mL). 
 The resulting precipitate was filtered off, washed with water ($2\times25$~mL), cold diethyl ether (5~mL), and dried affording the benzimidazole \cmpd{rhs-bromo-ph} (5.1646~g, 79\%).\autocite{Kim2011}
 
-\ce{^{1}H}-NMR (499~MHz, \ce{\emph{d}6}-DMSO + \textit{d}-TFA) $\delta$ ppm 8.18 (2H, d, \textit{J} = 6.89~Hz), 7.83 (1H, s), 7.64--7.52 (4H, m), 7.41 (1H, dd, \textit{J}\textsubscript{1} = 1.51~Hz, \textit{J}\textsubscript{2} = 8.52~Hz).%ASSIGN
+\ce{^{1}H}-NMR (499~MHz, \ce{\emph{d}6}-DMSO + \textit{d}-TFA) $\delta$ ppm 
+8.18 (2H, d, \textit{J} = 6.89~Hz, \ce{H^{2/6}}), 
+7.83 (1H, s, \ce{H^{7'}}), 
+7.64--7.52 (4H, m, \ce{H^{3/4/5/4'}}), 
+7.41 (1H, dd, \textit{J}\textsubscript{1} = 1.51~Hz, \textit{J}\textsubscript{2} = 8.52~Hz, \ce{H^{5'}}).%ASSIGN
 
 \subsubsection{Preparation of \refcmpd{ebs-rhs-ph.thio-pmb}}
 Benzisothiazolinone \cmpd{ebs.h-thio} (173.1~mg, 1.142~mmol), aryl bromide \cmpd{rhs-bromo-ph.pmb} (401.9~mg, 1.022~mmol), 4~\AA\ molecular sieves (607.1~mg), DMEDA (32.7~mg, 0.371~mmol), potassium carbonate (283.8~mg, 2.053~mmol), and dioxane (3~mL) were combined in a sealed tube under a nitrogen atmosphere, and heated at 120~\degree{}C for 24~h.
@@ -544,7 +569,17 @@ This was filtered, and the filtrate evaporated to give a light brown oil, which 
 %    \item P$2_1$/c, m.p. 134.1--138.4~\degree{}C
 %\end{enumerate}
 
-\ce{^{1}H}-NMR (600~MHz, \ce{\emph{d}6}-DMSO) $\delta$ ppm 8.03 (1H, d, \textit{J} = 8.1~Hz), 7.92 (1H, d, \textit{J} = 7.7~Hz), 7.86--7.79 (2H, m), 7.73 (3H, d, \textit{J} = 4.7~Hz), 7.55 (3H, d, \textit{J} = 3.4~Hz), 7.51--7.44 (2H, m), 6.93 (2H, d, \textit{J} = 8.4~Hz), 6.82 (2H, d, \textit{J} = 8.5~Hz), 5.52 (2H, s), 3.66 (3H, s). %ASSIGN
+\ce{^{1}H}-NMR (600~MHz, \ce{\emph{d}6}-DMSO) $\delta$ ppm 
+8.03 (1H, d, \textit{J} = 8.1~Hz), 
+7.92 (1H, d, \textit{J} = 7.7~Hz), 
+7.86--7.79 (2H, m), 
+7.77--7.69 (3H, m), 
+7.57--7.52 (3H, m), 
+7.51--7.44 (2H, m), 
+6.93 (2H, d, \textit{J} = 8.4~Hz, \ce{H^{2PMB/6PMB}}), 
+6.82 (2H, d, \textit{J} = 8.5~Hz, \ce{H^{3PMB/5PMB}}), 
+5.52 (2H, s, \ce{CH2}), 
+3.66 (3H, s, \ce{CH3}).
 
 \ce{^{13}C}-NMR (150~MHz, \ce{CDCl3}) $\delta$ ppm 163.9, 159.7, 155.3, 142.1, 140.8, 136.4, 132.9, 132.3, 130.6, 130.4, 129.6, 129.3, 128.9, 128.0, 122.4, 120.6, 120.3, 114.7, 109.0, 55.5, 47.5.
 
@@ -561,7 +596,7 @@ The mixture was then tipped into water (400~mL), and extracted with ethyl acetat
 The combined organic layers were washed with water ($2\times200$~mL), brine (200~mL), then dried (\ce{MgSO4}) and evaporated to give a reddish solid.
 This was recrystallised from ethyl acetate to give the amide \cmpd{rhs-nitro-amide} as yellow crystals (2.5027~g, 75\%).\autocite{Patrick2017}
 
-\ce{^1H}-NMR (400~MHz, DMSO-\emph{d6}) $\delta$ 9.66 (s, 1H), 8.04 (s, 1H), 7.92 (d, J = 7.4 Hz, 2H), 7.83 (d, J = 9.2 Hz, 1H), 7.50 (d, J = 6.8 Hz, 1H), 7.44 (t, J = 7.3 Hz, 2H), 6.71 (d, J = 9.0 Hz, 1H), 6.52 (s, 2H). %ASSIGN
+\ce{^1H}-NMR (400~MHz, DMSO-\emph{d6}) $\delta$ 9.66 (s, 1H), 8.04 (s, 1H), 7.92 (d, J = 7.4 Hz, 2H), 7.83 (d, J = 9.2 Hz, 1H), 7.50 (d, J = 6.8 Hz, 1H), 7.44 (t, J = 7.3 Hz, 2H), 6.71 (d, J = 9.0 Hz, 1H), 6.52 (s, 2H).
 
 \subsubsection[Preparation of \refcmpd{rhs-nitro}]{Preparation of 6-nitro-2-phenyl-1\emph{H}-benzo[\emph{d}]imidazole \refcmpd{rhs-nitro}}
 %TF-7-94-CP
@@ -571,7 +606,7 @@ The yellow solution was diluted with water (300~mL) and extracted with ethyl ace
 The combined organic layers were washed with water and brine (100~mL each), then dried (\ce{Na2SO4}), and evaporated to give a brown oil.
 Trituration with petroleum spirit/dichloromethane afforded \cmpd{rhs-nitro} as a light brown friable solid (1.0606~g, 93\%).\autocite{Patrick2017}
 
-\ce{^1H}-NMR (400~MHz, DMSO-\emph{d6} + \textit{d}-TFA) $\delta$ 8.47 (s, 1H), 8.21 (q, J = 3.2 Hz, 2H), 8.13 (q, J = 3.7 Hz, 1H), 7.76 (d, J = 8.9 Hz, 1H), 7.54--7.62 (m, 3H). %ASSIGN
+\ce{^1H}-NMR (400~MHz, DMSO-\emph{d6} + \textit{d}-TFA) $\delta$ 8.47 (s, 1H), 8.21 (q, J = 3.2 Hz, 2H), 8.13 (q, J = 3.7 Hz, 1H), 7.76 (d, J = 8.9 Hz, 1H), 7.54--7.62 (m, 3H).
 
 MS (ESI +ve) m/z 240.0768 (\ce{MH+}) \ce{C13H10N3O2+} requires 240.0768 ($\Delta=0$~ppm).
 
