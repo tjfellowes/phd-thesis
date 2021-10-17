@@ -12,7 +12,7 @@
 %% ----------------------------------------------------------------
 
 % Set up the document
-\documentclass[a4paper, 12pt, oneside]{Thesis}  % Use the "Thesis" style, based on the ECS Thesis style by Steve Gunn
+\documentclass[a4paper, 12pt, twoside]{Thesis}  % Use the "Thesis" style, based on the ECS Thesis style by Steve Gunn
 
 %\usepackage{showframe}
 %
@@ -31,16 +31,16 @@
 \savesymbol{degree}
 \DeclareUnicodeCharacter{0229}{\c{e}}
 
-\setmarginsrb{3.2cm}  % left margin 3.7cm 
+\setmarginsrb{3.7cm}  % left margin 3.7cm 
              {1.5cm}  % top margin
-             {3.2cm}  % right margin
+             {2.7cm}  % right margin
              {3.0cm}  % bottom margin
              { 35pt}  % head height
              {0.6cm}  % head sep
              { 10pt}  % foot height
              {0.8cm}  % foot sep
 
-\usepackage[backend=biber, style=chem-acs, autocite=superscript, doi=true]{biblatex}
+\usepackage[backend=biber, style=chem-acs, autocite=superscript, doi=false]{biblatex}
 \usepackage{verbatim}  % Needed for the "comment" environment to make LaTeX comments
 \usepackage{vector}  % Allows "\bvec{}" and "\buvec{}" for "blackboard" style bold vectors in maths
 %\hypersetup{urlcolor=blue, colorlinks=true}  % Colours hyperlinks in blue, but this can be distracting if there are many links.
@@ -75,12 +75,12 @@
 \MakePerPage{footnote}
 
 \usepackage{cleveref}
-\ifpdf
-  \usepackage{doi}
-  \renewcommand{\doitext}{DOI:\ }
-\else
-  \newcommand{\doi}[1]{#1}
-\fi
+%\ifpdf
+%  \usepackage{doi}
+%  \renewcommand{\doitext}{DOI:\ }
+%\else
+%  \newcommand{\doi}[1]{#1}
+%\fi
 
 \crefname{scheme}{scheme}{schemes}
 
